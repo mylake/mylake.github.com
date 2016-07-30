@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "Welcome to mylake"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2016-07-30 12:00:00
+author:     "ilake"
+header-img: "img/post-bg-2016.jpg"
+tags:
+    - 生活
+---
+
+> “Yeah It's on. ”
+
+
+## 前言
+
+Start to write something..
+
+## 正文
+
+I clone this template from git@github.com:Huxpro/huxblog-boilerplate.git
+
