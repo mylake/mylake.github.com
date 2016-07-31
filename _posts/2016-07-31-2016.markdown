@@ -17,6 +17,7 @@ tags:
   1. before download, need to verify MIME type
   2. use Enumerators and Fiber to execute streaming downlaod
 
-
+* <p>[Rails] <a href="http://rubyonrails.org/doctrine/">http://rubyonrails.org/doctrine/</a></p>
+  1. <a href="https://medium.com/@juanitofatas/ruby-on-rails-%E5%9F%BA%E6%9C%AC%E4%B8%BB%E7%BE%A9-f4cde39292a4#.niv2du20a">Ruby on Rails 基本主義</a>
 
 

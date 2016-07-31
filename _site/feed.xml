@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 Jul 2016 13:56:59 +0800</pubDate>
-    <lastBuildDate>Sun, 31 Jul 2016 13:56:59 +0800</lastBuildDate>
+    <pubDate>Sun, 31 Jul 2016 17:41:21 +0800</pubDate>
+    <lastBuildDate>Sun, 31 Jul 2016 17:41:21 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -24,6 +24,12 @@
     &lt;ol&gt;
       &lt;li&gt;before download, need to verify MIME type&lt;/li&gt;
       &lt;li&gt;use Enumerators and Fiber to execute streaming downlaod&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Rails] &lt;a href=&quot;http://rubyonrails.org/doctrine/&quot;&gt;http://rubyonrails.org/doctrine/&lt;/a&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;https://medium.com/@juanitofatas/ruby-on-rails-%E5%9F%BA%E6%9C%AC%E4%B8%BB%E7%BE%A9-f4cde39292a4#.niv2du20a&quot;&gt;Ruby on Rails 基本主義&lt;/a&gt;&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
