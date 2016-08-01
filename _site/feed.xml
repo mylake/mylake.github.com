@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 Jul 2016 17:41:21 +0800</pubDate>
-    <lastBuildDate>Sun, 31 Jul 2016 17:41:21 +0800</lastBuildDate>
+    <pubDate>Mon, 01 Aug 2016 12:51:39 +0800</pubDate>
+    <lastBuildDate>Mon, 01 Aug 2016 12:51:39 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -16,6 +16,18 @@
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/vcr/vcr&quot;&gt;vcr&lt;/a&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;for test, it could record real third party response to yml file&lt;/li&gt;
+      &lt;li&gt;Use it with webmock’s body&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/bblimke/webmock&quot;&gt;webmock&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
 &lt;ul&gt;
@@ -33,7 +45,6 @@
     &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
         <pubDate>Sat, 30 Jul 2016 20:00:00 +0800</pubDate>
         <link>/2016/07/30/2016/</link>

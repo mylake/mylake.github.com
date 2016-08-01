@@ -11,6 +11,11 @@ tags:
 > “strive”
 
 ## Use
+* <p>[Gem] <a href="https://github.com/vcr/vcr">vcr</a></p>
+  1. for test, it could record real third party response to yml file
+  2. Use it with webmock's body
+
+* <p>[Gem] <a href="https://github.com/bblimke/webmock">webmock</a></p>
 
 ## Read
 * <p>[Ruby] <a href="https://twin.github.io/partial-downloads-with-enumerators-and-fibers/">Partial Downloads with Enumerators and Fibers</a></p>
@@ -19,5 +24,3 @@ tags:
 
 * <p>[Rails] <a href="http://rubyonrails.org/doctrine/">http://rubyonrails.org/doctrine/</a></p>
   1. <a href="https://medium.com/@juanitofatas/ruby-on-rails-%E5%9F%BA%E6%9C%AC%E4%B8%BB%E7%BE%A9-f4cde39292a4#.niv2du20a">Ruby on Rails 基本主義</a>
-
-
