@@ -32,3 +32,7 @@ tags:
   1. <a href="https://medium.com/@juanitofatas/ruby-on-rails-%E5%9F%BA%E6%9C%AC%E4%B8%BB%E7%BE%A9-f4cde39292a4#.niv2du20a">Ruby on Rails 基本主義 chinese</a>
 
 * <p>[Ruby, Rails] <a href="http://rosenfeld.herokuapp.com/en/articles/ruby-rails/2016-07-18-a-review-of-code-reloaders-for-ruby">A Review of Code Reloaders for Ruby</a></p>
+  1. Different Code Reloaders
+
+* <p>[Ruby] <a href="http://www.blackbytes.info/2016/07/numbers-in-ruby/">How Numbers Work in Ruby</a></p>
+  1. review the different number types in Ruby
