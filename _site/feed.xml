@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Aug 2016 12:51:39 +0800</pubDate>
-    <lastBuildDate>Mon, 01 Aug 2016 12:51:39 +0800</lastBuildDate>
+    <pubDate>Mon, 01 Aug 2016 14:14:56 +0800</pubDate>
+    <lastBuildDate>Mon, 01 Aug 2016 14:14:56 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -20,12 +20,24 @@
   &lt;li&gt;
     &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/vcr/vcr&quot;&gt;vcr&lt;/a&gt;&lt;/p&gt;
     &lt;ol&gt;
-      &lt;li&gt;for test, it could record real third party response to yml file&lt;/li&gt;
+      &lt;li&gt;For test, it could record real third party response to yml file&lt;/li&gt;
       &lt;li&gt;Use it with webmock’s body&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/bblimke/webmock&quot;&gt;webmock&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/bbatsov/rubocop&quot;&gt;rubocop&lt;/a&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;rubocop –auto-correct&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/bblimke/webmock&quot;&gt;webmock&lt;/a&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;If you use multiple sidekiq processes then you can specify limits per process&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -39,10 +51,13 @@
     &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;[Rails] &lt;a href=&quot;http://rubyonrails.org/doctrine/&quot;&gt;http://rubyonrails.org/doctrine/&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;[Rails] &lt;a href=&quot;http://rubyonrails.org/doctrine/&quot;&gt;Ruby on Rails 基本主義en&lt;/a&gt;&lt;/p&gt;
     &lt;ol&gt;
-      &lt;li&gt;&lt;a href=&quot;https://medium.com/@juanitofatas/ruby-on-rails-%E5%9F%BA%E6%9C%AC%E4%B8%BB%E7%BE%A9-f4cde39292a4#.niv2du20a&quot;&gt;Ruby on Rails 基本主義&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://medium.com/@juanitofatas/ruby-on-rails-%E5%9F%BA%E6%9C%AC%E4%B8%BB%E7%BE%A9-f4cde39292a4#.niv2du20a&quot;&gt;Ruby on Rails 基本主義 chinese&lt;/a&gt;&lt;/li&gt;
     &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Ruby, Rails] &lt;a href=&quot;http://rosenfeld.herokuapp.com/en/articles/ruby-rails/2016-07-18-a-review-of-code-reloaders-for-ruby&quot;&gt;A Review of Code Reloaders for Ruby&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
