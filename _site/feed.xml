@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Aug 2016 15:28:03 +0800</pubDate>
-    <lastBuildDate>Mon, 01 Aug 2016 15:28:03 +0800</lastBuildDate>
+    <pubDate>Mon, 01 Aug 2016 20:55:53 +0800</pubDate>
+    <lastBuildDate>Mon, 01 Aug 2016 20:55:53 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -39,9 +39,19 @@
       &lt;li&gt;If you use multiple sidekiq processes then you can specify limits per process&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/laserlemon/figaro&quot;&gt;figaro&lt;/a&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Figaro was written to make it easy to securely configure Rails applications.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/swipely/docker-api&quot;&gt;docker-api&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;[Ruby] &lt;a href=&quot;https://twin.github.io/partial-downloads-with-enumerators-and-fibers/&quot;&gt;Partial Downloads with Enumerators and Fibers&lt;/a&gt;&lt;/p&gt;
@@ -51,22 +61,53 @@
     &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;[Rails] &lt;a href=&quot;http://rubyonrails.org/doctrine/&quot;&gt;Ruby on Rails 基本主義en&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;[Ruby] &lt;a href=&quot;http://rubyonrails.org/doctrine/&quot;&gt;Ruby on Rails 基本主義en&lt;/a&gt;&lt;/p&gt;
     &lt;ol&gt;
       &lt;li&gt;&lt;a href=&quot;https://medium.com/@juanitofatas/ruby-on-rails-%E5%9F%BA%E6%9C%AC%E4%B8%BB%E7%BE%A9-f4cde39292a4#.niv2du20a&quot;&gt;Ruby on Rails 基本主義 chinese&lt;/a&gt;&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;[Ruby, Rails] &lt;a href=&quot;http://rosenfeld.herokuapp.com/en/articles/ruby-rails/2016-07-18-a-review-of-code-reloaders-for-ruby&quot;&gt;A Review of Code Reloaders for Ruby&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;[Ruby] &lt;a href=&quot;http://rosenfeld.herokuapp.com/en/articles/ruby-rails/2016-07-18-a-review-of-code-reloaders-for-ruby&quot;&gt;A Review of Code Reloaders for Ruby&lt;/a&gt;&lt;/p&gt;
     &lt;ol&gt;
       &lt;li&gt;Different Code Reloaders&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;[Ruby] &lt;a href=&quot;http://www.blackbytes.info/2016/07/numbers-in-ruby/&quot;&gt;How Numbers Work in Ruby&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;[Ruby] &lt;a href=&quot;https://medium.com/@Sudhagar/rbenv-how-it-works-e5a0e4fa6e76#.jw3xeqqn9&quot;&gt;Rbenv — How it works&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Ruby] &lt;a href=&quot;https://infinum.co/the-capsized-eight/articles/hiding-secrets-in-vault&quot;&gt;Hiding secrets in a Vault&lt;/a&gt;&lt;/p&gt;
     &lt;ol&gt;
-      &lt;li&gt;review the different number types in Ruby&lt;/li&gt;
+      &lt;li&gt;Using Vault, Github authentication and ‘secrets’ gem to make secret files more secure.&lt;/li&gt;
     &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Ruby] &lt;a href=&quot;https://blog.blockscore.com/new-features-in-ruby-2-4/&quot;&gt;New Features in Ruby 2.4&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Ruby] &lt;a href=&quot;https://www.sitepoint.com/automate-docker-with-the-remote-api-and-ruby/&quot;&gt;Automate Docker with the Remote API and Ruby&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Ruby] &lt;a href=&quot;http://blog.arkency.com/2016/07/respond-to-format-is-useful-even-without-multiple-formats/&quot;&gt;respond_to |format| is useful even without multiple formats&lt;/a&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;benefit of respond_to&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Ruby] &lt;a href=&quot;http://aspiringwebdev.com/consider-turbolinks-5-for-your-next-rails-project/&quot;&gt;CONSIDER TURBOLINKS 5 FOR YOUR NEXT RAILS PROJECT&lt;/a&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Turbolinks 5 is a library for web applications that makes pages load faster&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Rspec] &lt;a href=&quot;https://www.relishapp.com/rspec/rspec-core/docs/metadata/described-class&quot;&gt;rspec described_class&lt;/a&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;If the first argument to the outermost example group is a class, the class is
+exposed to each example via the described_class() method&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Ruby] &lt;a href=&quot;http://apidock.com/rails/ActiveSupport/Callbacks/run_callbacks&quot;&gt;run_callbacks&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
