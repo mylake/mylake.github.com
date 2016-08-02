@@ -28,6 +28,10 @@ tags:
 
 * <p>[Gem] <a href="https://github.com/swipely/docker-api">docker-api</a></p>
 
+* <p>[Gem] <a href="https://github.com/makandra/active_type">active_type</a></p>
+  1. ActiveType is our take on "presenter models" (or "form models") in Rails. We want to have controllers (and forms) talk to models that are either not backed by a database table
+
+
 ## Read
 
 * <p>[Ruby] <a href="https://twin.github.io/partial-downloads-with-enumerators-and-fibers/">Partial Downloads with Enumerators and Fibers</a></p>
