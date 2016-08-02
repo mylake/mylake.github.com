@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Aug 2016 20:55:53 +0800</pubDate>
-    <lastBuildDate>Mon, 01 Aug 2016 20:55:53 +0800</lastBuildDate>
+    <pubDate>Tue, 02 Aug 2016 20:06:47 +0800</pubDate>
+    <lastBuildDate>Tue, 02 Aug 2016 20:06:47 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -108,6 +108,24 @@ exposed to each example via the described_class() method&lt;/li&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;[Ruby] &lt;a href=&quot;http://apidock.com/rails/ActiveSupport/Callbacks/run_callbacks&quot;&gt;run_callbacks&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Ruby] &lt;a href=&quot;http://www.justinweiss.com/articles/the-lesser-known-features-in-rails-4-dot-2/&quot;&gt;http://www.justinweiss.com/articles/the-lesser-known-features-in-rails-4-dot-2/&lt;/a&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Easily load config files =&amp;gt; Rails.application.config_for(‘yml file name’)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt; &lt;a href=&quot;http://www.books.com.tw/products/CN11096287&quot;&gt;設計模式之禪 第2版&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;on page 286&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt; &lt;a href=&quot;http://designpatternsinruby.com/&quot;&gt;Design Patterns in Ruby&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;on page 172&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>

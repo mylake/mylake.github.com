@@ -60,3 +60,13 @@ tags:
   exposed to each example via the described_class() method
 
 * <p>[Ruby] <a href="http://apidock.com/rails/ActiveSupport/Callbacks/run_callbacks">run_callbacks</a></p>
+
+* <p>[Ruby] <a href="http://www.justinweiss.com/articles/the-lesser-known-features-in-rails-4-dot-2/">http://www.justinweiss.com/articles/the-lesser-known-features-in-rails-4-dot-2/</a></p>
+  1. Easily load config files => Rails.application.config_for('yml file name')
+
+## Book
+* <p> <a href="http://www.books.com.tw/products/CN11096287">設計模式之禪 第2版</a></p>
+  on page 286
+
+* <p> <a href="http://designpatternsinruby.com/">Design Patterns in Ruby</a></p>
+   on page 172
