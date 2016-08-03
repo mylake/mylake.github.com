@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Aug 2016 21:31:36 +0800</pubDate>
-    <lastBuildDate>Tue, 02 Aug 2016 21:31:36 +0800</lastBuildDate>
+    <pubDate>Wed, 03 Aug 2016 21:04:48 +0800</pubDate>
+    <lastBuildDate>Wed, 03 Aug 2016 21:04:48 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -119,6 +119,12 @@ exposed to each example via the described_class() method&lt;/li&gt;
     &lt;p&gt;[Ruby] &lt;a href=&quot;http://www.justinweiss.com/articles/the-lesser-known-features-in-rails-4-dot-2/&quot;&gt;http://www.justinweiss.com/articles/the-lesser-known-features-in-rails-4-dot-2/&lt;/a&gt;&lt;/p&gt;
     &lt;ol&gt;
       &lt;li&gt;Easily load config files =&amp;gt; Rails.application.config_for(‘yml file name’)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Ruby] &lt;a href=&quot;https://speakerdeck.com/a_matsuda/the-recipe-for-the-worlds-largest-rails-monolith&quot;&gt;The Recipe for the World's Largest Rails Monolith&lt;/a&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Many handmade tools&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
