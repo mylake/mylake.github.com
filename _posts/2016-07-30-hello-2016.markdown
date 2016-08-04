@@ -6,17 +6,16 @@ date:       2016-07-30 12:00:00
 author:     "ilake"
 header-img: "img/post-bg-2016.jpg"
 tags:
-    - 生活
+    - life
 ---
 
 > “Yeah It's on. ”
 
 
-## 前言
+## Foreword
 
 Start to write something..
 
-## 正文
+## Text
 
 I clone this template from git@github.com:Huxpro/huxblog-boilerplate.git
-
