@@ -77,3 +77,33 @@ tags:
 
 * <p> <a href="http://designpatternsinruby.com/">Design Patterns in Ruby</a></p>
    on page 172
+
+## Work design
+
+### API Architecture
+
+#### Design
+
+  1. **client auth**: follow aws, use current timestamp + private key as checksum, server need to verify checksum, also need to make sure timestamp in some duration (like 10 mins)
+  2. **user auth**: logined user will have one or more token. use token as key, value is user id, and set expired time on every token, save them on redis, so when client send token, server could know the current user.
+  3. **error handler**:
+     - one config, record key, status code of error, error message use key for i18n.
+     - every api action has its service object, when render api error will raise specific exception class and error key,this exception will rescue from base controller, and according error key to error render. All the data format will be the same, the different are message, key, status code
+
+-- learned from MarsZ
+
+#### Implement
+
+  1. controller only handle flow, other through service.
+  2. use value object to handle user session, due to operation very like model CRUD, so use value, and base is redis hash
+  3. exception only on controller raise, service use active model save error message, when return false, we could get error message from service and raise with exception class
+
+-- **learn point**
+
+  1. feature driven coding
+    - every commit with small main part of the feature
+  2. service with callback
+  3. exceptio class
+  4. every concerns only focus one thing
+  5. RSpec from base stack
+  6. how to use service to architecture base of whole application

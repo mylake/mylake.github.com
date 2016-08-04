@@ -5,13 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-<<<<<<< HEAD
-    <pubDate>Wed, 03 Aug 2016 21:04:48 +0800</pubDate>
-    <lastBuildDate>Wed, 03 Aug 2016 21:04:48 +0800</lastBuildDate>
-=======
-    <pubDate>Wed, 03 Aug 2016 21:02:11 +0800</pubDate>
-    <lastBuildDate>Wed, 03 Aug 2016 21:02:11 +0800</lastBuildDate>
->>>>>>> 21272fc... header-img change
+    <pubDate>Thu, 04 Aug 2016 09:20:09 +0800</pubDate>
+    <lastBuildDate>Thu, 04 Aug 2016 09:20:09 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -145,6 +140,45 @@ exposed to each example via the described_class() method&lt;/li&gt;
     &lt;p&gt;on page 172&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&quot;work-design&quot;&gt;Work design&lt;/h2&gt;
+
+&lt;h3 id=&quot;api-architecture&quot;&gt;API Architecture&lt;/h3&gt;
+
+&lt;h4 id=&quot;design&quot;&gt;Design&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;client auth&lt;/strong&gt;: follow aws, use current timestamp + private key as checksum, server need to verify checksum, also need to make sure timestamp in some duration (like 10 mins)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;user auth&lt;/strong&gt;: logined user will have one or more token. use token as key, value is user id, and set expired time on every token, save them on redis, so when client send token, server could know the current user.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;error handler&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;one config, record key, status code of error, error message use key for i18n.&lt;/li&gt;
+      &lt;li&gt;every api action has its service object, when render api error will raise specific exception class and error key,this exception will rescue from base controller, and according error key to error render. All the data format will be the same, the different are message, key, status code&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;– learned from MarsZ&lt;/p&gt;
+
+&lt;h4 id=&quot;implement&quot;&gt;Implement&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;controller only handle flow, other through service.&lt;/li&gt;
+  &lt;li&gt;use value object to handle user session, due to operation very like model CRUD, so use value, and base is redis hash&lt;/li&gt;
+  &lt;li&gt;exception only on controller raise, service use active model save error message, when return false, we could get error message from service and raise with exception class&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;– &lt;strong&gt;learn point&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;feature driven coding
+    - every commit with small main part of the feature&lt;/li&gt;
+  &lt;li&gt;service with callback&lt;/li&gt;
+  &lt;li&gt;exceptio class&lt;/li&gt;
+  &lt;li&gt;every concerns only focus one thing&lt;/li&gt;
+  &lt;li&gt;RSpec from base stack&lt;/li&gt;
+  &lt;li&gt;how to use service to architecture base of whole application&lt;/li&gt;
+&lt;/ol&gt;
 </description>
         <pubDate>Sat, 30 Jul 2016 20:00:00 +0800</pubDate>
         <link>/2016/07/30/2016/</link>
