@@ -31,6 +31,8 @@ tags:
 * <p>[Gem] <a href="https://github.com/makandra/active_type">active_type</a></p>
   1. ActiveType is our take on "presenter models" (or "form models") in Rails. We want to have controllers (and forms) talk to models that are either not backed by a database table
 
+* <p>[Gem] <a href="https://github.com/rogercampos/png_quantizator/blob/master/lib/png_quantizator.rb">png_quantizator</a></p>
+  1. PngQuantizator is a little wrapper around pngquant
 
 ## Read
 
