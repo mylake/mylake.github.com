@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 05 Aug 2016 15:55:35 +0800</pubDate>
-    <lastBuildDate>Fri, 05 Aug 2016 15:55:35 +0800</lastBuildDate>
+    <pubDate>Fri, 05 Aug 2016 18:35:16 +0800</pubDate>
+    <lastBuildDate>Fri, 05 Aug 2016 18:35:16 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -150,6 +150,9 @@ exposed to each example via the described_class() method&lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt; &lt;a href=&quot;http://designpatternsinruby.com/&quot;&gt;Design Patterns in Ruby&lt;/a&gt;&lt;/p&gt;
     &lt;p&gt;on page 172&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt; &lt;a href=&quot;https://leanpub.com/growing-rails&quot;&gt;growing-rails&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 

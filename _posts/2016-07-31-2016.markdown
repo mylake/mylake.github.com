@@ -83,6 +83,8 @@ tags:
 * <p> <a href="http://designpatternsinruby.com/">Design Patterns in Ruby</a></p>
    on page 172
 
+* <p> <a href="https://leanpub.com/growing-rails">growing-rails</a></p>
+
 ## Work design
 
 ### API Architecture
