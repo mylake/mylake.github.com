@@ -71,6 +71,9 @@ tags:
 * <p>[Ruby] <a href="https://speakerdeck.com/a_matsuda/the-recipe-for-the-worlds-largest-rails-monolith">The Recipe for the World's Largest Rails Monolith</a></p>
   1. Many handmade tools
 
+* <p>[Ruby] <a href="https://ruby-china.org/topics/9271">RSpec 中let 和subject 的區別是什麼？</a></p>
+  1. 主要語意的差別, subject主角, let配角
+
 ## Book
 * <p> <a href="http://www.books.com.tw/products/CN11096287">設計模式之禪 第2版</a></p>
   on page 286

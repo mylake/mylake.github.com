@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 04 Aug 2016 09:24:28 +0800</pubDate>
-    <lastBuildDate>Thu, 04 Aug 2016 09:24:28 +0800</lastBuildDate>
+    <pubDate>Fri, 05 Aug 2016 15:50:54 +0800</pubDate>
+    <lastBuildDate>Fri, 05 Aug 2016 15:50:54 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -125,6 +125,12 @@ exposed to each example via the described_class() method&lt;/li&gt;
     &lt;p&gt;[Ruby] &lt;a href=&quot;https://speakerdeck.com/a_matsuda/the-recipe-for-the-worlds-largest-rails-monolith&quot;&gt;The Recipe for the World's Largest Rails Monolith&lt;/a&gt;&lt;/p&gt;
     &lt;ol&gt;
       &lt;li&gt;Many handmade tools&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Ruby] &lt;a href=&quot;https://ruby-china.org/topics/9271&quot;&gt;RSpec 中let 和subject 的區別是什麼？&lt;/a&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;主要語意的差別, subject主角, let配角&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
