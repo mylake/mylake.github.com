@@ -12,7 +12,7 @@
 
     <title>1 - mylake</title>
 
-    <link rel="canonical" href="/2016/07/30/2016/">
+    <link rel="canonical" href="/2016/07/31/1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -144,7 +144,7 @@
                     
                     <h2 class="subheading">weekly learning</h2>
                     
-                    <span class="meta">Posted by ilake on July 30, 2016</span>
+                    <span class="meta">Posted by ilake on July 31, 2016</span>
                 </div>
             </div>
         </div>
@@ -163,7 +163,7 @@
                 post-container">
 
 				<blockquote>
-  <p>“strive”</p>
+  <p>“strive 7/31 ~ 8/6”</p>
 </blockquote>
 
 <h2 id="use">Use</h2>
@@ -309,42 +309,55 @@ exposed to each example via the described_class() method</li>
 
 <h2 id="work-design">Work design</h2>
 
-<h3 id="api-architecture">API Architecture</h3>
-
-<h4 id="design">Design</h4>
-
-<ol>
-  <li><strong>client auth</strong>: follow aws, use current timestamp + private key as checksum, server need to verify checksum, also need to make sure timestamp in some duration (like 10 mins)</li>
-  <li><strong>user auth</strong>: logined user will have one or more token. use token as key, value is user id, and set expired time on every token, save them on redis, so when client send token, server could know the current user.</li>
-  <li><strong>error handler</strong>:
-    <ul>
-      <li>one config, record key, status code of error, error message use key for i18n.</li>
-      <li>every api action has its service object, when render api error will raise specific exception class and error key,this exception will rescue from base controller, and according error key to error render. All the data format will be the same, the different are message, key, status code</li>
-    </ul>
+<ul>
+  <li>
+    <h3 id="api-architecture">API Architecture</h3>
   </li>
-</ol>
+  <li>
+    <h4 id="design">Design</h4>
+
+    <ol>
+      <li><strong>client auth</strong>: follow aws, use current timestamp + private key as checksum, server need to verify checksum, also need to make sure timestamp in some duration (like 10 mins)</li>
+      <li><strong>user auth</strong>: logined user will have one or more token. use token as key, value is user id, and set expired time on every token, save them on redis, so when client send token, server could know the current user.</li>
+      <li><strong>error handler</strong>:
+        <ul>
+          <li>one config, record key, status code of error, error message use key for i18n.</li>
+          <li>every api action has its service object, when render api error will raise specific exception class and error key,this exception will rescue from base controller, and according error key to error render. All the data format will be the same, the different are message, key, status code</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+</ul>
 
 <p>– learned from MarsZ</p>
 
-<h4 id="implement">Implement</h4>
+<ul>
+  <li>
+    <h4 id="implement">Implement</h4>
 
-<ol>
-  <li>controller only handle flow, other through service.</li>
-  <li>use value object to handle user session, due to operation very like model CRUD, so use value, and base is redis hash</li>
-  <li>exception only on controller raise, service use active model save error message, when return false, we could get error message from service and raise with exception class</li>
-</ol>
+    <ol>
+      <li>controller only handle flow, other through service.</li>
+      <li>use value object to handle user session, due to operation very like model CRUD, so use value, and base is redis hash</li>
+      <li>exception only on controller raise, service use active model save error message, when return false, we could get error message from service and raise with exception class</li>
+    </ol>
+  </li>
+  <li>
+    <p>** Learn **</p>
 
-<p>– <strong>learn point</strong></p>
-
-<ol>
-  <li>feature driven coding
-    - every commit with small main part of the feature</li>
-  <li>service with callback</li>
-  <li>exceptio class</li>
-  <li>every concerns only focus one thing</li>
-  <li>RSpec from base stack</li>
-  <li>how to use service to architecture base of whole application</li>
-</ol>
+    <ol>
+      <li>feature driven coding
+        <ul>
+          <li>every commit with small main part of the feature</li>
+        </ul>
+      </li>
+      <li>service with callback</li>
+      <li>exceptio class</li>
+      <li>every concerns only focus one thing</li>
+      <li>RSpec from base stack</li>
+      <li>how to use service to architecture base of whole application</li>
+    </ol>
+  </li>
+</ul>
 
 
                 <hr>

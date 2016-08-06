@@ -2,13 +2,13 @@
 layout:     post
 title:      "1"
 subtitle:   "weekly learning"
-date:       2016-07-30 12:00:00
+date:       2016-07-31 00:00:00
 author:     "ilake"
 header-img: "img/post-bg-weekly.jpg"
 tags:
     - weekly
 ---
-> “strive”
+> “strive 7/31 ~ 8/6”
 
 ## Use
 * <p>[Gem] <a href="https://github.com/vcr/vcr">vcr</a></p>
@@ -87,30 +87,30 @@ tags:
 
 ## Work design
 
-### API Architecture
+  * ### API Architecture
 
-#### Design
+  * #### Design
 
-  1. **client auth**: follow aws, use current timestamp + private key as checksum, server need to verify checksum, also need to make sure timestamp in some duration (like 10 mins)
-  2. **user auth**: logined user will have one or more token. use token as key, value is user id, and set expired time on every token, save them on redis, so when client send token, server could know the current user.
-  3. **error handler**:
-     - one config, record key, status code of error, error message use key for i18n.
-     - every api action has its service object, when render api error will raise specific exception class and error key,this exception will rescue from base controller, and according error key to error render. All the data format will be the same, the different are message, key, status code
+    1. **client auth**: follow aws, use current timestamp + private key as checksum, server need to verify checksum, also need to make sure timestamp in some duration (like 10 mins)
+    2. **user auth**: logined user will have one or more token. use token as key, value is user id, and set expired time on every token, save them on redis, so when client send token, server could know the current user.
+    3. **error handler**:
+       - one config, record key, status code of error, error message use key for i18n.
+       - every api action has its service object, when render api error will raise specific exception class and error key,this exception will rescue from base controller, and according error key to error render. All the data format will be the same, the different are message, key, status code
 
--- learned from MarsZ
+  -- learned from MarsZ
 
-#### Implement
+  * #### Implement
 
-  1. controller only handle flow, other through service.
-  2. use value object to handle user session, due to operation very like model CRUD, so use value, and base is redis hash
-  3. exception only on controller raise, service use active model save error message, when return false, we could get error message from service and raise with exception class
+    1. controller only handle flow, other through service.
+    2. use value object to handle user session, due to operation very like model CRUD, so use value, and base is redis hash
+    3. exception only on controller raise, service use active model save error message, when return false, we could get error message from service and raise with exception class
 
--- **learn point**
+  * ** Learn **
 
-  1. feature driven coding
-    - every commit with small main part of the feature
-  2. service with callback
-  3. exceptio class
-  4. every concerns only focus one thing
-  5. RSpec from base stack
-  6. how to use service to architecture base of whole application
+    1. feature driven coding
+      - every commit with small main part of the feature
+    2. service with callback
+    3. exceptio class
+    4. every concerns only focus one thing
+    5. RSpec from base stack
+    6. how to use service to architecture base of whole application
