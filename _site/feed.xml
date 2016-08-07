@@ -5,88 +5,9 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 07 Aug 2016 08:19:34 +0800</pubDate>
-    <lastBuildDate>Sun, 07 Aug 2016 08:19:34 +0800</lastBuildDate>
+    <pubDate>Sun, 07 Aug 2016 12:52:44 +0800</pubDate>
+    <lastBuildDate>Sun, 07 Aug 2016 12:52:44 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
-    
-      <item>
-        <title>2</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 8/7 ~ now”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt; &lt;a href=&quot;http://rails-refactoring.com/&quot;&gt;Fearless Rails Refactoring&lt;/a&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;h5 id=&quot;inline-controller-filters&quot;&gt;Inline controller filters&lt;/h5&gt;
-        &lt;ul&gt;
-          &lt;li&gt;extract filter to service&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;h5 id=&quot;explicitly-render-views-with-locals&quot;&gt;Explicitly render views with locals&lt;/h5&gt;
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;p&gt; pass the params to partials explicitly with render&lt;/p&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;h5 id=&quot;extract-renderredirect-methods&quot;&gt;Extract render/redirect methods&lt;/h5&gt;
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;p&gt; extract a private method for each render and redirect call&lt;/p&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;h5 id=&quot;extract-a-single-action-controller-class&quot;&gt;Extract a Single Action Controller class&lt;/h5&gt;
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;p&gt; extract like CreateProductsController only when ProductsController is too too too large&lt;/p&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;h5 id=&quot;extract-routing-constraint&quot;&gt;Extract routing constraint&lt;/h5&gt;
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;p&gt; use routing constraint to seperate controller action&lt;/p&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;h5 id=&quot;extract-an-adapter-object&quot;&gt;Extract an adapter object&lt;/h5&gt;
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;p&gt; Extract call external library to adapter object call&lt;/p&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;h5 id=&quot;extract-a-repository-object&quot;&gt;Extract a repository object&lt;/h5&gt;
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;p&gt; &lt;/p&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 07 Aug 2016 08:00:00 +0800</pubDate>
-        <link>/2016/08/07/2-fearlessRefactor/</link>
-        <guid isPermaLink="true">/2016/08/07/2-fearlessRefactor/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
     
       <item>
         <title>1</title>
@@ -287,9 +208,9 @@ exposed to each example via the described_class() method&lt;/li&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sun, 31 Jul 2016 08:00:00 +0800</pubDate>
-        <link>/2016/07/31/1/</link>
-        <guid isPermaLink="true">/2016/07/31/1/</guid>
+        <pubDate>Sun, 07 Aug 2016 08:00:00 +0800</pubDate>
+        <link>/2016/08/07/1/</link>
+        <guid isPermaLink="true">/2016/08/07/1/</guid>
         
         <category>weekly</category>
         

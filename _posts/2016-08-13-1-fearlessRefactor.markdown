@@ -2,7 +2,7 @@
 layout:     post
 title:      "2"
 subtitle:   "weekly learning"
-date:       2016-08-07 00:00:00
+date:       2016-08-13 00:00:00
 author:     "ilake"
 header-img: "img/post-bg-weekly.jpg"
 tags:
