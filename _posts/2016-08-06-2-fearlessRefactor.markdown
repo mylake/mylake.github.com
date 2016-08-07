@@ -14,19 +14,24 @@ tags:
 * <p> <a href="http://rails-refactoring.com/">Fearless Rails Refactoring</a></p>
 
   * ##### Inline controller filters
-    * <p>extract filter to service</p>
+    * extract filter to service
 
   * ##### Explicitly render views with locals
-    * <p> pass the params to partials explicitly with render</p>
+    * pass the params to partials explicitly with render
 
   * ##### Extract render/redirect methods
-    * <p> extract a private method for each render and redirect call</p>
+    * extract a private method for each render and redirect call
 
   * ##### Extract a Single Action Controller class
-    * <p> extract like CreateProductsController only when ProductsController is too too too large</p>
+    * extract like CreateProductsController only when ProductsController is too too too large
 
   * ##### Extract routing constraint
-    * <p> use routing constraint to seperate controller action</p>
+    * use routing constraint to seperate controller action
 
   * ##### Extract an adapter object
-    * <p></p>
+    * Extract call external library to adapter object call
+
+  * ##### Extract a repository object
+    * Hide the direct ActiveRecord calls, isolated, add data storage on repo object
+
+  * ##### Extract a service object using the SimpleDelegator

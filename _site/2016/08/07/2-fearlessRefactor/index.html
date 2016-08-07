@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>mylake</title>
+    <title>2 - mylake</title>
 
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/2016/08/07/2-fearlessRefactor/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -119,222 +119,216 @@
 </script>
 
 
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/post-bg-weekly.jpg')">
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/post-bg-weekly.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/post-bg-weekly.jpg')
+    }
+</style>
+<header class="intro-header" >
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>mylake</h1>
-                    <!--<hr class="small">-->
-                    <span class="subheading"></span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
+                        
+                    </div>
+                    <h1>2</h1>
+                    
+                    
+                    <h2 class="subheading">weekly learning</h2>
+                    
+                    <span class="meta">Posted by ilake on August 7, 2016</span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-        
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
 
-<!-- USE SIDEBAR -->
     <!-- Post Container -->
-    		<div class="
-                col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                post-container
-            ">
-    			
-<div class="post-preview">
-    <a href="/2016/08/07/2-fearlessRefactor/">
-        <h2 class="post-title">
-            2
-        </h2>
-        
-        <h3 class="post-subtitle">
-            weekly learning
-        </h3>
-        
-        <div class="post-content-preview">
-            
-  “strive 8/7 ~ now”
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<blockquote>
+  <p>“strive 8/7 ~ now”</p>
+</blockquote>
+
+<h2 id="book">Book</h2>
+<ul>
+  <li>
+    <p> <a href="http://rails-refactoring.com/">Fearless Rails Refactoring</a></p>
+
+    <ul>
+      <li>
+        <h5 id="inline-controller-filters">Inline controller filters</h5>
+        <ul>
+          <li>extract filter to service</li>
+        </ul>
+      </li>
+      <li>
+        <h5 id="explicitly-render-views-with-locals">Explicitly render views with locals</h5>
+        <ul>
+          <li>
+            <p> pass the params to partials explicitly with render</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h5 id="extract-renderredirect-methods">Extract render/redirect methods</h5>
+        <ul>
+          <li>
+            <p> extract a private method for each render and redirect call</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h5 id="extract-a-single-action-controller-class">Extract a Single Action Controller class</h5>
+        <ul>
+          <li>
+            <p> extract like CreateProductsController only when ProductsController is too too too large</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h5 id="extract-routing-constraint">Extract routing constraint</h5>
+        <ul>
+          <li>
+            <p> use routing constraint to seperate controller action</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h5 id="extract-an-adapter-object">Extract an adapter object</h5>
+        <ul>
+          <li>
+            <p> Extract call external library to adapter object call</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h5 id="extract-a-repository-object">Extract a repository object</h5>
+        <ul>
+          <li>
+            <p> </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 
 
-Book
+                <hr>
 
-  
-     Fearless Rails Refactoring
-
-    
-      
-        Inline controller filters
-        
-          extract filter to service
-        
-      
-      
-        Explicitl...
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by ilake on August 7, 2016
-    </p>
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="/2016/07/31/1/">
-        <h2 class="post-title">
-            1
-        </h2>
-        
-        <h3 class="post-subtitle">
-            weekly learning
-        </h3>
-        
-        <div class="post-content-preview">
-            
-  “strive 7/31 ~ 8/6”
+                
 
 
-Use
-
-  
-    [Gem] vcr
-    
-      For test, it could record real third party response to yml file
-      Use it with webmock’s body
-    
-  
-  
-    [Gem] webmock
-  
-  
-    [Ge...
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by ilake on July 31, 2016
-    </p>
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="/2016/07/30/hello-2016/">
-        <h2 class="post-title">
-            Welcome to mylake
-        </h2>
-        
-        <h3 class="post-subtitle">
-             "Hello World, Hello Blog"
-        </h3>
-        
-        <div class="post-content-preview">
-            
-  “Yeah It’s on. ”
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2016/07/31/1/" data-toggle="tooltip" data-placement="top" title="1">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
 
 
-Foreword
+                
 
-Start to write something..
+                
 
-Text
+            </div>
 
-I clone this template from git@github.com:Huxpro/huxblog-boilerplate.git
-
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by ilake on July 30, 2016
-    </p>
-</div>
-<hr>
-
-
-<!-- Pager -->
-
-
-    		</div>
     <!-- Sidebar Container -->
             <div class="
-                col-lg-3 col-lg-offset-0
-                col-md-3 col-md-offset-0
-                col-sm-12
-                col-xs-12
-                sidebar-container
-            ">
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
                 <!-- Featured Tags -->
                 
                 <section>
                     <hr class="hidden-sm hidden-xs">
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
-                        
+        				
                             
-                                <a href="/tags/#life" title="life" rel="1">
+                				<a href="/tags/#life" title="life" rel="1">
                                     life
                                 </a>
                             
-                        
+        				
                             
-                                <a href="/tags/#weekly" title="weekly" rel="2">
+                				<a href="/tags/#weekly" title="weekly" rel="2">
                                     weekly
                                 </a>
                             
-                        
-                    </div>
+        				
+        			</div>
                 </section>
                 
 
-                <!-- Short About -->
-                <section class="visible-md visible-lg">
-                    <hr><h5><a href="/about/">ABOUT ME</a></h5>
-                    <div class="short-about">
-                        
-                            <img src="/img/avatar-ilake.jpg" />
-                        
-                        
-                            <p>c'est la vie'</p>
-                        
-                        <!-- SNS Link -->
-                        <ul class="list-inline">
-                            
-                            
-                            
-                            
-                            
-                            <li>
-                                <a target="_blank" href="https://www.facebook.com/ilake.chang">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            
-                            
-                            <li>
-                                <a target="_blank" href="https://github.com/mylake">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                </section>
                 <!-- Friends Blog -->
                 
-    		</div>
-        
-	</div>
-</div>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
 
 
     <!-- Footer -->
