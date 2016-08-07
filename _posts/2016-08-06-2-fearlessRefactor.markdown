@@ -10,6 +10,10 @@ tags:
 ---
 > “strive 8/7 ~ now”
 
+## Use
+* <p>[Gem] <a href="https://github.com/solnic/virtus">virtus</a></p>
+  1.
+
 ## Book
 * <p> <a href="http://rails-refactoring.com/">Fearless Rails Refactoring</a></p>
 
@@ -29,9 +33,17 @@ tags:
     * use routing constraint to seperate controller action
 
   * ##### Extract an adapter object
-    * Extract call external library to adapter object call
+    * extract call external library to adapter object call
 
   * ##### Extract a repository object
-    * Hide the direct ActiveRecord calls, isolated, add data storage on repo object
+    * hide the direct ActiveRecord calls, isolated, add data storage on repo object
 
   * ##### Extract a service object using the SimpleDelegator
+    * move some domain or business logic to service object
+
+  * ##### Extract conditional validation into Service Object
+    * when validation only used in one place, drop the condition on model, move it to service object
+
+  * ##### Extract a form object
+    * move form to form object, more explicit and domain is expressed better
+    * form object can't have save method (SRP), Persistence is a seperate concern and different object should take care of it, form object only valid data
