@@ -22,7 +22,7 @@ tags:
 
   * #### Refactoring recipes
 
-   * ##### Inline controller filters
+     * ##### Inline controller filters
        * extract filter to service
 
      * ##### Explicitly render views with locals
@@ -53,5 +53,13 @@ tags:
        * move form to form object, more explicit and domain is expressed better
        * form object can't have save method (SRP), Persistence is a seperate concern and different object should take care of it, form object only valid data
 
-     * #### Patterns
-       * 123
+  * #### Patterns
+
+     * ##### Instantiating service objects
+       *
+
+     * ##### The repository pattern
+       *
+
+     * ##### Wrap external API with an adapter
+       * isolated our interface from the implementation
