@@ -12,7 +12,6 @@ tags:
 
 ## Use
 * <p>[Gem] <a href="https://github.com/solnic/virtus">virtus</a></p>
-  1.
 
 * <p>[Gem] <a href="https://github.com/NoamB/sorcery">sorcery</a></p>
   1. authentication for Rails
@@ -25,6 +24,9 @@ tags:
 
 * <p>[Gem] <a href="https://github.com/DatabaseCleaner/database_cleaner">database_cleaner</a></p>
   1. Strategies for cleaning databases
+
+* <p>[Gem] <a href="https://github.com/jpignata/temping">temping</a></p>
+  1. model mockup, dynamic create db table for model test
 
 ## Read
 * <p>[Ruby] <a href="http://api.rubyonrails.org/v4.1.4/classes/ActionController/Metal.html#method-i-performed-3F">ActionController::Metal#performed?</a></p>
