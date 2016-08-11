@@ -50,6 +50,8 @@ tags:
 
 * <p>[CI] <a href="https://circleci.com/docs/parallel-manual-setup/">circle parallel-manual-setup</a></p>
 
+* <p>[API] <a href="http://apionrails.icalialabs.com/book/chapter_five">api on rails, Authenticating users</a></p>
+
 ## Book
 * <p> <a href="http://rails-refactoring.com/">Fearless Rails Refactoring</a></p>
 
