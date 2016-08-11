@@ -54,6 +54,9 @@ tags:
 
 * <p>[API] <a href="http://apionrails.icalialabs.com/book/chapter_five">api on rails, Authenticating users</a></p>
 
+* <p>[Ruby] <a href="http://www.virtuouscode.com/2012/08/31/configuring-database_cleaner-with-rails-rspec-capybara-and-selenium/">Configuring database_cleaner with Rails, RSpec, Capybara, and Selenium</a></p>
+  1. different cleaner strategy settings
+
 ## Book
 * <p> <a href="https://gumroad.com/l/ios-on-rails">ios on rails</a></p>
 
