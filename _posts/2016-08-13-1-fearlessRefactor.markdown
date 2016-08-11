@@ -39,6 +39,7 @@ tags:
   7. Decorators: For cases where callback logic only needs to run in some circumstances or including it in the model would give the model too many responsibilities, a Decorator is useful
 
 
+* <p>[CI] <a href="https://circleci.com/docs/parallel-manual-setup/">circle parallel-manual-setup</a></p>
 
 ## Book
 * <p> <a href="http://rails-refactoring.com/">Fearless Rails Refactoring</a></p>
