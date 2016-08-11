@@ -17,6 +17,15 @@ tags:
 * <p>[Gem] <a href="https://github.com/NoamB/sorcery">sorcery</a></p>
   1. authentication for Rails
 
+* <p>[Gem] <a href="https://github.com/thoughtbot/capybara-webkit">capybara-webkit</a></p>
+  1. A Capybara driver for headless WebKit to test JavaScript web apps
+
+* <p>[Gem] <a href="https://github.com/jnicklas/capybara">capybara</a></p>
+  1. Acceptance test framework for web applications
+
+* <p>[Gem] <a href="https://github.com/DatabaseCleaner/database_cleaner">database_cleaner</a></p>
+  1. Strategies for cleaning databases
+
 ## Read
 * <p>[Ruby] <a href="http://api.rubyonrails.org/v4.1.4/classes/ActionController/Metal.html#method-i-performed-3F">ActionController::Metal#performed?</a></p>
   1. you can test whether render or redirect already happended
