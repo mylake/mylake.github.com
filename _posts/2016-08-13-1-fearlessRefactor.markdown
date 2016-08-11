@@ -59,73 +59,73 @@ tags:
 
 * <p> <a href="http://rails-refactoring.com/">Fearless Rails Refactoring</a></p>
 
-  * #### Refactoring recipes
+  * Refactoring recipes
 
-     * ##### Inline controller filters
+     * Inline controller filters
          * extract filter to service
 
-     * ##### Explicitly render views with locals
+     * Explicitly render views with locals
          * pass the params to partials explicitly with render
 
-     * ##### Extract render/redirect methods
+     * Extract render/redirect methods
          * extract a private method for each render and redirect call
 
-     * ##### Extract a Single Action Controller class
+     * Extract a Single Action Controller class
          * extract like CreateProductsController only when ProductsController is too too too large
 
-     * ##### Extract routing constraint
+     * Extract routing constraint
          * use routing constraint to seperate controller action
 
-     * ##### Extract an adapter object
+     * Extract an adapter object
          * extract call external library to adapter object call
 
-     * ##### Extract a repository object
+     * Extract a repository object
          * hide the direct ActiveRecord calls, isolated, add data storage on repo object
 
-     * ##### Extract a service object using the SimpleDelegator
+     * Extract a service object using the SimpleDelegator
          * move some domain or business logic to service object
 
-     * ##### Extract conditional validation into Service Object
+     * Extract conditional validation into Service Object
          * when validation only used in one place, drop the condition on model, move it to service object
 
-     * ##### Extract a form object
+     * Extract a form object
          * move form to form object, more explicit and domain is expressed better
          * form object can't have save method (SRP), Persistence is a seperate concern and different object should take care of it, form object only valid data
 
-  * #### Patterns
+  *  Patterns
 
-     * ##### Instantiating service objects
+     * Instantiating service objects
        *
 
-     * ##### The repository pattern
+     * The repository pattern
        *
 
-     * ##### Wrap external API with an adapter
+     * Wrap external API with an adapter
          * isolated our interface from the implementation
 
-     * ##### 4 ways to early return from a rails controller
+     * 4 ways to early return from a rails controller
 
          * extracted_method; return if performed?
 
-     * ##### Service::Input
+     * Service::Input
        *
 
-     * ##### Validations: Contexts
+     * Validations: Contexts
        *
 
-     * ##### Validations: Objectify
+     * Validations: Objectify
        *
 
-  * #### Related topics
+  * Related topics
 
-     * ##### Service controller communication
+     * Service controller communication
          * True/false; return the object created/updated; return a response object that contains all the data and/or errors;
          * carry data through exceptions; controller passes callback methods;
 
-     * ##### Where to keep services
+     * Where to keep services
          * group your services according to the feature and then surround them with proper namespace
          * ex: Reporting::MonthlyReport, Forum::CreateNewTopic, TimeTracking::LogTimeService
 
-     * ##### Routing constraints
+     * Routing constraints
          * use routing constraints for situations where you need to choose differentctions based on some params
          * This makes the controller thinner and it’s more explicit what actios happening
