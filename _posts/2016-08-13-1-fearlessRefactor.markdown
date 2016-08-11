@@ -53,6 +53,10 @@ tags:
 * <p>[API] <a href="http://apionrails.icalialabs.com/book/chapter_five">api on rails, Authenticating users</a></p>
 
 ## Book
+* <p> <a href="https://gumroad.com/l/ios-on-rails">ios on rails</a></p>
+
+  * rails api design
+
 * <p> <a href="http://rails-refactoring.com/">Fearless Rails Refactoring</a></p>
 
   * #### Refactoring recipes
