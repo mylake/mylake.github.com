@@ -31,6 +31,8 @@ tags:
 * <p>[Gem] <a href="https://github.com/whitesmith/rubycritic">rubycritic</a></p>
   1. provide a quality report of your Ruby code.
 
+* <p>[Gem] <a href="https://github.com/kakas/CapistranoDeployTest">CapistranoDeployTest</a></p>
+  1. Deploying a Rails App on Ubuntu 14.04 with Capistrano, Nginx, and Puma
 
 ## Read
 * <p>[Ruby] <a href="http://api.rubyonrails.org/v4.1.4/classes/ActionController/Metal.html#method-i-performed-3F">ActionController::Metal#performed?</a></p>
