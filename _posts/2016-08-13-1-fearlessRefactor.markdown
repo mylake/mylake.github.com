@@ -28,6 +28,18 @@ tags:
 
 * <p>[Ruby] <a href="http://railsfun.tw/t/ruby-queue-v-s-thread-mutex/619/2">[ruby 的多工]Queue v.s. Thread ? & Mutex …</a></p>
 
+* <p>[Ruby] <a href="http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/">7-ways-to-decompose-fat-activerecord-models</a></p>
+  1. Value Objects: define domain-specific Value Objects,  Value Objects are great when you have an attribute or small group of attributes that have logic associated with them
+  2. Service Objects: action is complex,  action reaches across multiple models, action interacts with an external service, action is not a core concern of the underlying model
+  3. Form Objects: Virtus, When multiple ActiveRecord models might be updated by a single form submission, a Form Object can encapsulate the aggregation
+  4. Query Objects: For complex SQL queries littering the definition of your ActiveRecord subclass
+  5. View Objects: If logic is needed purely for display purposes, it does not belong in the model.
+  6. Policy Objects: Sometimes complex read operations might deserve their own objects
+      * “Service Object” for write operations and “Policy Object” for reads, Query Objects focus on executing SQL to return a result set
+  7. Decorators: For cases where callback logic only needs to run in some circumstances or including it in the model would give the model too many responsibilities, a Decorator is useful
+
+
+
 ## Book
 * <p> <a href="http://rails-refactoring.com/">Fearless Rails Refactoring</a></p>
 
