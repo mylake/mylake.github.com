@@ -46,15 +46,14 @@ tags:
 * <p>[Ruby] <a href="http://railsfun.tw/t/ruby-queue-v-s-thread-mutex/619/2">[ruby 的多工]Queue v.s. Thread ? & Mutex …</a></p>
 
 * <p>[Ruby] <a href="http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/">7-ways-to-decompose-fat-activerecord-models</a></p>
-  1. Value Objects: define domain-specific Value Objects,  Value Objects are great when you have an attribute or small group of attributes that have logic associated with them
-  2. Service Objects: action is complex,  action reaches across multiple models, action interacts with an external service, action is not a core concern of the underlying model
-  3. Form Objects: Virtus, When multiple ActiveRecord models might be updated by a single form submission, a Form Object can encapsulate the aggregation
-  4. Query Objects: For complex SQL queries littering the definition of your ActiveRecord subclass
-  5. View Objects: If logic is needed purely for display purposes, it does not belong in the model.
-  6. Policy Objects: Sometimes complex read operations might deserve their own objects
+    1. Value Objects: define domain-specific Value Objects,  Value Objects are great when you have an attribute or small group of attributes that have logic associated with them
+    2. Service Objects: action is complex,  action reaches across multiple models, action interacts with an external service, action is not a core concern of the underlying model
+    3. Form Objects: Virtus, When multiple ActiveRecord models might be updated by a single form submission, a Form Object can encapsulate the aggregation
+    4. Query Objects: For complex SQL queries littering the definition of your ActiveRecord subclass
+    5. View Objects: If logic is needed purely for display purposes, it does not belong in the model.
+    6. Policy Objects: Sometimes complex read operations might deserve their own objects
       * “Service Object” for write operations and “Policy Object” for reads, Query Objects focus on executing SQL to return a result set
-  7. Decorators: For cases where callback logic only needs to run in some circumstances or including it in the model would give the model too many responsibilities, a Decorator is useful
-
+    7. Decorators: For cases where callback logic only needs to run in some circumstances or including it in the model would give the model too many responsibilities, a Decorator is useful
 
 * <p>[CI] <a href="https://circleci.com/docs/parallel-manual-setup/">circle parallel-manual-setup</a></p>
 
@@ -62,6 +61,13 @@ tags:
 
 * <p>[Ruby] <a href="http://www.virtuouscode.com/2012/08/31/configuring-database_cleaner-with-rails-rspec-capybara-and-selenium/">Configuring database_cleaner with Rails, RSpec, Capybara, and Selenium</a></p>
   1. different cleaner strategy settings
+
+* <p>[Ruby] routing constraints </p>
+  1. <p>[Ruby] <a href="http://blog.arkency.com/2014/01/short-urls-for-every-route-in-your-rails-app/">Pretty, short urls for every route in your Rails app</a></p>
+  2. <p>[Ruby] <a href="https://8thlight.com/blog/ben-voss/2013/01/12/how-to-use-rails-route-constraints.html">How to use rails routing constraints</a></p>
+    * security vulnerabilities and data type validation
+    * encapsulate and simplify actions (and supporting code)
+  3. <p>[Ruby] <a href="https://www.viget.com/articles/using-routing-constraints-to-root-your-app">Using Routing Constraints to Root Your App</a></p>
 
 ## Book
 * <p> <a href="https://gumroad.com/l/ios-on-rails">ios on rails</a></p>
