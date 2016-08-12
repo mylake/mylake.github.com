@@ -69,6 +69,8 @@ tags:
     * encapsulate and simplify actions (and supporting code)
   3. <p>[Ruby] <a href="https://www.viget.com/articles/using-routing-constraints-to-root-your-app">Using Routing Constraints to Root Your App</a></p>
 
+* <p>[Ruby] <a href="https://ruby-china.org/topics/30233">use_transactional_fixtures vs database_cleaner</a></p>
+
 ## Book
 * <p> <a href="http://openhome.cc/Gossip/CodeData/EssentialJavaScript/index.html">JavaScript 語言核心</a></p>
   * done (1), (2)
