@@ -71,6 +71,9 @@ tags:
 
 * <p>[Ruby] <a href="https://ruby-china.org/topics/30233">use_transactional_fixtures vs database_cleaner</a></p>
 
+* <p>[Ruby] <a href="http://api.rubyonrails.org/classes/ActiveRecord/Aggregations/ClassMethods.html">composed_of</a></p>
+  1. model representing attributes as value objects
+
 ## Book
 * <p> <a href="http://openhome.cc/Gossip/CodeData/EssentialJavaScript/index.html">JavaScript 語言核心</a></p>
   * done (1), (2)
@@ -151,3 +154,18 @@ tags:
      * Routing constraints
          * use routing constraints for situations where you need to choose differentctions based on some params
          * This makes the controller thinner and it’s more explicit what actios happening
+
+
+* <p> <a href="http://www.mohitsharma.net/sites/default/files/Rails.AntiPatterns.pdf">Rails.AntiPatterns</a></p>
+
+  * Model
+    * follow the Law of Demeter
+      * In Rails, this could be summed up as "use only one dot." => class-level delegate method, This method provides a shortcut fondicating that one or more methods that will be created on your object are actually provided by a related objectr
+
+    * Push All find() calls into finder on the model
+      * use scoped
+
+    * keep finders on their own model
+
+    * AntiPattern: Fat Models
+      * delegate responsibility to new classes
