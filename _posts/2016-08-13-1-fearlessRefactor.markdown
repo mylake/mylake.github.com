@@ -70,6 +70,9 @@ tags:
   3. <p>[Ruby] <a href="https://www.viget.com/articles/using-routing-constraints-to-root-your-app">Using Routing Constraints to Root Your App</a></p>
 
 ## Book
+* <p> <a href="http://openhome.cc/Gossip/CodeData/EssentialJavaScript/index.html">JavaScript 語言核心</a></p>
+  * done (1), (2)
+
 * <p> <a href="https://gumroad.com/l/ios-on-rails">ios on rails</a></p>
 
   * rails api design
