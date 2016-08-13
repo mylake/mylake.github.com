@@ -8,7 +8,7 @@ header-img: "img/post-bg-weekly.jpg"
 tags:
     - weekly
 ---
-> “strive 8/7 ~ now”
+> “strive 8/7 ~ 8/13”
 
 ## Use
 * <p>[Gem] <a href="https://github.com/solnic/virtus">virtus</a></p>
@@ -33,6 +33,21 @@ tags:
 
 * <p>[Gem] <a href="https://github.com/kakas/CapistranoDeployTest">CapistranoDeployTest</a></p>
   1. Deploying a Rails App on Ubuntu 14.04 with Capistrano, Nginx, and Puma
+
+* <p>[Gem] <a href="https://github.com/kpumuk/meta-tags">meta-tags</a></p>
+  1. make your Rails application SEO-friendly
+
+* <p>[Gem] <a href="https://github.com/norman/friendly_id">friendly_id</a></p>
+  1. for pretty url
+
+* <p>[Gem] <a href="https://github.com/kjvarga/sitemap_generator">sitemap_generator</a></p>
+  1. create sitemap
+
+* <p>[SEO] <a href="http://www.browseo.net/">BROWSEO</a></p>
+  1. see how search engine read your website
+
+* <p>[Gem] <a href="https://github.com/pat/thinking-sphinx">sphinx</a></p>
+  1. full-text search engine
 
 ## Read
 * <p>[Ruby] <a href="http://api.rubyonrails.org/v4.1.4/classes/ActionController/Metal.html#method-i-performed-3F">ActionController::Metal#performed?</a></p>
@@ -73,6 +88,8 @@ tags:
 
 * <p>[Ruby] <a href="http://api.rubyonrails.org/classes/ActiveRecord/Aggregations/ClassMethods.html">composed_of</a></p>
   1. model representing attributes as value objects
+
+* <p>[SEO] <a href="http://gogojimmy.net/2013/09/26/basic-seo-for-rails-developer/">給 Rails Developer 的基本SEO</a></p>
 
 ## Book
 * <p> <a href="http://openhome.cc/Gossip/CodeData/EssentialJavaScript/index.html">JavaScript 語言核心</a></p>
@@ -154,18 +171,3 @@ tags:
      * Routing constraints
          * use routing constraints for situations where you need to choose differentctions based on some params
          * This makes the controller thinner and it’s more explicit what actios happening
-
-
-* <p> <a href="http://www.mohitsharma.net/sites/default/files/Rails.AntiPatterns.pdf">Rails.AntiPatterns</a></p>
-
-  * Model
-    * follow the Law of Demeter
-      * In Rails, this could be summed up as "use only one dot." => class-level delegate method, This method provides a shortcut fondicating that one or more methods that will be created on your object are actually provided by a related objectr
-
-    * Push All find() calls into finder on the model
-      * use scoped
-
-    * keep finders on their own model
-
-    * AntiPattern: Fat Models
-      * delegate responsibility to new classes

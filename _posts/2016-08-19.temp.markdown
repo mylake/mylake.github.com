@@ -1,0 +1,54 @@
+---
+layout:     post
+title:      "3"
+subtitle:   "weekly learning"
+date:       2016-08-19 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 8/13 ~ 8/19”
+
+## Use
+
+## Read
+
+## Book
+
+* <p> <a href="http://www.mohitsharma.net/sites/default/files/Rails.AntiPatterns.pdf">Rails.AntiPatterns</a></p>
+
+  * Model
+    * AntiPattern: Voyeuristic Models
+      * follow the Law of Demeter
+        * In Rails, this could be summed up as "use only one dot." => class-level delegate method, This method provides a shortcut fondicating that one or more methods that will be created on your object are actually provided by a related objectr
+      * Push All find() calls into finder on the model
+        * use scoped
+      * keep finders on their own model
+
+    * AntiPattern: Fat Models
+      * delegate responsibility to new classes
+        * composed_of
+      * make use of modules
+      * reduce the size of large transaction blocks
+        * callback, nested attributes
+
+    * AntiPattern: spaghetti SQL
+      * use your ActiveRecord associations and finders effectively
+        * as much as possible using sql on own model, others use association to handle it
+      * leanr and love the scope method
+      * use a full-text search engine
+
+    * AntiPattern: duplicate code duplication
+      * extract into module
+        * template pattarn => use module, and some must implement method => define and execute a class that is missing implementations of template methods
+      * write a plugin
+      * metaprograming
+
+  * Domain Modeling
+    * AntiPattern: authorization astronaut
+      * simplify with simple flags
+
+    * AntiPattern: the million-model march
+      * when model have the column like state, and need have some method to check state value => use meta-programing to define_method "#{state}?"
+      * make use of rails serialization
