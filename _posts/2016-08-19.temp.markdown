@@ -50,5 +50,20 @@ tags:
       * simplify with simple flags
 
     * AntiPattern: the million-model march
-      * when model have the column like state, and need have some method to check state value => use meta-programing to define_method "#{state}?"
+      * denormalize into text fields
+        * when model have the column like state, and need have some method to check state value => use meta-programing to define_method "#{state}?"
       * make use of rails serialization
+        * save in hash
+
+  * Views
+    * AntiPattern: PHPitis
+      * learn about the view helpers that come with rails
+      * add useful accessors to your models
+      * extract into custom helpers
+
+    * AntiPattern: Markup Mayhem
+      * make use of the rails helpers
+      * use haml
+
+  * Controllers
+    *

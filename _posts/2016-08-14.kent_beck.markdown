@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "kent beck's implementation patterns"
+subtitle:   "kent beck"
+date:       2016-08-19 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - book
+---
+> “strive 8/14 ~ ?/?”
+* 價值觀
+  1. 溝通
+  2. 簡單
+  3. 靈活
+* 原則
+  1. 局部化影響
+  2. 最小化重覆
+  3. 將邏輯與資料綑綁
+  4. 對稱性
+  5. 宣告示表達
+  6. 變化率
