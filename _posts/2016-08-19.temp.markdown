@@ -13,6 +13,9 @@ tags:
 ## Use
 
 ## Read
+* <p>[AWS] <a href="http://blog.yslin.tw/2014/02/aws-vpc.html">vpc aws</a></p>
+  1. <a href="https://blog.clifflu.net/blog/2013/08/%E8%BF%91%E6%B3%81-%E4%B8%80%E9%BB%9E-aws-vpc-%E5%B0%8F%E5%BF%83%E5%BE%97/">vpc aws2</a>
+
 
 ## Book
 
@@ -66,4 +69,13 @@ tags:
       * use haml
 
   * Controllers
-    *
+    * AntiPattern: Homemade Keys
+      * use clearance
+      * use authlogic
+
+    * AntiPattern: Fat Controller
+      * use active record callbacks and setters
+        * default values => on migration
+        * effective callback use
+        * identification of unnecessary code
+      * move to a presenter
