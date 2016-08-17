@@ -86,3 +86,20 @@ tags:
 
     * AntiPattern: Bloated Sessions
       * store references instead of instances
+
+    * AntiPattern: Monolithic Controllers
+      * embrace REST
+
+    * AntiPattern: Controller of Many Faces
+      * refactor non-restful actions into a separate controller
+
+    * AntiPattern: A Lost Child Controller
+      * make use of nested resources
+
+    * AntiPattern: Rat's Nest Resources
+      * use separate controllers for each nesting
+
+    * AntiPattern: Evil Twin Controllers
+      * use rails 3 responders
+
+  * Services
