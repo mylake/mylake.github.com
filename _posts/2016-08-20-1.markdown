@@ -2,16 +2,18 @@
 layout:     post
 title:      "3"
 subtitle:   "weekly learning"
-date:       2016-08-19 00:00:00
+date:       2016-08-20 00:00:00
 author:     "ilake"
 header-img: "img/post-bg-weekly.jpg"
 tags:
     - weekly
 ---
-> “strive 8/13 ~ 8/19”
+> “strive 8/13 ~ 8/20”
 
 ## Use
 * <p>[NPM] <a href="https://github.com/mulesoft/api-designer">API Designer</a></p>
+
+* <p>[Gem] <a href="https://github.com/rails/jbuilder">jbuilder</a></p>
 
 ## Read
 * <p>[AWS] <a href="http://blog.yslin.tw/2014/02/aws-vpc.html">vpc aws</a></p>
@@ -103,3 +105,14 @@ tags:
       * use rails 3 responders
 
   * Services
+    * AntiPattern: Fire and Forget
+      * konw what exceptions to look out for
+
+    * AntiPattern: Sluggish Services
+      * move the task to the background
+
+    * AntiPattern: Pitiful Page Parsing
+      * use a gem => nokogiri
+
+    * AntiPattern: Successful Failure
+      * obey the http codes

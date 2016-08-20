@@ -5,9 +5,233 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 17 Aug 2016 22:23:51 +0800</pubDate>
-    <lastBuildDate>Wed, 17 Aug 2016 22:23:51 +0800</lastBuildDate>
+    <pubDate>Sat, 20 Aug 2016 20:42:12 +0800</pubDate>
+    <lastBuildDate>Sat, 20 Aug 2016 20:42:12 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>3</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 8/13 ~ 8/20”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[NPM] &lt;a href=&quot;https://github.com/mulesoft/api-designer&quot;&gt;API Designer&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/rails/jbuilder&quot;&gt;jbuilder&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[AWS] &lt;a href=&quot;http://blog.yslin.tw/2014/02/aws-vpc.html&quot;&gt;vpc aws&lt;/a&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;https://blog.clifflu.net/blog/2013/08/%E8%BF%91%E6%B3%81-%E4%B8%80%E9%BB%9E-aws-vpc-%E5%B0%8F%E5%BF%83%E5%BE%97/&quot;&gt;vpc aws2&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[API] &lt;a href=&quot;http://raml.org/developers/raml-100-tutorial#step-introduction&quot;&gt;raml introduction&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[code] &lt;a href=&quot;https://buzzorange.com/techorange/2016/08/16/airbnb-code-review/&quot;&gt;Airbnb 資深工程師分享：怎樣才是正確、有效的 code review&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt; &lt;a href=&quot;http://www.mohitsharma.net/sites/default/files/Rails.AntiPatterns.pdf&quot;&gt;Rails.AntiPatterns&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Model
+        &lt;ul&gt;
+          &lt;li&gt;AntiPattern: Voyeuristic Models
+            &lt;ul&gt;
+              &lt;li&gt;follow the Law of Demeter
+                &lt;ul&gt;
+                  &lt;li&gt;In Rails, this could be summed up as “use only one dot.” =&amp;gt; class-level delegate method, This method provides a shortcut fondicating that one or more methods that will be created on your object are actually provided by a related objectr&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;Push All find() calls into finder on the model
+                &lt;ul&gt;
+                  &lt;li&gt;use scoped&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;keep finders on their own model&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Fat Models
+            &lt;ul&gt;
+              &lt;li&gt;delegate responsibility to new classes
+                &lt;ul&gt;
+                  &lt;li&gt;composed_of&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;make use of modules&lt;/li&gt;
+              &lt;li&gt;reduce the size of large transaction blocks
+                &lt;ul&gt;
+                  &lt;li&gt;callback, nested attributes&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: spaghetti SQL
+            &lt;ul&gt;
+              &lt;li&gt;use your ActiveRecord associations and finders effectively
+                &lt;ul&gt;
+                  &lt;li&gt;as much as possible using sql on own model, others use association to handle it&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;leanr and love the scope method&lt;/li&gt;
+              &lt;li&gt;use a full-text search engine&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: duplicate code duplication
+            &lt;ul&gt;
+              &lt;li&gt;extract into module
+                &lt;ul&gt;
+                  &lt;li&gt;template pattarn =&amp;gt; use module, and some must implement method =&amp;gt; define and execute a class that is missing implementations of template methods&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;write a plugin&lt;/li&gt;
+              &lt;li&gt;metaprograming&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Domain Modeling
+        &lt;ul&gt;
+          &lt;li&gt;AntiPattern: authorization astronaut
+            &lt;ul&gt;
+              &lt;li&gt;simplify with simple flags&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: the million-model march
+            &lt;ul&gt;
+              &lt;li&gt;denormalize into text fields
+                &lt;ul&gt;
+                  &lt;li&gt;when model have the column like state, and need have some method to check state value =&amp;gt; use meta-programing to define_method “#{state}?”&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;make use of rails serialization
+                &lt;ul&gt;
+                  &lt;li&gt;save in hash&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Views
+        &lt;ul&gt;
+          &lt;li&gt;AntiPattern: PHPitis
+            &lt;ul&gt;
+              &lt;li&gt;learn about the view helpers that come with rails&lt;/li&gt;
+              &lt;li&gt;add useful accessors to your models&lt;/li&gt;
+              &lt;li&gt;extract into custom helpers&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Markup Mayhem
+            &lt;ul&gt;
+              &lt;li&gt;make use of the rails helpers&lt;/li&gt;
+              &lt;li&gt;use haml&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Controllers
+        &lt;ul&gt;
+          &lt;li&gt;AntiPattern: Homemade Keys
+            &lt;ul&gt;
+              &lt;li&gt;use clearance&lt;/li&gt;
+              &lt;li&gt;use authlogic&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Fat Controller
+            &lt;ul&gt;
+              &lt;li&gt;use active record callbacks and setters
+                &lt;ul&gt;
+                  &lt;li&gt;default values =&amp;gt; on migration&lt;/li&gt;
+                  &lt;li&gt;effective callback use&lt;/li&gt;
+                  &lt;li&gt;identification of unnecessary code&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;move to a presenter&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Bloated Sessions
+            &lt;ul&gt;
+              &lt;li&gt;store references instead of instances&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Monolithic Controllers
+            &lt;ul&gt;
+              &lt;li&gt;embrace REST&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Controller of Many Faces
+            &lt;ul&gt;
+              &lt;li&gt;refactor non-restful actions into a separate controller&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: A Lost Child Controller
+            &lt;ul&gt;
+              &lt;li&gt;make use of nested resources&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Rat’s Nest Resources
+            &lt;ul&gt;
+              &lt;li&gt;use separate controllers for each nesting&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Evil Twin Controllers
+            &lt;ul&gt;
+              &lt;li&gt;use rails 3 responders&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Services
+        &lt;ul&gt;
+          &lt;li&gt;AntiPattern: Fire and Forget
+            &lt;ul&gt;
+              &lt;li&gt;konw what exceptions to look out for&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Sluggish Services
+            &lt;ul&gt;
+              &lt;li&gt;move the task to the background&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Pitiful Page Parsing
+            &lt;ul&gt;
+              &lt;li&gt;use a gem =&amp;gt; nokogiri&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Successful Failure
+            &lt;ul&gt;
+              &lt;li&gt;obey the http codes&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 20 Aug 2016 08:00:00 +0800</pubDate>
+        <link>/2016/08/20/1/</link>
+        <guid isPermaLink="true">/2016/08/20/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>2</title>
