@@ -436,6 +436,24 @@
           </li>
         </ul>
       </li>
+      <li>
+        <p>Databases</p>
+
+        <ul>
+          <li>AntiPattern: Messy Migrations
+            <ul>
+              <li>never modify the up method on a committed migration</li>
+              <li>never use external code in a migration</li>
+              <li>always provide a down method in migrations</li>
+            </ul>
+          </li>
+          <li>AntiPattern: Wet Validations
+            <ul>
+              <li>eschew constraints in the database</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>

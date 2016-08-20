@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Aug 2016 00:00:14 +0800</pubDate>
-    <lastBuildDate>Sun, 21 Aug 2016 00:00:14 +0800</lastBuildDate>
+    <pubDate>Sun, 21 Aug 2016 00:17:57 +0800</pubDate>
+    <lastBuildDate>Sun, 21 Aug 2016 00:17:57 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -281,6 +281,24 @@
               &lt;li&gt;write normal unit tests without rails&lt;/li&gt;
               &lt;li&gt;load only the parts of rails you need&lt;/li&gt;
               &lt;li&gt;brake out the atom bomb&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Databases&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;AntiPattern: Messy Migrations
+            &lt;ul&gt;
+              &lt;li&gt;never modify the up method on a committed migration&lt;/li&gt;
+              &lt;li&gt;never use external code in a migration&lt;/li&gt;
+              &lt;li&gt;always provide a down method in migrations&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Wet Validations
+            &lt;ul&gt;
+              &lt;li&gt;eschew constraints in the database&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
         &lt;/ul&gt;

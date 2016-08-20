@@ -153,3 +153,13 @@ tags:
       * write normal unit tests without rails
       * load only the parts of rails you need
       * brake out the atom bomb
+
+  * Databases
+
+    * AntiPattern: Messy Migrations
+      * never modify the up method on a committed migration
+      * never use external code in a migration
+      * always provide a down method in migrations
+
+    * AntiPattern: Wet Validations
+      * eschew constraints in the database
