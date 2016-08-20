@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Aug 2016 20:42:12 +0800</pubDate>
-    <lastBuildDate>Sat, 20 Aug 2016 20:42:12 +0800</lastBuildDate>
+    <pubDate>Sat, 20 Aug 2016 22:50:31 +0800</pubDate>
+    <lastBuildDate>Sat, 20 Aug 2016 22:50:31 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -216,6 +216,37 @@
           &lt;li&gt;AntiPattern: Successful Failure
             &lt;ul&gt;
               &lt;li&gt;obey the http codes&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Kraken Code Base
+            &lt;ul&gt;
+              &lt;li&gt;divide into confederated applications&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Using Third-Party Code&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;AntiPattern: Recutting the Gem
+            &lt;ul&gt;
+              &lt;li&gt;look for a gem first&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Amateur Gemologist
+            &lt;ul&gt;
+              &lt;li&gt;follow TAM (tests, activity, maturity)&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Vendor Junk Drawer
+            &lt;ul&gt;
+              &lt;li&gt;prune irrelevant or unused gems&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Miscreant Modification
+            &lt;ul&gt;
+              &lt;li&gt;consider vendored code sacrosanct&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
         &lt;/ul&gt;

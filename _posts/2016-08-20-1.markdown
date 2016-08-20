@@ -116,3 +116,20 @@ tags:
 
     * AntiPattern: Successful Failure
       * obey the http codes
+
+    * AntiPattern: Kraken Code Base
+      * divide into confederated applications
+
+  * Using Third-Party Code
+
+    * AntiPattern: Recutting the Gem
+      * look for a gem first
+
+    * AntiPattern: Amateur Gemologist
+      * follow TAM (tests, activity, maturity)
+
+    * AntiPattern: Vendor Junk Drawer
+      * prune irrelevant or unused gems
+
+    * AntiPattern: Miscreant Modification
+      * consider vendored code sacrosanct
