@@ -163,3 +163,11 @@ tags:
 
     * AntiPattern: Wet Validations
       * eschew constraints in the database
+
+  * Building for Failure
+
+    * AntiPattern: Continual Catastrophe
+      * fail fast
+
+    * AntiPattern: Unaudible Failures
+      * never fail quietly
