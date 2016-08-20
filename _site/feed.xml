@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Aug 2016 22:50:31 +0800</pubDate>
-    <lastBuildDate>Sat, 20 Aug 2016 22:50:31 +0800</lastBuildDate>
+    <pubDate>Sun, 21 Aug 2016 00:00:14 +0800</pubDate>
+    <lastBuildDate>Sun, 21 Aug 2016 00:00:14 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -247,6 +247,40 @@
           &lt;li&gt;AntiPattern: Miscreant Modification
             &lt;ul&gt;
               &lt;li&gt;consider vendored code sacrosanct&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Testing&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;AntiPattern: Fixture Blues
+            &lt;ul&gt;
+              &lt;li&gt;make use of factories&lt;/li&gt;
+              &lt;li&gt;refactor into contexts&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Lost in Isolation
+            &lt;ul&gt;
+              &lt;li&gt;watch your integration points&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Mock Suffocation
+            &lt;ul&gt;
+              &lt;li&gt;tell, don’t ask&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Untested Rake
+            &lt;ul&gt;
+              &lt;li&gt;extract to a class method&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Unprotexted Jewels
+            &lt;ul&gt;
+              &lt;li&gt;write normal unit tests without rails&lt;/li&gt;
+              &lt;li&gt;load only the parts of rails you need&lt;/li&gt;
+              &lt;li&gt;brake out the atom bomb&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
         &lt;/ul&gt;

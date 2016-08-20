@@ -133,3 +133,23 @@ tags:
 
     * AntiPattern: Miscreant Modification
       * consider vendored code sacrosanct
+
+  * Testing
+
+    * AntiPattern: Fixture Blues
+      * make use of factories
+      * refactor into contexts
+
+    * AntiPattern: Lost in Isolation
+      * watch your integration points
+
+    * AntiPattern: Mock Suffocation
+      * tell, don't ask
+
+    * AntiPattern: Untested Rake
+      * extract to a class method
+
+    * AntiPattern: Unprotexted Jewels
+      * write normal unit tests without rails
+      * load only the parts of rails you need
+      * brake out the atom bomb
