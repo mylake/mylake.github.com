@@ -154,7 +154,21 @@ tags:
       * load only the parts of rails you need
       * brake out the atom bomb
 
+  * Scaling and Deploying
+    * AntiPattern: Scaling Roadblocks
+      * build to scale from the start
+
   * Databases
+    * AntiPattern: Disappearing Assets
+      * make use of the system directory
+
+    * AntiPattern: Sluggish SQL
+      * add indexes
+      * reassess your domain model
+
+    * AntiPattern: Painful Performance
+      * don't do inruby what you can do in sql
+      * move processing into background jobs
 
     * AntiPattern: Messy Migrations
       * never modify the up method on a committed migration

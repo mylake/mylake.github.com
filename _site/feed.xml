@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Aug 2016 00:30:56 +0800</pubDate>
-    <lastBuildDate>Sun, 21 Aug 2016 00:30:56 +0800</lastBuildDate>
+    <pubDate>Sun, 21 Aug 2016 17:00:09 +0800</pubDate>
+    <lastBuildDate>Sun, 21 Aug 2016 17:00:09 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -285,10 +285,34 @@
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Databases&lt;/p&gt;
-
+      &lt;li&gt;Scaling and Deploying
         &lt;ul&gt;
+          &lt;li&gt;AntiPattern: Scaling Roadblocks
+            &lt;ul&gt;
+              &lt;li&gt;build to scale from the start&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Databases
+        &lt;ul&gt;
+          &lt;li&gt;AntiPattern: Disappearing Assets
+            &lt;ul&gt;
+              &lt;li&gt;make use of the system directory&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Sluggish SQL
+            &lt;ul&gt;
+              &lt;li&gt;add indexes&lt;/li&gt;
+              &lt;li&gt;reassess your domain model&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;AntiPattern: Painful Performance
+            &lt;ul&gt;
+              &lt;li&gt;don’t do inruby what you can do in sql&lt;/li&gt;
+              &lt;li&gt;move processing into background jobs&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
           &lt;li&gt;AntiPattern: Messy Migrations
             &lt;ul&gt;
               &lt;li&gt;never modify the up method on a committed migration&lt;/li&gt;

@@ -436,10 +436,34 @@
           </li>
         </ul>
       </li>
-      <li>
-        <p>Databases</p>
-
+      <li>Scaling and Deploying
         <ul>
+          <li>AntiPattern: Scaling Roadblocks
+            <ul>
+              <li>build to scale from the start</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Databases
+        <ul>
+          <li>AntiPattern: Disappearing Assets
+            <ul>
+              <li>make use of the system directory</li>
+            </ul>
+          </li>
+          <li>AntiPattern: Sluggish SQL
+            <ul>
+              <li>add indexes</li>
+              <li>reassess your domain model</li>
+            </ul>
+          </li>
+          <li>AntiPattern: Painful Performance
+            <ul>
+              <li>don’t do inruby what you can do in sql</li>
+              <li>move processing into background jobs</li>
+            </ul>
+          </li>
           <li>AntiPattern: Messy Migrations
             <ul>
               <li>never modify the up method on a committed migration</li>
