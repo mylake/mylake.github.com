@@ -5,9 +5,93 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Aug 2016 17:00:09 +0800</pubDate>
-    <lastBuildDate>Sun, 21 Aug 2016 17:00:09 +0800</lastBuildDate>
+    <pubDate>Sun, 28 Aug 2016 10:58:22 +0800</pubDate>
+    <lastBuildDate>Sun, 28 Aug 2016 10:58:22 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>4</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 8/20 ~ 8/27”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/huacnlee/rails-settings-cached&quot;&gt;rails-settings-cached&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[article] &lt;a href=&quot;https://softnshare.wordpress.com/2016/07/19/mindsetofsuccessfulprogrammer/&quot;&gt;成功程式設計師凌駕於他人的五個關鍵思維&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;http://craftingruby.com/posts/2015/06/29/query-objects-through-scopes.html&quot;&gt;Delegating to Query Objects through ActiveRecord scopes&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[server]
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/a-comparison-of-rack-web-servers-for-ruby-web-applications&quot;&gt;A Comparison of (Rack) Web Servers for Ruby Web Applications&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.engineyard.com/articles/rails-server&quot;&gt;Rails Server&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;passenger (community) -&amp;gt; web server integration, multi-process single-threaded&lt;/li&gt;
+      &lt;li&gt;unicorn -&amp;gt; master/workers, single-process multi-threaded, cluster + load balancer + proxy&lt;/li&gt;
+      &lt;li&gt;puma -&amp;gt; concurrency, single-process multi-threaded, cluster + load balancer + proxy&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;thin -&amp;gt; event machine, single-process multi-threaded, cluster + load balancer + proxy&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;preferred way: passenger 5.x，consider others when need special requirement
+        &lt;ul&gt;
+          &lt;li&gt;passenger 整合度高，設定方便。&lt;/li&gt;
+          &lt;li&gt;unicorn 在 passenger 5.x 版本出現前，是部署主力。如果有人力可以照顧 server，是不錯用。&lt;/li&gt;
+          &lt;li&gt;puma 現在是 rails 5 預設的開發用 application server。在 concurrency 能力上比較好。&lt;/li&gt;
+          &lt;li&gt;thin 則是如果你有用 event machine 的設計，會建議用的項目。&lt;/li&gt;
+          &lt;li&gt;unicorn, puma, thin 都必須用 cluster + proxy 的方式運作，才能應付高 request 的狀況。&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[MongoDB]
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gorails.com/guides/setting-up-rails-4-with-mongodb-and-mongoid&quot;&gt;Setting Up Rails 4 with MongoDB and Mongoid&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://railscasts.com/episodes/194-mongodb-and-mongomapper?view=asciicast&quot;&gt;MongoDB and MongoMapper&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://railscasts.com/episodes/238-mongoid-revised?view=asciicast&quot;&gt;Mongoid&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.railstips.org/blog/archives/2009/12/18/why-i-think-mongo-is-to-databases-what-rails-was-to-frameworks/&quot;&gt;Why I think Mongo is to Databases what Rails was to Frameworks&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[log] &lt;a href=&quot;https://medium.com/@poga/%E8%90%AC%E4%BA%8B%E8%90%AC%E7%89%A9%E7%9A%86%E6%98%AF-log-%E7%B3%BB%E7%B5%B1%E6%9E%B6%E6%A7%8B%E4%B9%9F%E4%BE%86%E9%BB%9E%E7%A7%91%E6%99%AE-caf3029359f8#.9nwgz568v&quot;&gt;萬事萬物皆是 LOG — 系統架構也來點科普&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[js] what’s this?
+    &lt;ul&gt;
+      &lt;li&gt;this 取決於function被呼叫的方式&lt;/li&gt;
+      &lt;li&gt;function執行時,這個scope的owner&lt;/li&gt;
+      &lt;li&gt;當function是某個事件的method, this指的就是上層物件&lt;/li&gt;
+      &lt;li&gt;透過call()/apply()可以指定this是誰,強制指定某個物件作為該function的this&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt; &lt;a href=&quot;http://shop.oreilly.com/product/0636920019664.do&quot;&gt;Sinatra: Up and Running&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 27 Aug 2016 08:00:00 +0800</pubDate>
+        <link>/2016/08/27/1/</link>
+        <guid isPermaLink="true">/2016/08/27/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>3</title>

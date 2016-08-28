@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>3 - mylake</title>
+    <title>4 - mylake</title>
 
-    <link rel="canonical" href="/2016/08/20/1/">
+    <link rel="canonical" href="/2016/08/27/1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -139,12 +139,12 @@
                         <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
                         
                     </div>
-                    <h1>3</h1>
+                    <h1>4</h1>
                     
                     
                     <h2 class="subheading">weekly learning</h2>
                     
-                    <span class="meta">Posted by ilake on August 20, 2016</span>
+                    <span class="meta">Posted by ilake on August 27, 2016</span>
                 </div>
             </div>
         </div>
@@ -163,32 +163,67 @@
                 post-container">
 
 				<blockquote>
-  <p>“strive 8/13 ~ 8/20”</p>
+  <p>“strive 8/20 ~ 8/27”</p>
 </blockquote>
 
 <h2 id="use">Use</h2>
 <ul>
   <li>
-    <p>[NPM] <a href="https://github.com/mulesoft/api-designer">API Designer</a></p>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/rails/jbuilder">jbuilder</a></p>
+    <p>[gem] <a href="https://github.com/huacnlee/rails-settings-cached">rails-settings-cached</a></p>
   </li>
 </ul>
 
 <h2 id="read">Read</h2>
+
 <ul>
   <li>
-    <p>[AWS] <a href="http://blog.yslin.tw/2014/02/aws-vpc.html">vpc aws</a></p>
+    <p>[article] <a href="https://softnshare.wordpress.com/2016/07/19/mindsetofsuccessfulprogrammer/">成功程式設計師凌駕於他人的五個關鍵思維</a></p>
+  </li>
+  <li>
+    <p>[ruby] <a href="http://craftingruby.com/posts/2015/06/29/query-objects-through-scopes.html">Delegating to Query Objects through ActiveRecord scopes</a></p>
+  </li>
+  <li>[server]
     <ol>
-      <li><a href="https://blog.clifflu.net/blog/2013/08/%E8%BF%91%E6%B3%81-%E4%B8%80%E9%BB%9E-aws-vpc-%E5%B0%8F%E5%BF%83%E5%BE%97/">vpc aws2</a></li>
+      <li><a href="https://www.digitalocean.com/community/tutorials/a-comparison-of-rack-web-servers-for-ruby-web-applications">A Comparison of (Rack) Web Servers for Ruby Web Applications</a></li>
+      <li><a href="https://www.engineyard.com/articles/rails-server">Rails Server</a></li>
+    </ol>
+
+    <ul>
+      <li>passenger (community) -&gt; web server integration, multi-process single-threaded</li>
+      <li>unicorn -&gt; master/workers, single-process multi-threaded, cluster + load balancer + proxy</li>
+      <li>puma -&gt; concurrency, single-process multi-threaded, cluster + load balancer + proxy</li>
+      <li>
+        <p>thin -&gt; event machine, single-process multi-threaded, cluster + load balancer + proxy</p>
+      </li>
+      <li>preferred way: passenger 5.x，consider others when need special requirement
+        <ul>
+          <li>passenger 整合度高，設定方便。</li>
+          <li>unicorn 在 passenger 5.x 版本出現前，是部署主力。如果有人力可以照顧 server，是不錯用。</li>
+          <li>puma 現在是 rails 5 預設的開發用 application server。在 concurrency 能力上比較好。</li>
+          <li>thin 則是如果你有用 event machine 的設計，會建議用的項目。</li>
+          <li>unicorn, puma, thin 都必須用 cluster + proxy 的方式運作，才能應付高 request 的狀況。</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>[MongoDB]
+    <ol>
+      <li><a href="https://gorails.com/guides/setting-up-rails-4-with-mongodb-and-mongoid">Setting Up Rails 4 with MongoDB and Mongoid</a></li>
+      <li><a href="http://railscasts.com/episodes/194-mongodb-and-mongomapper?view=asciicast">MongoDB and MongoMapper</a></li>
+      <li><a href="http://railscasts.com/episodes/238-mongoid-revised?view=asciicast">Mongoid</a></li>
+      <li><a href="http://www.railstips.org/blog/archives/2009/12/18/why-i-think-mongo-is-to-databases-what-rails-was-to-frameworks/">Why I think Mongo is to Databases what Rails was to Frameworks</a></li>
     </ol>
   </li>
   <li>
-    <p>[API] <a href="http://raml.org/developers/raml-100-tutorial#step-introduction">raml introduction</a></p>
+    <p>[log] <a href="https://medium.com/@poga/%E8%90%AC%E4%BA%8B%E8%90%AC%E7%89%A9%E7%9A%86%E6%98%AF-log-%E7%B3%BB%E7%B5%B1%E6%9E%B6%E6%A7%8B%E4%B9%9F%E4%BE%86%E9%BB%9E%E7%A7%91%E6%99%AE-caf3029359f8#.9nwgz568v">萬事萬物皆是 LOG — 系統架構也來點科普</a></p>
   </li>
-  <li>
-    <p>[code] <a href="https://buzzorange.com/techorange/2016/08/16/airbnb-code-review/">Airbnb 資深工程師分享：怎樣才是正確、有效的 code review</a></p>
+  <li>[js] what’s this?
+    <ul>
+      <li>this 取決於function被呼叫的方式</li>
+      <li>function執行時,這個scope的owner</li>
+      <li>當function是某個事件的method, this指的就是上層物件</li>
+      <li>透過call()/apply()可以指定this是誰,強制指定某個物件作為該function的this</li>
+    </ul>
   </li>
 </ul>
 
@@ -196,305 +231,7 @@
 
 <ul>
   <li>
-    <p> <a href="http://www.mohitsharma.net/sites/default/files/Rails.AntiPatterns.pdf">Rails.AntiPatterns</a></p>
-
-    <ul>
-      <li>Model
-        <ul>
-          <li>AntiPattern: Voyeuristic Models
-            <ul>
-              <li>follow the Law of Demeter
-                <ul>
-                  <li>In Rails, this could be summed up as “use only one dot.” =&gt; class-level delegate method, This method provides a shortcut fondicating that one or more methods that will be created on your object are actually provided by a related objectr</li>
-                </ul>
-              </li>
-              <li>Push All find() calls into finder on the model
-                <ul>
-                  <li>use scoped</li>
-                </ul>
-              </li>
-              <li>keep finders on their own model</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Fat Models
-            <ul>
-              <li>delegate responsibility to new classes
-                <ul>
-                  <li>composed_of</li>
-                </ul>
-              </li>
-              <li>make use of modules</li>
-              <li>reduce the size of large transaction blocks
-                <ul>
-                  <li>callback, nested attributes</li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li>AntiPattern: spaghetti SQL
-            <ul>
-              <li>use your ActiveRecord associations and finders effectively
-                <ul>
-                  <li>as much as possible using sql on own model, others use association to handle it</li>
-                </ul>
-              </li>
-              <li>leanr and love the scope method</li>
-              <li>use a full-text search engine</li>
-            </ul>
-          </li>
-          <li>AntiPattern: duplicate code duplication
-            <ul>
-              <li>extract into module
-                <ul>
-                  <li>template pattarn =&gt; use module, and some must implement method =&gt; define and execute a class that is missing implementations of template methods</li>
-                </ul>
-              </li>
-              <li>write a plugin</li>
-              <li>metaprograming</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>Domain Modeling
-        <ul>
-          <li>AntiPattern: authorization astronaut
-            <ul>
-              <li>simplify with simple flags</li>
-            </ul>
-          </li>
-          <li>AntiPattern: the million-model march
-            <ul>
-              <li>denormalize into text fields
-                <ul>
-                  <li>when model have the column like state, and need have some method to check state value =&gt; use meta-programing to define_method “#{state}?”</li>
-                </ul>
-              </li>
-              <li>make use of rails serialization
-                <ul>
-                  <li>save in hash</li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>Views
-        <ul>
-          <li>AntiPattern: PHPitis
-            <ul>
-              <li>learn about the view helpers that come with rails</li>
-              <li>add useful accessors to your models</li>
-              <li>extract into custom helpers</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Markup Mayhem
-            <ul>
-              <li>make use of the rails helpers</li>
-              <li>use haml</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>Controllers
-        <ul>
-          <li>AntiPattern: Homemade Keys
-            <ul>
-              <li>use clearance</li>
-              <li>use authlogic</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Fat Controller
-            <ul>
-              <li>use active record callbacks and setters
-                <ul>
-                  <li>default values =&gt; on migration</li>
-                  <li>effective callback use</li>
-                  <li>identification of unnecessary code</li>
-                </ul>
-              </li>
-              <li>move to a presenter</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Bloated Sessions
-            <ul>
-              <li>store references instead of instances</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Monolithic Controllers
-            <ul>
-              <li>embrace REST</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Controller of Many Faces
-            <ul>
-              <li>refactor non-restful actions into a separate controller</li>
-            </ul>
-          </li>
-          <li>AntiPattern: A Lost Child Controller
-            <ul>
-              <li>make use of nested resources</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Rat’s Nest Resources
-            <ul>
-              <li>use separate controllers for each nesting</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Evil Twin Controllers
-            <ul>
-              <li>use rails 3 responders</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>Services
-        <ul>
-          <li>AntiPattern: Fire and Forget
-            <ul>
-              <li>konw what exceptions to look out for</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Sluggish Services
-            <ul>
-              <li>move the task to the background</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Pitiful Page Parsing
-            <ul>
-              <li>use a gem =&gt; nokogiri</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Successful Failure
-            <ul>
-              <li>obey the http codes</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Kraken Code Base
-            <ul>
-              <li>divide into confederated applications</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>Using Third-Party Code</p>
-
-        <ul>
-          <li>AntiPattern: Recutting the Gem
-            <ul>
-              <li>look for a gem first</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Amateur Gemologist
-            <ul>
-              <li>follow TAM (tests, activity, maturity)</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Vendor Junk Drawer
-            <ul>
-              <li>prune irrelevant or unused gems</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Miscreant Modification
-            <ul>
-              <li>consider vendored code sacrosanct</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>Testing</p>
-
-        <ul>
-          <li>AntiPattern: Fixture Blues
-            <ul>
-              <li>make use of factories</li>
-              <li>refactor into contexts</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Lost in Isolation
-            <ul>
-              <li>watch your integration points</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Mock Suffocation
-            <ul>
-              <li>tell, don’t ask</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Untested Rake
-            <ul>
-              <li>extract to a class method</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Unprotexted Jewels
-            <ul>
-              <li>write normal unit tests without rails</li>
-              <li>load only the parts of rails you need</li>
-              <li>brake out the atom bomb</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>Scaling and Deploying
-        <ul>
-          <li>AntiPattern: Scaling Roadblocks
-            <ul>
-              <li>build to scale from the start</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>Databases
-        <ul>
-          <li>AntiPattern: Disappearing Assets
-            <ul>
-              <li>make use of the system directory</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Sluggish SQL
-            <ul>
-              <li>add indexes</li>
-              <li>reassess your domain model</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Painful Performance
-            <ul>
-              <li>don’t do inruby what you can do in sql</li>
-              <li>move processing into background jobs</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Messy Migrations
-            <ul>
-              <li>never modify the up method on a committed migration</li>
-              <li>never use external code in a migration</li>
-              <li>always provide a down method in migrations</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Wet Validations
-            <ul>
-              <li>eschew constraints in the database</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>Building for Failure</p>
-
-        <ul>
-          <li>AntiPattern: Continual Catastrophe
-            <ul>
-              <li>fail fast</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Unaudible Failures
-            <ul>
-              <li>never fail quietly</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
+    <p> <a href="http://shop.oreilly.com/product/0636920019664.do">Sinatra: Up and Running</a></p>
   </li>
 </ul>
 
@@ -507,13 +244,9 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2016/08/13/1/" data-toggle="tooltip" data-placement="top" title="2">&larr; Previous Post</a>
+                        <a href="/2016/08/20/1/" data-toggle="tooltip" data-placement="top" title="3">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2016/08/27/1/" data-toggle="tooltip" data-placement="top" title="4">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 
