@@ -1,0 +1,72 @@
+---
+layout:     post
+title:      "5"
+subtitle:   "weekly learning"
+date:       2016-09-03 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 8/27 ~ 9/3”
+
+## Use
+* <p>[gem] <a href="https://github.com/zapnap/resque_mailer">resque_mailer</a></p>
+
+* <p>[gem] <a href="https://github.com/HashNuke/mailgun">mailgun</a></p>
+
+* <p>[gem] <a href="https://github.com/DarthSim/carrierwave-bombshelter">carrierwave-bombshelter</a></p>
+
+* <p>[gem] <a href="https://github.com/spree/spree">spree</a></p>
+
+* <p>[swagger] <a href="http://editor.swagger.io/#/">swagger editer</a></p>
+
+## Read
+
+* <p>[ruby] <a href="http://blog.mz026.rocks/20160821/rails-race-condition-test-rspec">Rails Race Condition Test With RSpec</a></p>
+
+* <p>[ruby] <a href="http://sibevin.github.io/posts/2016-05-14-122743-tools-for-cleanup-rails-code">一些用來檢驗rails程式碼的工具</a></p>
+
+* <p>[remote] <a href="http://www.slideshare.net/clonncd/remote-team-management-2016">remote team management</a></p>
+
+* <p>[ruby] <a href="https://ruby-china.org/topics/24742">Rails 開發：那些年，我們一起踩過的坑</a></p>
+
+* <p>[ruby] <a href="https://speakerdeck.com/gchan/imagetragick-and-rails">ImageTragick and Rails</a></p>
+
+* <p>[ruby] <a href="https://ruby-china.org/topics/24472">Spree 源碼導讀</a></p>
+
+* <p>[ruby] <a href="https://ruby-china.org/topics/26866">Rails 源码分析之 eager_load! 篇</a></p>
+
+* <p>[ruby] <a href="https://ruby-china.org/topics/30052">Rails Boot Process --- Rails Conf 2016</a></p>
+
+* <p>[css] <a href="http://csscoke.com/2013/09/21/%E4%BD%BF%E7%94%A8css3-nth-childn-%E9%81%B8%E5%8F%96%E5%99%A8%E8%A9%B3%E8%A7%A3/">css3-nth-childn</a></p>
+
+* <p>[vim] <a href="https://ruby-china.org/topics/4478">Rails.vim 高效使用指南</a></p>
+
+* <p>[ruby] <a href="http://solnic.eu/2011/08/01/making-activerecord-models-thin.html">Making ActiveRecord Models Thin</a></p>
+  1. seperate models responsible to behavior and data
+
+## Book
+
+* <p>[ruby] <a href="http://objectsonrails.com/">object on rails</a></p>
+
+  * Exhibit Object Characteristics
+    1. Wraps a single model instance.
+    2. Is a true Decorator
+    3. Brings together a model and a context
+    4. Encapsulates decisions about how to render an object.
+    5. May modify the behavior of an object.
+
+  * Helper
+    1. They are a good place to put general rendering methods which aren’t tied to any particular
+    model. For instance, we could write a helper for displaying HTML5-style
+
+## Learn
+
+* Project manage
+  * 完整計畫，要包含開發環境的資訊。
+    要先確認每個人都是在同樣的基準點，沒有認知上的誤差。
+  * 工作目標, 工作項目, 時間預估
+
+* Coding structure
+  * 所有的 service 都是透過 return false 和 .errors.full_messages 來處理錯誤， controller 都會用這樣的邏輯來處理

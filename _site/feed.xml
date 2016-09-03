@@ -5,9 +5,127 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 28 Aug 2016 10:58:22 +0800</pubDate>
-    <lastBuildDate>Sun, 28 Aug 2016 10:58:22 +0800</lastBuildDate>
+    <pubDate>Sat, 03 Sep 2016 16:54:44 +0800</pubDate>
+    <lastBuildDate>Sat, 03 Sep 2016 16:54:44 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>5</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 8/27 ~ 9/3”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/zapnap/resque_mailer&quot;&gt;resque_mailer&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/HashNuke/mailgun&quot;&gt;mailgun&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/DarthSim/carrierwave-bombshelter&quot;&gt;carrierwave-bombshelter&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/spree/spree&quot;&gt;spree&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[swagger] &lt;a href=&quot;http://editor.swagger.io/#/&quot;&gt;swagger editer&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;http://blog.mz026.rocks/20160821/rails-race-condition-test-rspec&quot;&gt;Rails Race Condition Test With RSpec&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;http://sibevin.github.io/posts/2016-05-14-122743-tools-for-cleanup-rails-code&quot;&gt;一些用來檢驗rails程式碼的工具&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[remote] &lt;a href=&quot;http://www.slideshare.net/clonncd/remote-team-management-2016&quot;&gt;remote team management&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;https://ruby-china.org/topics/24742&quot;&gt;Rails 開發：那些年，我們一起踩過的坑&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;https://speakerdeck.com/gchan/imagetragick-and-rails&quot;&gt;ImageTragick and Rails&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;https://ruby-china.org/topics/24472&quot;&gt;Spree 源碼導讀&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;https://ruby-china.org/topics/26866&quot;&gt;Rails 源码分析之 eager_load! 篇&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;https://ruby-china.org/topics/30052&quot;&gt;Rails Boot Process --- Rails Conf 2016&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[css] &lt;a href=&quot;http://csscoke.com/2013/09/21/%E4%BD%BF%E7%94%A8css3-nth-childn-%E9%81%B8%E5%8F%96%E5%99%A8%E8%A9%B3%E8%A7%A3/&quot;&gt;css3-nth-childn&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[vim] &lt;a href=&quot;https://ruby-china.org/topics/4478&quot;&gt;Rails.vim 高效使用指南&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;http://solnic.eu/2011/08/01/making-activerecord-models-thin.html&quot;&gt;Making ActiveRecord Models Thin&lt;/a&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;seperate models responsible to behavior and data&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;http://objectsonrails.com/&quot;&gt;object on rails&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Exhibit Object Characteristics
+        &lt;ol&gt;
+          &lt;li&gt;Wraps a single model instance.&lt;/li&gt;
+          &lt;li&gt;Is a true Decorator&lt;/li&gt;
+          &lt;li&gt;Brings together a model and a context&lt;/li&gt;
+          &lt;li&gt;Encapsulates decisions about how to render an object.&lt;/li&gt;
+          &lt;li&gt;May modify the behavior of an object.&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Helper
+        &lt;ol&gt;
+          &lt;li&gt;They are a good place to put general rendering methods which aren’t tied to any particular
+model. For instance, we could write a helper for displaying HTML5-style&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Project manage
+    &lt;ul&gt;
+      &lt;li&gt;完整計畫，要包含開發環境的資訊。
+要先確認每個人都是在同樣的基準點，沒有認知上的誤差。&lt;/li&gt;
+      &lt;li&gt;工作目標, 工作項目, 時間預估&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Coding structure
+    &lt;ul&gt;
+      &lt;li&gt;所有的 service 都是透過 return false 和 .errors.full_messages 來處理錯誤， controller 都會用這樣的邏輯來處理&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 03 Sep 2016 08:00:00 +0800</pubDate>
+        <link>/2016/09/03/1/</link>
+        <guid isPermaLink="true">/2016/09/03/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>4</title>

@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>4 - mylake</title>
+    <title>5 - mylake</title>
 
-    <link rel="canonical" href="/2016/08/27/1/">
+    <link rel="canonical" href="/2016/09/03/1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -139,12 +139,12 @@
                         <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
                         
                     </div>
-                    <h1>4</h1>
+                    <h1>5</h1>
                     
                     
                     <h2 class="subheading">weekly learning</h2>
                     
-                    <span class="meta">Posted by ilake on August 27, 2016</span>
+                    <span class="meta">Posted by ilake on September 3, 2016</span>
                 </div>
             </div>
         </div>
@@ -163,13 +163,25 @@
                 post-container">
 
 				<blockquote>
-  <p>“strive 8/20 ~ 8/27”</p>
+  <p>“strive 8/27 ~ 9/3”</p>
 </blockquote>
 
 <h2 id="use">Use</h2>
 <ul>
   <li>
-    <p>[gem] <a href="https://github.com/huacnlee/rails-settings-cached">rails-settings-cached</a></p>
+    <p>[gem] <a href="https://github.com/zapnap/resque_mailer">resque_mailer</a></p>
+  </li>
+  <li>
+    <p>[gem] <a href="https://github.com/HashNuke/mailgun">mailgun</a></p>
+  </li>
+  <li>
+    <p>[gem] <a href="https://github.com/DarthSim/carrierwave-bombshelter">carrierwave-bombshelter</a></p>
+  </li>
+  <li>
+    <p>[gem] <a href="https://github.com/spree/spree">spree</a></p>
+  </li>
+  <li>
+    <p>[swagger] <a href="http://editor.swagger.io/#/">swagger editer</a></p>
   </li>
 </ul>
 
@@ -177,53 +189,40 @@
 
 <ul>
   <li>
-    <p>[article] <a href="https://softnshare.wordpress.com/2016/07/19/mindsetofsuccessfulprogrammer/">成功程式設計師凌駕於他人的五個關鍵思維</a></p>
+    <p>[ruby] <a href="http://blog.mz026.rocks/20160821/rails-race-condition-test-rspec">Rails Race Condition Test With RSpec</a></p>
   </li>
   <li>
-    <p>[ruby] <a href="http://craftingruby.com/posts/2015/06/29/query-objects-through-scopes.html">Delegating to Query Objects through ActiveRecord scopes</a></p>
-  </li>
-  <li>[server]
-    <ol>
-      <li><a href="https://www.digitalocean.com/community/tutorials/a-comparison-of-rack-web-servers-for-ruby-web-applications">A Comparison of (Rack) Web Servers for Ruby Web Applications</a></li>
-      <li><a href="https://www.engineyard.com/articles/rails-server">Rails Server</a></li>
-    </ol>
-
-    <ul>
-      <li>passenger (community) -&gt; web server integration, multi-process single-threaded</li>
-      <li>unicorn -&gt; master/workers, single-process multi-threaded, cluster + load balancer + proxy</li>
-      <li>puma -&gt; concurrency, single-process multi-threaded, cluster + load balancer + proxy</li>
-      <li>
-        <p>thin -&gt; event machine, single-process multi-threaded, cluster + load balancer + proxy</p>
-      </li>
-      <li>preferred way: passenger 5.x，consider others when need special requirement
-        <ul>
-          <li>passenger 整合度高，設定方便。</li>
-          <li>unicorn 在 passenger 5.x 版本出現前，是部署主力。如果有人力可以照顧 server，是不錯用。</li>
-          <li>puma 現在是 rails 5 預設的開發用 application server。在 concurrency 能力上比較好。</li>
-          <li>thin 則是如果你有用 event machine 的設計，會建議用的項目。</li>
-          <li>unicorn, puma, thin 都必須用 cluster + proxy 的方式運作，才能應付高 request 的狀況。</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>[MongoDB]
-    <ol>
-      <li><a href="https://gorails.com/guides/setting-up-rails-4-with-mongodb-and-mongoid">Setting Up Rails 4 with MongoDB and Mongoid</a></li>
-      <li><a href="http://railscasts.com/episodes/194-mongodb-and-mongomapper?view=asciicast">MongoDB and MongoMapper</a></li>
-      <li><a href="http://railscasts.com/episodes/238-mongoid-revised?view=asciicast">Mongoid</a></li>
-      <li><a href="http://www.railstips.org/blog/archives/2009/12/18/why-i-think-mongo-is-to-databases-what-rails-was-to-frameworks/">Why I think Mongo is to Databases what Rails was to Frameworks</a></li>
-    </ol>
+    <p>[ruby] <a href="http://sibevin.github.io/posts/2016-05-14-122743-tools-for-cleanup-rails-code">一些用來檢驗rails程式碼的工具</a></p>
   </li>
   <li>
-    <p>[log] <a href="https://medium.com/@poga/%E8%90%AC%E4%BA%8B%E8%90%AC%E7%89%A9%E7%9A%86%E6%98%AF-log-%E7%B3%BB%E7%B5%B1%E6%9E%B6%E6%A7%8B%E4%B9%9F%E4%BE%86%E9%BB%9E%E7%A7%91%E6%99%AE-caf3029359f8#.9nwgz568v">萬事萬物皆是 LOG — 系統架構也來點科普</a></p>
+    <p>[remote] <a href="http://www.slideshare.net/clonncd/remote-team-management-2016">remote team management</a></p>
   </li>
-  <li>[js] what’s this?
-    <ul>
-      <li>this 取決於function被呼叫的方式</li>
-      <li>function執行時,這個scope的owner</li>
-      <li>當function是某個事件的method, this指的就是上層物件</li>
-      <li>透過call()/apply()可以指定this是誰,強制指定某個物件作為該function的this</li>
-    </ul>
+  <li>
+    <p>[ruby] <a href="https://ruby-china.org/topics/24742">Rails 開發：那些年，我們一起踩過的坑</a></p>
+  </li>
+  <li>
+    <p>[ruby] <a href="https://speakerdeck.com/gchan/imagetragick-and-rails">ImageTragick and Rails</a></p>
+  </li>
+  <li>
+    <p>[ruby] <a href="https://ruby-china.org/topics/24472">Spree 源碼導讀</a></p>
+  </li>
+  <li>
+    <p>[ruby] <a href="https://ruby-china.org/topics/26866">Rails 源码分析之 eager_load! 篇</a></p>
+  </li>
+  <li>
+    <p>[ruby] <a href="https://ruby-china.org/topics/30052">Rails Boot Process --- Rails Conf 2016</a></p>
+  </li>
+  <li>
+    <p>[css] <a href="http://csscoke.com/2013/09/21/%E4%BD%BF%E7%94%A8css3-nth-childn-%E9%81%B8%E5%8F%96%E5%99%A8%E8%A9%B3%E8%A7%A3/">css3-nth-childn</a></p>
+  </li>
+  <li>
+    <p>[vim] <a href="https://ruby-china.org/topics/4478">Rails.vim 高效使用指南</a></p>
+  </li>
+  <li>
+    <p>[ruby] <a href="http://solnic.eu/2011/08/01/making-activerecord-models-thin.html">Making ActiveRecord Models Thin</a></p>
+    <ol>
+      <li>seperate models responsible to behavior and data</li>
+    </ol>
   </li>
 </ul>
 
@@ -231,7 +230,42 @@
 
 <ul>
   <li>
-    <p> <a href="http://shop.oreilly.com/product/0636920019664.do">Sinatra: Up and Running</a></p>
+    <p>[ruby] <a href="http://objectsonrails.com/">object on rails</a></p>
+
+    <ul>
+      <li>Exhibit Object Characteristics
+        <ol>
+          <li>Wraps a single model instance.</li>
+          <li>Is a true Decorator</li>
+          <li>Brings together a model and a context</li>
+          <li>Encapsulates decisions about how to render an object.</li>
+          <li>May modify the behavior of an object.</li>
+        </ol>
+      </li>
+      <li>Helper
+        <ol>
+          <li>They are a good place to put general rendering methods which aren’t tied to any particular
+model. For instance, we could write a helper for displaying HTML5-style</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="learn">Learn</h2>
+
+<ul>
+  <li>Project manage
+    <ul>
+      <li>完整計畫，要包含開發環境的資訊。
+要先確認每個人都是在同樣的基準點，沒有認知上的誤差。</li>
+      <li>工作目標, 工作項目, 時間預估</li>
+    </ul>
+  </li>
+  <li>Coding structure
+    <ul>
+      <li>所有的 service 都是透過 return false 和 .errors.full_messages 來處理錯誤， controller 都會用這樣的邏輯來處理</li>
+    </ul>
   </li>
 </ul>
 
@@ -244,13 +278,9 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2016/08/20/1/" data-toggle="tooltip" data-placement="top" title="3">&larr; Previous Post</a>
+                        <a href="/2016/08/27/1/" data-toggle="tooltip" data-placement="top" title="4">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2016/09/03/1/" data-toggle="tooltip" data-placement="top" title="5">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 
