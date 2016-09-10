@@ -1,0 +1,60 @@
+---
+layout:     post
+title:      "6"
+subtitle:   "weekly learning"
+date:       2016-09-10 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 9/3 ~ 9/10”
+
+## Use
+* <p>[gem] <a href="https://github.com/spree/deface">deface</a></p>
+  * Deface is a library that allows you to customize HTML (ERB, Haml and Slim) views in a Rails application without editing the underlying view.
+
+* <p>[gem] <a href="https://github.com/plataformatec/has_scope">has_scope</a></p>
+  * Has scope allows you to map incoming controller parameters to named scopes in your resources.
+
+## Read
+* <p>[ruby] <a href="http://markdaggett.com/blog/2011/12/01/transactions-in-rails/">transactions-in-rails</a></p>
+
+* <p>[article] <a href="http://www.jianshu.com/p/fdbaf8ced079">不明白大腦如何運作，自學是無效的</a></p>
+
+* <p>[ruby] <a href="http://pawelgoscicki.com/archives/2015/09/testing-database-transactions-explicitly-in-rspec/">Testing database transactions explicitly with RSpec</a></p>
+
+* <p>[ruby] <a href="http://schneems.com/post/22192005006/legacy-concerns-in-rails/">Legacy Concerns in Rails</a></p>
+
+* <p>[ruby] <a href="https://blog.codeship.com/good-module-bad-module/">Good Module, Bad Module</a></p>
+
+* <p>[DB] <a href="http://mp.weixin.qq.com/s?__biz=MzI4NTA1MDEwNg%3D%3D&mid=2650756483&idx=1&sn=da3a5e0b1d56f7bb2085dde763e7db24&scene=0&utm_content=buffer79106&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#wechat_redirect">MySQL5.7中InnoDB不可不知的新特性</a></p>
+
+* <p>[ruby] <a href="https://speakerdeck.com/shagemann/refactoring-towards-component-based-rails-architectures-at-railsconf">Component-based Rails Architectures</a></p>
+
+* <p>[nginx] <a href="https://imququ.com/post/nginx-http2-post-bug.html#toc-2">談談Nginx 的HTTP/2 POST Bug</a></p>
+
+## Book
+
+* <p>[ruby] <a href="http://modular-rails.samurails.com/">modular Rails</a></p>
+  * Engines are generated with rails plugin new core –mountable
+  * We need an empty Ruby on Rails application to hold our engines as gems
+  * When using gems inside an engine, they need to be required when the engine is
+  loaded
+  * Some gems require special attention when we integrate them inside engines instead
+  of regular Ruby on Rails applications
+  * You can check if an engine is present by checking if the module is defined with defined?
+
+## Learn
+
+* migration in the engine plugin, how are we going to migrate it from the parent app?
+
+```
+initializer :append_migrations do |app|
+  unless app.root.to_s.match(root.to_s)
+    config.paths['db/migrate'].expanded.each do |p|
+      app.config.paths['db/migrate'] << p
+    end
+  end
+end
+```
