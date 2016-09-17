@@ -1,0 +1,47 @@
+---
+layout:     post
+title:      "7"
+subtitle:   "weekly learning"
+date:       2016-09-17 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 9/10 ~ 9/17”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/testdouble/suture">suture</a></p>
+  * Surgical Refactors
+
+* <p>[gem] <a href="https://github.com/quilljs/quill">quill</a></p>
+  * Quill Rich Text Editor
+
+* <p>[gem] <a href="https://github.com/randy-girard/app_perf">AppPerf</a></p>
+  * Application Performance Monitoring
+
+## Read
+
+* <p>[ruby] <a href="http://railscasts.com/episodes/72-adding-an-environment-revised?view=asciicast">Rails Adding an Environment</a></p>
+
+* <p>[css] <a href="http://csscoke.com/2015/07/31/nth-child_rwd_album/">超簡單格相簿效果教學，使用 CSS3 nth-child只要五步驟！</a></p>
+
+* <p>[ruby] <a href="https://speakerdeck.com/searls/surgical-refactors">Surgical Refactors</a></p>
+
+* <p>[ruby] <a href="https://speakerdeck.com/tanm/learn-programming-essence-from-ruby-patches">Learn Programming Essence from Ruby patches</a></p>
+
+* <p>[ruby] <a href="https://speakerdeck.com/v0dro/data-analysis-in-ruby-with-daru">Data Analysis in RUby with daru</a></p>
+
+* <p>[ruby] <a href="https://speakerdeck.com/k0kubun/scalable-job-queue-system-built-with-docker">Scalable Job Queue System Built with Docker</a></p>
+
+* <p>[ruby] <a href="https://tech.lendinghome.com/being-lazy-with-activerecord-77c470917160#.bjoh1h7bh">Being Lazy with ActiveRecord</a></p>
+  * Enumerator::Lazy
+
+* <p>[SOA] <a href="http://www.ruanyifeng.com/blog/2016/09/how_amazon_take_soa.html">亞馬遜如何變成SOA</a></p>
+
+* <p>[SOA] <a href="http://www.slideshare.net/hsbt/how-dsl-works-on-ruby">How DSL works on Ruby</a></p>
+
+## Book
+
+* <p>[ruby] <a href="http://martinfowler.com/books/refactoringRubyEd.html">Refactoring Ruby Edition</a></p>
