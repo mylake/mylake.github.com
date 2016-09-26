@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>3 - mylake</title>
+    <title>8 - mylake</title>
 
-    <link rel="canonical" href="/2016/08/20/1/">
+    <link rel="canonical" href="/2016/09/24/1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -139,12 +139,12 @@
                         <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
                         
                     </div>
-                    <h1>3</h1>
+                    <h1>8</h1>
                     
                     
                     <h2 class="subheading">weekly learning</h2>
                     
-                    <span class="meta">Posted by ilake on August 20, 2016</span>
+                    <span class="meta">Posted by ilake on September 24, 2016</span>
                 </div>
             </div>
         </div>
@@ -163,32 +163,24 @@
                 post-container">
 
 				<blockquote>
-  <p>“strive 8/13 ~ 8/20”</p>
+  <p>“strive 9/17 ~ 9/24”</p>
 </blockquote>
 
 <h2 id="use">Use</h2>
 <ul>
   <li>
-    <p>[NPM] <a href="https://github.com/mulesoft/api-designer">API Designer</a></p>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/rails/jbuilder">jbuilder</a></p>
+    <p>[gem] <a href="https://github.com/resque/resque-scheduler">resque-scheduler</a></p>
   </li>
 </ul>
 
 <h2 id="read">Read</h2>
+
 <ul>
   <li>
-    <p>[AWS] <a href="http://blog.yslin.tw/2014/02/aws-vpc.html">vpc aws</a></p>
-    <ol>
-      <li><a href="https://blog.clifflu.net/blog/2013/08/%E8%BF%91%E6%B3%81-%E4%B8%80%E9%BB%9E-aws-vpc-%E5%B0%8F%E5%BF%83%E5%BE%97/">vpc aws2</a></li>
-    </ol>
+    <p>[api] <a href="https://marcelo-cure.blogspot.tw/2016/09/rest-anti-patterns.html?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website">REST anti-patterns</a></p>
   </li>
   <li>
-    <p>[API] <a href="http://raml.org/developers/raml-100-tutorial#step-introduction">raml introduction</a></p>
-  </li>
-  <li>
-    <p>[code] <a href="https://buzzorange.com/techorange/2016/08/16/airbnb-code-review/">Airbnb 資深工程師分享：怎樣才是正確、有效的 code review</a></p>
+    <p>[ruby] <a href="https://speakerdeck.com/a_matsuda/why-still-ruby">Why (Still) Ruby</a></p>
   </li>
 </ul>
 
@@ -196,300 +188,121 @@
 
 <ul>
   <li>
-    <p> <a href="http://www.mohitsharma.net/sites/default/files/Rails.AntiPatterns.pdf">Rails.AntiPatterns</a></p>
+    <p>[engineer] <a href="http://www.theeffectiveengineer.com/">THE EFFECTIVE ENGINEER</a></p>
 
     <ul>
-      <li>Model
+      <li>
+        <p>Part 1: Adopt the Right Mindsets</p>
+
         <ul>
-          <li>AntiPattern: Voyeuristic Models
+          <li>chapter1: Focus on High-Leverage Activities
             <ul>
-              <li>follow the Law of Demeter
-                <ul>
-                  <li>In Rails, this could be summed up as “use only one dot.” =&gt; class-level delegate method, This method provides a shortcut fondicating that one or more methods that will be created on your object are actually provided by a related objectr</li>
-                </ul>
-              </li>
-              <li>Push All find() calls into finder on the model
-                <ul>
-                  <li>use scoped</li>
-                </ul>
-              </li>
-              <li>keep finders on their own model</li>
+              <li>要學會衡量什麼各個事情的價值</li>
+              <li>做最有價值的事情</li>
             </ul>
           </li>
-          <li>AntiPattern: Fat Models
+          <li>chapter2: Optimize for learning
             <ul>
-              <li>delegate responsibility to new classes
-                <ul>
-                  <li>composed_of</li>
-                </ul>
-              </li>
-              <li>make use of modules</li>
-              <li>reduce the size of large transaction blocks
-                <ul>
-                  <li>callback, nested attributes</li>
-                </ul>
-              </li>
+              <li>做你能掌控的事情</li>
+              <li>加快你的學習速度</li>
+              <li>找到好的環境能讓你成長更快的</li>
+              <li>多多善用工作上的資源 來提升你的技術, 跟團隊最強的工程師學西</li>
+              <li>再工作之外學習, 社群通常都是對此技術很有興趣 且以此為樂的人</li>
+              <li>永遠都在學習</li>
+              <li>學習新語言 新框架</li>
+              <li>投資再高需求的語言上</li>
+              <li>讀書</li>
+              <li>參加研討會 報告</li>
+              <li>opensource</li>
+              <li>讀好的blog</li>
+              <li>write to teach</li>
+              <li>side project</li>
+              <li>追求你愛的</li>
             </ul>
           </li>
-          <li>AntiPattern: spaghetti SQL
+          <li>chapter3 Prioritize Regularly
             <ul>
-              <li>use your ActiveRecord associations and finders effectively
-                <ul>
-                  <li>as much as possible using sql on own model, others use association to handle it</li>
-                </ul>
-              </li>
-              <li>leanr and love the scope method</li>
-              <li>use a full-text search engine</li>
-            </ul>
-          </li>
-          <li>AntiPattern: duplicate code duplication
-            <ul>
-              <li>extract into module
-                <ul>
-                  <li>template pattarn =&gt; use module, and some must implement method =&gt; define and execute a class that is missing implementations of template methods</li>
-                </ul>
-              </li>
-              <li>write a plugin</li>
-              <li>metaprograming</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>Domain Modeling
-        <ul>
-          <li>AntiPattern: authorization astronaut
-            <ul>
-              <li>simplify with simple flags</li>
-            </ul>
-          </li>
-          <li>AntiPattern: the million-model march
-            <ul>
-              <li>denormalize into text fields
-                <ul>
-                  <li>when model have the column like state, and need have some method to check state value =&gt; use meta-programing to define_method “#{state}?”</li>
-                </ul>
-              </li>
-              <li>make use of rails serialization
-                <ul>
-                  <li>save in hash</li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>Views
-        <ul>
-          <li>AntiPattern: PHPitis
-            <ul>
-              <li>learn about the view helpers that come with rails</li>
-              <li>add useful accessors to your models</li>
-              <li>extract into custom helpers</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Markup Mayhem
-            <ul>
-              <li>make use of the rails helpers</li>
-              <li>use haml</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>Controllers
-        <ul>
-          <li>AntiPattern: Homemade Keys
-            <ul>
-              <li>use clearance</li>
-              <li>use authlogic</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Fat Controller
-            <ul>
-              <li>use active record callbacks and setters
-                <ul>
-                  <li>default values =&gt; on migration</li>
-                  <li>effective callback use</li>
-                  <li>identification of unnecessary code</li>
-                </ul>
-              </li>
-              <li>move to a presenter</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Bloated Sessions
-            <ul>
-              <li>store references instead of instances</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Monolithic Controllers
-            <ul>
-              <li>embrace REST</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Controller of Many Faces
-            <ul>
-              <li>refactor non-restful actions into a separate controller</li>
-            </ul>
-          </li>
-          <li>AntiPattern: A Lost Child Controller
-            <ul>
-              <li>make use of nested resources</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Rat’s Nest Resources
-            <ul>
-              <li>use separate controllers for each nesting</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Evil Twin Controllers
-            <ul>
-              <li>use rails 3 responders</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>Services
-        <ul>
-          <li>AntiPattern: Fire and Forget
-            <ul>
-              <li>konw what exceptions to look out for</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Sluggish Services
-            <ul>
-              <li>move the task to the background</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Pitiful Page Parsing
-            <ul>
-              <li>use a gem =&gt; nokogiri</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Successful Failure
-            <ul>
-              <li>obey the http codes</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Kraken Code Base
-            <ul>
-              <li>divide into confederated applications</li>
+              <li>寫下todo list</li>
+              <li>做todo list中 最有價值的事情</li>
+              <li>做重要 但不急的事情</li>
+              <li>減少context switches</li>
+              <li>做一個if的plan, ex: 如果有突然二十分鐘 我會做什麼事情</li>
+              <li>養成排優先順序的習慣</li>
             </ul>
           </li>
         </ul>
       </li>
       <li>
-        <p>Using Third-Party Code</p>
+        <p>Part 2: Execute, Execute, Execute</p>
 
         <ul>
-          <li>AntiPattern: Recutting the Gem
+          <li>chapter4:  Invest in Iteration Speed
             <ul>
-              <li>look for a gem first</li>
+              <li>轉換越快 學的越多</li>
+              <li>投資再工具上 ex 開發環境 工具</li>
+              <li>最佳化的你的debug 流程</li>
+              <li>讓你的開發環境最佳化</li>
+              <li>整體性的觀點來看你的開發流程 有沒有可以改善的地方 包含團隊合作</li>
             </ul>
           </li>
-          <li>AntiPattern: Amateur Gemologist
+          <li>chapter5: 「Measure What You Want to Improve」
             <ul>
-              <li>follow TAM (tests, activity, maturity)</li>
+              <li>量測你的進步</li>
+              <li>找出會讓你最有效率的衡量模式</li>
+              <li>找出你系統的衡量方式 怎樣是好</li>
+              <li>知道你的數字</li>
+              <li>資料的正確性很重要</li>
             </ul>
           </li>
-          <li>AntiPattern: Vendor Junk Drawer
+          <li>chapter6: 「Validate Your Ideas Early and Often」
             <ul>
-              <li>prune irrelevant or unused gems</li>
+              <li>越快的驗證你的想法 會減少浪費資源</li>
+              <li>用小驗證的方式來取代大更新, 常常驗證 常常更新</li>
+              <li>使用A/B testing來驗證你的產品</li>
+              <li>當做自己的專案時 也是要想辦法得到別人常常的建議</li>
+              <li>一直要有回應來驗證你的想法</li>
             </ul>
           </li>
-          <li>AntiPattern: Miscreant Modification
+          <li>chapter7: 「Improve Your Project Estimation Skills」
             <ul>
-              <li>consider vendored code sacrosanct</li>
+              <li>估時程時 將每個專案切成小工作項目 再結合起來計算</li>
+              <li>要留buffer再不確定的事情上面</li>
+              <li>建立可以被測量的里程碑</li>
+              <li>最優先做風險最高的事情</li>
+              <li>知道加班的限制性</li>
             </ul>
           </li>
         </ul>
       </li>
       <li>
-        <p>Testing</p>
+        <p>Part 3: Build Long-Term Value</p>
 
         <ul>
-          <li>AntiPattern: Fixture Blues
+          <li>chapter 8: 「Balance Quality with Pragmatism」
             <ul>
-              <li>make use of factories</li>
-              <li>refactor into contexts</li>
+              <li>code review</li>
+              <li>投資時間在建立好的軟體抽象化 來簡化複雜的問題</li>
+              <li>自動化測試</li>
+              <li>管好你的技術債</li>
             </ul>
           </li>
-          <li>AntiPattern: Lost in Isolation
+          <li>chapter 9: Minimize Operational Burden
             <ul>
-              <li>watch your integration points</li>
+              <li>先做簡單的事情, 能夠重覆使用的套件 就使用 專注再自己業務的部份</li>
+              <li>錯誤要及早知道, 然後直接再log指出錯誤的地方</li>
+              <li>如果當錯誤的時候 要自動化去處理掉, 多想幾次, 是不是會造成之後永遠不知道為什麼會錯</li>
+              <li>多使用idempotence and reentrancy, 會讓你之後再retry錯誤的時候更單純</li>
+              <li>計畫模擬錯誤的情況</li>
             </ul>
           </li>
-          <li>AntiPattern: Mock Suffocation
+          <li>chapter 10 Invest in Your Team’s Growth
             <ul>
-              <li>tell, don’t ask</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Untested Rake
-            <ul>
-              <li>extract to a class method</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Unprotexted Jewels
-            <ul>
-              <li>write normal unit tests without rails</li>
-              <li>load only the parts of rails you need</li>
-              <li>brake out the atom bomb</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>Scaling and Deploying
-        <ul>
-          <li>AntiPattern: Scaling Roadblocks
-            <ul>
-              <li>build to scale from the start</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>Databases
-        <ul>
-          <li>AntiPattern: Disappearing Assets
-            <ul>
-              <li>make use of the system directory</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Sluggish SQL
-            <ul>
-              <li>add indexes</li>
-              <li>reassess your domain model</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Painful Performance
-            <ul>
-              <li>don’t do inruby what you can do in sql</li>
-              <li>move processing into background jobs</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Messy Migrations
-            <ul>
-              <li>never modify the up method on a committed migration</li>
-              <li>never use external code in a migration</li>
-              <li>always provide a down method in migrations</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Wet Validations
-            <ul>
-              <li>eschew constraints in the database</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>Building for Failure</p>
-
-        <ul>
-          <li>AntiPattern: Continual Catastrophe
-            <ul>
-              <li>fail fast</li>
-            </ul>
-          </li>
-          <li>AntiPattern: Unaudible Failures
-            <ul>
-              <li>never fail quietly</li>
+              <li>讓你身邊的人也更成功, 不同階級的工程師 會讓身邊更多的人也更進步</li>
+              <li>找到優秀的人 是最高priority</li>
+              <li>投資時間在新人剛進來的時候 mentoring制度</li>
+              <li>建立大家共有的程式 大家都可以維護互相的程式</li>
+              <li>讓大家更透明化, 討論目前工作的難處 好處 建立大家的知識庫</li>
+              <li>建立好的工程師文化</li>
             </ul>
           </li>
         </ul>
@@ -507,13 +320,9 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2016/08/13/1/" data-toggle="tooltip" data-placement="top" title="2">&larr; Previous Post</a>
+                        <a href="/2016/09/17/1/" data-toggle="tooltip" data-placement="top" title="7">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2016/08/27/1/" data-toggle="tooltip" data-placement="top" title="4">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 

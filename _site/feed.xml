@@ -5,9 +5,169 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 17 Sep 2016 23:26:17 +0800</pubDate>
-    <lastBuildDate>Sat, 17 Sep 2016 23:26:17 +0800</lastBuildDate>
+    <pubDate>Mon, 26 Sep 2016 18:38:17 +0800</pubDate>
+    <lastBuildDate>Mon, 26 Sep 2016 18:38:17 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>8</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 9/17 ~ 9/24”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/resque/resque-scheduler&quot;&gt;resque-scheduler&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[api] &lt;a href=&quot;https://marcelo-cure.blogspot.tw/2016/09/rest-anti-patterns.html?utm_source=wanqu.co&amp;amp;utm_campaign=Wanqu+Daily&amp;amp;utm_medium=website&quot;&gt;REST anti-patterns&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;https://speakerdeck.com/a_matsuda/why-still-ruby&quot;&gt;Why (Still) Ruby&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[engineer] &lt;a href=&quot;http://www.theeffectiveengineer.com/&quot;&gt;THE EFFECTIVE ENGINEER&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Part 1: Adopt the Right Mindsets&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;chapter1: Focus on High-Leverage Activities
+            &lt;ul&gt;
+              &lt;li&gt;要學會衡量什麼各個事情的價值&lt;/li&gt;
+              &lt;li&gt;做最有價值的事情&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;chapter2: Optimize for learning
+            &lt;ul&gt;
+              &lt;li&gt;做你能掌控的事情&lt;/li&gt;
+              &lt;li&gt;加快你的學習速度&lt;/li&gt;
+              &lt;li&gt;找到好的環境能讓你成長更快的&lt;/li&gt;
+              &lt;li&gt;多多善用工作上的資源 來提升你的技術, 跟團隊最強的工程師學西&lt;/li&gt;
+              &lt;li&gt;再工作之外學習, 社群通常都是對此技術很有興趣 且以此為樂的人&lt;/li&gt;
+              &lt;li&gt;永遠都在學習&lt;/li&gt;
+              &lt;li&gt;學習新語言 新框架&lt;/li&gt;
+              &lt;li&gt;投資再高需求的語言上&lt;/li&gt;
+              &lt;li&gt;讀書&lt;/li&gt;
+              &lt;li&gt;參加研討會 報告&lt;/li&gt;
+              &lt;li&gt;opensource&lt;/li&gt;
+              &lt;li&gt;讀好的blog&lt;/li&gt;
+              &lt;li&gt;write to teach&lt;/li&gt;
+              &lt;li&gt;side project&lt;/li&gt;
+              &lt;li&gt;追求你愛的&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;chapter3 Prioritize Regularly
+            &lt;ul&gt;
+              &lt;li&gt;寫下todo list&lt;/li&gt;
+              &lt;li&gt;做todo list中 最有價值的事情&lt;/li&gt;
+              &lt;li&gt;做重要 但不急的事情&lt;/li&gt;
+              &lt;li&gt;減少context switches&lt;/li&gt;
+              &lt;li&gt;做一個if的plan, ex: 如果有突然二十分鐘 我會做什麼事情&lt;/li&gt;
+              &lt;li&gt;養成排優先順序的習慣&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Part 2: Execute, Execute, Execute&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;chapter4:  Invest in Iteration Speed
+            &lt;ul&gt;
+              &lt;li&gt;轉換越快 學的越多&lt;/li&gt;
+              &lt;li&gt;投資再工具上 ex 開發環境 工具&lt;/li&gt;
+              &lt;li&gt;最佳化的你的debug 流程&lt;/li&gt;
+              &lt;li&gt;讓你的開發環境最佳化&lt;/li&gt;
+              &lt;li&gt;整體性的觀點來看你的開發流程 有沒有可以改善的地方 包含團隊合作&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;chapter5: 「Measure What You Want to Improve」
+            &lt;ul&gt;
+              &lt;li&gt;量測你的進步&lt;/li&gt;
+              &lt;li&gt;找出會讓你最有效率的衡量模式&lt;/li&gt;
+              &lt;li&gt;找出你系統的衡量方式 怎樣是好&lt;/li&gt;
+              &lt;li&gt;知道你的數字&lt;/li&gt;
+              &lt;li&gt;資料的正確性很重要&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;chapter6: 「Validate Your Ideas Early and Often」
+            &lt;ul&gt;
+              &lt;li&gt;越快的驗證你的想法 會減少浪費資源&lt;/li&gt;
+              &lt;li&gt;用小驗證的方式來取代大更新, 常常驗證 常常更新&lt;/li&gt;
+              &lt;li&gt;使用A/B testing來驗證你的產品&lt;/li&gt;
+              &lt;li&gt;當做自己的專案時 也是要想辦法得到別人常常的建議&lt;/li&gt;
+              &lt;li&gt;一直要有回應來驗證你的想法&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;chapter7: 「Improve Your Project Estimation Skills」
+            &lt;ul&gt;
+              &lt;li&gt;估時程時 將每個專案切成小工作項目 再結合起來計算&lt;/li&gt;
+              &lt;li&gt;要留buffer再不確定的事情上面&lt;/li&gt;
+              &lt;li&gt;建立可以被測量的里程碑&lt;/li&gt;
+              &lt;li&gt;最優先做風險最高的事情&lt;/li&gt;
+              &lt;li&gt;知道加班的限制性&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Part 3: Build Long-Term Value&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;chapter 8: 「Balance Quality with Pragmatism」
+            &lt;ul&gt;
+              &lt;li&gt;code review&lt;/li&gt;
+              &lt;li&gt;投資時間在建立好的軟體抽象化 來簡化複雜的問題&lt;/li&gt;
+              &lt;li&gt;自動化測試&lt;/li&gt;
+              &lt;li&gt;管好你的技術債&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;chapter 9: Minimize Operational Burden
+            &lt;ul&gt;
+              &lt;li&gt;先做簡單的事情, 能夠重覆使用的套件 就使用 專注再自己業務的部份&lt;/li&gt;
+              &lt;li&gt;錯誤要及早知道, 然後直接再log指出錯誤的地方&lt;/li&gt;
+              &lt;li&gt;如果當錯誤的時候 要自動化去處理掉, 多想幾次, 是不是會造成之後永遠不知道為什麼會錯&lt;/li&gt;
+              &lt;li&gt;多使用idempotence and reentrancy, 會讓你之後再retry錯誤的時候更單純&lt;/li&gt;
+              &lt;li&gt;計畫模擬錯誤的情況&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;chapter 10 Invest in Your Team’s Growth
+            &lt;ul&gt;
+              &lt;li&gt;讓你身邊的人也更成功, 不同階級的工程師 會讓身邊更多的人也更進步&lt;/li&gt;
+              &lt;li&gt;找到優秀的人 是最高priority&lt;/li&gt;
+              &lt;li&gt;投資時間在新人剛進來的時候 mentoring制度&lt;/li&gt;
+              &lt;li&gt;建立大家共有的程式 大家都可以維護互相的程式&lt;/li&gt;
+              &lt;li&gt;讓大家更透明化, 討論目前工作的難處 好處 建立大家的知識庫&lt;/li&gt;
+              &lt;li&gt;建立好的工程師文化&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 24 Sep 2016 08:00:00 +0800</pubDate>
+        <link>/2016/09/24/1/</link>
+        <guid isPermaLink="true">/2016/09/24/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>7</title>
@@ -69,7 +229,7 @@
     &lt;p&gt;[SOA] &lt;a href=&quot;http://www.ruanyifeng.com/blog/2016/09/how_amazon_take_soa.html&quot;&gt;亞馬遜如何變成SOA&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;[SOA] &lt;a href=&quot;How DSL works on Ruby&quot;&gt;How DSL works on Ruby&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;[SOA] &lt;a href=&quot;http://www.slideshare.net/hsbt/how-dsl-works-on-ruby&quot;&gt;How DSL works on Ruby&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
