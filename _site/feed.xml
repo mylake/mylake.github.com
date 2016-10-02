@@ -5,9 +5,82 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 26 Sep 2016 18:38:17 +0800</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 18:38:17 +0800</lastBuildDate>
+    <pubDate>Sun, 02 Oct 2016 23:39:54 +0800</pubDate>
+    <lastBuildDate>Sun, 02 Oct 2016 23:39:54 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>9</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 9/24 ~ 10/1”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/stripe/stripe-ruby&quot;&gt;stripe-ruby&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/jwt/ruby-jwt&quot;&gt;ruby-jwt&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;http://olivierlacan.com/posts/concurrency-in-ruby-3-with-guilds/&quot;&gt;Concurrency in Ruby 3 with Guilds&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[JWT] &lt;a href=&quot;http://blog.leapoahead.com/2015/09/07/user-authentication-with-jwt/&quot;&gt;八幅漫畫理解使用JSON Web Token設計單點登錄系統&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[JWT] &lt;a href=&quot;https://www.sitepoint.com/introduction-to-using-jwt-in-rails/&quot;&gt;An Introduction to Using JWT Authentication in Rails&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[open source] &lt;a href=&quot;http://www.erikaheidi.com/blog/a-beginners-guide-to-open-source-making-your-first-contribution&quot;&gt;A Beginner's Guide to Open Source&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[open source] &lt;a href=&quot;http://www.nearform.com/nodecrunch/first-time-with-open-source/&quot;&gt;first-time-with-open-source&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;http://martinfowler.com/books/refactoringRubyEd.html&quot;&gt;Refactoring Ruby Edition&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;關於sidekiq有兩個process 但重起或重deploy時 只會起來一個process的問題, 我修改了monit
+用monit不同的pid去解決掉這個問題
+production sidekiq server中的monit設定檔看到 /etc/monit/monitrc
+假如偵測pid不見了就會自動重起&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;目前發現 nginx 造成 header 方面的問題:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;header 中有 underline 會被 nginx 視為 invalid ， invalid 會被過濾掉，所以 ILAKE_CS -&amp;gt; ILAKE-CS&lt;/li&gt;
+      &lt;li&gt;header 中沒有 X- 開頭的也會被視為 invalid，所以 ILAKE-CS -&amp;gt; X-ILAKE-CS&lt;/li&gt;
+      &lt;li&gt;進入 rails 後所有的 - 會換成 _ ，然後加上 HTTP_ 當 prefix ，所以在 rails 裡面要用 “HTTP_X_ILAKE_CS” 來取值&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 01 Oct 2016 00:00:00 +0800</pubDate>
+        <link>/2016/10/01/1/</link>
+        <guid isPermaLink="true">/2016/10/01/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>8</title>

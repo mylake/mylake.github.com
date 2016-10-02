@@ -1,0 +1,46 @@
+---
+layout:     post
+title:      "9"
+subtitle:   "weekly learning"
+date:       2016-09-31 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 9/24 ~ 10/1”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/stripe/stripe-ruby">stripe-ruby</a></p>
+
+* <p>[gem] <a href="https://github.com/jwt/ruby-jwt">ruby-jwt</a></p>
+
+## Read
+
+* <p>[ruby] <a href="http://olivierlacan.com/posts/concurrency-in-ruby-3-with-guilds/">Concurrency in Ruby 3 with Guilds</a></p>
+
+* <p>[JWT] <a href="http://blog.leapoahead.com/2015/09/07/user-authentication-with-jwt/">八幅漫畫理解使用JSON Web Token設計單點登錄系統</a></p>
+
+* <p>[JWT] <a href="https://www.sitepoint.com/introduction-to-using-jwt-in-rails/">An Introduction to Using JWT Authentication in Rails</a></p>
+
+* <p>[open source] <a href="http://www.erikaheidi.com/blog/a-beginners-guide-to-open-source-making-your-first-contribution">A Beginner's Guide to Open Source</a></p>
+
+* <p>[open source] <a href="http://www.nearform.com/nodecrunch/first-time-with-open-source/">first-time-with-open-source</a></p>
+
+
+## Book
+
+* <p>[ruby] <a href="http://martinfowler.com/books/refactoringRubyEd.html">Refactoring Ruby Edition</a></p>
+
+## Learn
+
+* 關於sidekiq有兩個process 但重起或重deploy時 只會起來一個process的問題, 我修改了monit
+用monit不同的pid去解決掉這個問題
+production sidekiq server中的monit設定檔看到 /etc/monit/monitrc
+假如偵測pid不見了就會自動重起
+
+* 目前發現 nginx 造成 header 方面的問題:
+  * header 中有 underline 會被 nginx 視為 invalid ， invalid 會被過濾掉，所以 ILAKE_CS -> ILAKE-CS
+  * header 中沒有 X- 開頭的也會被視為 invalid，所以 ILAKE-CS -> X-ILAKE-CS
+  * 進入 rails 後所有的 - 會換成 _ ，然後加上 HTTP_ 當 prefix ，所以在 rails 裡面要用 “HTTP_X_ILAKE_CS” 來取值

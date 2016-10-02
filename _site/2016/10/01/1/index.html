@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>6 - mylake</title>
+    <title>9 - mylake</title>
 
-    <link rel="canonical" href="/2016/09/10/1/">
+    <link rel="canonical" href="/2016/10/01/1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -139,12 +139,12 @@
                         <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
                         
                     </div>
-                    <h1>6</h1>
+                    <h1>9</h1>
                     
                     
                     <h2 class="subheading">weekly learning</h2>
                     
-                    <span class="meta">Posted by ilake on September 10, 2016</span>
+                    <span class="meta">Posted by ilake on October 1, 2016</span>
                 </div>
             </div>
         </div>
@@ -163,50 +163,37 @@
                 post-container">
 
 				<blockquote>
-  <p>“strive 9/3 ~ 9/10”</p>
+  <p>“strive 9/24 ~ 10/1”</p>
 </blockquote>
 
 <h2 id="use">Use</h2>
+
 <ul>
   <li>
-    <p>[gem] <a href="https://github.com/spree/deface">deface</a></p>
-    <ul>
-      <li>Deface is a library that allows you to customize HTML (ERB, Haml and Slim) views in a Rails application without editing the underlying view.</li>
-    </ul>
+    <p>[gem] <a href="https://github.com/stripe/stripe-ruby">stripe-ruby</a></p>
   </li>
   <li>
-    <p>[gem] <a href="https://github.com/plataformatec/has_scope">has_scope</a></p>
-    <ul>
-      <li>Has scope allows you to map incoming controller parameters to named scopes in your resources.</li>
-    </ul>
+    <p>[gem] <a href="https://github.com/jwt/ruby-jwt">ruby-jwt</a></p>
   </li>
 </ul>
 
 <h2 id="read">Read</h2>
+
 <ul>
   <li>
-    <p>[ruby] <a href="http://markdaggett.com/blog/2011/12/01/transactions-in-rails/">transactions-in-rails</a></p>
+    <p>[ruby] <a href="http://olivierlacan.com/posts/concurrency-in-ruby-3-with-guilds/">Concurrency in Ruby 3 with Guilds</a></p>
   </li>
   <li>
-    <p>[article] <a href="http://www.jianshu.com/p/fdbaf8ced079">不明白大腦如何運作，自學是無效的</a></p>
+    <p>[JWT] <a href="http://blog.leapoahead.com/2015/09/07/user-authentication-with-jwt/">八幅漫畫理解使用JSON Web Token設計單點登錄系統</a></p>
   </li>
   <li>
-    <p>[ruby] <a href="http://pawelgoscicki.com/archives/2015/09/testing-database-transactions-explicitly-in-rspec/">Testing database transactions explicitly with RSpec</a></p>
+    <p>[JWT] <a href="https://www.sitepoint.com/introduction-to-using-jwt-in-rails/">An Introduction to Using JWT Authentication in Rails</a></p>
   </li>
   <li>
-    <p>[ruby] <a href="http://schneems.com/post/22192005006/legacy-concerns-in-rails/">Legacy Concerns in Rails</a></p>
+    <p>[open source] <a href="http://www.erikaheidi.com/blog/a-beginners-guide-to-open-source-making-your-first-contribution">A Beginner's Guide to Open Source</a></p>
   </li>
   <li>
-    <p>[ruby] <a href="https://blog.codeship.com/good-module-bad-module/">Good Module, Bad Module</a></p>
-  </li>
-  <li>
-    <p>[DB] <a href="http://mp.weixin.qq.com/s?__biz=MzI4NTA1MDEwNg%3D%3D&amp;mid=2650756483&amp;idx=1&amp;sn=da3a5e0b1d56f7bb2085dde763e7db24&amp;scene=0&amp;utm_content=buffer79106&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer#wechat_redirect">MySQL5.7中InnoDB不可不知的新特性</a></p>
-  </li>
-  <li>
-    <p>[ruby] <a href="https://speakerdeck.com/shagemann/refactoring-towards-component-based-rails-architectures-at-railsconf">Component-based Rails Architectures</a></p>
-  </li>
-  <li>
-    <p>[nginx] <a href="https://imququ.com/post/nginx-http2-post-bug.html#toc-2">談談Nginx 的HTTP/2 POST Bug</a></p>
+    <p>[open source] <a href="http://www.nearform.com/nodecrunch/first-time-with-open-source/">first-time-with-open-source</a></p>
   </li>
 </ul>
 
@@ -214,34 +201,28 @@
 
 <ul>
   <li>
-    <p>[ruby] <a href="http://modular-rails.samurails.com/">modular Rails</a></p>
-    <ul>
-      <li>Engines are generated with rails plugin new core –mountable</li>
-      <li>We need an empty Ruby on Rails application to hold our engines as gems</li>
-      <li>When using gems inside an engine, they need to be required when the engine is
-loaded</li>
-      <li>Some gems require special attention when we integrate them inside engines instead
-of regular Ruby on Rails applications</li>
-      <li>You can check if an engine is present by checking if the module is defined with defined?</li>
-    </ul>
+    <p>[ruby] <a href="http://martinfowler.com/books/refactoringRubyEd.html">Refactoring Ruby Edition</a></p>
   </li>
 </ul>
 
 <h2 id="learn">Learn</h2>
 
 <ul>
-  <li>migration in the engine plugin, how are we going to migrate it from the parent app?</li>
+  <li>
+    <p>關於sidekiq有兩個process 但重起或重deploy時 只會起來一個process的問題, 我修改了monit
+用monit不同的pid去解決掉這個問題
+production sidekiq server中的monit設定檔看到 /etc/monit/monitrc
+假如偵測pid不見了就會自動重起</p>
+  </li>
+  <li>
+    <p>目前發現 nginx 造成 header 方面的問題:</p>
+    <ul>
+      <li>header 中有 underline 會被 nginx 視為 invalid ， invalid 會被過濾掉，所以 ILAKE_CS -&gt; ILAKE-CS</li>
+      <li>header 中沒有 X- 開頭的也會被視為 invalid，所以 ILAKE-CS -&gt; X-ILAKE-CS</li>
+      <li>進入 rails 後所有的 - 會換成 _ ，然後加上 HTTP_ 當 prefix ，所以在 rails 裡面要用 “HTTP_X_ILAKE_CS” 來取值</li>
+    </ul>
+  </li>
 </ul>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>initializer :append_migrations do |app|
-  unless app.root.to_s.match(root.to_s)
-    config.paths['db/migrate'].expanded.each do |p|
-      app.config.paths['db/migrate'] &lt;&lt; p
-    end
-  end
-end
-</code></pre>
-</div>
 
 
                 <hr>
@@ -252,13 +233,9 @@ end
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2016/09/03/1/" data-toggle="tooltip" data-placement="top" title="5">&larr; Previous Post</a>
+                        <a href="/2016/09/24/1/" data-toggle="tooltip" data-placement="top" title="8">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2016/09/17/1/" data-toggle="tooltip" data-placement="top" title="7">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 
