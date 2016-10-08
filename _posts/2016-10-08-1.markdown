@@ -1,0 +1,71 @@
+---
+layout:     post
+title:      "10"
+subtitle:   "weekly learning"
+date:       2016-10-08 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 10/1 ~ 10/8”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/aws/aws-sdk-ruby">aws-sdk-ruby</a></p>
+
+* <p>[gem] <a href="https://github.com/fnando/browser">browser</a></p>
+  * Do some browser detection with Ruby. Includes ActionController integration.
+
+## Read
+
+* <p>[web] <a href="http://2014.jsconf.cn/slides/herman-taobaoweb/index.html#/">掏寶前後端分離實踐</a></p>
+
+* <p>[web] <a href="http://blog.tryneighborly.com/amazon-sns-for-apns-on-rails/">How we integrated Amazon SNS with Rails for Apple Push Notifications</a></p>
+
+* <p>[design pattern] <a href="http://sibevin.github.io/posts/2016-09-26-195847-command-pattern">Command Pattern sample</a></p>
+
+* <p>[frontend] <a href="https://www.rapospectre.com/blog/web-page-loading-optimize-guide">400%飛躍：Web 頁面加載速度優化實戰</a></p>
+
+* <p>[rails] <a href="https://gist.github.com/dhh/2492118">routes refactor</a></p>
+
+* <p>[architect] <a href="http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=2659598234&idx=1&sn=f36c03f8702add6ef5bcfbc9e65e27fe&scene=0#wechat_redirect">日消息量突破50億，談小米的高可用推送系統設計</a></p>
+
+* <p>[rspec] <a href="https://relishapp.com/rspec/rspec-mocks/docs/working-with-legacy-code/any-instance">allow_any_instance_of</a></p>
+  * expect_any_instance_of
+  * allow_any_instance_of
+
+* <p>[architect] <a href="http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=2659598195&idx=1&sn=a69628c628c474d1b1368d139d64714f&scene=0#wechat_redirect">阿里巴巴店舖的十年技術演變之路</a></p>
+  * 前後端一致的元件化
+  * 統一數據中心
+  * 開放的設計平台
+
+* <p>[rails] <a href="https://ruby-china.org/topics/5066">ActiveRecord::Base與ActiveRecord::Relation關係及基本原理</a></p>
+
+* <p>[article] <a href="http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994277&idx=1&sn=f0d3c25d805503264a78ab5eeb29044d&chksm=bdbf0e368ac88720da10e901457fdbee77a90a426c20a3b95316fcbc6c8ab7b1afbd55950ad3&scene=21#wechat_redirect">天天寫「業務代碼」，如何成為「技術大牛」？</a></p>
+
+## Book
+
+
+* <p>[rails] <a href="https://pragprog.com/book/jvrails2/crafting-rails-4-applications">Crafting Rails 4 Applications</a></p>
+
+  * Creating Our Own Renderer
+    1. controller call render
+    2. ActionController::Instrumentation render
+    3. AbstractController::Rendering render
+       3.1. AbstractController::Rendering _normalize_render
+         3.1.1. AbstractController::Rendering _normalize_args
+         3.1.1.1 ActionController::Rendering _normalize_args
+         3.1.1.2 ActionView::Rendering _normalize_args
+         3.1.1.3 AbstractController::Rendering _normalize_args
+
+         3.1.2 AbstractController::Rendering _normalize_options
+         3.1.2.1 ActionController::Rendering _normalize_options
+         3.1.2.2 ActionController::Rendering _normalize_text
+         3.1.2.3 ActionView::Layouts _normalize_options
+         3.1.2.4 ActionView::Rendering _normalize_options
+         3.1.2.5 AbstractController::Rendering _normalize_options
+
+       3.2 AbstractController::Rendering render_to_body
+         3.2.1 ActionController::Renderers render_to_body
+         3.2.1.1 ActionView::Rendering render_to_body => _process_options => _render_template

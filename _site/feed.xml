@@ -5,9 +5,118 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 02 Oct 2016 23:39:54 +0800</pubDate>
-    <lastBuildDate>Sun, 02 Oct 2016 23:39:54 +0800</lastBuildDate>
+    <pubDate>Sat, 08 Oct 2016 21:34:30 +0800</pubDate>
+    <lastBuildDate>Sat, 08 Oct 2016 21:34:30 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>10</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 10/1 ~ 10/8”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/aws/aws-sdk-ruby&quot;&gt;aws-sdk-ruby&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/fnando/browser&quot;&gt;browser&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Do some browser detection with Ruby. Includes ActionController integration.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[web] &lt;a href=&quot;http://2014.jsconf.cn/slides/herman-taobaoweb/index.html#/&quot;&gt;掏寶前後端分離實踐&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[web] &lt;a href=&quot;http://blog.tryneighborly.com/amazon-sns-for-apns-on-rails/&quot;&gt;How we integrated Amazon SNS with Rails for Apple Push Notifications&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[design pattern] &lt;a href=&quot;http://sibevin.github.io/posts/2016-09-26-195847-command-pattern&quot;&gt;Command Pattern sample&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[frontend] &lt;a href=&quot;https://www.rapospectre.com/blog/web-page-loading-optimize-guide&quot;&gt;400%飛躍：Web 頁面加載速度優化實戰&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;https://gist.github.com/dhh/2492118&quot;&gt;routes refactor&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[architect] &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&amp;amp;mid=2659598234&amp;amp;idx=1&amp;amp;sn=f36c03f8702add6ef5bcfbc9e65e27fe&amp;amp;scene=0#wechat_redirect&quot;&gt;日消息量突破50億，談小米的高可用推送系統設計&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rspec] &lt;a href=&quot;https://relishapp.com/rspec/rspec-mocks/docs/working-with-legacy-code/any-instance&quot;&gt;allow_any_instance_of&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;expect_any_instance_of&lt;/li&gt;
+      &lt;li&gt;allow_any_instance_of&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[architect] &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&amp;amp;mid=2659598195&amp;amp;idx=1&amp;amp;sn=a69628c628c474d1b1368d139d64714f&amp;amp;scene=0#wechat_redirect&quot;&gt;阿里巴巴店舖的十年技術演變之路&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;前後端一致的元件化&lt;/li&gt;
+      &lt;li&gt;統一數據中心&lt;/li&gt;
+      &lt;li&gt;開放的設計平台&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;https://ruby-china.org/topics/5066&quot;&gt;ActiveRecord::Base與ActiveRecord::Relation關係及基本原理&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[article] &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;amp;mid=2650994277&amp;amp;idx=1&amp;amp;sn=f0d3c25d805503264a78ab5eeb29044d&amp;amp;chksm=bdbf0e368ac88720da10e901457fdbee77a90a426c20a3b95316fcbc6c8ab7b1afbd55950ad3&amp;amp;scene=21#wechat_redirect&quot;&gt;天天寫「業務代碼」，如何成為「技術大牛」？&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;https://pragprog.com/book/jvrails2/crafting-rails-4-applications&quot;&gt;Crafting Rails 4 Applications&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Creating Our Own Renderer
+        &lt;ol&gt;
+          &lt;li&gt;controller call render&lt;/li&gt;
+          &lt;li&gt;ActionController::Instrumentation render&lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;AbstractController::Rendering render
+3.1. AbstractController::Rendering _normalize_render
+  3.1.1. AbstractController::Rendering _normalize_args
+  3.1.1.1 ActionController::Rendering _normalize_args
+  3.1.1.2 ActionView::Rendering _normalize_args
+  3.1.1.3 AbstractController::Rendering _normalize_args&lt;/p&gt;
+
+            &lt;p&gt;3.1.2 AbstractController::Rendering _normalize_options
+  3.1.2.1 ActionController::Rendering _normalize_options
+  3.1.2.2 ActionController::Rendering _normalize_text
+  3.1.2.3 ActionView::Layouts _normalize_options
+  3.1.2.4 ActionView::Rendering _normalize_options
+  3.1.2.5 AbstractController::Rendering _normalize_options&lt;/p&gt;
+
+            &lt;p&gt;3.2 AbstractController::Rendering render_to_body
+  3.2.1 ActionController::Renderers render_to_body
+  3.2.1.1 ActionView::Rendering render_to_body =&amp;gt; _process_options =&amp;gt; _render_template&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 08 Oct 2016 08:00:00 +0800</pubDate>
+        <link>/2016/10/08/1/</link>
+        <guid isPermaLink="true">/2016/10/08/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>9</title>
@@ -1478,29 +1587,6 @@ exposed to each example via the described_class() method&lt;/li&gt;
         <guid isPermaLink="true">/2016/08/07/1/</guid>
         
         <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Welcome to mylake</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“Yeah It’s on. ”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;foreword&quot;&gt;Foreword&lt;/h2&gt;
-
-&lt;p&gt;Start to write something..&lt;/p&gt;
-
-&lt;h2 id=&quot;text&quot;&gt;Text&lt;/h2&gt;
-
-&lt;p&gt;I clone this template from git@github.com:Huxpro/huxblog-boilerplate.git&lt;/p&gt;
-</description>
-        <pubDate>Sat, 30 Jul 2016 20:00:00 +0800</pubDate>
-        <link>/2016/07/30/hello-2016/</link>
-        <guid isPermaLink="true">/2016/07/30/hello-2016/</guid>
-        
-        <category>life</category>
         
         
       </item>
