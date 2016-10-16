@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>1 - mylake</title>
+    <title>11 - mylake</title>
 
-    <link rel="canonical" href="/2016/08/07/1/">
+    <link rel="canonical" href="/2016/10/15/1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -139,12 +139,12 @@
                         <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
                         
                     </div>
-                    <h1>1</h1>
+                    <h1>11</h1>
                     
                     
                     <h2 class="subheading">weekly learning</h2>
                     
-                    <span class="meta">Posted by ilake on August 7, 2016</span>
+                    <span class="meta">Posted by ilake on October 15, 2016</span>
                 </div>
             </div>
         </div>
@@ -163,53 +163,20 @@
                 post-container">
 
 				<blockquote>
-  <p>“strive 7/31 ~ 8/6”</p>
+  <p>“strive 10/9 ~ 10/15”</p>
 </blockquote>
 
 <h2 id="use">Use</h2>
+
 <ul>
   <li>
-    <p>[Gem] <a href="https://github.com/vcr/vcr">vcr</a></p>
-    <ol>
-      <li>For test, it could record real third party response to yml file</li>
-      <li>Use it with webmock’s body</li>
-    </ol>
+    <p>[gem] <a href="https://github.com/krisleech/wisper">https://github.com/krisleech/wisper</a></p>
+    <ul>
+      <li>A micro library providing Ruby objects with Publish-Subscribe capabilities</li>
+    </ul>
   </li>
   <li>
-    <p>[Gem] <a href="https://github.com/bblimke/webmock">webmock</a></p>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/bbatsov/rubocop">rubocop</a></p>
-    <ol>
-      <li>rubocop –auto-correct</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/bblimke/webmock">webmock</a></p>
-    <ol>
-      <li>If you use multiple sidekiq processes then you can specify limits per process</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/laserlemon/figaro">figaro</a></p>
-    <ol>
-      <li>Figaro was written to make it easy to securely configure Rails applications.</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/swipely/docker-api">docker-api</a></p>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/makandra/active_type">active_type</a></p>
-    <ol>
-      <li>ActiveType is our take on “presenter models” (or “form models”) in Rails. We want to have controllers (and forms) talk to models that are either not backed by a database table</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/rogercampos/png_quantizator/blob/master/lib/png_quantizator.rb">png_quantizator</a></p>
-    <ol>
-      <li>PngQuantizator is a little wrapper around pngquant</li>
-    </ol>
+    <p>[monitor] <a href="https://mmonit.com/monit/">monit</a></p>
   </li>
 </ul>
 
@@ -217,145 +184,184 @@
 
 <ul>
   <li>
-    <p>[Ruby] <a href="https://twin.github.io/partial-downloads-with-enumerators-and-fibers/">Partial Downloads with Enumerators and Fibers</a></p>
-    <ol>
-      <li>before download, need to verify MIME type</li>
-      <li>use Enumerators and Fiber to execute streaming downlaod</li>
-    </ol>
+    <p>[rails] <a href="https://ruby-china.org/topics/31164">ruby conf china 2016</a></p>
+
+    <ul>
+      <li>
+        <p>[rails] <a href="https://speakerdeck.com/poshboytl/building-api-for-the-rest-of-us">Building API For The REST of Us</a></p>
+        <ul>
+          <li>authenticaion base on the payload and access key</li>
+          <li>After user signup send him a welcome email =&gt; use service and be called on controller</li>
+        </ul>
+      </li>
+      <li>
+        <p>[rails] <a href="https://speakerdeck.com/zmbacker/da-zao-ruby-kai-fa-tuan-dui-de-hang-mu">打造 Ruby 开发团队的航母</a></p>
+        <ul>
+          <li>元件化 可組裝應用 將各個可共用功能都拆成gem, rails engine</li>
+        </ul>
+      </li>
+      <li>
+        <p>[rails] <a href="https://speakerdeck.com/windy/ru-he-li-yong-rails-zai-21-tian-dan-qiang-pi-ma-shang-xian-ge-chan-pin">如何利用 Rails 在 21 天单枪匹马上线一个产品 </a></p>
+        <ul>
+          <li>快速打造產品的步驟及能力</li>
+        </ul>
+      </li>
+      <li>
+        <p>[rails] <a href="https://speakerdeck.com/pmq20/huan-jing-bian-liang-wei-he-neng-rang-ruby-kuai-shi-bei">环境变量 为何能让 Ruby 快十倍</a></p>
+        <ul>
+          <li>優化好Bundler</li>
+          <li>bundler/setup之後 大量環境變數被修改</li>
+          <li>bundle/setup 後 會比較目前Gemfile, Gemfile.lock, 等於浪費時間去載比較一次Gemfile, 因為已經有Gemfile.lock了</li>
+          <li>解法: Bundler.with_clean_env</li>
+        </ul>
+      </li>
+      <li>
+        <p>[rails] <a href="https://speakerdeck.com/xdite/refactoring-lesson-from-gpa-1-dot-4-to-gpa-3-dot-0">Refactoring lesson : from GPA 1.4 to GPA 3.0</a></p>
+        <ul>
+          <li>refactor 原則</li>
+        </ul>
+      </li>
+      <li>
+        <p>[rails] <a href="https://speakerdeck.com/mechiland/reconsider-rest-chong-gou-jian-da-xing-railsying-yong-de-fang-shi">Reconsider REST: 一种构建大型Rails应用的方式</a></p>
+        <ul>
+          <li>定義資源 思考資源的含意 而不是動作</li>
+          <li>思考資源的業務意義 而不是資料表</li>
+          <li>routes.rb 中不出現動詞</li>
+          <li>使用標準HTTP Verb + Resource 組裝業務邏輯</li>
+          <li>每個controller 不超過CRUD標準方法</li>
+        </ul>
+      </li>
+      <li>
+        <p>[rails] <a href="https://speakerdeck.com/xiewenwei/ru-he-gei-rails-ying-yong-jian-fei-bo-he-wei-fu-wu-hua-shi-jian">如何给 Rails 应用减肥 - 薄荷微服务化实践</a></p>
+        <ul>
+          <li>根據業務運行粒度適中的劃分
+            <ul>
+              <li>按性質 獨立基礎服務</li>
+              <li>按業務 按產品</li>
+              <li>按團隊 康威定律</li>
+            </ul>
+          </li>
+          <li>建立簡便的服務煎通信機制和跨服務數據訪問的能力</li>
+        </ul>
+      </li>
+      <li>
+        <p>[rails] <a href="https://speakerdeck.com/danielglh/da-zao-guo-ji-hua-chan-pin-strikinglyde-i18nshi-jian">打造国际化产品：Strikingly的I18n实践 </a></p>
+      </li>
+    </ul>
   </li>
   <li>
-    <p>[Ruby] <a href="http://rubyonrails.org/doctrine/">Ruby on Rails 基本主義en</a></p>
-    <ol>
-      <li><a href="https://medium.com/@juanitofatas/ruby-on-rails-%E5%9F%BA%E6%9C%AC%E4%B8%BB%E7%BE%A9-f4cde39292a4#.niv2du20a">Ruby on Rails 基本主義 chinese</a></li>
-    </ol>
+    <p>[architect] <a href="http://www.infoq.com/cn/articles/every-architect-should-study-conway-law?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">每個架構師都應該研究下康威定律</a></p>
   </li>
   <li>
-    <p>[Ruby] <a href="http://rosenfeld.herokuapp.com/en/articles/ruby-rails/2016-07-18-a-review-of-code-reloaders-for-ruby">A Review of Code Reloaders for Ruby</a></p>
-    <ol>
-      <li>Different Code Reloaders</li>
-    </ol>
+    <p>[rails] <a href="http://yafeilee.me/blogs/88">Turbolinks5 概述及實現原理</a></p>
   </li>
   <li>
-    <p>[Ruby] <a href="https://medium.com/@Sudhagar/rbenv-how-it-works-e5a0e4fa6e76#.jw3xeqqn9">Rbenv — How it works</a></p>
+    <p>[rails] <a href="http://railscasts.com/episodes/239-activerecord-relation-walkthrough?view=asciicast">ActiveRecord::Relation Walkthrough</a></p>
   </li>
   <li>
-    <p>[Ruby] <a href="https://infinum.co/the-capsized-eight/articles/hiding-secrets-in-vault">Hiding secrets in a Vault</a></p>
-    <ol>
-      <li>Using Vault, Github authentication and ‘secrets’ gem to make secret files more secure.</li>
-    </ol>
+    <p>[rails] <a href="https://www.viget.com/articles/using-time-zones-with-rails">Using Time Zones with Rails</a></p>
   </li>
   <li>
-    <p>[Ruby] <a href="https://blog.blockscore.com/new-features-in-ruby-2-4/">New Features in Ruby 2.4</a></p>
-  </li>
-  <li>
-    <p>[Ruby] <a href="https://www.sitepoint.com/automate-docker-with-the-remote-api-and-ruby/">Automate Docker with the Remote API and Ruby</a></p>
-  </li>
-  <li>
-    <p>[Ruby] <a href="http://blog.arkency.com/2016/07/respond-to-format-is-useful-even-without-multiple-formats/">respond_to |format| is useful even without multiple formats</a></p>
-    <ol>
-      <li>benefit of respond_to</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Ruby] <a href="http://aspiringwebdev.com/consider-turbolinks-5-for-your-next-rails-project/">CONSIDER TURBOLINKS 5 FOR YOUR NEXT RAILS PROJECT</a></p>
-    <ol>
-      <li>Turbolinks 5 is a library for web applications that makes pages load faster</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Rspec] <a href="https://www.relishapp.com/rspec/rspec-core/docs/metadata/described-class">rspec described_class</a></p>
-    <ol>
-      <li>If the first argument to the outermost example group is a class, the class is
-exposed to each example via the described_class() method</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Ruby] <a href="http://apidock.com/rails/ActiveSupport/Callbacks/run_callbacks">run_callbacks</a></p>
-  </li>
-  <li>
-    <p>[Ruby] <a href="http://www.justinweiss.com/articles/the-lesser-known-features-in-rails-4-dot-2/">http://www.justinweiss.com/articles/the-lesser-known-features-in-rails-4-dot-2/</a></p>
-    <ol>
-      <li>Easily load config files =&gt; Rails.application.config_for(‘yml file name’)</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Ruby] <a href="https://speakerdeck.com/a_matsuda/the-recipe-for-the-worlds-largest-rails-monolith">The Recipe for the World's Largest Rails Monolith</a></p>
-    <ol>
-      <li>Many handmade tools</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Ruby] <a href="https://ruby-china.org/topics/9271">RSpec 中let 和subject 的區別是什麼？</a></p>
-    <ol>
-      <li>主要語意的差別, subject主角, let配角</li>
-    </ol>
+    <p>[HTTP] <a href="http://www.ruanyifeng.com/blog/2016/04/cors.html">跨域資源共享CORS 詳解</a></p>
+    <ul>
+      <li>CORS需要瀏覽器和服務器同時支持</li>
+      <li>簡單請求=&gt; 具體來說，就是在頭信息之中，增加一個Origin字段</li>
+      <li>非簡單請求
+        <ul>
+          <li>預檢請求 =&gt; “預檢”請求用的請求方法是OPTIONS</li>
+        </ul>
+      </li>
+    </ul>
   </li>
 </ul>
 
 <h2 id="book">Book</h2>
-<ul>
-  <li>
-    <p> <a href="http://www.books.com.tw/products/CN11096287">設計模式之禪 第2版</a></p>
-    <p>on page 286</p>
-  </li>
-  <li>
-    <p> <a href="http://designpatternsinruby.com/">Design Patterns in Ruby</a></p>
-    <p>on page 172</p>
-  </li>
-  <li>
-    <p> <a href="https://leanpub.com/growing-rails">growing-rails</a></p>
-  </li>
-</ul>
-
-<h2 id="work-design">Work design</h2>
 
 <ul>
   <li>
-    <h3 id="api-architecture">API Architecture</h3>
-  </li>
-  <li>
-    <h4 id="design">Design</h4>
-
-    <ol>
-      <li><strong>client auth</strong>: follow aws, use current timestamp + private key as checksum, server need to verify checksum, also need to make sure timestamp in some duration (like 10 mins)</li>
-      <li><strong>user auth</strong>: logined user will have one or more token. use token as key, value is user id, and set expired time on every token, save them on redis, so when client send token, server could know the current user.</li>
-      <li><strong>error handler</strong>:
+    <p>[rails] <a href="https://pragprog.com/book/jvrails2/crafting-rails-4-applications">Crafting Rails 4 Applications</a></p>
+    <ul>
+      <li>chapter2: Building Models with Active Model
         <ul>
-          <li>one config, record key, status code of error, error message use key for i18n.</li>
-          <li>every api action has its service object, when render api error will raise specific exception class and error key,this exception will rescue from base controller, and according error key to error render. All the data format will be the same, the different are message, key, status code</li>
+          <li>Adding Attribute Methods
+            <ul>
+              <li><code class="highlighter-rouge">include ActiveModel::AttributeMethods</code> 1) attribute methods behavior</li>
+              <li><code class="highlighter-rouge">attribute_method_prefix 'clear_'</code> 2) clear_ is attribute prefix</li>
+              <li><code class="highlighter-rouge">define_attribute_methods(names)</code> 3) Ask to define the prefix methods for the given attribute names</li>
+              <li><code class="highlighter-rouge">def clear_attribute(attribute)</code> 4) Since we declared a “clear_” prefix, it expects to have a “clear_attribute” method defined, which receives an attributen ame and implements the clearing logic.</li>
+            </ul>
+          </li>
+          <li>Aiming for an Active Model–Compliant API
+            <ul>
+              <li><code class="highlighter-rouge">include ActiveModel::Conversion</code>
+                <ul>
+                  <li>to_key(), to_param(), and to_partial_path()</li>
+                </ul>
+              </li>
+              <li><code class="highlighter-rouge">extend ActiveModel::Naming</code>
+                <ul>
+                  <li>human(), singular()</li>
+                </ul>
+              </li>
+              <li><code class="highlighter-rouge">extend ActiveModel::Translation</code>
+                <ul>
+                  <li>i18n</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Delivering the Form
+            <ul>
+              <li><code class="highlighter-rouge">class_attribute :attribute_names</code></li>
+              <li><code class="highlighter-rouge">self.attribute_names = []</code> 1) Define a class attribute and initialize it</li>
+              <li><code class="highlighter-rouge">self.attribute_names += names</code> 2) Add new names as they are defined</li>
+            </ul>
+          </li>
+          <li>
+            <p>initialize set value</p>
+
+            <div class="highlighter-rouge"><pre class="highlight"><code>def initialize(attributes = {})ttributes.each do |attr, value|
+  self.public_send("#{attr}=", value)
+  end if attributes
+end
+</code></pre>
+            </div>
+          </li>
+          <li>Validators
+            <ul>
+              <li>validates_presence_of</li>
+            </ul>
+
+            <div class="highlighter-rouge"><pre class="highlight"><code>def validates_presence_of(*attr_names)
+  validates_with PresenceValidator, _merge_attributes(attr_names)
+end
+</code></pre>
+            </div>
+
+            <p><code class="highlighter-rouge">const_get("#{key.to_s.camelize}Validator")</code></p>
+
+            <ul>
+              <li>ActiveModel::EachValidator</li>
+            </ul>
+
+            <div class="highlighter-rouge"><pre class="highlight"><code>class AbsenceValidator &lt; ActiveModel::EachValidator
+  def validate_each(record, attribute, value)
+    record.errors.add(attribute, :invalid, options) unless value.blank?
+  end
+end
+</code></pre>
+            </div>
+          </li>
+          <li>Callbacks
+            <ul>
+              <li><code class="highlighter-rouge">extend ActiveModel::Callbacks</code> 1) Add callbacks behavior</li>
+              <li><code class="highlighter-rouge">define_model_callbacks :deliver</code> 2) Define the callbacks. The line below will create both before_deliver, and after_deliver callbacks with the same semantics as in Active Record</li>
+              <li><code class="highlighter-rouge">run_callbacks(:deliver) {}</code> Change deliver to run the callbacks</li>
+            </ul>
+          </li>
         </ul>
       </li>
-    </ol>
-  </li>
-</ul>
-
-<p>– learned from MarsZ</p>
-
-<ul>
-  <li>
-    <h4 id="implement">Implement</h4>
-
-    <ol>
-      <li>controller only handle flow, other through service.</li>
-      <li>use value object to handle user session, due to operation very like model CRUD, so use value, and base is redis hash</li>
-      <li>exception only on controller raise, service use active model save error message, when return false, we could get error message from service and raise with exception class</li>
-    </ol>
-  </li>
-  <li>
-    <p>** Learn **</p>
-
-    <ol>
-      <li>feature driven coding
-        <ul>
-          <li>every commit with small main part of the feature</li>
-        </ul>
-      </li>
-      <li>service with callback</li>
-      <li>exceptio class</li>
-      <li>every concerns only focus one thing</li>
-      <li>RSpec from base stack</li>
-      <li>how to use service to architecture base of whole application</li>
-    </ol>
+    </ul>
   </li>
 </ul>
 
@@ -368,13 +374,9 @@ exposed to each example via the described_class() method</li>
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2016/07/30/hello-2016/" data-toggle="tooltip" data-placement="top" title="Welcome to mylake">&larr; Previous Post</a>
+                        <a href="/2016/10/08/1/" data-toggle="tooltip" data-placement="top" title="10">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2016/08/13/1/" data-toggle="tooltip" data-placement="top" title="2">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 

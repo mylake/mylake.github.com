@@ -1,0 +1,127 @@
+---
+layout:     post
+title:      "11"
+subtitle:   "weekly learning"
+date:       2016-10-15 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 10/9 ~ 10/15”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/krisleech/wisper">https://github.com/krisleech/wisper</a></p>
+  * A micro library providing Ruby objects with Publish-Subscribe capabilities
+
+* <p>[monitor] <a href="https://mmonit.com/monit/">monit</a></p>
+
+## Read
+
+* <p>[rails] <a href="https://ruby-china.org/topics/31164">ruby conf china 2016</a></p>
+
+  * <p>[rails] <a href="https://speakerdeck.com/poshboytl/building-api-for-the-rest-of-us">Building API For The REST of Us</a></p>
+    * authenticaion base on the payload and access key
+    * After user signup send him a welcome email => use service and be called on controller
+
+  * <p>[rails] <a href="https://speakerdeck.com/zmbacker/da-zao-ruby-kai-fa-tuan-dui-de-hang-mu">打造 Ruby 开发团队的航母</a></p>
+    * 元件化 可組裝應用 將各個可共用功能都拆成gem, rails engine
+
+  * <p>[rails] <a href="https://speakerdeck.com/windy/ru-he-li-yong-rails-zai-21-tian-dan-qiang-pi-ma-shang-xian-ge-chan-pin">如何利用 Rails 在 21 天单枪匹马上线一个产品 </a></p>
+    * 快速打造產品的步驟及能力
+
+  * <p>[rails] <a href="https://speakerdeck.com/pmq20/huan-jing-bian-liang-wei-he-neng-rang-ruby-kuai-shi-bei">环境变量 为何能让 Ruby 快十倍</a></p>
+    * 優化好Bundler
+    * bundler/setup之後 大量環境變數被修改
+    * bundle/setup 後 會比較目前Gemfile, Gemfile.lock, 等於浪費時間去載比較一次Gemfile, 因為已經有Gemfile.lock了
+    * 解法: Bundler.with_clean_env
+
+  * <p>[rails] <a href="https://speakerdeck.com/xdite/refactoring-lesson-from-gpa-1-dot-4-to-gpa-3-dot-0">Refactoring lesson : from GPA 1.4 to GPA 3.0</a></p>
+    * refactor 原則
+
+  * <p>[rails] <a href="https://speakerdeck.com/mechiland/reconsider-rest-chong-gou-jian-da-xing-railsying-yong-de-fang-shi">Reconsider REST: 一种构建大型Rails应用的方式</a></p>
+    * 定義資源 思考資源的含意 而不是動作
+    * 思考資源的業務意義 而不是資料表
+    * routes.rb 中不出現動詞
+    * 使用標準HTTP Verb + Resource 組裝業務邏輯
+    * 每個controller 不超過CRUD標準方法
+
+  * <p>[rails] <a href="https://speakerdeck.com/xiewenwei/ru-he-gei-rails-ying-yong-jian-fei-bo-he-wei-fu-wu-hua-shi-jian">如何给 Rails 应用减肥 - 薄荷微服务化实践</a></p>
+    * 根據業務運行粒度適中的劃分
+      * 按性質 獨立基礎服務
+      * 按業務 按產品
+      * 按團隊 康威定律
+    * 建立簡便的服務煎通信機制和跨服務數據訪問的能力
+
+  * <p>[rails] <a href="https://speakerdeck.com/danielglh/da-zao-guo-ji-hua-chan-pin-strikinglyde-i18nshi-jian">打造国际化产品：Strikingly的I18n实践 </a></p>
+
+* <p>[architect] <a href="http://www.infoq.com/cn/articles/every-architect-should-study-conway-law?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global">每個架構師都應該研究下康威定律</a></p>
+
+* <p>[rails] <a href="http://yafeilee.me/blogs/88">Turbolinks5 概述及實現原理</a></p>
+
+* <p>[rails] <a href="http://railscasts.com/episodes/239-activerecord-relation-walkthrough?view=asciicast">ActiveRecord::Relation Walkthrough</a></p>
+
+* <p>[rails] <a href="https://www.viget.com/articles/using-time-zones-with-rails">Using Time Zones with Rails</a></p>
+
+* <p>[HTTP] <a href="http://www.ruanyifeng.com/blog/2016/04/cors.html">跨域資源共享CORS 詳解</a></p>
+    * CORS需要瀏覽器和服務器同時支持
+    * 簡單請求=> 具體來說，就是在頭信息之中，增加一個Origin字段
+    * 非簡單請求
+      * 預檢請求 => "預檢"請求用的請求方法是OPTIONS
+
+## Book
+
+
+* <p>[rails] <a href="https://pragprog.com/book/jvrails2/crafting-rails-4-applications">Crafting Rails 4 Applications</a></p>
+  * chapter2: Building Models with Active Model
+    * Adding Attribute Methods
+      * `include ActiveModel::AttributeMethods` 1) attribute methods behavior
+      * `attribute_method_prefix 'clear_'` 2) clear_ is attribute prefix
+      * `define_attribute_methods(names)` 3) Ask to define the prefix methods for the given attribute names
+      * `def clear_attribute(attribute)` 4) Since we declared a "clear_" prefix, it expects to have a "clear_attribute" method defined, which receives an attributen ame and implements the clearing logic.
+    * Aiming for an Active Model–Compliant API
+      * `include ActiveModel::Conversion`
+        * to_key(), to_param(), and to_partial_path()
+      * `extend ActiveModel::Naming`
+        * human(), singular()
+      * `extend ActiveModel::Translation`
+        * i18n
+    * Delivering the Form
+      * `class_attribute :attribute_names`
+      * `self.attribute_names = []` 1) Define a class attribute and initialize it
+      * `self.attribute_names += names` 2) Add new names as they are defined
+    * initialize set value
+
+      ```
+      def initialize(attributes = {})ttributes.each do |attr, value|
+        self.public_send("#{attr}=", value)
+        end if attributes
+      end
+      ```
+
+    * Validators
+      * validates_presence_of
+
+      ```
+      def validates_presence_of(*attr_names)
+        validates_with PresenceValidator, _merge_attributes(attr_names)
+      end
+      ```
+
+      `const_get("#{key.to_s.camelize}Validator")`
+
+      * ActiveModel::EachValidator
+
+      ```
+      class AbsenceValidator < ActiveModel::EachValidator
+        def validate_each(record, attribute, value)
+          record.errors.add(attribute, :invalid, options) unless value.blank?
+        end
+      end
+      ```
+
+    * Callbacks
+      * `extend ActiveModel::Callbacks` 1) Add callbacks behavior
+      * `define_model_callbacks :deliver` 2) Define the callbacks. The line below will create both before_deliver, and after_deliver callbacks with the same semantics as in Active Record
+      * `run_callbacks(:deliver) {}` Change deliver to run the callbacks
