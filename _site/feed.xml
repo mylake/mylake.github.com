@@ -5,9 +5,66 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 16 Oct 2016 22:16:17 +0800</pubDate>
-    <lastBuildDate>Sun, 16 Oct 2016 22:16:17 +0800</lastBuildDate>
+    <pubDate>Tue, 25 Oct 2016 09:55:04 +0800</pubDate>
+    <lastBuildDate>Tue, 25 Oct 2016 09:55:04 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>12</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 10/16 ~ 10/22”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;http://andrewberls.com/blog/post/rails-from-request-to-response-part-1--introduction&quot;&gt;Rails from Request to Response&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;https://robots.thoughtbot.com/back-to-basics-http-requests&quot;&gt;Back to Basics: HTTP Requests in Rails Apps&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[architect] &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;amp;mid=2650994320&amp;amp;idx=1&amp;amp;sn=522b995e9161f0a3534e70bdc5890f6d&amp;amp;chksm=bdbf0ec38ac887d5e33321aef54c9cad9b3fc3c3e6eb86192cecebf290df3a84c7316a1dd3e0&amp;amp;scene=0#wechat_redirect&quot;&gt;大促活動前如何做團購系統流量預算和容量評估&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;大促活動的特點: 瞬時流量, 熱點團單, 核心路徑&lt;/li&gt;
+      &lt;li&gt;系統：業務按微服務化拆分出來，每個服務獨立專注的做一件事情&lt;/li&gt;
+      &lt;li&gt;活動流量預算&lt;/li&gt;
+      &lt;li&gt;壓力測試&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[facebook ios sdk] &lt;a href=&quot;https://developers.facebook.com/docs/ios/getting-started/#app-events&quot;&gt;Facebook iOS SDK 新手指南&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[React Native, Firebase] &lt;a href=&quot;http://blog.techbridge.cc/2016/09/10/react-native-redux-android-firebase/&quot;&gt;一看就懂的 React Native + Firebase Mobile App 入門教學&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[flex] &lt;a href=&quot;http://www.flexboxdefense.com/&quot;&gt;flexboxdefense&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;https://pragprog.com/book/jvrails2/crafting-rails-4-applications&quot;&gt;Crafting Rails 4 Applications&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[saas] &lt;a href=&quot;http://www.books.com.tw/products/CN10495087&quot;&gt;互聯網時代的軟件革命︰SaaS架構設計&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 22 Oct 2016 08:00:00 +0800</pubDate>
+        <link>/2016/10/22/1/</link>
+        <guid isPermaLink="true">/2016/10/22/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>11</title>
@@ -1288,316 +1345,6 @@ model. For instance, we could write a helper for displaying HTML5-style&lt;/li&g
         <pubDate>Sat, 20 Aug 2016 08:00:00 +0800</pubDate>
         <link>/2016/08/20/1/</link>
         <guid isPermaLink="true">/2016/08/20/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>2</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 8/7 ~ 8/13”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/solnic/virtus&quot;&gt;virtus&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/NoamB/sorcery&quot;&gt;sorcery&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;authentication for Rails&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/thoughtbot/capybara-webkit&quot;&gt;capybara-webkit&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;A Capybara driver for headless WebKit to test JavaScript web apps&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/jnicklas/capybara&quot;&gt;capybara&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;Acceptance test framework for web applications&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/DatabaseCleaner/database_cleaner&quot;&gt;database_cleaner&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;Strategies for cleaning databases&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/jpignata/temping&quot;&gt;temping&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;model mockup, dynamic create db table for model test&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/whitesmith/rubycritic&quot;&gt;rubycritic&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;provide a quality report of your Ruby code.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/kakas/CapistranoDeployTest&quot;&gt;CapistranoDeployTest&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;Deploying a Rails App on Ubuntu 14.04 with Capistrano, Nginx, and Puma&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/kpumuk/meta-tags&quot;&gt;meta-tags&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;make your Rails application SEO-friendly&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/norman/friendly_id&quot;&gt;friendly_id&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;for pretty url&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/kjvarga/sitemap_generator&quot;&gt;sitemap_generator&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;create sitemap&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[SEO] &lt;a href=&quot;http://www.browseo.net/&quot;&gt;BROWSEO&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;see how search engine read your website&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Gem] &lt;a href=&quot;https://github.com/pat/thinking-sphinx&quot;&gt;sphinx&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;full-text search engine&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Ruby] &lt;a href=&quot;http://api.rubyonrails.org/v4.1.4/classes/ActionController/Metal.html#method-i-performed-3F&quot;&gt;ActionController::Metal#performed?&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;you can test whether render or redirect already happended&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Ruby] &lt;a href=&quot;http://api.rubyonrails.org/classes/ActiveModel/Validations.html#method-i-valid-3F&quot;&gt;ActiveModel::Validations#valid?(context=nil)&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;validates_length_of :slug, minimum: 3, on: :user&lt;/li&gt;
-      &lt;li&gt;validates_length_of :slug, minimum: 1, on: :admin&lt;/li&gt;
-      &lt;li&gt;@user.save(context: :admin), @user.valid?(:admin), @user.valid?(:user),&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Ruby] &lt;a href=&quot;http://railsfun.tw/t/ruby-queue-v-s-thread-mutex/619/2&quot;&gt;[ruby 的多工]Queue v.s. Thread ? &amp;amp; Mutex …&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Ruby] &lt;a href=&quot;http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/&quot;&gt;7-ways-to-decompose-fat-activerecord-models&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;Value Objects: define domain-specific Value Objects,  Value Objects are great when you have an attribute or small group of attributes that have logic associated with them&lt;/li&gt;
-      &lt;li&gt;Service Objects: action is complex,  action reaches across multiple models, action interacts with an external service, action is not a core concern of the underlying model&lt;/li&gt;
-      &lt;li&gt;Form Objects: Virtus, When multiple ActiveRecord models might be updated by a single form submission, a Form Object can encapsulate the aggregation&lt;/li&gt;
-      &lt;li&gt;Query Objects: For complex SQL queries littering the definition of your ActiveRecord subclass&lt;/li&gt;
-      &lt;li&gt;View Objects: If logic is needed purely for display purposes, it does not belong in the model.&lt;/li&gt;
-      &lt;li&gt;Policy Objects: Sometimes complex read operations might deserve their own objects
-    * “Service Object” for write operations and “Policy Object” for reads, Query Objects focus on executing SQL to return a result set&lt;/li&gt;
-      &lt;li&gt;Decorators: For cases where callback logic only needs to run in some circumstances or including it in the model would give the model too many responsibilities, a Decorator is useful&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[CI] &lt;a href=&quot;https://circleci.com/docs/parallel-manual-setup/&quot;&gt;circle parallel-manual-setup&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[API] &lt;a href=&quot;http://apionrails.icalialabs.com/book/chapter_five&quot;&gt;api on rails, Authenticating users&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Ruby] &lt;a href=&quot;http://www.virtuouscode.com/2012/08/31/configuring-database_cleaner-with-rails-rspec-capybara-and-selenium/&quot;&gt;Configuring database_cleaner with Rails, RSpec, Capybara, and Selenium&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;different cleaner strategy settings&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Ruby] routing constraints &lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;
-        &lt;p&gt;[Ruby] &lt;a href=&quot;http://blog.arkency.com/2014/01/short-urls-for-every-route-in-your-rails-app/&quot;&gt;Pretty, short urls for every route in your Rails app&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;[Ruby] &lt;a href=&quot;https://8thlight.com/blog/ben-voss/2013/01/12/how-to-use-rails-route-constraints.html&quot;&gt;How to use rails routing constraints&lt;/a&gt;&lt;/p&gt;
-        &lt;ul&gt;
-          &lt;li&gt;security vulnerabilities and data type validation&lt;/li&gt;
-          &lt;li&gt;encapsulate and simplify actions (and supporting code)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;[Ruby] &lt;a href=&quot;https://www.viget.com/articles/using-routing-constraints-to-root-your-app&quot;&gt;Using Routing Constraints to Root Your App&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Ruby] &lt;a href=&quot;https://ruby-china.org/topics/30233&quot;&gt;use_transactional_fixtures vs database_cleaner&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Ruby] &lt;a href=&quot;http://api.rubyonrails.org/classes/ActiveRecord/Aggregations/ClassMethods.html&quot;&gt;composed_of&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;model representing attributes as value objects&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[SEO] &lt;a href=&quot;http://gogojimmy.net/2013/09/26/basic-seo-for-rails-developer/&quot;&gt;給 Rails Developer 的基本SEO&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt; &lt;a href=&quot;http://openhome.cc/Gossip/CodeData/EssentialJavaScript/index.html&quot;&gt;JavaScript 語言核心&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;done (1), (2)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt; &lt;a href=&quot;https://gumroad.com/l/ios-on-rails&quot;&gt;ios on rails&lt;/a&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;rails api design&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt; &lt;a href=&quot;http://rails-refactoring.com/&quot;&gt;Fearless Rails Refactoring&lt;/a&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;Refactoring recipes&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;Inline controller filters
-            &lt;ul&gt;
-              &lt;li&gt;extract filter to service&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Explicitly render views with locals
-            &lt;ul&gt;
-              &lt;li&gt;pass the params to partials explicitly with render&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Extract render/redirect methods
-            &lt;ul&gt;
-              &lt;li&gt;extract a private method for each render and redirect call&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Extract a Single Action Controller class
-            &lt;ul&gt;
-              &lt;li&gt;extract like CreateProductsController only when ProductsController is too too too large&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Extract routing constraint
-            &lt;ul&gt;
-              &lt;li&gt;use routing constraint to seperate controller action&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Extract an adapter object
-            &lt;ul&gt;
-              &lt;li&gt;extract call external library to adapter object call&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Extract a repository object
-            &lt;ul&gt;
-              &lt;li&gt;hide the direct ActiveRecord calls, isolated, add data storage on repo object&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Extract a service object using the SimpleDelegator
-            &lt;ul&gt;
-              &lt;li&gt;move some domain or business logic to service object&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Extract conditional validation into Service Object
-            &lt;ul&gt;
-              &lt;li&gt;when validation only used in one place, drop the condition on model, move it to service object&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Extract a form object
-            &lt;ul&gt;
-              &lt;li&gt;move form to form object, more explicit and domain is expressed better&lt;/li&gt;
-              &lt;li&gt;form object can’t have save method (SRP), Persistence is a seperate concern and different object should take care of it, form object only valid data&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Patterns&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;p&gt;Instantiating service objects
-*&lt;/p&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;p&gt;The repository pattern
-*&lt;/p&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Wrap external API with an adapter
-            &lt;ul&gt;
-              &lt;li&gt;isolated our interface from the implementation&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;p&gt;4 ways to early return from a rails controller&lt;/p&gt;
-
-            &lt;ul&gt;
-              &lt;li&gt;extracted_method; return if performed?&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;p&gt;Service::Input
-*&lt;/p&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;p&gt;Validations: Contexts
-*&lt;/p&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Validations: Objectify
-*&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Related topics&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;Service controller communication
-            &lt;ul&gt;
-              &lt;li&gt;True/false; return the object created/updated; return a response object that contains all the data and/or errors;&lt;/li&gt;
-              &lt;li&gt;carry data through exceptions; controller passes callback methods;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Where to keep services
-            &lt;ul&gt;
-              &lt;li&gt;group your services according to the feature and then surround them with proper namespace&lt;/li&gt;
-              &lt;li&gt;ex: Reporting::MonthlyReport, Forum::CreateNewTopic, TimeTracking::LogTimeService&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Routing constraints
-            &lt;ul&gt;
-              &lt;li&gt;use routing constraints for situations where you need to choose differentctions based on some params&lt;/li&gt;
-              &lt;li&gt;This makes the controller thinner and it’s more explicit what actios happening&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 13 Aug 2016 08:00:00 +0800</pubDate>
-        <link>/2016/08/13/1/</link>
-        <guid isPermaLink="true">/2016/08/13/1/</guid>
         
         <category>weekly</category>
         

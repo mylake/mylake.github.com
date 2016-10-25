@@ -1,0 +1,39 @@
+---
+layout:     post
+title:      "12"
+subtitle:   "weekly learning"
+date:       2016-10-22 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 10/16 ~ 10/22”
+
+## Use
+
+
+## Read
+
+* <p>[rails] <a href="http://andrewberls.com/blog/post/rails-from-request-to-response-part-1--introduction">Rails from Request to Response</a></p>
+
+* <p>[rails] <a href="https://robots.thoughtbot.com/back-to-basics-http-requests">Back to Basics: HTTP Requests in Rails Apps</a></p>
+
+* <p>[architect] <a href="http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994320&idx=1&sn=522b995e9161f0a3534e70bdc5890f6d&chksm=bdbf0ec38ac887d5e33321aef54c9cad9b3fc3c3e6eb86192cecebf290df3a84c7316a1dd3e0&scene=0#wechat_redirect">大促活動前如何做團購系統流量預算和容量評估</a></p>
+  * 大促活動的特點: 瞬時流量, 熱點團單, 核心路徑
+  * 系統：業務按微服務化拆分出來，每個服務獨立專注的做一件事情
+  * 活動流量預算
+  * 壓力測試
+
+* <p>[facebook ios sdk] <a href="https://developers.facebook.com/docs/ios/getting-started/#app-events">Facebook iOS SDK 新手指南</a></p>
+
+
+* <p>[React Native, Firebase] <a href="http://blog.techbridge.cc/2016/09/10/react-native-redux-android-firebase/">一看就懂的 React Native + Firebase Mobile App 入門教學</a></p>
+
+* <p>[flex] <a href="http://www.flexboxdefense.com/">flexboxdefense</a></p>
+
+## Book
+
+* <p>[rails] <a href="https://pragprog.com/book/jvrails2/crafting-rails-4-applications">Crafting Rails 4 Applications</a></p>
+
+* <p>[saas] <a href="http://www.books.com.tw/products/CN10495087">互聯網時代的軟件革命︰SaaS架構設計</a></p>
