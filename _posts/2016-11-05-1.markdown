@@ -1,0 +1,44 @@
+---
+layout:     post
+title:      "14"
+subtitle:   "weekly learning"
+date:       2016-11-05 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 10/31 ~ 11/05”
+
+## Use
+
+
+## Read
+
+* <p>[rails] <a href="https://www.sitepoint.com/why-learning-rails-is-still-a-great-choice-in-2016/">Why Learning Rails Is Still a Great Choice in 2016</a></p>
+
+* <p>[rails] <a href="https://www.sitepoint.com/10-ruby-on-rails-best-practices-3/">10 Ruby on Rails Best Practices</a></p>
+
+* <p>[rails] <a href="http://www.monkeyandcrow.com/blog/reading_rails_handling_exceptions/">Handling Exceptions</a></p>
+  * A method signature like def rescue_from(klasses) takes a variable number of arguments.
+  * Array#extract_options! is an idiomatic way to get options from an arguments array.
+  * You can determine if a class is a subclass using klass <= Exception.
+  * rescue nil will swallow exceptions
+
+* <p>[frontend] <a href="http://www.fefork.com/%E5%89%8D%E7%AB%AF%E5%90%84%E7%A7%8D%E4%BC%98%E5%8C%96/">前端各种优化</a></p>
+
+* <p>[js] <a href="https://pjchender.blogspot.tw/p/blog-page_70.html"> 你所不知道的JavaScript: Understanding the Weird Part</a></p>
+
+## Book
+
+* <p>[saas] <a href="http://www.books.com.tw/products/CN10495087">互聯網時代的軟件革命︰SaaS架構設計</a></p>
+
+## Video
+
+* <p>[react native] <a href="https://egghead.io/courses/react-native-fundamentals">React Native Fundamentals</a></p>
+
+* <p>[js] <a href="https://egghead.io/courses/learn-es6-ecmascript-2015">Learn ES6 (ECMAScript 2015)</a></p>
+
+* <p>[rspec] Rails Pacific 2016 - Workshop _ Taming Chaotic Specs RSpec Design Patterns by Adam Cuppy</p>
+
+* <p>[rspec] Rails Pacific 2016 - Server Infrastructure for Rails in 2016 by Richard Lee</p>
