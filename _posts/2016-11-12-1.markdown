@@ -1,0 +1,37 @@
+---
+layout:     post
+title:      "15"
+subtitle:   "weekly learning"
+date:       2016-11-12 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 11/05 ~ 11/12”
+
+## Use
+
+
+## Read
+
+* <p>[ssl] <a href="https://letsencrypt.tw/">letsencrypt</a></p>
+
+* <p>[react native] <a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=403225766&idx=1&sn=acd8e3ab7f234b97827c3e210c2d8673&scene=21#wechat_redirect">React-Native痛點解析之開發環境搭建及擴展</a></p>
+
+* <p>[react native] <a href="http://mp.weixin.qq.com/s?__biz=MzAwMTYwNzE2Mg==&mid=2651036604&idx=1&sn=d2a7cbfbdbfb2067b6ad8e3b5a3af029&scene=0#wechat_redirect">我的React Native 技能樹點亮計劃の Javascript 模塊管理器 npm</a></p>
+
+* <p>[react native] <a href="https://zhuanlan.zhihu.com/p/21301314">ReactNative動畫研究與實踐</a></p>
+
+* <p>[react native] <a href="http://www.race604.com/react-native-component-lifecycle/">React Native 中組件的生命週期</a></p>
+
+* <p>[js] <a href="http://huangxuan.me/js-module-7day/#/">JAVASCRIPT MODULARIZATION</a></p>
+
+* <p>[js] <a href="http://blog.kdchang.cc/2016/04/04/react-react-native-es5-es6-cheat-sheet/">一看就懂的 React ES5、ES6+ 常見用法對照表</a></p>
+
+## Book
+
+
+## Video
+
+* <p>[js] <a href="https://www.udemy.com/learning-data-structures-in-javascript-from-scratch/learn/v4/overview">Learning Data Structures in JavaScript from scratch</a></p>
