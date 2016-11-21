@@ -1,0 +1,30 @@
+---
+layout:     post
+title:      "16"
+subtitle:   "weekly learning"
+date:       2016-11-19 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 11/12 ~ 11/19”
+
+## Use
+
+
+## Read
+
+* <p>[rails] <a href="https://gist.github.com/jcasimir/1210155">Render and Redirect</a></p>
+  1. render to action => just view the action template, not actually call action
+  2. redirect_to is not return
+
+* <p>[programing] <a href="http://webpro.github.io/programming-principles/">http://webpro.github.io/programming-principles/</a></p>
+
+## Book
+
+## Video
+
+* <p>[cs50] <a href="https://www.youtube.com/watch?v=o4SGkB_8fFs&t=4s">week 0, scratch</a></p>
+
+* <p>[cs50] <a href="https://www.youtube.com/watch?v=o4SGkB_8fFs&t=4s">week 1, C</a></p>

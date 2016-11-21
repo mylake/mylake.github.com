@@ -5,9 +5,54 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Nov 2016 15:17:06 +0800</pubDate>
-    <lastBuildDate>Mon, 14 Nov 2016 15:17:06 +0800</lastBuildDate>
+    <pubDate>Mon, 21 Nov 2016 22:50:51 +0800</pubDate>
+    <lastBuildDate>Mon, 21 Nov 2016 22:50:51 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>16</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 11/12 ~ 11/19”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;https://gist.github.com/jcasimir/1210155&quot;&gt;Render and Redirect&lt;/a&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;render to action =&amp;gt; just view the action template, not actually call action&lt;/li&gt;
+      &lt;li&gt;redirect_to is not return&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[programing] &lt;a href=&quot;http://webpro.github.io/programming-principles/&quot;&gt;http://webpro.github.io/programming-principles/&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[cs50] &lt;a href=&quot;https://www.youtube.com/watch?v=o4SGkB_8fFs&amp;amp;t=4s&quot;&gt;week 0, scratch&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[cs50] &lt;a href=&quot;https://www.youtube.com/watch?v=o4SGkB_8fFs&amp;amp;t=4s&quot;&gt;week 1, C&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 19 Nov 2016 08:00:00 +0800</pubDate>
+        <link>/2016/11/19/1/</link>
+        <guid isPermaLink="true">/2016/11/19/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>15</title>
@@ -873,98 +918,6 @@ production sidekiq server中的monit設定檔看到 /etc/monit/monitrc
         <pubDate>Sat, 17 Sep 2016 08:00:00 +0800</pubDate>
         <link>/2016/09/17/1/</link>
         <guid isPermaLink="true">/2016/09/17/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>6</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 9/3 ~ 9/10”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/spree/deface&quot;&gt;deface&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Deface is a library that allows you to customize HTML (ERB, Haml and Slim) views in a Rails application without editing the underlying view.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/plataformatec/has_scope&quot;&gt;has_scope&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Has scope allows you to map incoming controller parameters to named scopes in your resources.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;http://markdaggett.com/blog/2011/12/01/transactions-in-rails/&quot;&gt;transactions-in-rails&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[article] &lt;a href=&quot;http://www.jianshu.com/p/fdbaf8ced079&quot;&gt;不明白大腦如何運作，自學是無效的&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;http://pawelgoscicki.com/archives/2015/09/testing-database-transactions-explicitly-in-rspec/&quot;&gt;Testing database transactions explicitly with RSpec&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;http://schneems.com/post/22192005006/legacy-concerns-in-rails/&quot;&gt;Legacy Concerns in Rails&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;https://blog.codeship.com/good-module-bad-module/&quot;&gt;Good Module, Bad Module&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[DB] &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI4NTA1MDEwNg%3D%3D&amp;amp;mid=2650756483&amp;amp;idx=1&amp;amp;sn=da3a5e0b1d56f7bb2085dde763e7db24&amp;amp;scene=0&amp;amp;utm_content=buffer79106&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer#wechat_redirect&quot;&gt;MySQL5.7中InnoDB不可不知的新特性&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;https://speakerdeck.com/shagemann/refactoring-towards-component-based-rails-architectures-at-railsconf&quot;&gt;Component-based Rails Architectures&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[nginx] &lt;a href=&quot;https://imququ.com/post/nginx-http2-post-bug.html#toc-2&quot;&gt;談談Nginx 的HTTP/2 POST Bug&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;http://modular-rails.samurails.com/&quot;&gt;modular Rails&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Engines are generated with rails plugin new core –mountable&lt;/li&gt;
-      &lt;li&gt;We need an empty Ruby on Rails application to hold our engines as gems&lt;/li&gt;
-      &lt;li&gt;When using gems inside an engine, they need to be required when the engine is
-loaded&lt;/li&gt;
-      &lt;li&gt;Some gems require special attention when we integrate them inside engines instead
-of regular Ruby on Rails applications&lt;/li&gt;
-      &lt;li&gt;You can check if an engine is present by checking if the module is defined with defined?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;migration in the engine plugin, how are we going to migrate it from the parent app?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;initializer :append_migrations do |app|
-  unless app.root.to_s.match(root.to_s)
-    config.paths['db/migrate'].expanded.each do |p|
-      app.config.paths['db/migrate'] &amp;lt;&amp;lt; p
-    end
-  end
-end
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 10 Sep 2016 08:00:00 +0800</pubDate>
-        <link>/2016/09/10/1/</link>
-        <guid isPermaLink="true">/2016/09/10/1/</guid>
         
         <category>weekly</category>
         
