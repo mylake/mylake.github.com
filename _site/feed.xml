@@ -5,9 +5,83 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 21 Nov 2016 22:50:51 +0800</pubDate>
-    <lastBuildDate>Mon, 21 Nov 2016 22:50:51 +0800</lastBuildDate>
+    <pubDate>Tue, 29 Nov 2016 15:28:00 +0800</pubDate>
+    <lastBuildDate>Tue, 29 Nov 2016 15:28:00 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>17</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 11/19 ~ 11/26”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/fakefs/fakefs&quot;&gt;FakeFS&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Mocking calls to FileUtils or File means tightly coupling tests with the implementation.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/rubyzip/rubyzip&quot;&gt;ruby zip&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;create zip file&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/adamcooke/procodile&quot;&gt;Procodile &lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;process manager&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[system] &lt;a href=&quot;http://linux.vbird.org/linux_server/0440ntp.php&quot;&gt;時間伺服器： NTP 伺服器&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[design pattern] &lt;a href=&quot;https://sibevin.github.io/tags?t=dp&quot;&gt;study group design pattern&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[design pattern] &lt;a href=&quot;http://teddy-chen-tw.blogspot.tw/2016/11/1layers.html&quot;&gt;軟體架構模式（1）：Layers&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[design pattern] &lt;a href=&quot;http://teddy-chen-tw.blogspot.tw/2016/11/2pipes-and-filters.html&quot;&gt;軟體架構模式（2）：Pipes and Filters&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[design pattern] &lt;a href=&quot;http://teddy-chen-tw.blogspot.tw/2016/11/3model-view-controller.html&quot;&gt;軟體架構模式（3）：Model-View-Controller&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;https://www.sitepoint.com/learn-ruby-metaprogramming-for-great-good/&quot;&gt;Learn Ruby Metaprogramming for Great Good&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;https://blog.adamcooke.io/running-ruby-apps-in-production-b7e8e5b516eb#.bt8lqmzd5&quot;&gt;Running Ruby apps in production&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[cs50] &lt;a href=&quot;https://www.youtube.com/watch?v=o4SGkB_8fFs&amp;amp;t=4s&quot;&gt;week 1, C&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 26 Nov 2016 08:00:00 +0800</pubDate>
+        <link>/2016/11/26/1/</link>
+        <guid isPermaLink="true">/2016/11/26/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>16</title>
@@ -837,87 +911,6 @@ production sidekiq server中的monit設定檔看到 /etc/monit/monitrc
         <pubDate>Sat, 24 Sep 2016 08:00:00 +0800</pubDate>
         <link>/2016/09/24/1/</link>
         <guid isPermaLink="true">/2016/09/24/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>7</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 9/10 ~ 9/17”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/testdouble/suture&quot;&gt;suture&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Surgical Refactors&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/quilljs/quill&quot;&gt;quill&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Quill Rich Text Editor&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/randy-girard/app_perf&quot;&gt;AppPerf&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Application Performance Monitoring&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;http://railscasts.com/episodes/72-adding-an-environment-revised?view=asciicast&quot;&gt;Rails Adding an Environment&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[css] &lt;a href=&quot;http://csscoke.com/2015/07/31/nth-child_rwd_album/&quot;&gt;超簡單格相簿效果教學，使用 CSS3 nth-child只要五步驟！&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;https://speakerdeck.com/searls/surgical-refactors&quot;&gt;Surgical Refactors&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;https://speakerdeck.com/tanm/learn-programming-essence-from-ruby-patches&quot;&gt;Learn Programming Essence from Ruby patches&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;https://speakerdeck.com/v0dro/data-analysis-in-ruby-with-daru&quot;&gt;Data Analysis in RUby with daru&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;https://speakerdeck.com/k0kubun/scalable-job-queue-system-built-with-docker&quot;&gt;Scalable Job Queue System Built with Docker&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;https://tech.lendinghome.com/being-lazy-with-activerecord-77c470917160#.bjoh1h7bh&quot;&gt;Being Lazy with ActiveRecord&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Enumerator::Lazy&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[SOA] &lt;a href=&quot;http://www.ruanyifeng.com/blog/2016/09/how_amazon_take_soa.html&quot;&gt;亞馬遜如何變成SOA&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[SOA] &lt;a href=&quot;http://www.slideshare.net/hsbt/how-dsl-works-on-ruby&quot;&gt;How DSL works on Ruby&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;http://martinfowler.com/books/refactoringRubyEd.html&quot;&gt;Refactoring Ruby Edition&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 17 Sep 2016 08:00:00 +0800</pubDate>
-        <link>/2016/09/17/1/</link>
-        <guid isPermaLink="true">/2016/09/17/1/</guid>
         
         <category>weekly</category>
         

@@ -1,0 +1,44 @@
+---
+layout:     post
+title:      "17"
+subtitle:   "weekly learning"
+date:       2016-11-26 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 11/19 ~ 11/26”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/fakefs/fakefs">FakeFS</a></p>
+  * Mocking calls to FileUtils or File means tightly coupling tests with the implementation.
+
+* <p>[gem] <a href="https://github.com/rubyzip/rubyzip">ruby zip</a></p>
+  * create zip file
+
+* <p>[gem] <a href="https://github.com/adamcooke/procodile">Procodile </a></p>
+  * process manager
+
+## Read
+
+* <p>[system] <a href="http://linux.vbird.org/linux_server/0440ntp.php">時間伺服器： NTP 伺服器</a></p>
+
+* <p>[design pattern] <a href="https://sibevin.github.io/tags?t=dp">study group design pattern</a></p>
+
+* <p>[design pattern] <a href="http://teddy-chen-tw.blogspot.tw/2016/11/1layers.html">軟體架構模式（1）：Layers</a></p>
+
+* <p>[design pattern] <a href="http://teddy-chen-tw.blogspot.tw/2016/11/2pipes-and-filters.html">軟體架構模式（2）：Pipes and Filters</a></p>
+
+* <p>[design pattern] <a href="http://teddy-chen-tw.blogspot.tw/2016/11/3model-view-controller.html">軟體架構模式（3）：Model-View-Controller</a></p>
+
+* <p>[ruby] <a href="https://www.sitepoint.com/learn-ruby-metaprogramming-for-great-good/">Learn Ruby Metaprogramming for Great Good</a></p>
+
+* <p>[ruby] <a href="https://blog.adamcooke.io/running-ruby-apps-in-production-b7e8e5b516eb#.bt8lqmzd5">Running Ruby apps in production</a></p>
+
+## Book
+
+## Video
+
+* <p>[cs50] <a href="https://www.youtube.com/watch?v=o4SGkB_8fFs&t=4s">week 1, C</a></p>
