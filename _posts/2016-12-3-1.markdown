@@ -1,0 +1,64 @@
+---
+layout:     post
+title:      "18"
+subtitle:   "weekly learning"
+date:       2016-12-03 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 11/26 ~ 12/03”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/jackc/surus">surus</a></p>
+  * PostgreSQL extensions for ActiveRecord
+
+## Read
+
+* <p>[react native] <a href="https://f8-app.liaohuqiu.net/tutorials/building-the-f8-app/planning/">構建F8 App / React Native 開髮指南</a></p>
+
+* <p>[react native] <a href="http://bbs.reactnative.cn/topic/20/%E6%96%B0%E6%89%8B%E7%90%86%E8%A7%A3navigator%E7%9A%84%E6%95%99%E7%A8%8B">新手理解Navigator的教程</a></p>
+
+## Book
+
+## Video
+
+* <p>[redux] <a href="https://egghead.io/courses/getting-started-with-redux">Getting Started with Redux</a></p>
+
+* <p>[redux] <a href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">Building React Applications with Idiomatic Redux</a></p>
+
+## Learn
+
+* Bootstrap 模組化
+  * 依用途
+    * 隔線系統
+    * 導覽系統
+      * navbar
+      * list-group
+      * breadcrumb
+      * pagination
+      * pager
+      * dropdown
+    * 圖示系統
+      * glyphicon => 基本設定
+      * glyphicon-user => 差異化設定
+    * 內容設定系統
+      * 文字色彩 => text-info, text-success, text-warning, text-danger
+      * 背景顏色 => bg-info, bg-success, .....
+      * 凸顯內容 => well, lead, blockquote
+      * 文字對齊 換行 => text-left, text-nowrap, .....
+      * panel => panel 基本設定 panel-info 顏色設定
+      * pager-header
+      * h1~h6
+      * jumbotron
+      * 清單控制 => list-unstyled, list-inline
+      * 影片及媒體 => responsive-embed
+      * 仿iframe => pre-scrollable
+      * 圖片控制 => image-responsive
+    * 表單系統
+      * form-group
+      * input-group
+      * checkbox, radiobox
+    * js外掛
