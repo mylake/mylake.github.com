@@ -1,0 +1,35 @@
+---
+layout:     post
+title:      "19"
+subtitle:   "weekly learning"
+date:       2016-12-18 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 12/03 ~ 12/18”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/ruby-prof/ruby-prof">ruby-prof</a></p>
+
+* <p>[gem] <a href="https://github.com/AssetSync/asset_sync">asset_sync</a></p>
+
+* <p>[gem] <a href="https://github.com/Shopify/identity_cache">IdentityCache</a></p>
+
+## Read
+
+* <p>[sidekiq] <a href="http://www.mikeperham.com/2015/10/14/optimizing-sidekiq/">optimizing-sidekiq</a></p>
+
+* <p>[ruby] <a href="http://code.oneapm.com/ruby/2015/06/08/ruby-prof/">Ruby Profiler詳解之ruby-prof</a></p>
+
+* <p>[redux] <a href="http://react-china.org/t/redux/2687">這段時間研究了下Redux，寫寫自己對它的感覺</a></p>
+
+## Book
+
+## Video
+
+* <p>[ruby] <a href="https://www.youtube.com/watch?v=j347oSSuNHA">Big Ruby 2013 How Shopify Scales Rails</a></p>
+
+## Learn
