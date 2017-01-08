@@ -5,14 +5,85 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 15 Dec 2016 09:13:24 +0800</pubDate>
-    <lastBuildDate>Thu, 15 Dec 2016 09:13:24 +0800</lastBuildDate>
+    <pubDate>Sun, 08 Jan 2017 21:02:10 +0800</pubDate>
+    <lastBuildDate>Sun, 08 Jan 2017 21:02:10 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>20</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 12/18 ~ 1/07”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[web] &lt;a href=&quot;http://m.leiphone.com/news/201606/UEiart497WUzS62u.html&quot;&gt;我們真的需要網頁版App嗎？Google PWA的困局&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Web最重要的意義在於Open（開放）與Decentralized （去中心化）&lt;/li&gt;
+      &lt;li&gt;缺點：門檻不低, 瀏覽器支持, 用戶習慣&lt;/li&gt;
+      &lt;li&gt;優點: web 特性 優雅降級、漸進增強&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[redux] &lt;a href=&quot;https://medium.com/@WendellLiu/%E9%80%81%E8%AE%93%E4%BD%A0%E7%9A%84action%E8%83%BD%E4%BD%9C%E6%9B%B4%E5%A4%9A-redux-thunk-c07bc5488e48#.998ddxmo7&quot;&gt;讓你的Action能作更多 — Redux-Thunk&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;thunk就是一個function的內部會去呼叫另一個function，也就是再包裝的概念 =&amp;gt; 裡面再dispatch一次 可以解決非同步的問題&lt;/li&gt;
+      &lt;li&gt;Thunk是一個以action為本的包裹器&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[redux] &lt;a href=&quot;http://div.io/topic/1309&quot;&gt;深入到源碼：解讀redux的設計思路與用法&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[redux] &lt;a href=&quot;https://medium.com/@WendellLiu/redux-middleware%E5%A4%A7%E7%95%A5%E6%9E%B6%E6%A7%8B-ace7e646c929#.q59hfudfr&quot;&gt;Redux Middleware大略架構&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;以包裹的方式，改變原生dispatch的行為&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[redux] &lt;a href=&quot;http://taobaofed.org/blog/2016/08/18/react-redux-connect/&quot;&gt;React 實踐心得：react-redux 之connect 方法詳解&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[redux] &lt;a href=&quot;http://www.cnblogs.com/hhhyaaon/p/5863408.html&quot;&gt;react-redux原理分析&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[react] &lt;a href=&quot;https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.gn3nd3wwl&quot;&gt;Presentational and Container Components&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;presentational components tend to be stateless pure functions&lt;/li&gt;
+      &lt;li&gt;containers tend to be stateful pure classes&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[redux] &lt;a href=&quot;https://chentsulin.github.io/redux/index.html&quot;&gt;Redux&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 07 Jan 2017 08:00:00 +0800</pubDate>
+        <link>/2017/01/07/1/</link>
+        <guid isPermaLink="true">/2017/01/07/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>19</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 12/03 ~ 12/10”&lt;/p&gt;
+  &lt;p&gt;“strive 12/03 ~ 12/18”&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
@@ -38,6 +109,9 @@
   &lt;li&gt;
     &lt;p&gt;[ruby] &lt;a href=&quot;http://code.oneapm.com/ruby/2015/06/08/ruby-prof/&quot;&gt;Ruby Profiler詳解之ruby-prof&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[redux] &lt;a href=&quot;http://react-china.org/t/redux/2687&quot;&gt;這段時間研究了下Redux，寫寫自己對它的感覺&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
@@ -52,9 +126,9 @@
 
 &lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
 </description>
-        <pubDate>Sat, 10 Dec 2016 08:00:00 +0800</pubDate>
-        <link>/2016/12/10/1/</link>
-        <guid isPermaLink="true">/2016/12/10/1/</guid>
+        <pubDate>Sun, 18 Dec 2016 08:00:00 +0800</pubDate>
+        <link>/2016/12/18/1/</link>
+        <guid isPermaLink="true">/2016/12/18/1/</guid>
         
         <category>weekly</category>
         
@@ -718,122 +792,6 @@ end
         <pubDate>Sat, 15 Oct 2016 08:00:00 +0800</pubDate>
         <link>/2016/10/15/1/</link>
         <guid isPermaLink="true">/2016/10/15/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>10</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 10/1 ~ 10/8”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/aws/aws-sdk-ruby&quot;&gt;aws-sdk-ruby&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/fnando/browser&quot;&gt;browser&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Do some browser detection with Ruby. Includes ActionController integration.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[web] &lt;a href=&quot;http://2014.jsconf.cn/slides/herman-taobaoweb/index.html#/&quot;&gt;掏寶前後端分離實踐&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[web] &lt;a href=&quot;http://blog.tryneighborly.com/amazon-sns-for-apns-on-rails/&quot;&gt;How we integrated Amazon SNS with Rails for Apple Push Notifications&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[design pattern] &lt;a href=&quot;http://sibevin.github.io/posts/2016-09-26-195847-command-pattern&quot;&gt;Command Pattern sample&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[frontend] &lt;a href=&quot;https://www.rapospectre.com/blog/web-page-loading-optimize-guide&quot;&gt;400%飛躍：Web 頁面加載速度優化實戰&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://gist.github.com/dhh/2492118&quot;&gt;routes refactor&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[architect] &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&amp;amp;mid=2659598234&amp;amp;idx=1&amp;amp;sn=f36c03f8702add6ef5bcfbc9e65e27fe&amp;amp;scene=0#wechat_redirect&quot;&gt;日消息量突破50億，談小米的高可用推送系統設計&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rspec] &lt;a href=&quot;https://relishapp.com/rspec/rspec-mocks/docs/working-with-legacy-code/any-instance&quot;&gt;allow_any_instance_of&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;expect_any_instance_of&lt;/li&gt;
-      &lt;li&gt;allow_any_instance_of&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[architect] &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&amp;amp;mid=2659598195&amp;amp;idx=1&amp;amp;sn=a69628c628c474d1b1368d139d64714f&amp;amp;scene=0#wechat_redirect&quot;&gt;阿里巴巴店舖的十年技術演變之路&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;前後端一致的元件化&lt;/li&gt;
-      &lt;li&gt;統一數據中心&lt;/li&gt;
-      &lt;li&gt;開放的設計平台&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://ruby-china.org/topics/5066&quot;&gt;ActiveRecord::Base與ActiveRecord::Relation關係及基本原理&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[article] &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;amp;mid=2650994277&amp;amp;idx=1&amp;amp;sn=f0d3c25d805503264a78ab5eeb29044d&amp;amp;chksm=bdbf0e368ac88720da10e901457fdbee77a90a426c20a3b95316fcbc6c8ab7b1afbd55950ad3&amp;amp;scene=21#wechat_redirect&quot;&gt;天天寫「業務代碼」，如何成為「技術大牛」？&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://pragprog.com/book/jvrails2/crafting-rails-4-applications&quot;&gt;Crafting Rails 4 Applications&lt;/a&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;Creating Our Own Renderer
-        &lt;ol&gt;
-          &lt;li&gt;controller call render&lt;/li&gt;
-          &lt;li&gt;ActionController::Instrumentation render&lt;/li&gt;
-          &lt;li&gt;AbstractController::Rendering render
-            &lt;ul&gt;
-              &lt;li&gt;3.1. AbstractController::Rendering _normalize_render
-                &lt;ul&gt;
-                  &lt;li&gt;3.1.1. AbstractController::Rendering _normalize_args&lt;/li&gt;
-                  &lt;li&gt;3.1.1.1 ActionController::Rendering _normalize_args&lt;/li&gt;
-                  &lt;li&gt;3.1.1.2 ActionView::Rendering _normalize_args&lt;/li&gt;
-                  &lt;li&gt;
-                    &lt;p&gt;3.1.1.3 AbstractController::Rendering _normalize_args&lt;/p&gt;
-                  &lt;/li&gt;
-                  &lt;li&gt;3.1.2 AbstractController::Rendering _normalize_options&lt;/li&gt;
-                  &lt;li&gt;3.1.2.1 ActionController::Rendering _normalize_options&lt;/li&gt;
-                  &lt;li&gt;3.1.2.2 ActionController::Rendering _normalize_text&lt;/li&gt;
-                  &lt;li&gt;3.1.2.3 ActionView::Layouts _normalize_options&lt;/li&gt;
-                  &lt;li&gt;3.1.2.4 ActionView::Rendering _normalize_options&lt;/li&gt;
-                  &lt;li&gt;3.1.2.5 AbstractController::Rendering _normalize_options&lt;/li&gt;
-                &lt;/ul&gt;
-              &lt;/li&gt;
-              &lt;li&gt;3.2 AbstractController::Rendering render_to_body
-                &lt;ul&gt;
-                  &lt;li&gt;3.2.1 ActionController::Renderers render_to_body&lt;/li&gt;
-                  &lt;li&gt;3.2.1.1 ActionView::Rendering render_to_body =&amp;gt; _process_options =&amp;gt; _render_template&lt;/li&gt;
-                &lt;/ul&gt;
-              &lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 08 Oct 2016 08:00:00 +0800</pubDate>
-        <link>/2016/10/08/1/</link>
-        <guid isPermaLink="true">/2016/10/08/1/</guid>
         
         <category>weekly</category>
         
