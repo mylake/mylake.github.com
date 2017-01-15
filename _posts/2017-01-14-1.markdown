@@ -1,0 +1,31 @@
+---
+layout:     post
+title:      "21"
+subtitle:   "weekly learning"
+date:       2017-01-14 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 1/07 ~ 1/14”
+
+## Use
+
+* <p>[tool] <a href="https://github.com/motemen/git-pr-release">git-pr-release</a></p>
+  *  可用來做production deploy 的 release log ，可以方便追蹤每次 deploy production 時，和上一次 deploy 的 code diff
+
+## Read
+
+* <p>[web] <a href="https://philna.sh/blog/2016/06/13/the-surprise-multipart-form-data/">THE SURPRISE MULTIPART/FORM-DATA</a></p>
+  * FormData objects set the content type of a Fetch API (or XMLHttpRequest) request to multipart/form-data automagically.
+
+* <p>[seo] <a href="http://andrewhfarmer.com/react-seo/">Will google find your react component</a></p>
+
+## Book
+
+## Video
+
+* <p>[javascript] <a href="https://www.udemy.com/javascriptjs/learn/v4/overview">JavaScript全攻略：克服JS的奇怪部分</a></p>
+
+## Learn

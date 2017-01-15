@@ -5,9 +5,61 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Jan 2017 21:02:10 +0800</pubDate>
-    <lastBuildDate>Sun, 08 Jan 2017 21:02:10 +0800</lastBuildDate>
+    <pubDate>Mon, 16 Jan 2017 07:37:04 +0800</pubDate>
+    <lastBuildDate>Mon, 16 Jan 2017 07:37:04 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>21</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 1/07 ~ 1/14”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[tool] &lt;a href=&quot;https://github.com/motemen/git-pr-release&quot;&gt;git-pr-release&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;可用來做production deploy 的 release log ，可以方便追蹤每次 deploy production 時，和上一次 deploy 的 code diff&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[web] &lt;a href=&quot;https://philna.sh/blog/2016/06/13/the-surprise-multipart-form-data/&quot;&gt;THE SURPRISE MULTIPART/FORM-DATA&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;FormData objects set the content type of a Fetch API (or XMLHttpRequest) request to multipart/form-data automagically.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[seo] &lt;a href=&quot;http://andrewhfarmer.com/react-seo/&quot;&gt;Will google find your react component&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[javascript] &lt;a href=&quot;https://www.udemy.com/javascriptjs/learn/v4/overview&quot;&gt;JavaScript全攻略：克服JS的奇怪部分&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 14 Jan 2017 08:00:00 +0800</pubDate>
+        <link>/2017/01/14/1/</link>
+        <guid isPermaLink="true">/2017/01/14/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>20</title>
@@ -578,220 +630,6 @@
         <pubDate>Sat, 22 Oct 2016 08:00:00 +0800</pubDate>
         <link>/2016/10/22/1/</link>
         <guid isPermaLink="true">/2016/10/22/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>11</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 10/9 ~ 10/15”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/krisleech/wisper&quot;&gt;https://github.com/krisleech/wisper&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;A micro library providing Ruby objects with Publish-Subscribe capabilities&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[monitor] &lt;a href=&quot;https://mmonit.com/monit/&quot;&gt;monit&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://ruby-china.org/topics/31164&quot;&gt;ruby conf china 2016&lt;/a&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;[rails] &lt;a href=&quot;https://speakerdeck.com/poshboytl/building-api-for-the-rest-of-us&quot;&gt;Building API For The REST of Us&lt;/a&gt;&lt;/p&gt;
-        &lt;ul&gt;
-          &lt;li&gt;authenticaion base on the payload and access key&lt;/li&gt;
-          &lt;li&gt;After user signup send him a welcome email =&amp;gt; use service and be called on controller&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;[rails] &lt;a href=&quot;https://speakerdeck.com/zmbacker/da-zao-ruby-kai-fa-tuan-dui-de-hang-mu&quot;&gt;打造 Ruby 开发团队的航母&lt;/a&gt;&lt;/p&gt;
-        &lt;ul&gt;
-          &lt;li&gt;元件化 可組裝應用 將各個可共用功能都拆成gem, rails engine&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;[rails] &lt;a href=&quot;https://speakerdeck.com/windy/ru-he-li-yong-rails-zai-21-tian-dan-qiang-pi-ma-shang-xian-ge-chan-pin&quot;&gt;如何利用 Rails 在 21 天单枪匹马上线一个产品 &lt;/a&gt;&lt;/p&gt;
-        &lt;ul&gt;
-          &lt;li&gt;快速打造產品的步驟及能力&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;[rails] &lt;a href=&quot;https://speakerdeck.com/pmq20/huan-jing-bian-liang-wei-he-neng-rang-ruby-kuai-shi-bei&quot;&gt;环境变量 为何能让 Ruby 快十倍&lt;/a&gt;&lt;/p&gt;
-        &lt;ul&gt;
-          &lt;li&gt;優化好Bundler&lt;/li&gt;
-          &lt;li&gt;bundler/setup之後 大量環境變數被修改&lt;/li&gt;
-          &lt;li&gt;bundle/setup 後 會比較目前Gemfile, Gemfile.lock, 等於浪費時間去載比較一次Gemfile, 因為已經有Gemfile.lock了&lt;/li&gt;
-          &lt;li&gt;解法: Bundler.with_clean_env&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;[rails] &lt;a href=&quot;https://speakerdeck.com/xdite/refactoring-lesson-from-gpa-1-dot-4-to-gpa-3-dot-0&quot;&gt;Refactoring lesson : from GPA 1.4 to GPA 3.0&lt;/a&gt;&lt;/p&gt;
-        &lt;ul&gt;
-          &lt;li&gt;refactor 原則&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;[rails] &lt;a href=&quot;https://speakerdeck.com/mechiland/reconsider-rest-chong-gou-jian-da-xing-railsying-yong-de-fang-shi&quot;&gt;Reconsider REST: 一种构建大型Rails应用的方式&lt;/a&gt;&lt;/p&gt;
-        &lt;ul&gt;
-          &lt;li&gt;定義資源 思考資源的含意 而不是動作&lt;/li&gt;
-          &lt;li&gt;思考資源的業務意義 而不是資料表&lt;/li&gt;
-          &lt;li&gt;routes.rb 中不出現動詞&lt;/li&gt;
-          &lt;li&gt;使用標準HTTP Verb + Resource 組裝業務邏輯&lt;/li&gt;
-          &lt;li&gt;每個controller 不超過CRUD標準方法&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;[rails] &lt;a href=&quot;https://speakerdeck.com/xiewenwei/ru-he-gei-rails-ying-yong-jian-fei-bo-he-wei-fu-wu-hua-shi-jian&quot;&gt;如何给 Rails 应用减肥 - 薄荷微服务化实践&lt;/a&gt;&lt;/p&gt;
-        &lt;ul&gt;
-          &lt;li&gt;根據業務運行粒度適中的劃分
-            &lt;ul&gt;
-              &lt;li&gt;按性質 獨立基礎服務&lt;/li&gt;
-              &lt;li&gt;按業務 按產品&lt;/li&gt;
-              &lt;li&gt;按團隊 康威定律&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;建立簡便的服務煎通信機制和跨服務數據訪問的能力&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;[rails] &lt;a href=&quot;https://speakerdeck.com/danielglh/da-zao-guo-ji-hua-chan-pin-strikinglyde-i18nshi-jian&quot;&gt;打造国际化产品：Strikingly的I18n实践 &lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[architect] &lt;a href=&quot;http://www.infoq.com/cn/articles/every-architect-should-study-conway-law?utm_campaign=infoq_content&amp;amp;utm_source=infoq&amp;amp;utm_medium=feed&amp;amp;utm_term=global&quot;&gt;每個架構師都應該研究下康威定律&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;http://yafeilee.me/blogs/88&quot;&gt;Turbolinks5 概述及實現原理&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;http://railscasts.com/episodes/239-activerecord-relation-walkthrough?view=asciicast&quot;&gt;ActiveRecord::Relation Walkthrough&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://www.viget.com/articles/using-time-zones-with-rails&quot;&gt;Using Time Zones with Rails&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[HTTP] &lt;a href=&quot;http://www.ruanyifeng.com/blog/2016/04/cors.html&quot;&gt;跨域資源共享CORS 詳解&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;CORS需要瀏覽器和服務器同時支持&lt;/li&gt;
-      &lt;li&gt;簡單請求=&amp;gt; 具體來說，就是在頭信息之中，增加一個Origin字段&lt;/li&gt;
-      &lt;li&gt;非簡單請求
-        &lt;ul&gt;
-          &lt;li&gt;預檢請求 =&amp;gt; “預檢”請求用的請求方法是OPTIONS&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://pragprog.com/book/jvrails2/crafting-rails-4-applications&quot;&gt;Crafting Rails 4 Applications&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;chapter2: Building Models with Active Model
-        &lt;ul&gt;
-          &lt;li&gt;Adding Attribute Methods
-            &lt;ul&gt;
-              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;include ActiveModel::AttributeMethods&lt;/code&gt; 1) attribute methods behavior&lt;/li&gt;
-              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;attribute_method_prefix 'clear_'&lt;/code&gt; 2) clear_ is attribute prefix&lt;/li&gt;
-              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;define_attribute_methods(names)&lt;/code&gt; 3) Ask to define the prefix methods for the given attribute names&lt;/li&gt;
-              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;def clear_attribute(attribute)&lt;/code&gt; 4) Since we declared a “clear_” prefix, it expects to have a “clear_attribute” method defined, which receives an attributen ame and implements the clearing logic.&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Aiming for an Active Model–Compliant API
-            &lt;ul&gt;
-              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;include ActiveModel::Conversion&lt;/code&gt;
-                &lt;ul&gt;
-                  &lt;li&gt;to_key(), to_param(), and to_partial_path()&lt;/li&gt;
-                &lt;/ul&gt;
-              &lt;/li&gt;
-              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;extend ActiveModel::Naming&lt;/code&gt;
-                &lt;ul&gt;
-                  &lt;li&gt;human(), singular()&lt;/li&gt;
-                &lt;/ul&gt;
-              &lt;/li&gt;
-              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;extend ActiveModel::Translation&lt;/code&gt;
-                &lt;ul&gt;
-                  &lt;li&gt;i18n&lt;/li&gt;
-                &lt;/ul&gt;
-              &lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Delivering the Form
-            &lt;ul&gt;
-              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;class_attribute :attribute_names&lt;/code&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;self.attribute_names = []&lt;/code&gt; 1) Define a class attribute and initialize it&lt;/li&gt;
-              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;self.attribute_names += names&lt;/code&gt; 2) Add new names as they are defined&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;p&gt;initialize set value&lt;/p&gt;
-
-            &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def initialize(attributes = {})ttributes.each do |attr, value|
-  self.public_send(&quot;#{attr}=&quot;, value)
-  end if attributes
-end
-&lt;/code&gt;&lt;/pre&gt;
-            &lt;/div&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Validators
-            &lt;ul&gt;
-              &lt;li&gt;validates_presence_of&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def validates_presence_of(*attr_names)
-  validates_with PresenceValidator, _merge_attributes(attr_names)
-end
-&lt;/code&gt;&lt;/pre&gt;
-            &lt;/div&gt;
-
-            &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;const_get(&quot;#{key.to_s.camelize}Validator&quot;)&lt;/code&gt;&lt;/p&gt;
-
-            &lt;ul&gt;
-              &lt;li&gt;ActiveModel::EachValidator&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class AbsenceValidator &amp;lt; ActiveModel::EachValidator
-  def validate_each(record, attribute, value)
-    record.errors.add(attribute, :invalid, options) unless value.blank?
-  end
-end
-&lt;/code&gt;&lt;/pre&gt;
-            &lt;/div&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Callbacks
-            &lt;ul&gt;
-              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;extend ActiveModel::Callbacks&lt;/code&gt; 1) Add callbacks behavior&lt;/li&gt;
-              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;define_model_callbacks :deliver&lt;/code&gt; 2) Define the callbacks. The line below will create both before_deliver, and after_deliver callbacks with the same semantics as in Active Record&lt;/li&gt;
-              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;run_callbacks(:deliver) {}&lt;/code&gt; Change deliver to run the callbacks&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 15 Oct 2016 08:00:00 +0800</pubDate>
-        <link>/2016/10/15/1/</link>
-        <guid isPermaLink="true">/2016/10/15/1/</guid>
         
         <category>weekly</category>
         
