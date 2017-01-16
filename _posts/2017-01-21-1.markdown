@@ -1,0 +1,25 @@
+---
+layout:     post
+title:      "22"
+subtitle:   "weekly learning"
+date:       2017-01-21 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 1/14 ~ 1/21”
+
+## Use
+
+
+## Read
+
+* <p>[seo] <a href="http://andrewhfarmer.com/react-seo/">Will google find your react component</a></p>
+
+## Book
+
+## Video
+
+
+## Learn
