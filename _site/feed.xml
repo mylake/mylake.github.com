@@ -5,9 +5,64 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Jan 2017 07:37:04 +0800</pubDate>
-    <lastBuildDate>Mon, 16 Jan 2017 07:37:04 +0800</lastBuildDate>
+    <pubDate>Mon, 23 Jan 2017 00:06:32 +0800</pubDate>
+    <lastBuildDate>Mon, 23 Jan 2017 00:06:32 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>22</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 1/14 ~ 1/21”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/kjvarga/sitemap_generator&quot;&gt;sitemap_generator&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/lassebunk/dynamic_sitemaps&quot;&gt;dynamic_sitemaps&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[sitemap] &lt;a href=&quot;https://support.google.com/webmasters/answer/183668?hl=zh-Hant&amp;amp;ref_topic=4581190&amp;amp;authuser=0&quot;&gt;管理您的 Sitemap&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[sitemap] &lt;a href=&quot;http://www.wfublog.com/2015/01/blogger-sitemap-xml-atom-rss.html&quot;&gt;Blogger 提供新的網站地圖(sitemap)格式﹍一勞永逸的提交方&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[seo] &lt;a href=&quot;https://support.google.com/webmasters/answer/35624?authuser=2#1&quot;&gt;Review your page titles and snippets&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[A/B testing] &lt;a href=&quot;https://buzzorange.com/techorange/2017/01/19/website-ab-test/&quot;&gt;跟Netflix學做A/B測試：深入挖掘用戶關注的點，才能設計出好的A/B測試！&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[interview] &lt;a href=&quot;https://www.udemy.com/software-engineer-interview-unleashed/learn/v4/overview&quot;&gt;Software Engineer Interview Unleashed&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 21 Jan 2017 08:00:00 +0800</pubDate>
+        <link>/2017/01/21/1/</link>
+        <guid isPermaLink="true">/2017/01/21/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>21</title>
@@ -573,63 +628,6 @@
         <pubDate>Sat, 29 Oct 2016 08:00:00 +0800</pubDate>
         <link>/2016/10/29/1/</link>
         <guid isPermaLink="true">/2016/10/29/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>12</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 10/16 ~ 10/22”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;http://andrewberls.com/blog/post/rails-from-request-to-response-part-1--introduction&quot;&gt;Rails from Request to Response&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://robots.thoughtbot.com/back-to-basics-http-requests&quot;&gt;Back to Basics: HTTP Requests in Rails Apps&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[architect] &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;amp;mid=2650994320&amp;amp;idx=1&amp;amp;sn=522b995e9161f0a3534e70bdc5890f6d&amp;amp;chksm=bdbf0ec38ac887d5e33321aef54c9cad9b3fc3c3e6eb86192cecebf290df3a84c7316a1dd3e0&amp;amp;scene=0#wechat_redirect&quot;&gt;大促活動前如何做團購系統流量預算和容量評估&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;大促活動的特點: 瞬時流量, 熱點團單, 核心路徑&lt;/li&gt;
-      &lt;li&gt;系統：業務按微服務化拆分出來，每個服務獨立專注的做一件事情&lt;/li&gt;
-      &lt;li&gt;活動流量預算&lt;/li&gt;
-      &lt;li&gt;壓力測試&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[facebook ios sdk] &lt;a href=&quot;https://developers.facebook.com/docs/ios/getting-started/#app-events&quot;&gt;Facebook iOS SDK 新手指南&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[React Native, Firebase] &lt;a href=&quot;http://blog.techbridge.cc/2016/09/10/react-native-redux-android-firebase/&quot;&gt;一看就懂的 React Native + Firebase Mobile App 入門教學&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[flex] &lt;a href=&quot;http://www.flexboxdefense.com/&quot;&gt;flexboxdefense&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://pragprog.com/book/jvrails2/crafting-rails-4-applications&quot;&gt;Crafting Rails 4 Applications&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[saas] &lt;a href=&quot;http://www.books.com.tw/products/CN10495087&quot;&gt;互聯網時代的軟件革命︰SaaS架構設計&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 22 Oct 2016 08:00:00 +0800</pubDate>
-        <link>/2016/10/22/1/</link>
-        <guid isPermaLink="true">/2016/10/22/1/</guid>
         
         <category>weekly</category>
         

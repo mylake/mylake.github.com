@@ -12,14 +12,24 @@ tags:
 
 ## Use
 
+* <p>[gem] <a href="https://github.com/kjvarga/sitemap_generator">sitemap_generator</a></p>
+
+* <p>[gem] <a href="https://github.com/lassebunk/dynamic_sitemaps">dynamic_sitemaps</a></p>
 
 ## Read
 
-* <p>[seo] <a href="http://andrewhfarmer.com/react-seo/">Will google find your react component</a></p>
+* <p>[sitemap] <a href="https://support.google.com/webmasters/answer/183668?hl=zh-Hant&ref_topic=4581190&authuser=0">管理您的 Sitemap</a></p>
+
+* <p>[sitemap] <a href="http://www.wfublog.com/2015/01/blogger-sitemap-xml-atom-rss.html">Blogger 提供新的網站地圖(sitemap)格式﹍一勞永逸的提交方</a></p>
+
+* <p>[seo] <a href="https://support.google.com/webmasters/answer/35624?authuser=2#1">Review your page titles and snippets</a></p>
+
+* <p>[A/B testing] <a href="https://buzzorange.com/techorange/2017/01/19/website-ab-test/">跟Netflix學做A/B測試：深入挖掘用戶關注的點，才能設計出好的A/B測試！</a></p>
 
 ## Book
 
 ## Video
 
+* <p>[interview] <a href="https://www.udemy.com/software-engineer-interview-unleashed/learn/v4/overview">Software Engineer Interview Unleashed</a></p>
 
 ## Learn
