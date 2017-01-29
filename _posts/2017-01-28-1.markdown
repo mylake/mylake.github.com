@@ -1,0 +1,114 @@
+---
+layout:     post
+title:      "23"
+subtitle:   "weekly learning"
+date:       2017-01-28 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 1/21 ~ 1/28”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/stympy/faker">faker</a></p>
+
+* <p>[gem] <a href="https://github.com/code-mancers/rbkit">rbkit</a></p>
+
+* <p>[gem] <a href="https://github.com/code-mancers/rbkit-client">rbkit-client</a></p>
+
+* <p>[gem] <a href="https://github.com/noahd1/oink">oink</a></p>
+  * Rails plugin and log parser to help narrow down the source(s) of increased memory usage in rails applications.
+
+* <p>[gem] <a href="https://github.com/binarylogic/memorylogic">memorylogic</a></p>
+  *  It worked very well because it adds the process id and memory usage in with EVERY single line logged and at the end of each rails request
+
+* <p>[gem] <a href="https://github.com/tmm1/stackprof">stackprof</a></p>
+
+* <p>[gem] <a href="https://github.com/SamSaffron/memory_profiler">memory_profiler</a></p>
+
+* <p>[gem] <a href="https://github.com/schneems/derailed_benchmarks">derailed_benchmarks</a></p>
+
+## Read
+
+* <p>[capistrano] <a href="http://semaphoreci.com/blog/2013/11/26/capistrano-3-upgrade-guide.html">Capistrano 3 Upgrade Guide</a></p>
+
+* <p>[rails] <a href="http://blog.mz026.rocks/20160917/rails-connection-leak">Rails Connection Leak</a></p>
+
+* <p>[web] <a href="https://yulun.me/2013/mozilla5-0-always-user-agent-string/">為什麼瀏覽器 user-agent string 總是包含 Mozilla/5.0 ?</a></p>
+
+* <p>[web] <a href="http://blog.mz026.rocks/20170117/split-microservices">如何切割 Microservices</a></p>
+  1. 這部份程式的行為是相對獨立的
+  2. 即將快速發展
+  3. scope 大 + legacy
+
+* <p>[rails memory] <a href="http://stackoverflow.com/questions/12578344/memory-constantly-increasing-in-rails-app">Memory constantly increasing in Rails app</a></p>
+  1. sessions related?
+  2. count_objects to display all the objets currently used
+  3. symbols are keep in memory until your restart ruby. Symbol.all_symbols.size
+
+* <p>[rails memory] <a href="http://ju.outofmemory.cn/entry/155469">不是内存泄漏，而是Bloat</a></p>
+  * What Is Bloat? you are loading in too much. Too much what, you ask? Why it’s too much ActiveRecord!
+  * Detecting Bloat => grep resource /var/log/syslog, The problem is when you have bloat, you start seeing them skyrocket past the memory limits, sometimes multiple times an hour:
+  * Root Cause
+    1. Model.find(:all)
+    2. :includes are Including Too Much
+    3. :includes on a has_many
+    4. @model_instance.relationship
+    5. Filtering Records with Ruby Instead of SQL
+    6. Evil Callbacks in the Model
+    7. Named scopes, default scopes, and has_many relationships that specify :include Where Inappropriate
+    8. Use :select When You Must Instantiate Large Quantities of Records
+    9. Overfed Feeds
+    10. Monster Migrations
+
+## Book
+
+## Video
+
+* <p>[邏輯思維] 184 怎么样成为一个高手</p>
+  * 筆記 看到文章 影片 無論如何 都要至少寫下一句自己的心得
+
+* <p>[RubyConf 2016] - From no OSS experience to the core team in 15 minutes a day by André Arko</p>
+  1. start from read all the issues
+  2. try to answer questions
+  3. help with issues
+  4. reproduce bugs
+  5. writing patches
+  6. improving everything
+
+* <p>[ruby china 2016] <a href="https://www.youtube.com/watch?v=LWNXNHR4oIA">如何在 Rails 应用里面寻找内存泄漏</a></p>
+  * how to detect:
+    * passenger-memory-stats
+    * passenger-status
+    * top && htop
+    * cat /proc/pid/status & cat/proc/[pid]/mem
+  * Tgid(Thread Group ID) is real process id, get_pid
+  * Application:
+    * New Relic
+    * SKYLIGHT
+    * Scout APM
+    * ONE APM
+  * how to resolve
+    * doorkeeper
+      * passenger_killer: killed after finished N processes
+      * oom_killer: killed process when exceed N processes, passenger auto restart
+      * oob: auto gc after finished N processes
+    * tools
+      * derailed_benchmarks
+      * memory_profiler
+      * stackprof
+      * rbkit
+      * rbkit-client
+      * oink
+      * memorylogic
+
+* <p>[ruby china 2016] <a href="https://www.youtube.com/watch?v=zPMrFArOxqo&index=9&list=PLTUHmtFhYC6i5_L6XQEqsIh7I0ZU8xfCm">Rubyists 可以从 Elixir 学到什么</a></p>
+  * based on Erlang
+  * ships with great tools inspired by Ruby
+  * Ruby-like syntex
+  * functional way
+  * microservice
+
+## Learn

@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>16 - mylake</title>
+    <title>23 - mylake</title>
 
-    <link rel="canonical" href="/2016/11/19/1/">
+    <link rel="canonical" href="/2017/01/28/1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -139,12 +139,12 @@
                         <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
                         
                     </div>
-                    <h1>16</h1>
+                    <h1>23</h1>
                     
                     
                     <h2 class="subheading">weekly learning</h2>
                     
-                    <span class="meta">Posted by ilake on November 19, 2016</span>
+                    <span class="meta">Posted by ilake on January 28, 2017</span>
                 </div>
             </div>
         </div>
@@ -163,23 +163,92 @@
                 post-container">
 
 				<blockquote>
-  <p>“strive 11/12 ~ 11/19”</p>
+  <p>“strive 1/21 ~ 1/28”</p>
 </blockquote>
 
 <h2 id="use">Use</h2>
+
+<ul>
+  <li>
+    <p>[gem] <a href="https://github.com/stympy/faker">faker</a></p>
+  </li>
+  <li>
+    <p>[gem] <a href="https://github.com/code-mancers/rbkit">rbkit</a></p>
+  </li>
+  <li>
+    <p>[gem] <a href="https://github.com/code-mancers/rbkit-client">rbkit-client</a></p>
+  </li>
+  <li>
+    <p>[gem] <a href="https://github.com/noahd1/oink">oink</a></p>
+    <ul>
+      <li>Rails plugin and log parser to help narrow down the source(s) of increased memory usage in rails applications.</li>
+    </ul>
+  </li>
+  <li>
+    <p>[gem] <a href="https://github.com/binarylogic/memorylogic">memorylogic</a></p>
+    <ul>
+      <li>It worked very well because it adds the process id and memory usage in with EVERY single line logged and at the end of each rails request</li>
+    </ul>
+  </li>
+  <li>
+    <p>[gem] <a href="https://github.com/tmm1/stackprof">stackprof</a></p>
+  </li>
+  <li>
+    <p>[gem] <a href="https://github.com/SamSaffron/memory_profiler">memory_profiler</a></p>
+  </li>
+  <li>
+    <p>[gem] <a href="https://github.com/schneems/derailed_benchmarks">derailed_benchmarks</a></p>
+  </li>
+</ul>
 
 <h2 id="read">Read</h2>
 
 <ul>
   <li>
-    <p>[rails] <a href="https://gist.github.com/jcasimir/1210155">Render and Redirect</a></p>
+    <p>[capistrano] <a href="http://semaphoreci.com/blog/2013/11/26/capistrano-3-upgrade-guide.html">Capistrano 3 Upgrade Guide</a></p>
+  </li>
+  <li>
+    <p>[rails] <a href="http://blog.mz026.rocks/20160917/rails-connection-leak">Rails Connection Leak</a></p>
+  </li>
+  <li>
+    <p>[web] <a href="https://yulun.me/2013/mozilla5-0-always-user-agent-string/">為什麼瀏覽器 user-agent string 總是包含 Mozilla/5.0 ?</a></p>
+  </li>
+  <li>
+    <p>[web] <a href="http://blog.mz026.rocks/20170117/split-microservices">如何切割 Microservices</a></p>
     <ol>
-      <li>render to action =&gt; just view the action template, not actually call action</li>
-      <li>redirect_to is not return</li>
+      <li>這部份程式的行為是相對獨立的</li>
+      <li>即將快速發展</li>
+      <li>scope 大 + legacy</li>
     </ol>
   </li>
   <li>
-    <p>[programing] <a href="http://webpro.github.io/programming-principles/">http://webpro.github.io/programming-principles/</a></p>
+    <p>[rails memory] <a href="http://stackoverflow.com/questions/12578344/memory-constantly-increasing-in-rails-app">Memory constantly increasing in Rails app</a></p>
+    <ol>
+      <li>sessions related?</li>
+      <li>count_objects to display all the objets currently used</li>
+      <li>symbols are keep in memory until your restart ruby. Symbol.all_symbols.size</li>
+    </ol>
+  </li>
+  <li>
+    <p>[rails memory] <a href="http://ju.outofmemory.cn/entry/155469">不是内存泄漏，而是Bloat</a></p>
+    <ul>
+      <li>What Is Bloat? you are loading in too much. Too much what, you ask? Why it’s too much ActiveRecord!</li>
+      <li>Detecting Bloat =&gt; grep resource /var/log/syslog, The problem is when you have bloat, you start seeing them skyrocket past the memory limits, sometimes multiple times an hour:</li>
+      <li>Root Cause
+        <ol>
+          <li>Model.find(:all)</li>
+          <li>:includes are Including Too Much</li>
+          <li>:includes on a has_many</li>
+          <li>@model_instance.relationship</li>
+          <li>Filtering Records with Ruby Instead of SQL</li>
+          <li>Evil Callbacks in the Model</li>
+          <li>Named scopes, default scopes, and has_many relationships that specify :include Where Inappropriate</li>
+          <li>Use :select When You Must Instantiate Large Quantities of Records</li>
+          <li>Overfed Feeds</li>
+          <li>Monster Migrations</li>
+        </ol>
+      </li>
+    </ul>
   </li>
 </ul>
 
@@ -189,12 +258,79 @@
 
 <ul>
   <li>
-    <p>[cs50] <a href="https://www.youtube.com/watch?v=o4SGkB_8fFs&amp;t=4s">week 0, scratch</a></p>
+    <p>[邏輯思維] 184 怎么样成为一个高手</p>
+    <ul>
+      <li>筆記 看到文章 影片 無論如何 都要至少寫下一句自己的心得</li>
+    </ul>
   </li>
   <li>
-    <p>[cs50] <a href="https://www.youtube.com/watch?v=o4SGkB_8fFs&amp;t=4s">week 1, C</a></p>
+    <p>[RubyConf 2016] - From no OSS experience to the core team in 15 minutes a day by André Arko</p>
+    <ol>
+      <li>start from read all the issues</li>
+      <li>try to answer questions</li>
+      <li>help with issues</li>
+      <li>reproduce bugs</li>
+      <li>writing patches</li>
+      <li>improving everything</li>
+    </ol>
+  </li>
+  <li>
+    <p>[ruby china 2016] <a href="https://www.youtube.com/watch?v=LWNXNHR4oIA">如何在 Rails 应用里面寻找内存泄漏</a></p>
+    <ul>
+      <li>how to detect:
+        <ul>
+          <li>passenger-memory-stats</li>
+          <li>passenger-status</li>
+          <li>top &amp;&amp; htop</li>
+          <li>cat /proc/pid/status &amp; cat/proc/[pid]/mem</li>
+        </ul>
+      </li>
+      <li>Tgid(Thread Group ID) is real process id, get_pid</li>
+      <li>Application:
+        <ul>
+          <li>New Relic</li>
+          <li>SKYLIGHT</li>
+          <li>Scout APM</li>
+          <li>ONE APM</li>
+        </ul>
+      </li>
+      <li>how to resolve
+        <ul>
+          <li>doorkeeper
+            <ul>
+              <li>passenger_killer: killed after finished N processes</li>
+              <li>oom_killer: killed process when exceed N processes, passenger auto restart</li>
+              <li>oob: auto gc after finished N processes</li>
+            </ul>
+          </li>
+          <li>tools
+            <ul>
+              <li>derailed_benchmarks</li>
+              <li>memory_profiler</li>
+              <li>stackprof</li>
+              <li>rbkit</li>
+              <li>rbkit-client</li>
+              <li>oink</li>
+              <li>memorylogic</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>[ruby china 2016] <a href="https://www.youtube.com/watch?v=zPMrFArOxqo&amp;index=9&amp;list=PLTUHmtFhYC6i5_L6XQEqsIh7I0ZU8xfCm">Rubyists 可以从 Elixir 学到什么</a></p>
+    <ul>
+      <li>based on Erlang</li>
+      <li>ships with great tools inspired by Ruby</li>
+      <li>Ruby-like syntex</li>
+      <li>functional way</li>
+      <li>microservice</li>
+    </ul>
   </li>
 </ul>
+
+<h2 id="learn">Learn</h2>
 
 
                 <hr>
@@ -205,13 +341,9 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2016/11/12/1/" data-toggle="tooltip" data-placement="top" title="15">&larr; Previous Post</a>
+                        <a href="/2017/01/21/1/" data-toggle="tooltip" data-placement="top" title="22">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2016/11/26/1/" data-toggle="tooltip" data-placement="top" title="17">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 

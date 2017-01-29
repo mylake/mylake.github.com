@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      "24"
+subtitle:   "weekly learning"
+date:       2017-02-04 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 1/21 ~ 1/28”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/stympy/faker">faker</a></p>
+
+## Read
+
+## Book
+
+## Video
+
+## Learn
