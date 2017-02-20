@@ -5,9 +5,77 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 29 Jan 2017 09:25:11 +0800</pubDate>
-    <lastBuildDate>Sun, 29 Jan 2017 09:25:11 +0800</lastBuildDate>
+    <pubDate>Mon, 20 Feb 2017 12:17:01 +0800</pubDate>
+    <lastBuildDate>Mon, 20 Feb 2017 12:17:01 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>24</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 1/28 ~ 2/18”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/cookpad/expeditor&quot;&gt;expeditor&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Expeditor is a Ruby library that provides asynchronous execution and fault tolerance for microservices.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[source map] &lt;a href=&quot;http://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html&quot;&gt;JavaScript Source Map 详解&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;source map 是記錄訊息的文件, 儲存著位置訊息, 所以以知道轉換後的程式碼在轉換前的位置 幫助debug&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[learn] &lt;a href=&quot;http://icodeit.org/2016/02/pitfall-of-technology/&quot;&gt;技术的执念&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;先建立广度，再建立深度&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[nodejs] &lt;a href=&quot;https://coyee.com/article/11768-10-tips-to-become-a-better-node-developer-in-2017&quot;&gt;2017 年成为更好的 Node 开发人员的 10 个技巧&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;避免复杂性&lt;/li&gt;
+      &lt;li&gt;使用异步代码&lt;/li&gt;
+      &lt;li&gt;避免阻止 require&lt;/li&gt;
+      &lt;li&gt;了解 require 可被缓存&lt;/li&gt;
+      &lt;li&gt;时刻检查错误&lt;/li&gt;
+      &lt;li&gt;旨在同步代码中使用 try…catch&lt;/li&gt;
+      &lt;li&gt;返回回调或使用 if … else&lt;/li&gt;
+      &lt;li&gt;监听错误事件&lt;/li&gt;
+      &lt;li&gt;了解 npm&lt;/li&gt;
+      &lt;li&gt;在 package.json 中使用确定的版本&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[dns] &lt;a href=&quot;https://www.oyag.com/9501/websys&quot;&gt;有了網域名稱 Domain Name之後 下一步 設定DNS Server 與 DNS Record相關記錄 &lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;PTR, A, MX, CNAME&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 18 Feb 2017 08:00:00 +0800</pubDate>
+        <link>/2017/02/18/1/</link>
+        <guid isPermaLink="true">/2017/02/18/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>23</title>
@@ -693,74 +761,6 @@
         <pubDate>Sat, 12 Nov 2016 08:00:00 +0800</pubDate>
         <link>/2016/11/12/1/</link>
         <guid isPermaLink="true">/2016/11/12/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>14</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 10/31 ~ 11/05”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://www.sitepoint.com/why-learning-rails-is-still-a-great-choice-in-2016/&quot;&gt;Why Learning Rails Is Still a Great Choice in 2016&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://www.sitepoint.com/10-ruby-on-rails-best-practices-3/&quot;&gt;10 Ruby on Rails Best Practices&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;http://www.monkeyandcrow.com/blog/reading_rails_handling_exceptions/&quot;&gt;Handling Exceptions&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;A method signature like def rescue_from(klasses) takes a variable number of arguments.&lt;/li&gt;
-      &lt;li&gt;Array#extract_options! is an idiomatic way to get options from an arguments array.&lt;/li&gt;
-      &lt;li&gt;You can determine if a class is a subclass using klass &amp;lt;= Exception.&lt;/li&gt;
-      &lt;li&gt;rescue nil will swallow exceptions&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[frontend] &lt;a href=&quot;http://www.fefork.com/%E5%89%8D%E7%AB%AF%E5%90%84%E7%A7%8D%E4%BC%98%E5%8C%96/&quot;&gt;前端各种优化&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[js] &lt;a href=&quot;https://pjchender.blogspot.tw/p/blog-page_70.html&quot;&gt; 你所不知道的JavaScript: Understanding the Weird Part&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[saas] &lt;a href=&quot;http://www.books.com.tw/products/CN10495087&quot;&gt;互聯網時代的軟件革命︰SaaS架構設計&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[react native] &lt;a href=&quot;https://egghead.io/courses/react-native-fundamentals&quot;&gt;React Native Fundamentals&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[js] &lt;a href=&quot;https://egghead.io/courses/learn-es6-ecmascript-2015&quot;&gt;Learn ES6 (ECMAScript 2015)&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rspec] Rails Pacific 2016 - Workshop _ Taming Chaotic Specs RSpec Design Patterns by Adam Cuppy&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rspec] Rails Pacific 2016 - Server Infrastructure for Rails in 2016 by Richard Lee&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 05 Nov 2016 08:00:00 +0800</pubDate>
-        <link>/2016/11/05/1/</link>
-        <guid isPermaLink="true">/2016/11/05/1/</guid>
         
         <category>weekly</category>
         

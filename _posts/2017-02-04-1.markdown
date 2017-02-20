@@ -2,19 +2,41 @@
 layout:     post
 title:      "24"
 subtitle:   "weekly learning"
-date:       2017-02-04 00:00:00
+date:       2017-02-18 00:00:00
 author:     "ilake"
 header-img: "img/post-bg-weekly.jpg"
 tags:
     - weekly
 ---
-> “strive 1/21 ~ 1/28”
+> “strive 1/28 ~ 2/18”
 
 ## Use
 
-* <p>[gem] <a href="https://github.com/stympy/faker">faker</a></p>
+* <p>[gem] <a href="https://github.com/cookpad/expeditor">expeditor</a></p>
+  * Expeditor is a Ruby library that provides asynchronous execution and fault tolerance for microservices.
 
 ## Read
+
+* <p>[source map] <a href="http://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html">JavaScript Source Map 详解</a></p>
+  * source map 是記錄訊息的文件, 儲存著位置訊息, 所以以知道轉換後的程式碼在轉換前的位置 幫助debug
+
+* <p>[learn] <a href="http://icodeit.org/2016/02/pitfall-of-technology/">技术的执念</a></p>
+  先建立广度，再建立深度
+
+* <p>[nodejs] <a href="https://coyee.com/article/11768-10-tips-to-become-a-better-node-developer-in-2017">2017 年成为更好的 Node 开发人员的 10 个技巧</a></p>
+  * 避免复杂性
+  * 使用异步代码
+  * 避免阻止 require
+  * 了解 require 可被缓存
+  * 时刻检查错误
+  * 旨在同步代码中使用 try…catch
+  * 返回回调或使用 if … else
+  * 监听错误事件
+  * 了解 npm
+  * 在 package.json 中使用确定的版本
+
+* <p>[dns] <a href="https://www.oyag.com/9501/websys">有了網域名稱 Domain Name之後 下一步 設定DNS Server 與 DNS Record相關記錄 </a></p>
+  * PTR, A, MX, CNAME
 
 ## Book
 
