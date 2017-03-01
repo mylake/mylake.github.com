@@ -5,9 +5,215 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 20 Feb 2017 12:17:01 +0800</pubDate>
-    <lastBuildDate>Mon, 20 Feb 2017 12:17:01 +0800</lastBuildDate>
+    <pubDate>Wed, 01 Mar 2017 16:28:01 +0800</pubDate>
+    <lastBuildDate>Wed, 01 Mar 2017 16:28:01 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>25</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 2/18 ~ 2/25”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/cookpad/expeditor&quot;&gt;expeditor&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Expeditor is a Ruby library that provides asynchronous execution and fault tolerance for microservices.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;https://www.sitepoint.com/ruby-uses-memory/&quot;&gt;How Ruby Uses Memory&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Object Retention&lt;/li&gt;
+      &lt;li&gt;RUBY_GC_HEAP_GROWTH_FACTOR, ruby will retentino memory&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;http://www.mikeperham.com/2009/05/25/memory-hungry-ruby-daemons/&quot;&gt;Memory-hungry Ruby daemons&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;http://www.rubyenterpriseedition.com/documentation.html#_garbage_collector_performance_tuning&quot;&gt;Garbage collector performance tuning &lt;/a&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[api] &lt;a href=&quot;http://taobaofed.org/blog/2017/02/16/a-guide-to-api-design/&quot;&gt;从达标到卓越 —— API 设计之道&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;logic &amp;amp; abstract&lt;/li&gt;
+      &lt;li&gt;domain knowledge&lt;/li&gt;
+      &lt;li&gt;language sense&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[api] &lt;a href=&quot;https://github.com/lifesinger/blog/issues/164&quot;&gt;Page Visibility 的 API 设计&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;backward compatibility
+        &lt;ul&gt;
+          &lt;li&gt;document.hidden vs document.visible？&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;scalability&lt;/li&gt;
+      &lt;li&gt;consistency&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[api] &lt;a href=&quot;https://github.com/lifesinger/blog/issues/119&quot;&gt;我心目中的优秀 API&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;simple: easy to understand&lt;/li&gt;
+      &lt;li&gt;complete: all soluctions on specific domain&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;http://teotti.com/deploy-parts-of-a-ruby-on-rails-application/&quot;&gt;Deploy parts of a Ruby on Rails application&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;how to deploy portions of a Ruby on Rails application to separate servers with the use of Ruby Gems and Rails Engines&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;http://teotti.com/reduce-memory-footprint-requiring-portions-of-your-component-based-rails-applications/&quot;&gt;Reduce memory footprint requiring portions of your component based Rails application with Bundler&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;you can require only the necessary portion to reduce memory usage and speed up the bundling process&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[bundler] &lt;a href=&quot;http://myronmars.to/n/dev-blog/2012/12/5-reasons-to-avoid-bundler-require&quot;&gt;5 Reasons to Avoid Bundler.require&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler.require&lt;/code&gt; is a shortcut for people who can’t (or don’t want to) write their own requires.&lt;/li&gt;
+      &lt;li&gt;DHH: Not having to manually track your dependencies feels liberating. Like not having to track memory allocation by hand.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[learn] &lt;a href=&quot;https://simpleprogrammer.com/products/learn-anything/&quot;&gt;10 steps to learn anything quickly&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;get the big picture
+            &lt;ul&gt;
+              &lt;li&gt;high level topic you want to learn&lt;/li&gt;
+              &lt;li&gt;break high level topic up into smaller subtopics&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;determine the scope
+            &lt;ul&gt;
+              &lt;li&gt;what subtopic do you want to learn&lt;/li&gt;
+              &lt;li&gt;what do you plan on doing with the knowledge you will get from learning about the topic&lt;/li&gt;
+              &lt;li&gt;what time frame do you expect to learn&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;define success
+            &lt;ul&gt;
+              &lt;li&gt;what specific actions could I do when I got the knowledge&lt;/li&gt;
+              &lt;li&gt;which specific action are the most valuable for me&lt;/li&gt;
+              &lt;li&gt;make success criteria measurable&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;find resources
+            &lt;ul&gt;
+              &lt;li&gt;start with books, list the best 5 books on your topic and list them&lt;/li&gt;
+              &lt;li&gt;list all the other resources you can think of (blog, internet articles)&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;create a learning plan
+            &lt;ul&gt;
+              &lt;li&gt;list best 5 resource and list the chapters of them&lt;/li&gt;
+              &lt;li&gt;which repeated the most&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;filter resources
+            &lt;ul&gt;
+              &lt;li&gt;what criteria do you think is the most important for judging the resources you will use for learning&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;learn enough to get started
+            &lt;ul&gt;
+              &lt;li&gt;waht is the gereral idea of this module in your learning plan&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;play around
+            &lt;ul&gt;
+              &lt;li&gt;what can you do to ‘play around’ with the subject you are learning about&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;learn enough to do something useful
+            &lt;ul&gt;
+              &lt;li&gt;what are the most important questions you hope to find answers to during this step&lt;/li&gt;
+              &lt;li&gt;what questions are still unanswered after completing this step&lt;/li&gt;
+              &lt;li&gt;what do you think would be an effective way to teach what you have larned in this step&lt;/li&gt;
+              &lt;li&gt;what is the most important thing you have larned in this step&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;teach
+            &lt;ul&gt;
+              &lt;li&gt;what do you think would be the best way to present the material you have larned&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 25 Feb 2017 08:00:00 +0800</pubDate>
+        <link>/2017/02/25/1/</link>
+        <guid isPermaLink="true">/2017/02/25/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>24</title>
@@ -708,59 +914,6 @@
         <pubDate>Sat, 19 Nov 2016 08:00:00 +0800</pubDate>
         <link>/2016/11/19/1/</link>
         <guid isPermaLink="true">/2016/11/19/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>15</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 11/05 ~ 11/12”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ssl] &lt;a href=&quot;https://letsencrypt.tw/&quot;&gt;letsencrypt&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[react native] &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;amp;mid=403225766&amp;amp;idx=1&amp;amp;sn=acd8e3ab7f234b97827c3e210c2d8673&amp;amp;scene=21#wechat_redirect&quot;&gt;React-Native痛點解析之開發環境搭建及擴展&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[react native] &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzAwMTYwNzE2Mg==&amp;amp;mid=2651036604&amp;amp;idx=1&amp;amp;sn=d2a7cbfbdbfb2067b6ad8e3b5a3af029&amp;amp;scene=0#wechat_redirect&quot;&gt;我的React Native 技能樹點亮計劃の Javascript 模塊管理器 npm&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[react native] &lt;a href=&quot;https://zhuanlan.zhihu.com/p/21301314&quot;&gt;ReactNative動畫研究與實踐&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[react native] &lt;a href=&quot;http://www.race604.com/react-native-component-lifecycle/&quot;&gt;React Native 中組件的生命週期&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[js] &lt;a href=&quot;http://huangxuan.me/js-module-7day/#/&quot;&gt;JAVASCRIPT MODULARIZATION&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[js] &lt;a href=&quot;http://blog.kdchang.cc/2016/04/04/react-react-native-es5-es6-cheat-sheet/&quot;&gt;一看就懂的 React ES5、ES6+ 常見用法對照表&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[js] &lt;a href=&quot;https://www.udemy.com/learning-data-structures-in-javascript-from-scratch/learn/v4/overview&quot;&gt;Learning Data Structures in JavaScript from scratch&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 12 Nov 2016 08:00:00 +0800</pubDate>
-        <link>/2016/11/12/1/</link>
-        <guid isPermaLink="true">/2016/11/12/1/</guid>
         
         <category>weekly</category>
         
