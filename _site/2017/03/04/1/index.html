@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>14 - mylake</title>
+    <title>26 - mylake</title>
 
-    <link rel="canonical" href="/2016/11/05/1/">
+    <link rel="canonical" href="/2017/03/04/1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -139,12 +139,12 @@
                         <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
                         
                     </div>
-                    <h1>14</h1>
+                    <h1>26</h1>
                     
                     
                     <h2 class="subheading">weekly learning</h2>
                     
-                    <span class="meta">Posted by ilake on November 5, 2016</span>
+                    <span class="meta">Posted by ilake on March 4, 2017</span>
                 </div>
             </div>
         </div>
@@ -163,34 +163,28 @@
                 post-container">
 
 				<blockquote>
-  <p>“strive 10/31 ~ 11/05”</p>
+  <p>“strive 2/25 ~ 3/04”</p>
 </blockquote>
 
 <h2 id="use">Use</h2>
+
+<ul>
+  <li>
+    <p>[gem] <a href="https://github.com/cookpad/expeditor">expeditor</a></p>
+    <ul>
+      <li>Expeditor is a Ruby library that provides asynchronous execution and fault tolerance for microservices.</li>
+    </ul>
+  </li>
+</ul>
 
 <h2 id="read">Read</h2>
 
 <ul>
   <li>
-    <p>[rails] <a href="https://www.sitepoint.com/why-learning-rails-is-still-a-great-choice-in-2016/">Why Learning Rails Is Still a Great Choice in 2016</a></p>
+    <p>[rails] <a href="http://makeiteasy.github.io/2014/10/18/rails-application-booting-process.html">Rails Application启动流程</a></p>
   </li>
   <li>
-    <p>[rails] <a href="https://www.sitepoint.com/10-ruby-on-rails-best-practices-3/">10 Ruby on Rails Best Practices</a></p>
-  </li>
-  <li>
-    <p>[rails] <a href="http://www.monkeyandcrow.com/blog/reading_rails_handling_exceptions/">Handling Exceptions</a></p>
-    <ul>
-      <li>A method signature like def rescue_from(klasses) takes a variable number of arguments.</li>
-      <li>Array#extract_options! is an idiomatic way to get options from an arguments array.</li>
-      <li>You can determine if a class is a subclass using klass &lt;= Exception.</li>
-      <li>rescue nil will swallow exceptions</li>
-    </ul>
-  </li>
-  <li>
-    <p>[frontend] <a href="http://www.fefork.com/%E5%89%8D%E7%AB%AF%E5%90%84%E7%A7%8D%E4%BC%98%E5%8C%96/">前端各种优化</a></p>
-  </li>
-  <li>
-    <p>[js] <a href="https://pjchender.blogspot.tw/p/blog-page_70.html"> 你所不知道的JavaScript: Understanding the Weird Part</a></p>
+    <p>[code] <a href="https://www.slideshare.net/kylinfish/clean-code-72688451">無瑕的程式碼 Clean Code 心得分享</a></p>
   </li>
 </ul>
 
@@ -198,26 +192,70 @@
 
 <ul>
   <li>
-    <p>[saas] <a href="http://www.books.com.tw/products/CN10495087">互聯網時代的軟件革命︰SaaS架構設計</a></p>
+    <p>[book] <a href="https://msdn.microsoft.com/en-us/library/dn568099.aspx">Cloud Design Patterns</a></p>
+
+    <ul>
+      <li>
+        <p><a href="https://msdn.microsoft.com/en-us/library/dn589799.aspx">Cache-aside Pattern</a></p>
+        <p>Load data on demand into a cache from a data store. This pattern can improve performance and also helps to maintain consistency between data held in the cache and the data in the underlying data store.</p>
+        <ul>
+          <li>consider
+            <ul>
+              <li>Lifetime of Cached Data</li>
+              <li>Evicting Data</li>
+              <li>Priming the Cache</li>
+              <li>Consistency</li>
+              <li>Local (In-Memory) Caching</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p><a href="https://msdn.microsoft.com/en-us/library/dn589784.aspx">Circuit Breaker Pattern</a></p>
+        <p>Handle faults that may take a variable amount of time to rectify when connecting to a remote service or resource. This pattern can improve the stability and resiliency of an application.</p>
+        <ul>
+          <li>consider
+            <ul>
+              <li>Exception Handling</li>
+              <li>Types of Exceptions</li>
+              <li>Logging</li>
+              <li>Recoverability</li>
+              <li>Testing Failed Operations</li>
+              <li>Manual Override</li>
+              <li>Concurrency</li>
+              <li>Resource Differentiation</li>
+              <li>Accelerated Circuit Breaking</li>
+              <li>Replaying Failed Requests</li>
+              <li>Inappropriate Timeouts on External Services</li>
+            </ul>
+          </li>
+          <li>When to Use this Pattern
+            <ul>
+              <li>To prevent an application from attempting to invoke a remote service or access a shared resource if this operation is highly likely to fail.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p><a href="https://msdn.microsoft.com/en-us/library/dn589804.aspx">Compensating Transaction Pattern</a></p>
+        <ul>
+          <li>How to handle cancel or exception on a series of steps</li>
+          <li>Undo the work performed by a series of steps, which together define an eventually consistent operation, if one or more of the steps fail.</li>
+          <li>idempotency-patterns</li>
+          <li>When to Use this Pattern
+            <ul>
+              <li>Use this pattern only for operations that must be undone if they fail. If possible, design solutions to avoid the complexity of requiring compensating transactions</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </li>
 </ul>
 
 <h2 id="video">Video</h2>
 
-<ul>
-  <li>
-    <p>[react native] <a href="https://egghead.io/courses/react-native-fundamentals">React Native Fundamentals</a></p>
-  </li>
-  <li>
-    <p>[js] <a href="https://egghead.io/courses/learn-es6-ecmascript-2015">Learn ES6 (ECMAScript 2015)</a></p>
-  </li>
-  <li>
-    <p>[rspec] Rails Pacific 2016 - Workshop _ Taming Chaotic Specs RSpec Design Patterns by Adam Cuppy</p>
-  </li>
-  <li>
-    <p>[rspec] Rails Pacific 2016 - Server Infrastructure for Rails in 2016 by Richard Lee</p>
-  </li>
-</ul>
+<h2 id="learn">Learn</h2>
 
 
                 <hr>
@@ -228,13 +266,9 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2016/10/29/1/" data-toggle="tooltip" data-placement="top" title="13">&larr; Previous Post</a>
+                        <a href="/2017/02/25/1/" data-toggle="tooltip" data-placement="top" title="25">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2016/11/12/1/" data-toggle="tooltip" data-placement="top" title="15">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 

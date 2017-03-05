@@ -1,0 +1,63 @@
+---
+layout:     post
+title:      "26"
+subtitle:   "weekly learning"
+date:       2017-03-04 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 2/25 ~ 3/04”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/cookpad/expeditor">expeditor</a></p>
+  * Expeditor is a Ruby library that provides asynchronous execution and fault tolerance for microservices.
+
+## Read
+
+* <p>[rails] <a href="http://makeiteasy.github.io/2014/10/18/rails-application-booting-process.html">Rails Application启动流程</a></p>
+
+* <p>[code] <a href="https://www.slideshare.net/kylinfish/clean-code-72688451">無瑕的程式碼 Clean Code 心得分享</a></p>
+
+## Book
+
+* <p>[book] <a href="https://msdn.microsoft.com/en-us/library/dn568099.aspx">Cloud Design Patterns</a></p>
+
+  * <p><a href="https://msdn.microsoft.com/en-us/library/dn589799.aspx">Cache-aside Pattern</a></p>
+    Load data on demand into a cache from a data store. This pattern can improve performance and also helps to maintain consistency between data held in the cache and the data in the underlying data store.
+    * consider
+      * Lifetime of Cached Data
+      * Evicting Data
+      * Priming the Cache
+      * Consistency
+      * Local (In-Memory) Caching
+
+  * <p><a href="https://msdn.microsoft.com/en-us/library/dn589784.aspx">Circuit Breaker Pattern</a></p>
+    Handle faults that may take a variable amount of time to rectify when connecting to a remote service or resource. This pattern can improve the stability and resiliency of an application.
+    * consider
+      * Exception Handling
+      * Types of Exceptions
+      * Logging
+      * Recoverability
+      * Testing Failed Operations
+      * Manual Override
+      * Concurrency
+      * Resource Differentiation
+      * Accelerated Circuit Breaking
+      * Replaying Failed Requests
+      * Inappropriate Timeouts on External Services
+    * When to Use this Pattern
+      * To prevent an application from attempting to invoke a remote service or access a shared resource if this operation is highly likely to fail.
+
+  * <p><a href="https://msdn.microsoft.com/en-us/library/dn589804.aspx">Compensating Transaction Pattern</a></p>
+    * How to handle cancel or exception on a series of steps
+    * Undo the work performed by a series of steps, which together define an eventually consistent operation, if one or more of the steps fail.
+    * idempotency-patterns
+    * When to Use this Pattern
+      * Use this pattern only for operations that must be undone if they fail. If possible, design solutions to avoid the complexity of requiring compensating transactions
+
+## Video
+
+## Learn

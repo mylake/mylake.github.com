@@ -5,9 +5,115 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 01 Mar 2017 16:28:01 +0800</pubDate>
-    <lastBuildDate>Wed, 01 Mar 2017 16:28:01 +0800</lastBuildDate>
+    <pubDate>Sun, 05 Mar 2017 18:18:08 +0800</pubDate>
+    <lastBuildDate>Sun, 05 Mar 2017 18:18:08 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>26</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 2/25 ~ 3/04”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/cookpad/expeditor&quot;&gt;expeditor&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Expeditor is a Ruby library that provides asynchronous execution and fault tolerance for microservices.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;http://makeiteasy.github.io/2014/10/18/rails-application-booting-process.html&quot;&gt;Rails Application启动流程&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[code] &lt;a href=&quot;https://www.slideshare.net/kylinfish/clean-code-72688451&quot;&gt;無瑕的程式碼 Clean Code 心得分享&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[book] &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/dn568099.aspx&quot;&gt;Cloud Design Patterns&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;https://msdn.microsoft.com/en-us/library/dn589799.aspx&quot;&gt;Cache-aside Pattern&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Load data on demand into a cache from a data store. This pattern can improve performance and also helps to maintain consistency between data held in the cache and the data in the underlying data store.&lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;consider
+            &lt;ul&gt;
+              &lt;li&gt;Lifetime of Cached Data&lt;/li&gt;
+              &lt;li&gt;Evicting Data&lt;/li&gt;
+              &lt;li&gt;Priming the Cache&lt;/li&gt;
+              &lt;li&gt;Consistency&lt;/li&gt;
+              &lt;li&gt;Local (In-Memory) Caching&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;https://msdn.microsoft.com/en-us/library/dn589784.aspx&quot;&gt;Circuit Breaker Pattern&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Handle faults that may take a variable amount of time to rectify when connecting to a remote service or resource. This pattern can improve the stability and resiliency of an application.&lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;consider
+            &lt;ul&gt;
+              &lt;li&gt;Exception Handling&lt;/li&gt;
+              &lt;li&gt;Types of Exceptions&lt;/li&gt;
+              &lt;li&gt;Logging&lt;/li&gt;
+              &lt;li&gt;Recoverability&lt;/li&gt;
+              &lt;li&gt;Testing Failed Operations&lt;/li&gt;
+              &lt;li&gt;Manual Override&lt;/li&gt;
+              &lt;li&gt;Concurrency&lt;/li&gt;
+              &lt;li&gt;Resource Differentiation&lt;/li&gt;
+              &lt;li&gt;Accelerated Circuit Breaking&lt;/li&gt;
+              &lt;li&gt;Replaying Failed Requests&lt;/li&gt;
+              &lt;li&gt;Inappropriate Timeouts on External Services&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;When to Use this Pattern
+            &lt;ul&gt;
+              &lt;li&gt;To prevent an application from attempting to invoke a remote service or access a shared resource if this operation is highly likely to fail.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;https://msdn.microsoft.com/en-us/library/dn589804.aspx&quot;&gt;Compensating Transaction Pattern&lt;/a&gt;&lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;How to handle cancel or exception on a series of steps&lt;/li&gt;
+          &lt;li&gt;Undo the work performed by a series of steps, which together define an eventually consistent operation, if one or more of the steps fail.&lt;/li&gt;
+          &lt;li&gt;idempotency-patterns&lt;/li&gt;
+          &lt;li&gt;When to Use this Pattern
+            &lt;ul&gt;
+              &lt;li&gt;Use this pattern only for operations that must be undone if they fail. If possible, design solutions to avoid the complexity of requiring compensating transactions&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 04 Mar 2017 08:00:00 +0800</pubDate>
+        <link>/2017/03/04/1/</link>
+        <guid isPermaLink="true">/2017/03/04/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>25</title>
@@ -869,51 +975,6 @@
         <pubDate>Sat, 26 Nov 2016 08:00:00 +0800</pubDate>
         <link>/2016/11/26/1/</link>
         <guid isPermaLink="true">/2016/11/26/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>16</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 11/12 ~ 11/19”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://gist.github.com/jcasimir/1210155&quot;&gt;Render and Redirect&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;render to action =&amp;gt; just view the action template, not actually call action&lt;/li&gt;
-      &lt;li&gt;redirect_to is not return&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[programing] &lt;a href=&quot;http://webpro.github.io/programming-principles/&quot;&gt;http://webpro.github.io/programming-principles/&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[cs50] &lt;a href=&quot;https://www.youtube.com/watch?v=o4SGkB_8fFs&amp;amp;t=4s&quot;&gt;week 0, scratch&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[cs50] &lt;a href=&quot;https://www.youtube.com/watch?v=o4SGkB_8fFs&amp;amp;t=4s&quot;&gt;week 1, C&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 19 Nov 2016 08:00:00 +0800</pubDate>
-        <link>/2016/11/19/1/</link>
-        <guid isPermaLink="true">/2016/11/19/1/</guid>
         
         <category>weekly</category>
         
