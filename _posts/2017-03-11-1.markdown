@@ -1,0 +1,57 @@
+---
+layout:     post
+title:      "27"
+subtitle:   "weekly learning"
+date:       2017-03-11 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 3/04 ~ 3/11”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/michaelherold/benchmark-memory">benchmark-memory</a></p>
+  * benchmark-memory is a tool that helps you to benchmark the memory usage of different pieces of code.
+
+## Read
+
+* <p>[ssl] <a href="https://read01.com/yj3B.html">HTTPS(SSL/TLS) 原理之深入淺出</a></p>
+  * HTTPS 的基本運行過程：
+    * 利用對稱加密算法來加密網頁內容，那麼如何保證對稱加密算法的秘鑰的安全呢？
+    * 使用非對稱加密算法來獲得對稱加密算法的秘鑰，從而保證了對稱加密算法的秘鑰的安全，也就保證了對稱加密算法的安全
+    * 如何保證非對稱加密算法公鑰不被篡改？解決方法：將公鑰放在數字證書中。只要證書是可信的，公鑰就是可信的
+    * 公鑰加密計算量太大，如何減少耗用的時間？解決方法：每一次對話（session），客戶端和伺服器端都生成一個"對話密鑰"（session key），用它來加密信息。由於"對話密鑰"是對稱加密算法，所以運算速度非常快，而伺服器公鑰只用於加密"對話密鑰"本身，這樣就減少了加密運算的消耗時間。
+    * SSL/TLS協議的基本過程是這樣的
+      * 客戶端向伺服器端索要並驗證非對稱加密算法的公鑰（handshake）
+      * 雙方協商生成對稱加密算法的"對話密鑰"（handshake）
+      * 雙方採用對稱加密算法和它的"對話密鑰"進行加密通信
+    * handshake:
+      * 客戶端發出請求（ClientHello）
+      * 伺服器回應（SeverHello）
+      * 客戶端回應
+      * 伺服器的最後回應
+  * HTTPS 結合使用了 非對稱加密算法，對稱加密算法，hash算法，分別利用他們的優勢，避免他們的缺點。利用非對稱加密算法獲得對稱加密算法的秘鑰，保證他的安全性；然後實際的網頁內容的加密使用的是對稱加密算法，利用了對稱加密算法速度快的優勢，hash算法主要是防止篡改的發生，是一種校驗機制，最後數字證書，保證了伺服器在將非對稱加密算法的公鑰傳給瀏覽器時的安全性(不會被中間人篡改)，同時也標誌了伺服器的身份
+  * HTTPS的本質是什麼？HTTPS的本質就是在HTTP連接發起之前，先使用SSL/TLS協議，協調客戶端和服務端，在兩端各自生產一個對稱加密算法的秘鑰 然後使用普通的HTTP協議傳輸 經過對稱加密算法加密的網頁內容。因為對稱加密算法的秘鑰是安全的，所以對稱加密算法加密的網頁內容也是安全的
+
+
+## Book
+
+* <p>[book] <a href="https://www.tenlong.com.tw/products/9789862018088">Implementation Patterns</a></p>
+  * Values
+    * Communication
+    * Simplicity
+    * Flexibility
+  * Principles
+    * Local Consequences
+    * Minimize Repetition
+    * Logic and Data Together
+    * Symmetry
+    * Declarative Expression
+    * Rate of Change
+
+
+## Video
+
+## Learn

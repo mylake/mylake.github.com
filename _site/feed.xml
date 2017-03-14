@@ -5,9 +5,101 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 05 Mar 2017 18:18:08 +0800</pubDate>
-    <lastBuildDate>Sun, 05 Mar 2017 18:18:08 +0800</lastBuildDate>
+    <pubDate>Tue, 14 Mar 2017 22:06:39 +0800</pubDate>
+    <lastBuildDate>Tue, 14 Mar 2017 22:06:39 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>27</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 3/04 ~ 3/11”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/michaelherold/benchmark-memory&quot;&gt;benchmark-memory&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;benchmark-memory is a tool that helps you to benchmark the memory usage of different pieces of code.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ssl] &lt;a href=&quot;https://read01.com/yj3B.html&quot;&gt;HTTPS(SSL/TLS) 原理之深入淺出&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;HTTPS 的基本運行過程：
+        &lt;ul&gt;
+          &lt;li&gt;利用對稱加密算法來加密網頁內容，那麼如何保證對稱加密算法的秘鑰的安全呢？&lt;/li&gt;
+          &lt;li&gt;使用非對稱加密算法來獲得對稱加密算法的秘鑰，從而保證了對稱加密算法的秘鑰的安全，也就保證了對稱加密算法的安全&lt;/li&gt;
+          &lt;li&gt;如何保證非對稱加密算法公鑰不被篡改？解決方法：將公鑰放在數字證書中。只要證書是可信的，公鑰就是可信的&lt;/li&gt;
+          &lt;li&gt;公鑰加密計算量太大，如何減少耗用的時間？解決方法：每一次對話（session），客戶端和伺服器端都生成一個”對話密鑰”（session key），用它來加密信息。由於”對話密鑰”是對稱加密算法，所以運算速度非常快，而伺服器公鑰只用於加密”對話密鑰”本身，這樣就減少了加密運算的消耗時間。&lt;/li&gt;
+          &lt;li&gt;SSL/TLS協議的基本過程是這樣的
+            &lt;ul&gt;
+              &lt;li&gt;客戶端向伺服器端索要並驗證非對稱加密算法的公鑰（handshake）&lt;/li&gt;
+              &lt;li&gt;雙方協商生成對稱加密算法的”對話密鑰”（handshake）&lt;/li&gt;
+              &lt;li&gt;雙方採用對稱加密算法和它的”對話密鑰”進行加密通信&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;handshake:
+            &lt;ul&gt;
+              &lt;li&gt;客戶端發出請求（ClientHello）&lt;/li&gt;
+              &lt;li&gt;伺服器回應（SeverHello）&lt;/li&gt;
+              &lt;li&gt;客戶端回應&lt;/li&gt;
+              &lt;li&gt;伺服器的最後回應&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;HTTPS 結合使用了 非對稱加密算法，對稱加密算法，hash算法，分別利用他們的優勢，避免他們的缺點。利用非對稱加密算法獲得對稱加密算法的秘鑰，保證他的安全性；然後實際的網頁內容的加密使用的是對稱加密算法，利用了對稱加密算法速度快的優勢，hash算法主要是防止篡改的發生，是一種校驗機制，最後數字證書，保證了伺服器在將非對稱加密算法的公鑰傳給瀏覽器時的安全性(不會被中間人篡改)，同時也標誌了伺服器的身份&lt;/li&gt;
+      &lt;li&gt;HTTPS的本質是什麼？HTTPS的本質就是在HTTP連接發起之前，先使用SSL/TLS協議，協調客戶端和服務端，在兩端各自生產一個對稱加密算法的秘鑰 然後使用普通的HTTP協議傳輸 經過對稱加密算法加密的網頁內容。因為對稱加密算法的秘鑰是安全的，所以對稱加密算法加密的網頁內容也是安全的&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[book] &lt;a href=&quot;https://www.tenlong.com.tw/products/9789862018088&quot;&gt;Implementation Patterns&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Values
+        &lt;ul&gt;
+          &lt;li&gt;Communication&lt;/li&gt;
+          &lt;li&gt;Simplicity&lt;/li&gt;
+          &lt;li&gt;Flexibility&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Principles
+        &lt;ul&gt;
+          &lt;li&gt;Local Consequences&lt;/li&gt;
+          &lt;li&gt;Minimize Repetition&lt;/li&gt;
+          &lt;li&gt;Logic and Data Together&lt;/li&gt;
+          &lt;li&gt;Symmetry&lt;/li&gt;
+          &lt;li&gt;Declarative Expression&lt;/li&gt;
+          &lt;li&gt;Rate of Change&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 11 Mar 2017 08:00:00 +0800</pubDate>
+        <link>/2017/03/11/1/</link>
+        <guid isPermaLink="true">/2017/03/11/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>26</title>
@@ -901,80 +993,6 @@
         <pubDate>Sat, 03 Dec 2016 08:00:00 +0800</pubDate>
         <link>/2016/12/03/1/</link>
         <guid isPermaLink="true">/2016/12/03/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>17</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 11/19 ~ 11/26”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/fakefs/fakefs&quot;&gt;FakeFS&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Mocking calls to FileUtils or File means tightly coupling tests with the implementation.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/rubyzip/rubyzip&quot;&gt;ruby zip&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;create zip file&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/adamcooke/procodile&quot;&gt;Procodile &lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;process manager&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[system] &lt;a href=&quot;http://linux.vbird.org/linux_server/0440ntp.php&quot;&gt;時間伺服器： NTP 伺服器&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[design pattern] &lt;a href=&quot;https://sibevin.github.io/tags?t=dp&quot;&gt;study group design pattern&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[design pattern] &lt;a href=&quot;http://teddy-chen-tw.blogspot.tw/2016/11/1layers.html&quot;&gt;軟體架構模式（1）：Layers&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[design pattern] &lt;a href=&quot;http://teddy-chen-tw.blogspot.tw/2016/11/2pipes-and-filters.html&quot;&gt;軟體架構模式（2）：Pipes and Filters&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[design pattern] &lt;a href=&quot;http://teddy-chen-tw.blogspot.tw/2016/11/3model-view-controller.html&quot;&gt;軟體架構模式（3）：Model-View-Controller&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;https://www.sitepoint.com/learn-ruby-metaprogramming-for-great-good/&quot;&gt;Learn Ruby Metaprogramming for Great Good&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;https://blog.adamcooke.io/running-ruby-apps-in-production-b7e8e5b516eb#.bt8lqmzd5&quot;&gt;Running Ruby apps in production&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[cs50] &lt;a href=&quot;https://www.youtube.com/watch?v=o4SGkB_8fFs&amp;amp;t=4s&quot;&gt;week 1, C&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 26 Nov 2016 08:00:00 +0800</pubDate>
-        <link>/2016/11/26/1/</link>
-        <guid isPermaLink="true">/2016/11/26/1/</guid>
         
         <category>weekly</category>
         

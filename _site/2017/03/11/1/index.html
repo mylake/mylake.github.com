@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>16 - mylake</title>
+    <title>27 - mylake</title>
 
-    <link rel="canonical" href="/2016/11/19/1/">
+    <link rel="canonical" href="/2017/03/11/1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -139,12 +139,12 @@
                         <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
                         
                     </div>
-                    <h1>16</h1>
+                    <h1>27</h1>
                     
                     
                     <h2 class="subheading">weekly learning</h2>
                     
-                    <span class="meta">Posted by ilake on November 19, 2016</span>
+                    <span class="meta">Posted by ilake on March 11, 2017</span>
                 </div>
             </div>
         </div>
@@ -163,38 +163,85 @@
                 post-container">
 
 				<blockquote>
-  <p>“strive 11/12 ~ 11/19”</p>
+  <p>“strive 3/04 ~ 3/11”</p>
 </blockquote>
 
 <h2 id="use">Use</h2>
+
+<ul>
+  <li>
+    <p>[gem] <a href="https://github.com/michaelherold/benchmark-memory">benchmark-memory</a></p>
+    <ul>
+      <li>benchmark-memory is a tool that helps you to benchmark the memory usage of different pieces of code.</li>
+    </ul>
+  </li>
+</ul>
 
 <h2 id="read">Read</h2>
 
 <ul>
   <li>
-    <p>[rails] <a href="https://gist.github.com/jcasimir/1210155">Render and Redirect</a></p>
-    <ol>
-      <li>render to action =&gt; just view the action template, not actually call action</li>
-      <li>redirect_to is not return</li>
-    </ol>
-  </li>
-  <li>
-    <p>[programing] <a href="http://webpro.github.io/programming-principles/">http://webpro.github.io/programming-principles/</a></p>
+    <p>[ssl] <a href="https://read01.com/yj3B.html">HTTPS(SSL/TLS) 原理之深入淺出</a></p>
+    <ul>
+      <li>HTTPS 的基本運行過程：
+        <ul>
+          <li>利用對稱加密算法來加密網頁內容，那麼如何保證對稱加密算法的秘鑰的安全呢？</li>
+          <li>使用非對稱加密算法來獲得對稱加密算法的秘鑰，從而保證了對稱加密算法的秘鑰的安全，也就保證了對稱加密算法的安全</li>
+          <li>如何保證非對稱加密算法公鑰不被篡改？解決方法：將公鑰放在數字證書中。只要證書是可信的，公鑰就是可信的</li>
+          <li>公鑰加密計算量太大，如何減少耗用的時間？解決方法：每一次對話（session），客戶端和伺服器端都生成一個”對話密鑰”（session key），用它來加密信息。由於”對話密鑰”是對稱加密算法，所以運算速度非常快，而伺服器公鑰只用於加密”對話密鑰”本身，這樣就減少了加密運算的消耗時間。</li>
+          <li>SSL/TLS協議的基本過程是這樣的
+            <ul>
+              <li>客戶端向伺服器端索要並驗證非對稱加密算法的公鑰（handshake）</li>
+              <li>雙方協商生成對稱加密算法的”對話密鑰”（handshake）</li>
+              <li>雙方採用對稱加密算法和它的”對話密鑰”進行加密通信</li>
+            </ul>
+          </li>
+          <li>handshake:
+            <ul>
+              <li>客戶端發出請求（ClientHello）</li>
+              <li>伺服器回應（SeverHello）</li>
+              <li>客戶端回應</li>
+              <li>伺服器的最後回應</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>HTTPS 結合使用了 非對稱加密算法，對稱加密算法，hash算法，分別利用他們的優勢，避免他們的缺點。利用非對稱加密算法獲得對稱加密算法的秘鑰，保證他的安全性；然後實際的網頁內容的加密使用的是對稱加密算法，利用了對稱加密算法速度快的優勢，hash算法主要是防止篡改的發生，是一種校驗機制，最後數字證書，保證了伺服器在將非對稱加密算法的公鑰傳給瀏覽器時的安全性(不會被中間人篡改)，同時也標誌了伺服器的身份</li>
+      <li>HTTPS的本質是什麼？HTTPS的本質就是在HTTP連接發起之前，先使用SSL/TLS協議，協調客戶端和服務端，在兩端各自生產一個對稱加密算法的秘鑰 然後使用普通的HTTP協議傳輸 經過對稱加密算法加密的網頁內容。因為對稱加密算法的秘鑰是安全的，所以對稱加密算法加密的網頁內容也是安全的</li>
+    </ul>
   </li>
 </ul>
 
 <h2 id="book">Book</h2>
 
-<h2 id="video">Video</h2>
-
 <ul>
   <li>
-    <p>[cs50] <a href="https://www.youtube.com/watch?v=o4SGkB_8fFs&amp;t=4s">week 0, scratch</a></p>
-  </li>
-  <li>
-    <p>[cs50] <a href="https://www.youtube.com/watch?v=o4SGkB_8fFs&amp;t=4s">week 1, C</a></p>
+    <p>[book] <a href="https://www.tenlong.com.tw/products/9789862018088">Implementation Patterns</a></p>
+    <ul>
+      <li>Values
+        <ul>
+          <li>Communication</li>
+          <li>Simplicity</li>
+          <li>Flexibility</li>
+        </ul>
+      </li>
+      <li>Principles
+        <ul>
+          <li>Local Consequences</li>
+          <li>Minimize Repetition</li>
+          <li>Logic and Data Together</li>
+          <li>Symmetry</li>
+          <li>Declarative Expression</li>
+          <li>Rate of Change</li>
+        </ul>
+      </li>
+    </ul>
   </li>
 </ul>
+
+<h2 id="video">Video</h2>
+
+<h2 id="learn">Learn</h2>
 
 
                 <hr>
@@ -205,13 +252,9 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2016/11/12/1/" data-toggle="tooltip" data-placement="top" title="15">&larr; Previous Post</a>
+                        <a href="/2017/03/04/1/" data-toggle="tooltip" data-placement="top" title="26">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2016/11/26/1/" data-toggle="tooltip" data-placement="top" title="17">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 
