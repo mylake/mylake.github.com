@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>2 - mylake</title>
+    <title>28 - mylake</title>
 
-    <link rel="canonical" href="/2016/08/13/1/">
+    <link rel="canonical" href="/2017/03/18/1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -139,12 +139,12 @@
                         <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
                         
                     </div>
-                    <h1>2</h1>
+                    <h1>28</h1>
                     
                     
                     <h2 class="subheading">weekly learning</h2>
                     
-                    <span class="meta">Posted by ilake on August 13, 2016</span>
+                    <span class="meta">Posted by ilake on March 18, 2017</span>
                 </div>
             </div>
         </div>
@@ -163,303 +163,115 @@
                 post-container">
 
 				<blockquote>
-  <p>“strive 8/7 ~ 8/13”</p>
+  <p>“strive 3/11 ~ 3/18”</p>
 </blockquote>
 
 <h2 id="use">Use</h2>
-<ul>
-  <li>
-    <p>[Gem] <a href="https://github.com/solnic/virtus">virtus</a></p>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/NoamB/sorcery">sorcery</a></p>
-    <ol>
-      <li>authentication for Rails</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/thoughtbot/capybara-webkit">capybara-webkit</a></p>
-    <ol>
-      <li>A Capybara driver for headless WebKit to test JavaScript web apps</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/jnicklas/capybara">capybara</a></p>
-    <ol>
-      <li>Acceptance test framework for web applications</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/DatabaseCleaner/database_cleaner">database_cleaner</a></p>
-    <ol>
-      <li>Strategies for cleaning databases</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/jpignata/temping">temping</a></p>
-    <ol>
-      <li>model mockup, dynamic create db table for model test</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/whitesmith/rubycritic">rubycritic</a></p>
-    <ol>
-      <li>provide a quality report of your Ruby code.</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/kakas/CapistranoDeployTest">CapistranoDeployTest</a></p>
-    <ol>
-      <li>Deploying a Rails App on Ubuntu 14.04 with Capistrano, Nginx, and Puma</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/kpumuk/meta-tags">meta-tags</a></p>
-    <ol>
-      <li>make your Rails application SEO-friendly</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/norman/friendly_id">friendly_id</a></p>
-    <ol>
-      <li>for pretty url</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/kjvarga/sitemap_generator">sitemap_generator</a></p>
-    <ol>
-      <li>create sitemap</li>
-    </ol>
-  </li>
-  <li>
-    <p>[SEO] <a href="http://www.browseo.net/">BROWSEO</a></p>
-    <ol>
-      <li>see how search engine read your website</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Gem] <a href="https://github.com/pat/thinking-sphinx">sphinx</a></p>
-    <ol>
-      <li>full-text search engine</li>
-    </ol>
-  </li>
-</ul>
 
 <h2 id="read">Read</h2>
+
 <ul>
   <li>
-    <p>[Ruby] <a href="http://api.rubyonrails.org/v4.1.4/classes/ActionController/Metal.html#method-i-performed-3F">ActionController::Metal#performed?</a></p>
-    <ol>
-      <li>you can test whether render or redirect already happended</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Ruby] <a href="http://api.rubyonrails.org/classes/ActiveModel/Validations.html#method-i-valid-3F">ActiveModel::Validations#valid?(context=nil)</a></p>
+    <p>[rails] <a href="http://blog.honeybadger.io/common-rails-idioms-that-kill-database-performance/">Common Rails Idioms that Kill Database Performance</a></p>
     <ul>
-      <li>validates_length_of :slug, minimum: 3, on: :user</li>
-      <li>validates_length_of :slug, minimum: 1, on: :admin</li>
-      <li>@user.save(context: :admin), @user.valid?(:admin), @user.valid?(:user),</li>
+      <li>As you start doing more complex queries, it’s a good idea to run them through explain. Do it early and often.</li>
     </ul>
   </li>
   <li>
-    <p>[Ruby] <a href="http://railsfun.tw/t/ruby-queue-v-s-thread-mutex/619/2">[ruby 的多工]Queue v.s. Thread ? &amp; Mutex …</a></p>
-  </li>
-  <li>
-    <p>[Ruby] <a href="http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/">7-ways-to-decompose-fat-activerecord-models</a></p>
-    <ol>
-      <li>Value Objects: define domain-specific Value Objects,  Value Objects are great when you have an attribute or small group of attributes that have logic associated with them</li>
-      <li>Service Objects: action is complex,  action reaches across multiple models, action interacts with an external service, action is not a core concern of the underlying model</li>
-      <li>Form Objects: Virtus, When multiple ActiveRecord models might be updated by a single form submission, a Form Object can encapsulate the aggregation</li>
-      <li>Query Objects: For complex SQL queries littering the definition of your ActiveRecord subclass</li>
-      <li>View Objects: If logic is needed purely for display purposes, it does not belong in the model.</li>
-      <li>Policy Objects: Sometimes complex read operations might deserve their own objects
-    * “Service Object” for write operations and “Policy Object” for reads, Query Objects focus on executing SQL to return a result set</li>
-      <li>Decorators: For cases where callback logic only needs to run in some circumstances or including it in the model would give the model too many responsibilities, a Decorator is useful</li>
-    </ol>
-  </li>
-  <li>
-    <p>[CI] <a href="https://circleci.com/docs/parallel-manual-setup/">circle parallel-manual-setup</a></p>
-  </li>
-  <li>
-    <p>[API] <a href="http://apionrails.icalialabs.com/book/chapter_five">api on rails, Authenticating users</a></p>
-  </li>
-  <li>
-    <p>[Ruby] <a href="http://www.virtuouscode.com/2012/08/31/configuring-database_cleaner-with-rails-rspec-capybara-and-selenium/">Configuring database_cleaner with Rails, RSpec, Capybara, and Selenium</a></p>
-    <ol>
-      <li>different cleaner strategy settings</li>
-    </ol>
-  </li>
-  <li>
-    <p>[Ruby] routing constraints </p>
-    <ol>
-      <li>
-        <p>[Ruby] <a href="http://blog.arkency.com/2014/01/short-urls-for-every-route-in-your-rails-app/">Pretty, short urls for every route in your Rails app</a></p>
-      </li>
-      <li>
-        <p>[Ruby] <a href="https://8thlight.com/blog/ben-voss/2013/01/12/how-to-use-rails-route-constraints.html">How to use rails routing constraints</a></p>
+    <p>[rails] <a href="https://www.slideshare.net/fxn/the-rails-boot-process">rails boot process</a></p>
+    <ul>
+      <li>First Steps
         <ul>
-          <li>security vulnerabilities and data type validation</li>
-          <li>encapsulate and simplify actions (and supporting code)</li>
+          <li>define load paths for dependencies (Bundle.setup)</li>
+          <li>Load rails/all</li>
+          <li>Load gem dependencies (Bundle.require)</li>
+          <li>Define the application class</li>
+          <li>Rails.application.initialize!</li>
         </ul>
       </li>
-      <li>
-        <p>[Ruby] <a href="https://www.viget.com/articles/using-routing-constraints-to-root-your-app">Using Routing Constraints to Root Your App</a></p>
+      <li>Rails::Railtie
+        <ul>
+          <li>Hooks to execute code when the console, runner, etc..</li>
+          <li>Define custom configuration points</li>
+          <li>Declare code to be executed during boot</li>
+        </ul>
       </li>
-    </ol>
+      <li>Lazy loading
+        <ul>
+          <li>autoload, on_load</li>
+          <li><code class="highlighter-rouge">
+module ActiveRecord
+class Railtie &lt; Rails::Railtie
+  initializer 'active_record.logger' do
+    ActiveSupport.on_load(:active_record) do
+      self.logger ||= Rails.logger
+    end
+  end
+end
+end
+</code></li>
+        </ul>
+      </li>
+    </ul>
   </li>
   <li>
-    <p>[Ruby] <a href="https://ruby-china.org/topics/30233">use_transactional_fixtures vs database_cleaner</a></p>
+    <p>[rails] <a href="http://andrewberls.com/blog/post/rails-from-request-to-response-part-1--introduction">Rails from Request to Response: Part 1 - Introduction</a></p>
   </li>
   <li>
-    <p>[Ruby] <a href="http://api.rubyonrails.org/classes/ActiveRecord/Aggregations/ClassMethods.html">composed_of</a></p>
-    <ol>
-      <li>model representing attributes as value objects</li>
-    </ol>
+    <p>[rails] <a href="http://andrewberls.com/blog/post/rails-from-request-to-response-part-2--routing">Rails from Request to Response: Part 2 - Routing</a></p>
+    <ul>
+      <li>rails/railties/lib/rails/engine.rb</li>
+      <li>rails/actionpack/lib/action_dispatch/routing/route_set.rb</li>
+      <li>rails/actionpack/lib/action_dispatch/journey/router.rb</li>
+      <li>rails/actionpack/lib/action_dispatch/routing/mapper.rb</li>
+      <li>rails/actionpack/lib/action_dispatch/routing/route_set.rb#dispatch
+        <ul>
+          <li><code class="highlighter-rouge">
+def dispatch(controller, action, env)
+controller.action(action).call(env)
+end
+</code></li>
+        </ul>
+      </li>
+    </ul>
   </li>
   <li>
-    <p>[SEO] <a href="http://gogojimmy.net/2013/09/26/basic-seo-for-rails-developer/">給 Rails Developer 的基本SEO</a></p>
+    <p>[rails] <a href="http://andrewberls.com/blog/post/rails-from-request-to-response-part-3--actioncontroller">http://andrewberls.com/blog/post/rails-from-request-to-response-part-2--routing</a></p>
+    <ul>
+      <li>controller hierarchy
+        <ul>
+          <li>YourController « ApplicationController &lt; ActionController::Base &lt; ActionController::Metal &lt; AbstractController::Base</li>
+        </ul>
+      </li>
+      <li>rails/actionpack/lib/action_controller/metal.rb
+        <ul>
+          <li>self.action</li>
+        </ul>
+      </li>
+      <li>rails/actionpack/lib/action_controller/metal/rack_delegation.rb
+        <ul>
+          <li>dispatch</li>
+        </ul>
+      </li>
+      <li>rails/actionpack/lib/action_controller/metal.rb
+        <ul>
+          <li>dispatch</li>
+        </ul>
+      </li>
+      <li>rails/actionpack/lib/abstract_controller/base.rb
+        <ul>
+          <li>process</li>
+        </ul>
+      </li>
+    </ul>
   </li>
 </ul>
 
 <h2 id="book">Book</h2>
-<ul>
-  <li>
-    <p> <a href="http://openhome.cc/Gossip/CodeData/EssentialJavaScript/index.html">JavaScript 語言核心</a></p>
-    <ul>
-      <li>done (1), (2)</li>
-    </ul>
-  </li>
-  <li>
-    <p> <a href="https://gumroad.com/l/ios-on-rails">ios on rails</a></p>
 
-    <ul>
-      <li>rails api design</li>
-    </ul>
-  </li>
-  <li>
-    <p> <a href="http://rails-refactoring.com/">Fearless Rails Refactoring</a></p>
+<h2 id="video">Video</h2>
 
-    <ul>
-      <li>
-        <p>Refactoring recipes</p>
-
-        <ul>
-          <li>Inline controller filters
-            <ul>
-              <li>extract filter to service</li>
-            </ul>
-          </li>
-          <li>Explicitly render views with locals
-            <ul>
-              <li>pass the params to partials explicitly with render</li>
-            </ul>
-          </li>
-          <li>Extract render/redirect methods
-            <ul>
-              <li>extract a private method for each render and redirect call</li>
-            </ul>
-          </li>
-          <li>Extract a Single Action Controller class
-            <ul>
-              <li>extract like CreateProductsController only when ProductsController is too too too large</li>
-            </ul>
-          </li>
-          <li>Extract routing constraint
-            <ul>
-              <li>use routing constraint to seperate controller action</li>
-            </ul>
-          </li>
-          <li>Extract an adapter object
-            <ul>
-              <li>extract call external library to adapter object call</li>
-            </ul>
-          </li>
-          <li>Extract a repository object
-            <ul>
-              <li>hide the direct ActiveRecord calls, isolated, add data storage on repo object</li>
-            </ul>
-          </li>
-          <li>Extract a service object using the SimpleDelegator
-            <ul>
-              <li>move some domain or business logic to service object</li>
-            </ul>
-          </li>
-          <li>Extract conditional validation into Service Object
-            <ul>
-              <li>when validation only used in one place, drop the condition on model, move it to service object</li>
-            </ul>
-          </li>
-          <li>Extract a form object
-            <ul>
-              <li>move form to form object, more explicit and domain is expressed better</li>
-              <li>form object can’t have save method (SRP), Persistence is a seperate concern and different object should take care of it, form object only valid data</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>Patterns</p>
-
-        <ul>
-          <li>
-            <p>Instantiating service objects
-*</p>
-          </li>
-          <li>
-            <p>The repository pattern
-*</p>
-          </li>
-          <li>Wrap external API with an adapter
-            <ul>
-              <li>isolated our interface from the implementation</li>
-            </ul>
-          </li>
-          <li>
-            <p>4 ways to early return from a rails controller</p>
-
-            <ul>
-              <li>extracted_method; return if performed?</li>
-            </ul>
-          </li>
-          <li>
-            <p>Service::Input
-*</p>
-          </li>
-          <li>
-            <p>Validations: Contexts
-*</p>
-          </li>
-          <li>Validations: Objectify
-*</li>
-        </ul>
-      </li>
-      <li>
-        <p>Related topics</p>
-
-        <ul>
-          <li>Service controller communication
-            <ul>
-              <li>True/false; return the object created/updated; return a response object that contains all the data and/or errors;</li>
-              <li>carry data through exceptions; controller passes callback methods;</li>
-            </ul>
-          </li>
-          <li>Where to keep services
-            <ul>
-              <li>group your services according to the feature and then surround them with proper namespace</li>
-              <li>ex: Reporting::MonthlyReport, Forum::CreateNewTopic, TimeTracking::LogTimeService</li>
-            </ul>
-          </li>
-          <li>Routing constraints
-            <ul>
-              <li>use routing constraints for situations where you need to choose differentctions based on some params</li>
-              <li>This makes the controller thinner and it’s more explicit what actios happening</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
+<h2 id="learn">Learn</h2>
 
 
                 <hr>
@@ -470,13 +282,9 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2016/08/07/1/" data-toggle="tooltip" data-placement="top" title="1">&larr; Previous Post</a>
+                        <a href="/2017/03/11/1/" data-toggle="tooltip" data-placement="top" title="27">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2016/08/20/1/" data-toggle="tooltip" data-placement="top" title="3">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 

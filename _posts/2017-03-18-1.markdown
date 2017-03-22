@@ -1,0 +1,74 @@
+---
+layout:     post
+title:      "28"
+subtitle:   "weekly learning"
+date:       2017-03-18 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 3/11 ~ 3/18”
+
+## Use
+
+## Read
+
+* <p>[rails] <a href="http://blog.honeybadger.io/common-rails-idioms-that-kill-database-performance/">Common Rails Idioms that Kill Database Performance</a></p>
+  * As you start doing more complex queries, it's a good idea to run them through explain. Do it early and often.
+
+* <p>[rails] <a href="https://www.slideshare.net/fxn/the-rails-boot-process">rails boot process</a></p>
+  * First Steps
+    * define load paths for dependencies (Bundle.setup)
+    * Load rails/all
+    * Load gem dependencies (Bundle.require)
+    * Define the application class
+    * Rails.application.initialize!
+  * Rails::Railtie
+    * Hooks to execute code when the console, runner, etc..
+    * Define custom configuration points
+    * Declare code to be executed during boot
+  * Lazy loading
+    * autoload, on_load
+    * ``
+    module ActiveRecord
+      class Railtie < Rails::Railtie
+        initializer 'active_record.logger' do
+          ActiveSupport.on_load(:active_record) do
+            self.logger ||= Rails.logger
+          end
+        end
+      end
+    end
+    ``
+
+* <p>[rails] <a href="http://andrewberls.com/blog/post/rails-from-request-to-response-part-1--introduction">Rails from Request to Response: Part 1 - Introduction</a></p>
+
+* <p>[rails] <a href="http://andrewberls.com/blog/post/rails-from-request-to-response-part-2--routing">Rails from Request to Response: Part 2 - Routing</a></p>
+  * rails/railties/lib/rails/engine.rb
+  * rails/actionpack/lib/action_dispatch/routing/route_set.rb
+  * rails/actionpack/lib/action_dispatch/journey/router.rb
+  * rails/actionpack/lib/action_dispatch/routing/mapper.rb
+  * rails/actionpack/lib/action_dispatch/routing/route_set.rb#dispatch
+    * ``
+    def dispatch(controller, action, env)
+      controller.action(action).call(env)
+    end
+    ``
+* <p>[rails] <a href="http://andrewberls.com/blog/post/rails-from-request-to-response-part-3--actioncontroller">http://andrewberls.com/blog/post/rails-from-request-to-response-part-2--routing</a></p>
+  * controller hierarchy
+    * YourController << ApplicationController < ActionController::Base < ActionController::Metal < AbstractController::Base
+  * rails/actionpack/lib/action_controller/metal.rb
+    * self.action
+  * rails/actionpack/lib/action_controller/metal/rack_delegation.rb
+    * dispatch
+  * rails/actionpack/lib/action_controller/metal.rb
+    * dispatch
+  * rails/actionpack/lib/abstract_controller/base.rb
+    * process
+
+## Book
+
+## Video
+
+## Learn

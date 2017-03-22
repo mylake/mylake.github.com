@@ -5,9 +5,131 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 14 Mar 2017 22:06:39 +0800</pubDate>
-    <lastBuildDate>Tue, 14 Mar 2017 22:06:39 +0800</lastBuildDate>
+    <pubDate>Wed, 22 Mar 2017 09:11:12 +0800</pubDate>
+    <lastBuildDate>Wed, 22 Mar 2017 09:11:12 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>28</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 3/11 ~ 3/18”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;http://blog.honeybadger.io/common-rails-idioms-that-kill-database-performance/&quot;&gt;Common Rails Idioms that Kill Database Performance&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;As you start doing more complex queries, it’s a good idea to run them through explain. Do it early and often.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;https://www.slideshare.net/fxn/the-rails-boot-process&quot;&gt;rails boot process&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;First Steps
+        &lt;ul&gt;
+          &lt;li&gt;define load paths for dependencies (Bundle.setup)&lt;/li&gt;
+          &lt;li&gt;Load rails/all&lt;/li&gt;
+          &lt;li&gt;Load gem dependencies (Bundle.require)&lt;/li&gt;
+          &lt;li&gt;Define the application class&lt;/li&gt;
+          &lt;li&gt;Rails.application.initialize!&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Rails::Railtie
+        &lt;ul&gt;
+          &lt;li&gt;Hooks to execute code when the console, runner, etc..&lt;/li&gt;
+          &lt;li&gt;Define custom configuration points&lt;/li&gt;
+          &lt;li&gt;Declare code to be executed during boot&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Lazy loading
+        &lt;ul&gt;
+          &lt;li&gt;autoload, on_load&lt;/li&gt;
+          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+module ActiveRecord
+class Railtie &amp;lt; Rails::Railtie
+  initializer 'active_record.logger' do
+    ActiveSupport.on_load(:active_record) do
+      self.logger ||= Rails.logger
+    end
+  end
+end
+end
+&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;http://andrewberls.com/blog/post/rails-from-request-to-response-part-1--introduction&quot;&gt;Rails from Request to Response: Part 1 - Introduction&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;http://andrewberls.com/blog/post/rails-from-request-to-response-part-2--routing&quot;&gt;Rails from Request to Response: Part 2 - Routing&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;rails/railties/lib/rails/engine.rb&lt;/li&gt;
+      &lt;li&gt;rails/actionpack/lib/action_dispatch/routing/route_set.rb&lt;/li&gt;
+      &lt;li&gt;rails/actionpack/lib/action_dispatch/journey/router.rb&lt;/li&gt;
+      &lt;li&gt;rails/actionpack/lib/action_dispatch/routing/mapper.rb&lt;/li&gt;
+      &lt;li&gt;rails/actionpack/lib/action_dispatch/routing/route_set.rb#dispatch
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+def dispatch(controller, action, env)
+controller.action(action).call(env)
+end
+&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;http://andrewberls.com/blog/post/rails-from-request-to-response-part-3--actioncontroller&quot;&gt;http://andrewberls.com/blog/post/rails-from-request-to-response-part-2--routing&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;controller hierarchy
+        &lt;ul&gt;
+          &lt;li&gt;YourController « ApplicationController &amp;lt; ActionController::Base &amp;lt; ActionController::Metal &amp;lt; AbstractController::Base&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;rails/actionpack/lib/action_controller/metal.rb
+        &lt;ul&gt;
+          &lt;li&gt;self.action&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;rails/actionpack/lib/action_controller/metal/rack_delegation.rb
+        &lt;ul&gt;
+          &lt;li&gt;dispatch&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;rails/actionpack/lib/action_controller/metal.rb
+        &lt;ul&gt;
+          &lt;li&gt;dispatch&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;rails/actionpack/lib/abstract_controller/base.rb
+        &lt;ul&gt;
+          &lt;li&gt;process&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 18 Mar 2017 08:00:00 +0800</pubDate>
+        <link>/2017/03/18/1/</link>
+        <guid isPermaLink="true">/2017/03/18/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>27</title>
@@ -889,110 +1011,6 @@
         <pubDate>Sun, 18 Dec 2016 08:00:00 +0800</pubDate>
         <link>/2016/12/18/1/</link>
         <guid isPermaLink="true">/2016/12/18/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>18</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 11/26 ~ 12/03”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/jackc/surus&quot;&gt;surus&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;PostgreSQL extensions for ActiveRecord&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[react native] &lt;a href=&quot;https://f8-app.liaohuqiu.net/tutorials/building-the-f8-app/planning/&quot;&gt;構建F8 App / React Native 開髮指南&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[react native] &lt;a href=&quot;http://bbs.reactnative.cn/topic/20/%E6%96%B0%E6%89%8B%E7%90%86%E8%A7%A3navigator%E7%9A%84%E6%95%99%E7%A8%8B&quot;&gt;新手理解Navigator的教程&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[redux] &lt;a href=&quot;https://egghead.io/courses/getting-started-with-redux&quot;&gt;Getting Started with Redux&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[redux] &lt;a href=&quot;https://egghead.io/courses/building-react-applications-with-idiomatic-redux&quot;&gt;Building React Applications with Idiomatic Redux&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bootstrap 模組化
-    &lt;ul&gt;
-      &lt;li&gt;依用途
-        &lt;ul&gt;
-          &lt;li&gt;隔線系統&lt;/li&gt;
-          &lt;li&gt;導覽系統
-            &lt;ul&gt;
-              &lt;li&gt;navbar&lt;/li&gt;
-              &lt;li&gt;list-group&lt;/li&gt;
-              &lt;li&gt;breadcrumb&lt;/li&gt;
-              &lt;li&gt;pagination&lt;/li&gt;
-              &lt;li&gt;pager&lt;/li&gt;
-              &lt;li&gt;dropdown&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;圖示系統
-            &lt;ul&gt;
-              &lt;li&gt;glyphicon =&amp;gt; 基本設定&lt;/li&gt;
-              &lt;li&gt;glyphicon-user =&amp;gt; 差異化設定&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;內容設定系統
-            &lt;ul&gt;
-              &lt;li&gt;文字色彩 =&amp;gt; text-info, text-success, text-warning, text-danger&lt;/li&gt;
-              &lt;li&gt;背景顏色 =&amp;gt; bg-info, bg-success, …..&lt;/li&gt;
-              &lt;li&gt;凸顯內容 =&amp;gt; well, lead, blockquote&lt;/li&gt;
-              &lt;li&gt;文字對齊 換行 =&amp;gt; text-left, text-nowrap, …..&lt;/li&gt;
-              &lt;li&gt;panel =&amp;gt; panel 基本設定 panel-info 顏色設定&lt;/li&gt;
-              &lt;li&gt;pager-header&lt;/li&gt;
-              &lt;li&gt;h1~h6&lt;/li&gt;
-              &lt;li&gt;jumbotron&lt;/li&gt;
-              &lt;li&gt;清單控制 =&amp;gt; list-unstyled, list-inline&lt;/li&gt;
-              &lt;li&gt;影片及媒體 =&amp;gt; responsive-embed&lt;/li&gt;
-              &lt;li&gt;仿iframe =&amp;gt; pre-scrollable&lt;/li&gt;
-              &lt;li&gt;圖片控制 =&amp;gt; image-responsive&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;表單系統
-            &lt;ul&gt;
-              &lt;li&gt;form-group&lt;/li&gt;
-              &lt;li&gt;input-group&lt;/li&gt;
-              &lt;li&gt;checkbox, radiobox&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;js外掛&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 03 Dec 2016 08:00:00 +0800</pubDate>
-        <link>/2016/12/03/1/</link>
-        <guid isPermaLink="true">/2016/12/03/1/</guid>
         
         <category>weekly</category>
         
