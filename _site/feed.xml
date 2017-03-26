@@ -5,9 +5,119 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 22 Mar 2017 09:11:12 +0800</pubDate>
-    <lastBuildDate>Wed, 22 Mar 2017 09:11:12 +0800</lastBuildDate>
+    <pubDate>Sun, 26 Mar 2017 22:48:00 +0800</pubDate>
+    <lastBuildDate>Sun, 26 Mar 2017 22:48:00 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>29</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 3/18 ~ 3/25”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[tool] &lt;a href=&quot;http://blog.hsatac.net/2014/10/duplicate-production-requests-for-testing/&quot;&gt;Duplicate Production Requests for Testing&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/instructure/switchman&quot;&gt;switchman&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;ActiveRecord extension for sharding your database&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;https://blog.codeminer42.com/towards-minimal-idiomatic-and-performant-ruby-code-f3fc6aed3c94#.zgxpdtnvd&quot;&gt;Towards Minimal, Idiomatic, and Performant Ruby Code&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;block is faster than procs
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def each
+  return to_enum(__callee__) unless block_given?
+  @collection.each { |item| yield item }
+end
+&lt;/code&gt;&lt;/pre&gt;
+            &lt;/div&gt;
+            &lt;p&gt;faster than&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def each_block_to_proc(&amp;amp;block)
+  @collection.each(&amp;amp;block)
+end
+&lt;/code&gt;&lt;/pre&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[aws] &lt;a href=&quot;https://rickhw.github.io/2017/03/02/AWS/Study-Notes-CloudWatch/&quot;&gt;CloudWatch&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;CloudWatch Alarms&lt;/li&gt;
+      &lt;li&gt;CloudWatch Events / Rules&lt;/li&gt;
+      &lt;li&gt;CloudWatch Logs&lt;/li&gt;
+      &lt;li&gt;CloudWatch Metric, Filter&lt;/li&gt;
+      &lt;li&gt;CloudWatch Dashboard&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;https://robots.thoughtbot.com/slicing-up-rails-application-js-for-faster-load-times&quot;&gt;Slicing up Rails Application.js for Faster Load Times&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;add page-specific JavaScript in Rails&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[basic knowledge] &lt;a href=&quot;https://github.com/alex/what-happens-when&quot;&gt;What happens when you type google.com into your browser's address box and press enter&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;the “g” key is pressed =&amp;gt; the browser receives the event and the entire auto-complete&lt;/li&gt;
+      &lt;li&gt;Parse URL, ex: protocol, resource&lt;/li&gt;
+      &lt;li&gt;Is it a URL or a search term?&lt;/li&gt;
+      &lt;li&gt;Convert non-ASCII Unicode characters in hostname&lt;/li&gt;
+      &lt;li&gt;Check HSTS list&lt;/li&gt;
+      &lt;li&gt;DNS lookup&lt;/li&gt;
+      &lt;li&gt;ARP process&lt;/li&gt;
+      &lt;li&gt;Opening of a socket&lt;/li&gt;
+      &lt;li&gt;TLS handshake&lt;/li&gt;
+      &lt;li&gt;HTTP protocol&lt;/li&gt;
+      &lt;li&gt;HTTP Server Request Handle&lt;/li&gt;
+      &lt;li&gt;Behind the scenes of the Browser
+        &lt;ul&gt;
+          &lt;li&gt;HTML parsing&lt;/li&gt;
+          &lt;li&gt;CSS interpretation&lt;/li&gt;
+          &lt;li&gt;Page Rendering&lt;/li&gt;
+          &lt;li&gt;GPU Rendering&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[udemy - react native] &lt;a href=&quot;https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/content&quot;&gt;The Complete React Native and Redux Course&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;## Learn&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 25 Mar 2017 08:00:00 +0800</pubDate>
+        <link>/2017/03/25/1/</link>
+        <guid isPermaLink="true">/2017/03/25/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>28</title>
@@ -956,61 +1066,6 @@ end
         <pubDate>Sat, 07 Jan 2017 08:00:00 +0800</pubDate>
         <link>/2017/01/07/1/</link>
         <guid isPermaLink="true">/2017/01/07/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>19</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 12/03 ~ 12/18”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/ruby-prof/ruby-prof&quot;&gt;ruby-prof&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/AssetSync/asset_sync&quot;&gt;asset_sync&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/Shopify/identity_cache&quot;&gt;IdentityCache&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[sidekiq] &lt;a href=&quot;http://www.mikeperham.com/2015/10/14/optimizing-sidekiq/&quot;&gt;optimizing-sidekiq&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;http://code.oneapm.com/ruby/2015/06/08/ruby-prof/&quot;&gt;Ruby Profiler詳解之ruby-prof&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[redux] &lt;a href=&quot;http://react-china.org/t/redux/2687&quot;&gt;這段時間研究了下Redux，寫寫自己對它的感覺&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;https://www.youtube.com/watch?v=j347oSSuNHA&quot;&gt;Big Ruby 2013 How Shopify Scales Rails&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-</description>
-        <pubDate>Sun, 18 Dec 2016 08:00:00 +0800</pubDate>
-        <link>/2016/12/18/1/</link>
-        <guid isPermaLink="true">/2016/12/18/1/</guid>
         
         <category>weekly</category>
         

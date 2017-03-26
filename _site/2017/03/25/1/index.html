@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>21 - mylake</title>
+    <title>29 - mylake</title>
 
-    <link rel="canonical" href="/2017/01/14/1/">
+    <link rel="canonical" href="/2017/03/25/1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -139,12 +139,12 @@
                         <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
                         
                     </div>
-                    <h1>21</h1>
+                    <h1>29</h1>
                     
                     
                     <h2 class="subheading">weekly learning</h2>
                     
-                    <span class="meta">Posted by ilake on January 14, 2017</span>
+                    <span class="meta">Posted by ilake on March 25, 2017</span>
                 </div>
             </div>
         </div>
@@ -163,16 +163,19 @@
                 post-container">
 
 				<blockquote>
-  <p>“strive 1/07 ~ 1/14”</p>
+  <p>“strive 3/18 ~ 3/25”</p>
 </blockquote>
 
 <h2 id="use">Use</h2>
 
 <ul>
   <li>
-    <p>[tool] <a href="https://github.com/motemen/git-pr-release">git-pr-release</a></p>
+    <p>[tool] <a href="http://blog.hsatac.net/2014/10/duplicate-production-requests-for-testing/">Duplicate Production Requests for Testing</a></p>
+  </li>
+  <li>
+    <p>[gem] <a href="https://github.com/instructure/switchman">switchman</a></p>
     <ul>
-      <li>可用來做production deploy 的 release log ，可以方便追蹤每次 deploy production 時，和上一次 deploy 的 code diff</li>
+      <li>ActiveRecord extension for sharding your database</li>
     </ul>
   </li>
 </ul>
@@ -181,13 +184,69 @@
 
 <ul>
   <li>
-    <p>[web] <a href="https://philna.sh/blog/2016/06/13/the-surprise-multipart-form-data/">THE SURPRISE MULTIPART/FORM-DATA</a></p>
+    <p>[rails] <a href="https://blog.codeminer42.com/towards-minimal-idiomatic-and-performant-ruby-code-f3fc6aed3c94#.zgxpdtnvd">Towards Minimal, Idiomatic, and Performant Ruby Code</a></p>
     <ul>
-      <li>FormData objects set the content type of a Fetch API (or XMLHttpRequest) request to multipart/form-data automagically.</li>
+      <li>block is faster than procs
+        <ul>
+          <li>
+            <div class="highlighter-rouge"><pre class="highlight"><code>def each
+  return to_enum(__callee__) unless block_given?
+  @collection.each { |item| yield item }
+end
+</code></pre>
+            </div>
+            <p>faster than</p>
+          </li>
+          <li>
+            <div class="highlighter-rouge"><pre class="highlight"><code>def each_block_to_proc(&amp;block)
+  @collection.each(&amp;block)
+end
+</code></pre>
+            </div>
+          </li>
+        </ul>
+      </li>
     </ul>
   </li>
   <li>
-    <p>[seo] <a href="http://andrewhfarmer.com/react-seo/">Will google find your react component</a></p>
+    <p>[aws] <a href="https://rickhw.github.io/2017/03/02/AWS/Study-Notes-CloudWatch/">CloudWatch</a></p>
+    <ul>
+      <li>CloudWatch Alarms</li>
+      <li>CloudWatch Events / Rules</li>
+      <li>CloudWatch Logs</li>
+      <li>CloudWatch Metric, Filter</li>
+      <li>CloudWatch Dashboard</li>
+    </ul>
+  </li>
+  <li>
+    <p>[rails] <a href="https://robots.thoughtbot.com/slicing-up-rails-application-js-for-faster-load-times">Slicing up Rails Application.js for Faster Load Times</a></p>
+    <ul>
+      <li>add page-specific JavaScript in Rails</li>
+    </ul>
+  </li>
+  <li>
+    <p>[basic knowledge] <a href="https://github.com/alex/what-happens-when">What happens when you type google.com into your browser's address box and press enter</a></p>
+    <ul>
+      <li>the “g” key is pressed =&gt; the browser receives the event and the entire auto-complete</li>
+      <li>Parse URL, ex: protocol, resource</li>
+      <li>Is it a URL or a search term?</li>
+      <li>Convert non-ASCII Unicode characters in hostname</li>
+      <li>Check HSTS list</li>
+      <li>DNS lookup</li>
+      <li>ARP process</li>
+      <li>Opening of a socket</li>
+      <li>TLS handshake</li>
+      <li>HTTP protocol</li>
+      <li>HTTP Server Request Handle</li>
+      <li>Behind the scenes of the Browser
+        <ul>
+          <li>HTML parsing</li>
+          <li>CSS interpretation</li>
+          <li>Page Rendering</li>
+          <li>GPU Rendering</li>
+        </ul>
+      </li>
+    </ul>
   </li>
 </ul>
 
@@ -197,11 +256,10 @@
 
 <ul>
   <li>
-    <p>[javascript] <a href="https://www.udemy.com/javascriptjs/learn/v4/overview">JavaScript全攻略：克服JS的奇怪部分</a></p>
+    <p>[udemy - react native] <a href="https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/content">The Complete React Native and Redux Course</a></p>
+    <p>## Learn</p>
   </li>
 </ul>
-
-<h2 id="learn">Learn</h2>
 
 
                 <hr>
@@ -212,13 +270,9 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2017/01/07/1/" data-toggle="tooltip" data-placement="top" title="20">&larr; Previous Post</a>
+                        <a href="/2017/03/18/1/" data-toggle="tooltip" data-placement="top" title="28">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2017/01/21/1/" data-toggle="tooltip" data-placement="top" title="22">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 

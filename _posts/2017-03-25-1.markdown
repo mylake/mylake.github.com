@@ -1,0 +1,70 @@
+---
+layout:     post
+title:      "29"
+subtitle:   "weekly learning"
+date:       2017-03-25 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 3/18 ~ 3/25”
+
+## Use
+
+* <p>[tool] <a href="http://blog.hsatac.net/2014/10/duplicate-production-requests-for-testing/">Duplicate Production Requests for Testing</a></p>
+
+* <p>[gem] <a href="https://github.com/instructure/switchman">switchman</a></p>
+  * ActiveRecord extension for sharding your database
+
+## Read
+
+* <p>[rails] <a href="https://blog.codeminer42.com/towards-minimal-idiomatic-and-performant-ruby-code-f3fc6aed3c94#.zgxpdtnvd">Towards Minimal, Idiomatic, and Performant Ruby Code</a></p>
+  * block is faster than procs
+    * ```
+      def each
+        return to_enum(__callee__) unless block_given?
+        @collection.each { |item| yield item }
+      end
+    ```
+    faster than
+    * ```
+      def each_block_to_proc(&block)
+        @collection.each(&block)
+      end
+    ```
+
+* <p>[aws] <a href="https://rickhw.github.io/2017/03/02/AWS/Study-Notes-CloudWatch/">CloudWatch</a></p>
+  * CloudWatch Alarms
+  * CloudWatch Events / Rules
+  * CloudWatch Logs
+  * CloudWatch Metric, Filter
+  * CloudWatch Dashboard
+
+* <p>[rails] <a href="https://robots.thoughtbot.com/slicing-up-rails-application-js-for-faster-load-times">Slicing up Rails Application.js for Faster Load Times</a></p>
+  * add page-specific JavaScript in Rails
+
+* <p>[basic knowledge] <a href="https://github.com/alex/what-happens-when">What happens when you type google.com into your browser's address box and press enter</a></p>
+  * the "g" key is pressed => the browser receives the event and the entire auto-complete
+  * Parse URL, ex: protocol, resource
+  * Is it a URL or a search term?
+  * Convert non-ASCII Unicode characters in hostname
+  * Check HSTS list
+  * DNS lookup
+  * ARP process
+  * Opening of a socket
+  * TLS handshake
+  * HTTP protocol
+  * HTTP Server Request Handle
+  * Behind the scenes of the Browser
+    * HTML parsing
+    * CSS interpretation
+    * Page Rendering
+    * GPU Rendering
+
+## Book
+
+## Video
+
+* <p>[udemy - react native] <a href="https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/content">The Complete React Native and Redux Course</a></p>
+## Learn
