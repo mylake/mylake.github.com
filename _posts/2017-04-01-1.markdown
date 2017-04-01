@@ -1,0 +1,80 @@
+---
+layout:     post
+title:      "30"
+subtitle:   "weekly learning"
+date:       2017-04-01 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 3/25 ~ 4/01”
+
+## Use
+
+* <p>[error handling] <a href="https://rollbar.com/error-tracking/ruby/">rollbar</a></p>
+  * Ruby error tracking made easy
+
+* <p>[error handling] <a href="http://docs.honeybadger.io/lib/ruby.html#add-context-data">honeybadger</a></p>
+
+## Read
+
+* <p>[architect] <a href="https://www.slideshare.net/kigster/enterprise-architectures-with-ruby-and-rails">Enterprise Architectures with Ruby (and Rails)</a></p>
+
+* <p>[pattern] <a href="https://kknews.cc/zh-tw/other/942xe8.html">DataMapper vs Active Record</a></p>
+  * 應用程式的設計類型
+    * 如果你們的應用程式設計的時候不依賴與資料庫結構 => DataMapper
+      它可以很好的控制持久化相關的操作，而且可以把業務規則封裝在實體中。其實你會發現它體現領域驅動設計的模型
+    * 當你根據資料庫的結構去進行應用程式設計的時候 => Active Record
+  * 應用程式的規模
+    * 我們要從一個存在的業務邏輯中去創建一個新的應用程式，那麼我們可以採用Data Mapper模式的ORM
+      通過Data Mapper模式我們可以通過領域模型去封裝業務規則，讓在應用程式中更清晰更直觀 => DataMapper
+    * 一個最小化可行產品(Minimum Viable Product, MVP)產品然後測試和收集用戶的反饋 => Active Record
+
+
+* <p>[error handling] <a href="http://www.mikeperham.com/2013/08/25/please-use-an-error-service/">Please Use an Error Service!</a></p>
+
+* <p>[error handling] <a href="https://www.toptal.com/abap/clean-code-and-the-art-of-exception-handling">Clean Code and The Art of Exception Handling</a></p>
+  * Always create your own ApplicationError hierarchy
+  * Never rescue more exceptions than you need to => handle most in parent controller
+
+* <p>[error handling] <a href="http://www.monkeyandcrow.com/blog/reading_rails_handling_exceptions/">Reading Rails - Handling Exceptions</a></p>
+  * ActiveSupport's Rescuable module lets us define exception handlers. ActionController's Rescue middleware catches exceptions, and then tries to handle them.
+
+* <p>[error handling] <a href="http://avdi.org/talks/exceptional-ruby-2011-02-04/">exceptional-ruby</a></p>
+
+* <p>[rails engine] <a href="https://content.pivotal.io/blog/migrating-from-a-single-rails-app-to-a-suite-of-rails-engines">Migrating from a single Rails app to a suite of Rails engines</a></p>
+
+* <p>[rails engine] <a href="https://content.pivotal.io/blog/unbuilt-rails-dependencies-how-to-design-for-loosely-coupled-highly-cohesive-components-within-a-rails-application">Unbuilt Rails Dependencies: How to design for loosely-coupled, highly-cohesive components within a Rails application</a></p>
+
+* <p>[rails engine] <a href="https://content.pivotal.io/blog/rails-contained-a-container-for-web-application-development-and-deployment">Rails Contained: A Container for Web Application Development and Deployment</a></p>
+
+* <p>[rails engine] <a href="https://github.com/JuanitoFatas/Guides/blob/master/guides/edge-translation/engines-zh_TW.md">Rails Engine guide</a></p>
+
+* <p>[rails engine] <a href="https://ruby-china.org/topics/28538">Rails Breaking Up a Monolithic Rails App Without MicroService</a></p>
+  * share business logic
+  * independent deployment
+  * no remote call
+
+* <p>[rails engine] <a href="https://www.embbnux.com/2016/03/15/rails_system_refactor_with_rails_engine/">重构-基于Rails:Engine的Rails网站系统拆分</a></p>
+
+* <p>[rails engine] <a href="https://speakerdeck.com/peakpg/creating-mountable-engines">Creating Mountable Engines</a></p>
+
+* <p>[rails engine] <a href="http://halyph.com/blog/2015/04/04/rails-architecture-and-scalability-issues.html">Rails Architecture and Scalability</a></p>
+  * Splitting application into small pieces
+    * Split into smaller applications
+      * Contains web UI, logic and data
+        * Extract look and feel into gem to share across apps
+      * May combine with other apps
+      * May rely on common libraries
+      * Typically run in their own Ruby VM
+    * Extract services and create APIs
+      * Create client API wrapper gems for consumers
+    * Extract libraries (gems)
+      * Create shared based client gem library
+
+## Book
+
+## Video
+
+## Learn

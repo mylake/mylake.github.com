@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>6 - mylake</title>
+    <title>30 - mylake</title>
 
-    <link rel="canonical" href="/2016/09/10/1/">
+    <link rel="canonical" href="/2017/04/01/1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -139,12 +139,12 @@
                         <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
                         
                     </div>
-                    <h1>6</h1>
+                    <h1>30</h1>
                     
                     
                     <h2 class="subheading">weekly learning</h2>
                     
-                    <span class="meta">Posted by ilake on September 10, 2016</span>
+                    <span class="meta">Posted by ilake on April 1, 2017</span>
                 </div>
             </div>
         </div>
@@ -163,85 +163,131 @@
                 post-container">
 
 				<blockquote>
-  <p>“strive 9/3 ~ 9/10”</p>
+  <p>“strive 3/25 ~ 4/01”</p>
 </blockquote>
 
 <h2 id="use">Use</h2>
+
 <ul>
   <li>
-    <p>[gem] <a href="https://github.com/spree/deface">deface</a></p>
+    <p>[error handling] <a href="https://rollbar.com/error-tracking/ruby/">rollbar</a></p>
     <ul>
-      <li>Deface is a library that allows you to customize HTML (ERB, Haml and Slim) views in a Rails application without editing the underlying view.</li>
+      <li>Ruby error tracking made easy</li>
     </ul>
   </li>
   <li>
-    <p>[gem] <a href="https://github.com/plataformatec/has_scope">has_scope</a></p>
-    <ul>
-      <li>Has scope allows you to map incoming controller parameters to named scopes in your resources.</li>
-    </ul>
+    <p>[error handling] <a href="http://docs.honeybadger.io/lib/ruby.html#add-context-data">honeybadger</a></p>
   </li>
 </ul>
 
 <h2 id="read">Read</h2>
+
 <ul>
   <li>
-    <p>[ruby] <a href="http://markdaggett.com/blog/2011/12/01/transactions-in-rails/">transactions-in-rails</a></p>
+    <p>[architect] <a href="https://www.slideshare.net/kigster/enterprise-architectures-with-ruby-and-rails">Enterprise Architectures with Ruby (and Rails)</a></p>
   </li>
   <li>
-    <p>[article] <a href="http://www.jianshu.com/p/fdbaf8ced079">不明白大腦如何運作，自學是無效的</a></p>
+    <p>[pattern] <a href="https://kknews.cc/zh-tw/other/942xe8.html">DataMapper vs Active Record</a></p>
+    <ul>
+      <li>應用程式的設計類型
+        <ul>
+          <li>如果你們的應用程式設計的時候不依賴與資料庫結構 =&gt; DataMapper
+它可以很好的控制持久化相關的操作，而且可以把業務規則封裝在實體中。其實你會發現它體現領域驅動設計的模型</li>
+          <li>當你根據資料庫的結構去進行應用程式設計的時候 =&gt; Active Record</li>
+        </ul>
+      </li>
+      <li>應用程式的規模
+        <ul>
+          <li>我們要從一個存在的業務邏輯中去創建一個新的應用程式，那麼我們可以採用Data Mapper模式的ORM
+通過Data Mapper模式我們可以通過領域模型去封裝業務規則，讓在應用程式中更清晰更直觀 =&gt; DataMapper</li>
+          <li>一個最小化可行產品(Minimum Viable Product, MVP)產品然後測試和收集用戶的反饋 =&gt; Active Record</li>
+        </ul>
+      </li>
+    </ul>
   </li>
   <li>
-    <p>[ruby] <a href="http://pawelgoscicki.com/archives/2015/09/testing-database-transactions-explicitly-in-rspec/">Testing database transactions explicitly with RSpec</a></p>
+    <p>[error handling] <a href="http://www.mikeperham.com/2013/08/25/please-use-an-error-service/">Please Use an Error Service!</a></p>
   </li>
   <li>
-    <p>[ruby] <a href="http://schneems.com/post/22192005006/legacy-concerns-in-rails/">Legacy Concerns in Rails</a></p>
+    <p>[error handling] <a href="https://www.toptal.com/abap/clean-code-and-the-art-of-exception-handling">Clean Code and The Art of Exception Handling</a></p>
+    <ul>
+      <li>Always create your own ApplicationError hierarchy</li>
+      <li>Never rescue more exceptions than you need to =&gt; handle most in parent controller</li>
+    </ul>
   </li>
   <li>
-    <p>[ruby] <a href="https://blog.codeship.com/good-module-bad-module/">Good Module, Bad Module</a></p>
+    <p>[error handling] <a href="http://www.monkeyandcrow.com/blog/reading_rails_handling_exceptions/">Reading Rails - Handling Exceptions</a></p>
+    <ul>
+      <li>ActiveSupport’s Rescuable module lets us define exception handlers. ActionController’s Rescue middleware catches exceptions, and then tries to handle them.</li>
+    </ul>
   </li>
   <li>
-    <p>[DB] <a href="http://mp.weixin.qq.com/s?__biz=MzI4NTA1MDEwNg%3D%3D&amp;mid=2650756483&amp;idx=1&amp;sn=da3a5e0b1d56f7bb2085dde763e7db24&amp;scene=0&amp;utm_content=buffer79106&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer#wechat_redirect">MySQL5.7中InnoDB不可不知的新特性</a></p>
+    <p>[error handling] <a href="http://avdi.org/talks/exceptional-ruby-2011-02-04/">exceptional-ruby</a></p>
   </li>
   <li>
-    <p>[ruby] <a href="https://speakerdeck.com/shagemann/refactoring-towards-component-based-rails-architectures-at-railsconf">Component-based Rails Architectures</a></p>
+    <p>[rails engine] <a href="https://content.pivotal.io/blog/migrating-from-a-single-rails-app-to-a-suite-of-rails-engines">Migrating from a single Rails app to a suite of Rails engines</a></p>
   </li>
   <li>
-    <p>[nginx] <a href="https://imququ.com/post/nginx-http2-post-bug.html#toc-2">談談Nginx 的HTTP/2 POST Bug</a></p>
+    <p>[rails engine] <a href="https://content.pivotal.io/blog/unbuilt-rails-dependencies-how-to-design-for-loosely-coupled-highly-cohesive-components-within-a-rails-application">Unbuilt Rails Dependencies: How to design for loosely-coupled, highly-cohesive components within a Rails application</a></p>
+  </li>
+  <li>
+    <p>[rails engine] <a href="https://content.pivotal.io/blog/rails-contained-a-container-for-web-application-development-and-deployment">Rails Contained: A Container for Web Application Development and Deployment</a></p>
+  </li>
+  <li>
+    <p>[rails engine] <a href="https://github.com/JuanitoFatas/Guides/blob/master/guides/edge-translation/engines-zh_TW.md">Rails Engine guide</a></p>
+  </li>
+  <li>
+    <p>[rails engine] <a href="https://ruby-china.org/topics/28538">Rails Breaking Up a Monolithic Rails App Without MicroService</a></p>
+    <ul>
+      <li>share business logic</li>
+      <li>independent deployment</li>
+      <li>no remote call</li>
+    </ul>
+  </li>
+  <li>
+    <p>[rails engine] <a href="https://www.embbnux.com/2016/03/15/rails_system_refactor_with_rails_engine/">重构-基于Rails:Engine的Rails网站系统拆分</a></p>
+  </li>
+  <li>
+    <p>[rails engine] <a href="https://speakerdeck.com/peakpg/creating-mountable-engines">Creating Mountable Engines</a></p>
+  </li>
+  <li>
+    <p>[rails engine] <a href="http://halyph.com/blog/2015/04/04/rails-architecture-and-scalability-issues.html">Rails Architecture and Scalability</a></p>
+    <ul>
+      <li>Splitting application into small pieces
+        <ul>
+          <li>Split into smaller applications
+            <ul>
+              <li>Contains web UI, logic and data
+                <ul>
+                  <li>Extract look and feel into gem to share across apps</li>
+                </ul>
+              </li>
+              <li>May combine with other apps</li>
+              <li>May rely on common libraries</li>
+              <li>Typically run in their own Ruby VM</li>
+            </ul>
+          </li>
+          <li>Extract services and create APIs
+            <ul>
+              <li>Create client API wrapper gems for consumers</li>
+            </ul>
+          </li>
+          <li>Extract libraries (gems)
+            <ul>
+              <li>Create shared based client gem library</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </li>
 </ul>
 
 <h2 id="book">Book</h2>
 
-<ul>
-  <li>
-    <p>[ruby] <a href="http://modular-rails.samurails.com/">modular Rails</a></p>
-    <ul>
-      <li>Engines are generated with rails plugin new core –mountable</li>
-      <li>We need an empty Ruby on Rails application to hold our engines as gems</li>
-      <li>When using gems inside an engine, they need to be required when the engine is
-loaded</li>
-      <li>Some gems require special attention when we integrate them inside engines instead
-of regular Ruby on Rails applications</li>
-      <li>You can check if an engine is present by checking if the module is defined with defined?</li>
-    </ul>
-  </li>
-</ul>
+<h2 id="video">Video</h2>
 
 <h2 id="learn">Learn</h2>
-
-<ul>
-  <li>migration in the engine plugin, how are we going to migrate it from the parent app?</li>
-</ul>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>initializer :append_migrations do |app|
-  unless app.root.to_s.match(root.to_s)
-    config.paths['db/migrate'].expanded.each do |p|
-      app.config.paths['db/migrate'] &lt;&lt; p
-    end
-  end
-end
-</code></pre>
-</div>
 
 
                 <hr>
@@ -252,13 +298,9 @@ end
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2016/09/03/1/" data-toggle="tooltip" data-placement="top" title="5">&larr; Previous Post</a>
+                        <a href="/2017/03/25/1/" data-toggle="tooltip" data-placement="top" title="29">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2016/09/17/1/" data-toggle="tooltip" data-placement="top" title="7">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 
