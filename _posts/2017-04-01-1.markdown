@@ -58,20 +58,6 @@ tags:
 
 * <p>[rails engine] <a href="https://www.embbnux.com/2016/03/15/rails_system_refactor_with_rails_engine/">重构-基于Rails:Engine的Rails网站系统拆分</a></p>
 
-* <p>[rails engine] <a href="https://speakerdeck.com/peakpg/creating-mountable-engines">Creating Mountable Engines</a></p>
-
-* <p>[rails engine] <a href="http://halyph.com/blog/2015/04/04/rails-architecture-and-scalability-issues.html">Rails Architecture and Scalability</a></p>
-  * Splitting application into small pieces
-    * Split into smaller applications
-      * Contains web UI, logic and data
-        * Extract look and feel into gem to share across apps
-      * May combine with other apps
-      * May rely on common libraries
-      * Typically run in their own Ruby VM
-    * Extract services and create APIs
-      * Create client API wrapper gems for consumers
-    * Extract libraries (gems)
-      * Create shared based client gem library
 
 ## Book
 

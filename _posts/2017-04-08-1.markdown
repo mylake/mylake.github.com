@@ -1,0 +1,46 @@
+---
+layout:     post
+title:      "31"
+subtitle:   "weekly learning"
+date:       2017-04-08 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 4/01 ~ 4/08”
+
+## Use
+
+## Read
+
+* <p>[rails engine] <a href="https://www.toptal.com/ruby-on-rails/rails-engines-in-the-wild-real-world-examples-of-rails-engines-in-action">A Guide to Rails Engines in the Wild: Real World Examples of Rails Engines in Action</a></p>
+
+* <p>[rails engine] <a href="https://medium.com/ruby-on-rails/patterns-for-successful-rails-engines-a7dae3db6921">Patterns for Successful Rails Engines</a></p>
+  * Base controller inheritance
+  * Extending classes (via class_eval)
+  * Extending classes (via acts_as_yourengine)
+  * Extending classes (via modules)
+
+* <p>[rails engine] <a href="https://github.com/taskrabbit/rails_engines_example">Rails 4 Engines, TaskRabbit</a></p>
+
+* <p>[rails engine] <a href="https://speakerdeck.com/peakpg/creating-mountable-engines">Creating Mountable Engines</a></p>
+
+* <p>[rails engine] <a href="http://halyph.com/blog/2015/04/04/rails-architecture-and-scalability-issues.html">Rails Architecture and Scalability</a></p>
+  * Splitting application into small pieces
+    * Split into smaller applications
+      * Contains web UI, logic and data
+        * Extract look and feel into gem to share across apps
+      * May combine with other apps
+      * May rely on common libraries
+      * Typically run in their own Ruby VM
+    * Extract services and create APIs
+      * Create client API wrapper gems for consumers
+    * Extract libraries (gems)
+      * Create shared based client gem library
+
+## Book
+
+## Video
+
+## Learn
