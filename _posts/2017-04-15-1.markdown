@@ -1,0 +1,47 @@
+---
+layout:     post
+title:      "32"
+subtitle:   "weekly learning"
+date:       2017-04-15 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 4/08 ~ 4/29”
+
+## Use
+
+* <p>[tool] <a href="https://chrome.google.com/webstore/detail/boomerang-soap-rest-clien/eipdnjedkpcnlmmdfdkgfpljanehloah?hl=en">Boomerang, SOAP & REST Client</a></p>
+
+* <p>[gem] <a href="https://github.com/inossidabile/wash_out">WashOut</a></p>
+  * WashOut is a gem that greatly simplifies creation of SOAP service providers.
+
+* <p>[gem] <a href="https://github.com/glebm/rails_email_preview">rails_email_preview</a></p>
+
+
+## Read
+
+* <p>[soap] <a href="http://blog.arkency.com/2016/07/testing-soap-api-adapters/">Implementing & Testing SOAP API clients in Ruby</a></p>
+
+* <p>[soap] <a href="http://blog.johnsonch.com/2013/04/18/rails-3-soap-and-testing-oh-my/">rails SOAP and Testing</a></p>
+
+* <p>[ssl] <a href="https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04">How To Secure Nginx with Let's Encrypt on Ubuntu 14.04</a></p>
+
+* <p>[article] <a href="http://avdi.org/talks/confident-code-rubymidwest-2011/confident-code.html">confident-code</a></p>
+
+* <p>[article] <a href="https://www.slideshare.net/Brunty/bdd-telling-stories-through-code-for-technotts">BDD: Telling stories through code</a></p>
+
+* <p>[article] <a href="https://www.rubysteps.com/articles/2014/telling-stories-with-code/">Telling stories with code</a></p>
+
+* <p>[article] <a href="https://www.rubysteps.com/articles/2016/the-two-dhh-approved-programming-habits-that-will-make-you-a-good-programmer/">The two DHH-approved programming habits that will make you a good programmer</a></p>
+  * Read a lot of software, Write a lot of software
+  * You’ll gravitate to TDD because you’ve experienced the joy of working with tight feedback loops. You’ll refactor because you’ve identified patterns in your code and want to make them more obvious
+
+## Book
+
+## Video
+
+* <p>[react native] <a href="https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/">The Complete React Native and Redux Course</a></p>
+
+## Learn

@@ -5,9 +5,83 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Apr 2017 11:23:52 +0800</pubDate>
-    <lastBuildDate>Sun, 09 Apr 2017 11:23:52 +0800</lastBuildDate>
+    <pubDate>Sun, 30 Apr 2017 18:31:04 +0800</pubDate>
+    <lastBuildDate>Sun, 30 Apr 2017 18:31:04 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>32</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 4/08 ~ 4/29”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[tool] &lt;a href=&quot;https://chrome.google.com/webstore/detail/boomerang-soap-rest-clien/eipdnjedkpcnlmmdfdkgfpljanehloah?hl=en&quot;&gt;Boomerang, SOAP &amp;amp; REST Client&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/inossidabile/wash_out&quot;&gt;WashOut&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;WashOut is a gem that greatly simplifies creation of SOAP service providers.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/glebm/rails_email_preview&quot;&gt;rails_email_preview&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[soap] &lt;a href=&quot;http://blog.arkency.com/2016/07/testing-soap-api-adapters/&quot;&gt;Implementing &amp;amp; Testing SOAP API clients in Ruby&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[soap] &lt;a href=&quot;http://blog.johnsonch.com/2013/04/18/rails-3-soap-and-testing-oh-my/&quot;&gt;rails SOAP and Testing&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ssl] &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04&quot;&gt;How To Secure Nginx with Let's Encrypt on Ubuntu 14.04&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[article] &lt;a href=&quot;http://avdi.org/talks/confident-code-rubymidwest-2011/confident-code.html&quot;&gt;confident-code&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[article] &lt;a href=&quot;https://www.slideshare.net/Brunty/bdd-telling-stories-through-code-for-technotts&quot;&gt;BDD: Telling stories through code&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[article] &lt;a href=&quot;https://www.rubysteps.com/articles/2014/telling-stories-with-code/&quot;&gt;Telling stories with code&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[article] &lt;a href=&quot;https://www.rubysteps.com/articles/2016/the-two-dhh-approved-programming-habits-that-will-make-you-a-good-programmer/&quot;&gt;The two DHH-approved programming habits that will make you a good programmer&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Read a lot of software, Write a lot of software&lt;/li&gt;
+      &lt;li&gt;You’ll gravitate to TDD because you’ve experienced the joy of working with tight feedback loops. You’ll refactor because you’ve identified patterns in your code and want to make them more obvious&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[react native] &lt;a href=&quot;https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/&quot;&gt;The Complete React Native and Redux Course&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 15 Apr 2017 08:00:00 +0800</pubDate>
+        <link>/2017/04/15/1/</link>
+        <guid isPermaLink="true">/2017/04/15/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>31</title>
@@ -1069,61 +1143,6 @@ end
         <pubDate>Sat, 28 Jan 2017 08:00:00 +0800</pubDate>
         <link>/2017/01/28/1/</link>
         <guid isPermaLink="true">/2017/01/28/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>22</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 1/14 ~ 1/21”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/kjvarga/sitemap_generator&quot;&gt;sitemap_generator&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/lassebunk/dynamic_sitemaps&quot;&gt;dynamic_sitemaps&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[sitemap] &lt;a href=&quot;https://support.google.com/webmasters/answer/183668?hl=zh-Hant&amp;amp;ref_topic=4581190&amp;amp;authuser=0&quot;&gt;管理您的 Sitemap&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[sitemap] &lt;a href=&quot;http://www.wfublog.com/2015/01/blogger-sitemap-xml-atom-rss.html&quot;&gt;Blogger 提供新的網站地圖(sitemap)格式﹍一勞永逸的提交方&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[seo] &lt;a href=&quot;https://support.google.com/webmasters/answer/35624?authuser=2#1&quot;&gt;Review your page titles and snippets&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[A/B testing] &lt;a href=&quot;https://buzzorange.com/techorange/2017/01/19/website-ab-test/&quot;&gt;跟Netflix學做A/B測試：深入挖掘用戶關注的點，才能設計出好的A/B測試！&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[interview] &lt;a href=&quot;https://www.udemy.com/software-engineer-interview-unleashed/learn/v4/overview&quot;&gt;Software Engineer Interview Unleashed&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 21 Jan 2017 08:00:00 +0800</pubDate>
-        <link>/2017/01/21/1/</link>
-        <guid isPermaLink="true">/2017/01/21/1/</guid>
         
         <category>weekly</category>
         
