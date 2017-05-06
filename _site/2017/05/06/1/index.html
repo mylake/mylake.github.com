@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>32 - mylake</title>
+    <title>33 - mylake</title>
 
-    <link rel="canonical" href="/2017/04/15/1/">
+    <link rel="canonical" href="/2017/05/06/1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -139,12 +139,12 @@
                         <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
                         
                     </div>
-                    <h1>32</h1>
+                    <h1>33</h1>
                     
                     
                     <h2 class="subheading">weekly learning</h2>
                     
-                    <span class="meta">Posted by ilake on April 15, 2017</span>
+                    <span class="meta">Posted by ilake on May 6, 2017</span>
                 </div>
             </div>
         </div>
@@ -163,23 +163,14 @@
                 post-container">
 
 				<blockquote>
-  <p>“strive 4/08 ~ 4/29”</p>
+  <p>“strive 4/30 ~ 5/6”</p>
 </blockquote>
 
 <h2 id="use">Use</h2>
 
 <ul>
   <li>
-    <p>[tool] <a href="https://chrome.google.com/webstore/detail/boomerang-soap-rest-clien/eipdnjedkpcnlmmdfdkgfpljanehloah?hl=en">Boomerang, SOAP &amp; REST Client</a></p>
-  </li>
-  <li>
-    <p>[gem] <a href="https://github.com/inossidabile/wash_out">WashOut</a></p>
-    <ul>
-      <li>WashOut is a gem that greatly simplifies creation of SOAP service providers.</li>
-    </ul>
-  </li>
-  <li>
-    <p>[gem] <a href="https://github.com/glebm/rails_email_preview">rails_email_preview</a></p>
+    <p>[gem] <a href="https://github.com/bkeepers/dotenv">dotenv</a></p>
   </li>
 </ul>
 
@@ -187,28 +178,60 @@
 
 <ul>
   <li>
-    <p>[soap] <a href="http://blog.arkency.com/2016/07/testing-soap-api-adapters/">Implementing &amp; Testing SOAP API clients in Ruby</a></p>
-  </li>
-  <li>
-    <p>[soap] <a href="http://blog.johnsonch.com/2013/04/18/rails-3-soap-and-testing-oh-my/">rails SOAP and Testing</a></p>
-  </li>
-  <li>
-    <p>[ssl] <a href="https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04">How To Secure Nginx with Let's Encrypt on Ubuntu 14.04</a></p>
-  </li>
-  <li>
-    <p>[article] <a href="http://avdi.org/talks/confident-code-rubymidwest-2011/confident-code.html">confident-code</a></p>
-  </li>
-  <li>
-    <p>[article] <a href="https://www.slideshare.net/Brunty/bdd-telling-stories-through-code-for-technotts">BDD: Telling stories through code</a></p>
-  </li>
-  <li>
-    <p>[article] <a href="https://www.rubysteps.com/articles/2014/telling-stories-with-code/">Telling stories with code</a></p>
-  </li>
-  <li>
-    <p>[article] <a href="https://www.rubysteps.com/articles/2016/the-two-dhh-approved-programming-habits-that-will-make-you-a-good-programmer/">The two DHH-approved programming habits that will make you a good programmer</a></p>
+    <p>[article] <a href="http://mp.weixin.qq.com/s?__biz=MzIzNTI2MDczMQ%3D%3D&amp;mid=2247483989&amp;idx=1&amp;sn=361e927eafe6b153f58894780ab33759&amp;chksm=e8e89c01df9f1517b4084ee0da09965891f79b9f6a2c85ea3b4af71aedde4ee020a4f31d6073&amp;scene=21&amp;utm_content=buffera8dd6&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer#wechat_redirect">白板面试和程序优化这么火，到底为什么？</a></p>
     <ul>
-      <li>Read a lot of software, Write a lot of software</li>
-      <li>You’ll gravitate to TDD because you’ve experienced the joy of working with tight feedback loops. You’ll refactor because you’ve identified patterns in your code and want to make them more obvious</li>
+      <li>Software Performance Still Matter</li>
+    </ul>
+  </li>
+  <li>
+    <p>[ruby] <a href="https://www.levups.com/en/blog/2017/optimize_ruby_memory_usage_jemalloc_heroku_scalingo.html">Improve your Ruby application's memory usage and performance with jemalloc</a></p>
+    <ul>
+      <li>For Ruby, using jemalloc allows you to allocate, re-use or release more efficiently the memory of your application.</li>
+    </ul>
+  </li>
+  <li>
+    <p>[architect] <a href="http://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&amp;mid=2651959391&amp;idx=1&amp;sn=fb28fd5e5f0895ddb167406d8a735548&amp;scene=21#wechat_redirect">秒殺系統架構優化思路</a></p>
+    <ul>
+      <li>將請求盡量攔截在系統上游</li>
+      <li>充分利用緩存</li>
+      <li>瀏覽器端 =&gt; 站點層 =&gt; 服務層 =&gt; 數據層</li>
+      <li>客戶端怎麼優化（瀏覽器層， APP 層）
+        <ul>
+          <li>產品層面，用戶點擊“查詢”或者“購票”後，按鈕置灰，禁止用戶重複提交請求</li>
+          <li>JS 層面，限制用戶在x 秒之內只能提交一次請求</li>
+        </ul>
+      </li>
+      <li>站點層面的請求攔截
+        <ul>
+          <li>對 uid 進行請求計數和去重, 緩存，頁面緩存，同一個 uid ，限制訪問頻度，做頁面緩存</li>
+        </ul>
+      </li>
+      <li>服務層來攔截
+        <ul>
+          <li>queue</li>
+          <li>分時分段售票</li>
+        </ul>
+      </li>
+      <li>數據庫層
+        <ul>
+          <li>take it easy</li>
+        </ul>
+      </li>
+      <li>盡量將請求攔截在系統上游（越上游越好）；</li>
+      <li>讀多寫少的常用多使用緩存（緩存抗讀壓力）；</li>
+      <li>瀏覽器和 APP ：做限速</li>
+      <li>站點層：按照 uid 做限速，做頁面緩存</li>
+      <li>服務層：按照業務做寫請求隊列控制流量，做數據緩存</li>
+      <li>數據層：閑庭信步</li>
+    </ul>
+  </li>
+  <li>
+    <p>[legacy code] <a href="http://blog.mz026.rocks/20170501/migrate-legacy-schema">快樂搬移 Legacy Schema</a></p>
+  </li>
+  <li>
+    <p>[web] <a href="http://blog.cgmlife.net/posts/2014/11/30/ironman-seventh-it-states-help-30-days-to-learn-web-front-end-performance-optimization">30 天學會 Web 前端效能優化</a></p>
+    <ul>
+      <li>basic web frontend performance</li>
     </ul>
   </li>
 </ul>
@@ -234,13 +257,9 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2017/04/08/1/" data-toggle="tooltip" data-placement="top" title="31">&larr; Previous Post</a>
+                        <a href="/2017/04/15/1/" data-toggle="tooltip" data-placement="top" title="32">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2017/05/06/1/" data-toggle="tooltip" data-placement="top" title="33">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 

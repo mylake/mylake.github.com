@@ -5,9 +5,106 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 30 Apr 2017 18:31:04 +0800</pubDate>
-    <lastBuildDate>Sun, 30 Apr 2017 18:31:04 +0800</lastBuildDate>
+    <pubDate>Sat, 06 May 2017 23:50:48 +0800</pubDate>
+    <lastBuildDate>Sat, 06 May 2017 23:50:48 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>33</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 4/30 ~ 5/6”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/bkeepers/dotenv&quot;&gt;dotenv&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[article] &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzIzNTI2MDczMQ%3D%3D&amp;amp;mid=2247483989&amp;amp;idx=1&amp;amp;sn=361e927eafe6b153f58894780ab33759&amp;amp;chksm=e8e89c01df9f1517b4084ee0da09965891f79b9f6a2c85ea3b4af71aedde4ee020a4f31d6073&amp;amp;scene=21&amp;amp;utm_content=buffera8dd6&amp;amp;utm_medium=social&amp;amp;utm_source=facebook.com&amp;amp;utm_campaign=buffer#wechat_redirect&quot;&gt;白板面试和程序优化这么火，到底为什么？&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Software Performance Still Matter&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;https://www.levups.com/en/blog/2017/optimize_ruby_memory_usage_jemalloc_heroku_scalingo.html&quot;&gt;Improve your Ruby application's memory usage and performance with jemalloc&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;For Ruby, using jemalloc allows you to allocate, re-use or release more efficiently the memory of your application.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[architect] &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&amp;amp;mid=2651959391&amp;amp;idx=1&amp;amp;sn=fb28fd5e5f0895ddb167406d8a735548&amp;amp;scene=21#wechat_redirect&quot;&gt;秒殺系統架構優化思路&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;將請求盡量攔截在系統上游&lt;/li&gt;
+      &lt;li&gt;充分利用緩存&lt;/li&gt;
+      &lt;li&gt;瀏覽器端 =&amp;gt; 站點層 =&amp;gt; 服務層 =&amp;gt; 數據層&lt;/li&gt;
+      &lt;li&gt;客戶端怎麼優化（瀏覽器層， APP 層）
+        &lt;ul&gt;
+          &lt;li&gt;產品層面，用戶點擊“查詢”或者“購票”後，按鈕置灰，禁止用戶重複提交請求&lt;/li&gt;
+          &lt;li&gt;JS 層面，限制用戶在x 秒之內只能提交一次請求&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;站點層面的請求攔截
+        &lt;ul&gt;
+          &lt;li&gt;對 uid 進行請求計數和去重, 緩存，頁面緩存，同一個 uid ，限制訪問頻度，做頁面緩存&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;服務層來攔截
+        &lt;ul&gt;
+          &lt;li&gt;queue&lt;/li&gt;
+          &lt;li&gt;分時分段售票&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;數據庫層
+        &lt;ul&gt;
+          &lt;li&gt;take it easy&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;盡量將請求攔截在系統上游（越上游越好）；&lt;/li&gt;
+      &lt;li&gt;讀多寫少的常用多使用緩存（緩存抗讀壓力）；&lt;/li&gt;
+      &lt;li&gt;瀏覽器和 APP ：做限速&lt;/li&gt;
+      &lt;li&gt;站點層：按照 uid 做限速，做頁面緩存&lt;/li&gt;
+      &lt;li&gt;服務層：按照業務做寫請求隊列控制流量，做數據緩存&lt;/li&gt;
+      &lt;li&gt;數據層：閑庭信步&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[legacy code] &lt;a href=&quot;http://blog.mz026.rocks/20170501/migrate-legacy-schema&quot;&gt;快樂搬移 Legacy Schema&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[web] &lt;a href=&quot;http://blog.cgmlife.net/posts/2014/11/30/ironman-seventh-it-states-help-30-days-to-learn-web-front-end-performance-optimization&quot;&gt;30 天學會 Web 前端效能優化&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;basic web frontend performance&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[react native] &lt;a href=&quot;https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/&quot;&gt;The Complete React Native and Redux Course&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 06 May 2017 08:00:00 +0800</pubDate>
+        <link>/2017/05/06/1/</link>
+        <guid isPermaLink="true">/2017/05/06/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>32</title>
@@ -962,187 +1059,6 @@ end
         <pubDate>Sat, 18 Feb 2017 08:00:00 +0800</pubDate>
         <link>/2017/02/18/1/</link>
         <guid isPermaLink="true">/2017/02/18/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>23</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 1/21 ~ 1/28”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/stympy/faker&quot;&gt;faker&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/code-mancers/rbkit&quot;&gt;rbkit&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/code-mancers/rbkit-client&quot;&gt;rbkit-client&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/noahd1/oink&quot;&gt;oink&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Rails plugin and log parser to help narrow down the source(s) of increased memory usage in rails applications.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/binarylogic/memorylogic&quot;&gt;memorylogic&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;It worked very well because it adds the process id and memory usage in with EVERY single line logged and at the end of each rails request&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/tmm1/stackprof&quot;&gt;stackprof&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/SamSaffron/memory_profiler&quot;&gt;memory_profiler&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/schneems/derailed_benchmarks&quot;&gt;derailed_benchmarks&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[capistrano] &lt;a href=&quot;http://semaphoreci.com/blog/2013/11/26/capistrano-3-upgrade-guide.html&quot;&gt;Capistrano 3 Upgrade Guide&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;http://blog.mz026.rocks/20160917/rails-connection-leak&quot;&gt;Rails Connection Leak&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[web] &lt;a href=&quot;https://yulun.me/2013/mozilla5-0-always-user-agent-string/&quot;&gt;為什麼瀏覽器 user-agent string 總是包含 Mozilla/5.0 ?&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[web] &lt;a href=&quot;http://blog.mz026.rocks/20170117/split-microservices&quot;&gt;如何切割 Microservices&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;這部份程式的行為是相對獨立的&lt;/li&gt;
-      &lt;li&gt;即將快速發展&lt;/li&gt;
-      &lt;li&gt;scope 大 + legacy&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails memory] &lt;a href=&quot;http://stackoverflow.com/questions/12578344/memory-constantly-increasing-in-rails-app&quot;&gt;Memory constantly increasing in Rails app&lt;/a&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;sessions related?&lt;/li&gt;
-      &lt;li&gt;count_objects to display all the objets currently used&lt;/li&gt;
-      &lt;li&gt;symbols are keep in memory until your restart ruby. Symbol.all_symbols.size&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails memory] &lt;a href=&quot;http://ju.outofmemory.cn/entry/155469&quot;&gt;不是内存泄漏，而是Bloat&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;What Is Bloat? you are loading in too much. Too much what, you ask? Why it’s too much ActiveRecord!&lt;/li&gt;
-      &lt;li&gt;Detecting Bloat =&amp;gt; grep resource /var/log/syslog, The problem is when you have bloat, you start seeing them skyrocket past the memory limits, sometimes multiple times an hour:&lt;/li&gt;
-      &lt;li&gt;Root Cause
-        &lt;ol&gt;
-          &lt;li&gt;Model.find(:all)&lt;/li&gt;
-          &lt;li&gt;:includes are Including Too Much&lt;/li&gt;
-          &lt;li&gt;:includes on a has_many&lt;/li&gt;
-          &lt;li&gt;@model_instance.relationship&lt;/li&gt;
-          &lt;li&gt;Filtering Records with Ruby Instead of SQL&lt;/li&gt;
-          &lt;li&gt;Evil Callbacks in the Model&lt;/li&gt;
-          &lt;li&gt;Named scopes, default scopes, and has_many relationships that specify :include Where Inappropriate&lt;/li&gt;
-          &lt;li&gt;Use :select When You Must Instantiate Large Quantities of Records&lt;/li&gt;
-          &lt;li&gt;Overfed Feeds&lt;/li&gt;
-          &lt;li&gt;Monster Migrations&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[邏輯思維] 184 怎么样成为一个高手&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;筆記 看到文章 影片 無論如何 都要至少寫下一句自己的心得&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[RubyConf 2016] - From no OSS experience to the core team in 15 minutes a day by André Arko&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;start from read all the issues&lt;/li&gt;
-      &lt;li&gt;try to answer questions&lt;/li&gt;
-      &lt;li&gt;help with issues&lt;/li&gt;
-      &lt;li&gt;reproduce bugs&lt;/li&gt;
-      &lt;li&gt;writing patches&lt;/li&gt;
-      &lt;li&gt;improving everything&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby china 2016] &lt;a href=&quot;https://www.youtube.com/watch?v=LWNXNHR4oIA&quot;&gt;如何在 Rails 应用里面寻找内存泄漏&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;how to detect:
-        &lt;ul&gt;
-          &lt;li&gt;passenger-memory-stats&lt;/li&gt;
-          &lt;li&gt;passenger-status&lt;/li&gt;
-          &lt;li&gt;top &amp;amp;&amp;amp; htop&lt;/li&gt;
-          &lt;li&gt;cat /proc/pid/status &amp;amp; cat/proc/[pid]/mem&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Tgid(Thread Group ID) is real process id, get_pid&lt;/li&gt;
-      &lt;li&gt;Application:
-        &lt;ul&gt;
-          &lt;li&gt;New Relic&lt;/li&gt;
-          &lt;li&gt;SKYLIGHT&lt;/li&gt;
-          &lt;li&gt;Scout APM&lt;/li&gt;
-          &lt;li&gt;ONE APM&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;how to resolve
-        &lt;ul&gt;
-          &lt;li&gt;doorkeeper
-            &lt;ul&gt;
-              &lt;li&gt;passenger_killer: killed after finished N processes&lt;/li&gt;
-              &lt;li&gt;oom_killer: killed process when exceed N processes, passenger auto restart&lt;/li&gt;
-              &lt;li&gt;oob: auto gc after finished N processes&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;tools
-            &lt;ul&gt;
-              &lt;li&gt;derailed_benchmarks&lt;/li&gt;
-              &lt;li&gt;memory_profiler&lt;/li&gt;
-              &lt;li&gt;stackprof&lt;/li&gt;
-              &lt;li&gt;rbkit&lt;/li&gt;
-              &lt;li&gt;rbkit-client&lt;/li&gt;
-              &lt;li&gt;oink&lt;/li&gt;
-              &lt;li&gt;memorylogic&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby china 2016] &lt;a href=&quot;https://www.youtube.com/watch?v=zPMrFArOxqo&amp;amp;index=9&amp;amp;list=PLTUHmtFhYC6i5_L6XQEqsIh7I0ZU8xfCm&quot;&gt;Rubyists 可以从 Elixir 学到什么&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;based on Erlang&lt;/li&gt;
-      &lt;li&gt;ships with great tools inspired by Ruby&lt;/li&gt;
-      &lt;li&gt;Ruby-like syntex&lt;/li&gt;
-      &lt;li&gt;functional way&lt;/li&gt;
-      &lt;li&gt;microservice&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 28 Jan 2017 08:00:00 +0800</pubDate>
-        <link>/2017/01/28/1/</link>
-        <guid isPermaLink="true">/2017/01/28/1/</guid>
         
         <category>weekly</category>
         
