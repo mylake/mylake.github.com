@@ -1,0 +1,59 @@
+---
+layout:     post
+title:      "34"
+subtitle:   "weekly learning"
+date:       2017-05-13 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 5/6 ~ 5/13”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/preston/railroady">RailRoady</a></p>
+  * RailRoady generates Rails 3/4/5 model (ActiveRecord, Mongoid, Datamapper) and controller UML diagrams as cross-platform .svg files, as well as in the DOT language.
+
+## Read
+
+* <p>[ruby] <a href="http://lizabinante.com/blog/creating-a-configurable-ruby-gem/">Creating a configurable Ruby gem</a></p>
+  * how to create configurable ruby gem
+
+* <p>[conf] <a href="http://rubykaigi.org/2014/presentation/S-TakumiMiura"> "Gem of this Week" - building culture and making gem</a></p>
+  * let your team members to create the "Gem"s that make work more and more efficient
+
+* <p>[conf] <a href="http://rubykaigi.org/2014/presentation/S-ZevBlut-KevinGriffin">7 years of Ruby & Rails with the same web site</a></p>
+  * The code has changed from a single site to multiple sites with a shared core
+
+* <p>[conf] <a href="http://rubykaigi.org/2014/presentation/S-RichardHuang">Write ruby code to change ruby code</a></p>
+
+* <p>[conf] <a href="http://rubykaigi.org/2015/presentations/prodis">The worst Ruby codes I've seen in my life'</a></p>
+  * refactor skills
+
+* <p>[conf] <a href="https://ruby-china.org/topics/31164">RubyConf China 2016 参会主题心得分享 (含讲稿下载)</a></p>
+
+* <p>[conf] <a href="https://speakerdeck.com/zmbacker/da-zao-ruby-kai-fa-tuan-dui-de-hang-mu">打造 Ruby 开发团队的航母</a></p>
+
+* <p>[conf] <a href="https://speakerdeck.com/xiewenwei/ru-he-gei-rails-ying-yong-jian-fei-bo-he-wei-fu-wu-hua-shi-jian">如何给 Rails 应用减肥 - 薄荷微服务化实践</a></p>
+
+* <p>[conf] <a href="http://pragmati.st/assets/managing-unmanageable-complexity-railsconf-2017.pdf">Managing Unmanageable
+Complexity</a></p>
+
+* <p>[conf] <a href="https://speakerdeck.com/andrewhao/built-to-last-a-domain-driven-approach-to-beautiful-systems">Built to Last: A domain-driven approach to beautiful systems</a></p>
+
+* <p>[conf] <a href="https://speakerdeck.com/hiimtaylorjones/architecture-the-next-generation-railsconf-2017">Architecture: The Next Generation</a></p>
+
+* <p>[conf] <a href="https://speakerdeck.com/samphippen/teaching-rspec-to-play-nice-with-rails">Teaching RSpec to play nice with Rails</a></p>
+
+* <p>[conf] <a href="https://www.slideshare.net/AlexKitchens/perusing-the-rails-source-code-a-beginners-guide">Perusing the Rails Source Code</a></p>
+
+* <p>[conf] <a href="https://docs.google.com/presentation/d/17riOIVJfdnFp28TGh5VUs7n8AJF9qC0NNsTLlgln30c/edit#slide=id.g1d9b24f0ee_0_157">The Arcane Art of Error Handling</a></p>
+
+* <p>[conf] <a href="https://speakerdeck.com/jessrudder/the-good-bad-bug-learning-to-embrace-mistakes">The Good Bad Bug: Learning to Embrace Mistakes</a></p>
+
+## Book
+
+## Video
+
+## Learn

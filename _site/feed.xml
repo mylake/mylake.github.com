@@ -5,9 +5,104 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 06 May 2017 23:50:48 +0800</pubDate>
-    <lastBuildDate>Sat, 06 May 2017 23:50:48 +0800</lastBuildDate>
+    <pubDate>Sun, 14 May 2017 16:26:46 +0800</pubDate>
+    <lastBuildDate>Sun, 14 May 2017 16:26:46 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>34</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 5/6 ~ 5/13”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/preston/railroady&quot;&gt;RailRoady&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;RailRoady generates Rails 3/4/5 model (ActiveRecord, Mongoid, Datamapper) and controller UML diagrams as cross-platform .svg files, as well as in the DOT language.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;http://lizabinante.com/blog/creating-a-configurable-ruby-gem/&quot;&gt;Creating a configurable Ruby gem&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;how to create configurable ruby gem&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[conf] &lt;a href=&quot;http://rubykaigi.org/2014/presentation/S-TakumiMiura&quot;&gt; &quot;Gem of this Week&quot; - building culture and making gem&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;let your team members to create the “Gem”s that make work more and more efficient&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[conf] &lt;a href=&quot;http://rubykaigi.org/2014/presentation/S-ZevBlut-KevinGriffin&quot;&gt;7 years of Ruby &amp;amp; Rails with the same web site&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The code has changed from a single site to multiple sites with a shared core&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[conf] &lt;a href=&quot;http://rubykaigi.org/2014/presentation/S-RichardHuang&quot;&gt;Write ruby code to change ruby code&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[conf] &lt;a href=&quot;http://rubykaigi.org/2015/presentations/prodis&quot;&gt;The worst Ruby codes I've seen in my life'&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;refactor skills&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[conf] &lt;a href=&quot;https://ruby-china.org/topics/31164&quot;&gt;RubyConf China 2016 参会主题心得分享 (含讲稿下载)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[conf] &lt;a href=&quot;https://speakerdeck.com/zmbacker/da-zao-ruby-kai-fa-tuan-dui-de-hang-mu&quot;&gt;打造 Ruby 开发团队的航母&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[conf] &lt;a href=&quot;https://speakerdeck.com/xiewenwei/ru-he-gei-rails-ying-yong-jian-fei-bo-he-wei-fu-wu-hua-shi-jian&quot;&gt;如何给 Rails 应用减肥 - 薄荷微服务化实践&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[conf] &lt;a href=&quot;http://pragmati.st/assets/managing-unmanageable-complexity-railsconf-2017.pdf&quot;&gt;Managing Unmanageable
+Complexity&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[conf] &lt;a href=&quot;https://speakerdeck.com/andrewhao/built-to-last-a-domain-driven-approach-to-beautiful-systems&quot;&gt;Built to Last: A domain-driven approach to beautiful systems&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[conf] &lt;a href=&quot;https://speakerdeck.com/hiimtaylorjones/architecture-the-next-generation-railsconf-2017&quot;&gt;Architecture: The Next Generation&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[conf] &lt;a href=&quot;https://speakerdeck.com/samphippen/teaching-rspec-to-play-nice-with-rails&quot;&gt;Teaching RSpec to play nice with Rails&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[conf] &lt;a href=&quot;https://www.slideshare.net/AlexKitchens/perusing-the-rails-source-code-a-beginners-guide&quot;&gt;Perusing the Rails Source Code&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[conf] &lt;a href=&quot;https://docs.google.com/presentation/d/17riOIVJfdnFp28TGh5VUs7n8AJF9qC0NNsTLlgln30c/edit#slide=id.g1d9b24f0ee_0_157&quot;&gt;The Arcane Art of Error Handling&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[conf] &lt;a href=&quot;https://speakerdeck.com/jessrudder/the-good-bad-bug-learning-to-embrace-mistakes&quot;&gt;The Good Bad Bug: Learning to Embrace Mistakes&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 13 May 2017 08:00:00 +0800</pubDate>
+        <link>/2017/05/13/1/</link>
+        <guid isPermaLink="true">/2017/05/13/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>33</title>
@@ -991,74 +1086,6 @@ end
         <pubDate>Sat, 25 Feb 2017 08:00:00 +0800</pubDate>
         <link>/2017/02/25/1/</link>
         <guid isPermaLink="true">/2017/02/25/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>24</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 1/28 ~ 2/18”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/cookpad/expeditor&quot;&gt;expeditor&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Expeditor is a Ruby library that provides asynchronous execution and fault tolerance for microservices.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[source map] &lt;a href=&quot;http://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html&quot;&gt;JavaScript Source Map 详解&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;source map 是記錄訊息的文件, 儲存著位置訊息, 所以以知道轉換後的程式碼在轉換前的位置 幫助debug&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[learn] &lt;a href=&quot;http://icodeit.org/2016/02/pitfall-of-technology/&quot;&gt;技术的执念&lt;/a&gt;&lt;/p&gt;
-    &lt;p&gt;先建立广度，再建立深度&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[nodejs] &lt;a href=&quot;https://coyee.com/article/11768-10-tips-to-become-a-better-node-developer-in-2017&quot;&gt;2017 年成为更好的 Node 开发人员的 10 个技巧&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;避免复杂性&lt;/li&gt;
-      &lt;li&gt;使用异步代码&lt;/li&gt;
-      &lt;li&gt;避免阻止 require&lt;/li&gt;
-      &lt;li&gt;了解 require 可被缓存&lt;/li&gt;
-      &lt;li&gt;时刻检查错误&lt;/li&gt;
-      &lt;li&gt;旨在同步代码中使用 try…catch&lt;/li&gt;
-      &lt;li&gt;返回回调或使用 if … else&lt;/li&gt;
-      &lt;li&gt;监听错误事件&lt;/li&gt;
-      &lt;li&gt;了解 npm&lt;/li&gt;
-      &lt;li&gt;在 package.json 中使用确定的版本&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[dns] &lt;a href=&quot;https://www.oyag.com/9501/websys&quot;&gt;有了網域名稱 Domain Name之後 下一步 設定DNS Server 與 DNS Record相關記錄 &lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;PTR, A, MX, CNAME&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 18 Feb 2017 08:00:00 +0800</pubDate>
-        <link>/2017/02/18/1/</link>
-        <guid isPermaLink="true">/2017/02/18/1/</guid>
         
         <category>weekly</category>
         
