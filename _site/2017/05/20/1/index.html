@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>8 - mylake</title>
+    <title>35 - mylake</title>
 
-    <link rel="canonical" href="/2016/09/24/1/">
+    <link rel="canonical" href="/2017/05/20/1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -139,12 +139,12 @@
                         <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
                         
                     </div>
-                    <h1>8</h1>
+                    <h1>35</h1>
                     
                     
                     <h2 class="subheading">weekly learning</h2>
                     
-                    <span class="meta">Posted by ilake on September 24, 2016</span>
+                    <span class="meta">Posted by ilake on May 20, 2017</span>
                 </div>
             </div>
         </div>
@@ -163,13 +163,32 @@
                 post-container">
 
 				<blockquote>
-  <p>“strive 9/17 ~ 9/24”</p>
+  <p>“strive 5/13 ~ 5/20”</p>
 </blockquote>
 
 <h2 id="use">Use</h2>
+
 <ul>
   <li>
-    <p>[gem] <a href="https://github.com/resque/resque-scheduler">resque-scheduler</a></p>
+    <p>[gem] <a href="https://github.com/cyu/rack-cors">rack-cors</a></p>
+    <ul>
+      <li>Rack::Cors provides support for Cross-Origin Resource Sharing (CORS) for Rack compatible web applications.</li>
+    </ul>
+  </li>
+  <li>
+    <p>[gem] <a href="https://github.com/alexreisner/geocoder">Geocoder</a></p>
+    <ul>
+      <li>Geocoder is a complete geocoding solution for Ruby. With Rails, it adds geocoding (by street or IP address), reverse geocoding (finding street address based on given coordinates), and distance queries</li>
+    </ul>
+  </li>
+  <li>
+    <p>[database] <a href="https://gist.github.com/esperlu/943776">mysql2sqlite</a></p>
+    <ul>
+      <li>This small shell script should help you to convert a mysqldump file into a Sqlite3 compatible file.</li>
+    </ul>
+  </li>
+  <li>
+    <p>[react native] <a href="https://github.com/andpor/react-native-sqlite-storage">react-native-sqlite-storage</a></p>
   </li>
 </ul>
 
@@ -177,139 +196,51 @@
 
 <ul>
   <li>
-    <p>[api] <a href="https://marcelo-cure.blogspot.tw/2016/09/rest-anti-patterns.html?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website">REST anti-patterns</a></p>
+    <p>[redis] <a href="http://www.rediscookbook.org/multiple_databases.html">Redis Working with Multiple Databases</a></p>
+    <ul>
+      <li>you want to keep different kinds of data - belonging to different applications, for example - separate from each other, but store them all in the same Redis instance</li>
+    </ul>
   </li>
   <li>
-    <p>[ruby] <a href="https://speakerdeck.com/a_matsuda/why-still-ruby">Why (Still) Ruby</a></p>
+    <p>[ruby] <a href="https://robots.thoughtbot.com/ruby-2-keyword-arguments">Ruby 2 Keyword Arguments</a></p>
+    <ul>
+      <li>def obvious_total(subtotal:, tax:, discount:)</li>
+    </ul>
+  </li>
+  <li>
+    <p>[rails] <a href="http://hakunin.com/rails3-load-paths">Tips on Rails 3 load paths </a></p>
+  </li>
+  <li>
+    <p>[rails] <a href="http://stackoverflow.com/questions/19773266/confusing-about-autoload-paths-vs-eager-load-paths-in-rails-4">confusing about autoload_paths vs eager_load_paths in rails 4</a></p>
+  </li>
+  <li>
+    <p>[rails] <a href="http://blog.arkency.com/2014/11/dont-forget-about-eager-load-when-extending-autoload/">Don't forget about eager_load when extending autoload paths</a></p>
+  </li>
+  <li>
+    <p>[rails] <a href="https://blog.yorkxin.org/2014/02/10/autoload-in-ruby-autoload-paths-in-rails-and-module-reopening">關於 Ruby 的 autoload 與 Rails 的 autoload_paths 以及 reopen module / class</a></p>
+    <ul>
+      <li>Kernel#autoload 不應跟 Rails 的 autoload_paths 混淆，要視為兩個完全不同的功能</li>
+      <li>誰第一次載入誰算數， Rails 只在找不到該 const 的時候才會去 autoload_paths 搜尋</li>
+      <li>所以，如果某個 const (class / module) 已經在 runtime 裡面定義了，那麼要在 Rails 裡面 reopen 它，就必須確定它一定會執行，例如 initializers 裡面，或是手動 require 它。如果是放在某個 autoload paths 裡面，例如 app/models/ ，則 Rails 並不會執行之，因為同名的 const 已經在 Runtime 裡面了。</li>
+      <li>如果該 class / module 已經在 Gem 裡面載入，則要在 Rails 裡面 reopen 它，就必須放在 autoload_paths 以外的地方，並且手動 require 之。</li>
+    </ul>
+  </li>
+  <li>
+    <p>[cors] <a href="http://www.ruanyifeng.com/blog/2016/04/cors.html">跨域资源共享 CORS 详解</a></p>
+  </li>
+  <li>
+    <p>[csrf] <a href="http://blog.techbridge.cc/2017/02/25/csrf-introduction/">讓我們來談談 CSRF</a></p>
+  </li>
+  <li>
+    <p>[react native] <a href="https://shift.infinite.red/beginner-s-guide-to-using-cocoapods-with-react-native-46cb4d372995">Beginner’s Guide to Using CocoaPods with React Native</a></p>
   </li>
 </ul>
 
 <h2 id="book">Book</h2>
 
-<ul>
-  <li>
-    <p>[engineer] <a href="http://www.theeffectiveengineer.com/">THE EFFECTIVE ENGINEER</a></p>
+<h2 id="video">Video</h2>
 
-    <ul>
-      <li>
-        <p>Part 1: Adopt the Right Mindsets</p>
-
-        <ul>
-          <li>chapter1: Focus on High-Leverage Activities
-            <ul>
-              <li>要學會衡量什麼各個事情的價值</li>
-              <li>做最有價值的事情</li>
-            </ul>
-          </li>
-          <li>chapter2: Optimize for learning
-            <ul>
-              <li>做你能掌控的事情</li>
-              <li>加快你的學習速度</li>
-              <li>找到好的環境能讓你成長更快的</li>
-              <li>多多善用工作上的資源 來提升你的技術, 跟團隊最強的工程師學西</li>
-              <li>再工作之外學習, 社群通常都是對此技術很有興趣 且以此為樂的人</li>
-              <li>永遠都在學習</li>
-              <li>學習新語言 新框架</li>
-              <li>投資再高需求的語言上</li>
-              <li>讀書</li>
-              <li>參加研討會 報告</li>
-              <li>opensource</li>
-              <li>讀好的blog</li>
-              <li>write to teach</li>
-              <li>side project</li>
-              <li>追求你愛的</li>
-            </ul>
-          </li>
-          <li>chapter3 Prioritize Regularly
-            <ul>
-              <li>寫下todo list</li>
-              <li>做todo list中 最有價值的事情</li>
-              <li>做重要 但不急的事情</li>
-              <li>減少context switches</li>
-              <li>做一個if的plan, ex: 如果有突然二十分鐘 我會做什麼事情</li>
-              <li>養成排優先順序的習慣</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>Part 2: Execute, Execute, Execute</p>
-
-        <ul>
-          <li>chapter4:  Invest in Iteration Speed
-            <ul>
-              <li>轉換越快 學的越多</li>
-              <li>投資再工具上 ex 開發環境 工具</li>
-              <li>最佳化的你的debug 流程</li>
-              <li>讓你的開發環境最佳化</li>
-              <li>整體性的觀點來看你的開發流程 有沒有可以改善的地方 包含團隊合作</li>
-            </ul>
-          </li>
-          <li>chapter5: 「Measure What You Want to Improve」
-            <ul>
-              <li>量測你的進步</li>
-              <li>找出會讓你最有效率的衡量模式</li>
-              <li>找出你系統的衡量方式 怎樣是好</li>
-              <li>知道你的數字</li>
-              <li>資料的正確性很重要</li>
-            </ul>
-          </li>
-          <li>chapter6: 「Validate Your Ideas Early and Often」
-            <ul>
-              <li>越快的驗證你的想法 會減少浪費資源</li>
-              <li>用小驗證的方式來取代大更新, 常常驗證 常常更新</li>
-              <li>使用A/B testing來驗證你的產品</li>
-              <li>當做自己的專案時 也是要想辦法得到別人常常的建議</li>
-              <li>一直要有回應來驗證你的想法</li>
-            </ul>
-          </li>
-          <li>chapter7: 「Improve Your Project Estimation Skills」
-            <ul>
-              <li>估時程時 將每個專案切成小工作項目 再結合起來計算</li>
-              <li>要留buffer再不確定的事情上面</li>
-              <li>建立可以被測量的里程碑</li>
-              <li>最優先做風險最高的事情</li>
-              <li>知道加班的限制性</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>Part 3: Build Long-Term Value</p>
-
-        <ul>
-          <li>chapter 8: 「Balance Quality with Pragmatism」
-            <ul>
-              <li>code review</li>
-              <li>投資時間在建立好的軟體抽象化 來簡化複雜的問題</li>
-              <li>自動化測試</li>
-              <li>管好你的技術債</li>
-            </ul>
-          </li>
-          <li>chapter 9: Minimize Operational Burden
-            <ul>
-              <li>先做簡單的事情, 能夠重覆使用的套件 就使用 專注再自己業務的部份</li>
-              <li>錯誤要及早知道, 然後直接再log指出錯誤的地方</li>
-              <li>如果當錯誤的時候 要自動化去處理掉, 多想幾次, 是不是會造成之後永遠不知道為什麼會錯</li>
-              <li>多使用idempotence and reentrancy, 會讓你之後再retry錯誤的時候更單純</li>
-              <li>計畫模擬錯誤的情況</li>
-            </ul>
-          </li>
-          <li>chapter 10 Invest in Your Team’s Growth
-            <ul>
-              <li>讓你身邊的人也更成功, 不同階級的工程師 會讓身邊更多的人也更進步</li>
-              <li>找到優秀的人 是最高priority</li>
-              <li>投資時間在新人剛進來的時候 mentoring制度</li>
-              <li>建立大家共有的程式 大家都可以維護互相的程式</li>
-              <li>讓大家更透明化, 討論目前工作的難處 好處 建立大家的知識庫</li>
-              <li>建立好的工程師文化</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
+<h2 id="learn">Learn</h2>
 
 
                 <hr>
@@ -320,12 +251,12 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2016/09/17/1/" data-toggle="tooltip" data-placement="top" title="7">&larr; Previous Post</a>
+                        <a href="/2017/05/13/1/" data-toggle="tooltip" data-placement="top" title="34">&larr; Previous Post</a>
                     </li>
                     
                     
                     <li class="next">
-                        <a href="/2016/10/01/1/" data-toggle="tooltip" data-placement="top" title="9">Next Post &rarr;</a>
+                        <a href="/2017/05/27/1/" data-toggle="tooltip" data-placement="top" title="36">Next Post &rarr;</a>
                     </li>
                     
                 </ul>

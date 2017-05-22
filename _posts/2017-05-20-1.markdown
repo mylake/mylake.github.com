@@ -1,0 +1,56 @@
+---
+layout:     post
+title:      "35"
+subtitle:   "weekly learning"
+date:       2017-05-20 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 5/13 ~ 5/20”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/cyu/rack-cors">rack-cors</a></p>
+  * Rack::Cors provides support for Cross-Origin Resource Sharing (CORS) for Rack compatible web applications.
+
+* <p>[gem] <a href="https://github.com/alexreisner/geocoder">Geocoder</a></p>
+  * Geocoder is a complete geocoding solution for Ruby. With Rails, it adds geocoding (by street or IP address), reverse geocoding (finding street address based on given coordinates), and distance queries
+
+* <p>[database] <a href="https://gist.github.com/esperlu/943776">mysql2sqlite</a></p>
+  * This small shell script should help you to convert a mysqldump file into a Sqlite3 compatible file.
+
+* <p>[react native] <a href="https://github.com/andpor/react-native-sqlite-storage">react-native-sqlite-storage</a></p>
+
+## Read
+
+* <p>[redis] <a href="http://www.rediscookbook.org/multiple_databases.html">Redis Working with Multiple Databases</a></p>
+  * you want to keep different kinds of data - belonging to different applications, for example - separate from each other, but store them all in the same Redis instance
+
+* <p>[ruby] <a href="https://robots.thoughtbot.com/ruby-2-keyword-arguments">Ruby 2 Keyword Arguments</a></p>
+  * def obvious_total(subtotal:, tax:, discount:)
+
+* <p>[rails] <a href="http://hakunin.com/rails3-load-paths">Tips on Rails 3 load paths </a></p>
+
+* <p>[rails] <a href="http://stackoverflow.com/questions/19773266/confusing-about-autoload-paths-vs-eager-load-paths-in-rails-4">confusing about autoload_paths vs eager_load_paths in rails 4</a></p>
+
+* <p>[rails] <a href="http://blog.arkency.com/2014/11/dont-forget-about-eager-load-when-extending-autoload/">Don't forget about eager_load when extending autoload paths</a></p>
+
+* <p>[rails] <a href="https://blog.yorkxin.org/2014/02/10/autoload-in-ruby-autoload-paths-in-rails-and-module-reopening">關於 Ruby 的 autoload 與 Rails 的 autoload_paths 以及 reopen module / class</a></p>
+  * Kernel#autoload 不應跟 Rails 的 autoload_paths 混淆，要視為兩個完全不同的功能
+  * 誰第一次載入誰算數， Rails 只在找不到該 const 的時候才會去 autoload_paths 搜尋
+  * 所以，如果某個 const (class / module) 已經在 runtime 裡面定義了，那麼要在 Rails 裡面 reopen 它，就必須確定它一定會執行，例如 initializers 裡面，或是手動 require 它。如果是放在某個 autoload paths 裡面，例如 app/models/ ，則 Rails 並不會執行之，因為同名的 const 已經在 Runtime 裡面了。
+  * 如果該 class / module 已經在 Gem 裡面載入，則要在 Rails 裡面 reopen 它，就必須放在 autoload_paths 以外的地方，並且手動 require 之。
+
+* <p>[cors] <a href="http://www.ruanyifeng.com/blog/2016/04/cors.html">跨域资源共享 CORS 详解</a></p>
+
+* <p>[csrf] <a href="http://blog.techbridge.cc/2017/02/25/csrf-introduction/">讓我們來談談 CSRF</a></p>
+
+* <p>[react native] <a href="https://shift.infinite.red/beginner-s-guide-to-using-cocoapods-with-react-native-46cb4d372995">Beginner’s Guide to Using CocoaPods with React Native</a></p>
+
+## Book
+
+## Video
+
+## Learn

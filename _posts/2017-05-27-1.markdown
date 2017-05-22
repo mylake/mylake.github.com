@@ -1,0 +1,36 @@
+---
+layout:     post
+title:      "36"
+subtitle:   "weekly learning"
+date:       2017-06-03 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 5/20 ~ 6/3”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/apneadiving/Google-Maps-for-Rails">Google Maps for Rails</a></p>
+
+## Read
+
+* <p>[ruby] <a href="https://blog.cognitohq.com/five-pry-features-every-ruby-developer-should-know/">5 Pry Features Every Ruby Developer Should Know</a></p>
+  * ls
+  * ls -l
+  * find-method xpath Nokogiri
+  * stat Nokogiri::CSS.xpath_for
+  * show-source Nokogiri::CSS.xpath_for
+
+* <p>[code] <a href="https://rafal.io/posts/codility-intersecting-discs.html">Codility Intersecting Discs</a></p>
+
+* <p>[cors] <a href="http://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html">浏览器同源政策及其规避方法</a></p>
+
+* <p>[code] <a href="https://www.zhihu.com/question/31034164?utm_content=buffer27dd2&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer">什么才算是真正的编程能力？</a></p>
+
+## Book
+
+## Video
+
+## Learn

@@ -5,9 +5,147 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 May 2017 16:26:46 +0800</pubDate>
-    <lastBuildDate>Sun, 14 May 2017 16:26:46 +0800</lastBuildDate>
+    <pubDate>Thu, 01 Jun 2017 22:25:48 +0800</pubDate>
+    <lastBuildDate>Thu, 01 Jun 2017 22:25:48 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>36</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 5/20 ~ 5/27”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/apneadiving/Google-Maps-for-Rails&quot;&gt;Google Maps for Rails&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;https://blog.cognitohq.com/five-pry-features-every-ruby-developer-should-know/&quot;&gt;5 Pry Features Every Ruby Developer Should Know&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;ls&lt;/li&gt;
+      &lt;li&gt;ls -l&lt;/li&gt;
+      &lt;li&gt;find-method xpath Nokogiri&lt;/li&gt;
+      &lt;li&gt;stat Nokogiri::CSS.xpath_for&lt;/li&gt;
+      &lt;li&gt;show-source Nokogiri::CSS.xpath_for&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[code] &lt;a href=&quot;https://rafal.io/posts/codility-intersecting-discs.html&quot;&gt;Codility Intersecting Discs&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 27 May 2017 08:00:00 +0800</pubDate>
+        <link>/2017/05/27/1/</link>
+        <guid isPermaLink="true">/2017/05/27/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>35</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 5/13 ~ 5/20”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/cyu/rack-cors&quot;&gt;rack-cors&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Rack::Cors provides support for Cross-Origin Resource Sharing (CORS) for Rack compatible web applications.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/alexreisner/geocoder&quot;&gt;Geocoder&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Geocoder is a complete geocoding solution for Ruby. With Rails, it adds geocoding (by street or IP address), reverse geocoding (finding street address based on given coordinates), and distance queries&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[database] &lt;a href=&quot;https://gist.github.com/esperlu/943776&quot;&gt;mysql2sqlite&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;This small shell script should help you to convert a mysqldump file into a Sqlite3 compatible file.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[react native] &lt;a href=&quot;https://github.com/andpor/react-native-sqlite-storage&quot;&gt;react-native-sqlite-storage&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[redis] &lt;a href=&quot;http://www.rediscookbook.org/multiple_databases.html&quot;&gt;Redis Working with Multiple Databases&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;you want to keep different kinds of data - belonging to different applications, for example - separate from each other, but store them all in the same Redis instance&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;https://robots.thoughtbot.com/ruby-2-keyword-arguments&quot;&gt;Ruby 2 Keyword Arguments&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;def obvious_total(subtotal:, tax:, discount:)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;http://hakunin.com/rails3-load-paths&quot;&gt;Tips on Rails 3 load paths &lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;http://stackoverflow.com/questions/19773266/confusing-about-autoload-paths-vs-eager-load-paths-in-rails-4&quot;&gt;confusing about autoload_paths vs eager_load_paths in rails 4&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;http://blog.arkency.com/2014/11/dont-forget-about-eager-load-when-extending-autoload/&quot;&gt;Don't forget about eager_load when extending autoload paths&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;https://blog.yorkxin.org/2014/02/10/autoload-in-ruby-autoload-paths-in-rails-and-module-reopening&quot;&gt;關於 Ruby 的 autoload 與 Rails 的 autoload_paths 以及 reopen module / class&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Kernel#autoload 不應跟 Rails 的 autoload_paths 混淆，要視為兩個完全不同的功能&lt;/li&gt;
+      &lt;li&gt;誰第一次載入誰算數， Rails 只在找不到該 const 的時候才會去 autoload_paths 搜尋&lt;/li&gt;
+      &lt;li&gt;所以，如果某個 const (class / module) 已經在 runtime 裡面定義了，那麼要在 Rails 裡面 reopen 它，就必須確定它一定會執行，例如 initializers 裡面，或是手動 require 它。如果是放在某個 autoload paths 裡面，例如 app/models/ ，則 Rails 並不會執行之，因為同名的 const 已經在 Runtime 裡面了。&lt;/li&gt;
+      &lt;li&gt;如果該 class / module 已經在 Gem 裡面載入，則要在 Rails 裡面 reopen 它，就必須放在 autoload_paths 以外的地方，並且手動 require 之。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[cors] &lt;a href=&quot;http://www.ruanyifeng.com/blog/2016/04/cors.html&quot;&gt;跨域资源共享 CORS 详解&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[csrf] &lt;a href=&quot;http://blog.techbridge.cc/2017/02/25/csrf-introduction/&quot;&gt;讓我們來談談 CSRF&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[react native] &lt;a href=&quot;https://shift.infinite.red/beginner-s-guide-to-using-cocoapods-with-react-native-46cb4d372995&quot;&gt;Beginner’s Guide to Using CocoaPods with React Native&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 20 May 2017 08:00:00 +0800</pubDate>
+        <link>/2017/05/20/1/</link>
+        <guid isPermaLink="true">/2017/05/20/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>34</title>
@@ -774,318 +912,6 @@ end
         <pubDate>Sat, 11 Mar 2017 08:00:00 +0800</pubDate>
         <link>/2017/03/11/1/</link>
         <guid isPermaLink="true">/2017/03/11/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>26</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 2/25 ~ 3/04”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/cookpad/expeditor&quot;&gt;expeditor&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Expeditor is a Ruby library that provides asynchronous execution and fault tolerance for microservices.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;http://makeiteasy.github.io/2014/10/18/rails-application-booting-process.html&quot;&gt;Rails Application启动流程&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[code] &lt;a href=&quot;https://www.slideshare.net/kylinfish/clean-code-72688451&quot;&gt;無瑕的程式碼 Clean Code 心得分享&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[book] &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/dn568099.aspx&quot;&gt;Cloud Design Patterns&lt;/a&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;https://msdn.microsoft.com/en-us/library/dn589799.aspx&quot;&gt;Cache-aside Pattern&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Load data on demand into a cache from a data store. This pattern can improve performance and also helps to maintain consistency between data held in the cache and the data in the underlying data store.&lt;/p&gt;
-        &lt;ul&gt;
-          &lt;li&gt;consider
-            &lt;ul&gt;
-              &lt;li&gt;Lifetime of Cached Data&lt;/li&gt;
-              &lt;li&gt;Evicting Data&lt;/li&gt;
-              &lt;li&gt;Priming the Cache&lt;/li&gt;
-              &lt;li&gt;Consistency&lt;/li&gt;
-              &lt;li&gt;Local (In-Memory) Caching&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;https://msdn.microsoft.com/en-us/library/dn589784.aspx&quot;&gt;Circuit Breaker Pattern&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Handle faults that may take a variable amount of time to rectify when connecting to a remote service or resource. This pattern can improve the stability and resiliency of an application.&lt;/p&gt;
-        &lt;ul&gt;
-          &lt;li&gt;consider
-            &lt;ul&gt;
-              &lt;li&gt;Exception Handling&lt;/li&gt;
-              &lt;li&gt;Types of Exceptions&lt;/li&gt;
-              &lt;li&gt;Logging&lt;/li&gt;
-              &lt;li&gt;Recoverability&lt;/li&gt;
-              &lt;li&gt;Testing Failed Operations&lt;/li&gt;
-              &lt;li&gt;Manual Override&lt;/li&gt;
-              &lt;li&gt;Concurrency&lt;/li&gt;
-              &lt;li&gt;Resource Differentiation&lt;/li&gt;
-              &lt;li&gt;Accelerated Circuit Breaking&lt;/li&gt;
-              &lt;li&gt;Replaying Failed Requests&lt;/li&gt;
-              &lt;li&gt;Inappropriate Timeouts on External Services&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;When to Use this Pattern
-            &lt;ul&gt;
-              &lt;li&gt;To prevent an application from attempting to invoke a remote service or access a shared resource if this operation is highly likely to fail.&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;https://msdn.microsoft.com/en-us/library/dn589804.aspx&quot;&gt;Compensating Transaction Pattern&lt;/a&gt;&lt;/p&gt;
-        &lt;ul&gt;
-          &lt;li&gt;How to handle cancel or exception on a series of steps&lt;/li&gt;
-          &lt;li&gt;Undo the work performed by a series of steps, which together define an eventually consistent operation, if one or more of the steps fail.&lt;/li&gt;
-          &lt;li&gt;idempotency-patterns&lt;/li&gt;
-          &lt;li&gt;When to Use this Pattern
-            &lt;ul&gt;
-              &lt;li&gt;Use this pattern only for operations that must be undone if they fail. If possible, design solutions to avoid the complexity of requiring compensating transactions&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 04 Mar 2017 08:00:00 +0800</pubDate>
-        <link>/2017/03/04/1/</link>
-        <guid isPermaLink="true">/2017/03/04/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>25</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 2/18 ~ 2/25”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/cookpad/expeditor&quot;&gt;expeditor&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Expeditor is a Ruby library that provides asynchronous execution and fault tolerance for microservices.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;https://www.sitepoint.com/ruby-uses-memory/&quot;&gt;How Ruby Uses Memory&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Object Retention&lt;/li&gt;
-      &lt;li&gt;RUBY_GC_HEAP_GROWTH_FACTOR, ruby will retentino memory&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;http://www.mikeperham.com/2009/05/25/memory-hungry-ruby-daemons/&quot;&gt;Memory-hungry Ruby daemons&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;http://www.rubyenterpriseedition.com/documentation.html#_garbage_collector_performance_tuning&quot;&gt;Garbage collector performance tuning &lt;/a&gt;&lt;p&gt;
-
-&lt;/p&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[api] &lt;a href=&quot;http://taobaofed.org/blog/2017/02/16/a-guide-to-api-design/&quot;&gt;从达标到卓越 —— API 设计之道&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;logic &amp;amp; abstract&lt;/li&gt;
-      &lt;li&gt;domain knowledge&lt;/li&gt;
-      &lt;li&gt;language sense&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[api] &lt;a href=&quot;https://github.com/lifesinger/blog/issues/164&quot;&gt;Page Visibility 的 API 设计&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;backward compatibility
-        &lt;ul&gt;
-          &lt;li&gt;document.hidden vs document.visible？&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;scalability&lt;/li&gt;
-      &lt;li&gt;consistency&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[api] &lt;a href=&quot;https://github.com/lifesinger/blog/issues/119&quot;&gt;我心目中的优秀 API&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;simple: easy to understand&lt;/li&gt;
-      &lt;li&gt;complete: all soluctions on specific domain&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;http://teotti.com/deploy-parts-of-a-ruby-on-rails-application/&quot;&gt;Deploy parts of a Ruby on Rails application&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;how to deploy portions of a Ruby on Rails application to separate servers with the use of Ruby Gems and Rails Engines&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;http://teotti.com/reduce-memory-footprint-requiring-portions-of-your-component-based-rails-applications/&quot;&gt;Reduce memory footprint requiring portions of your component based Rails application with Bundler&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;you can require only the necessary portion to reduce memory usage and speed up the bundling process&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[bundler] &lt;a href=&quot;http://myronmars.to/n/dev-blog/2012/12/5-reasons-to-avoid-bundler-require&quot;&gt;5 Reasons to Avoid Bundler.require&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler.require&lt;/code&gt; is a shortcut for people who can’t (or don’t want to) write their own requires.&lt;/li&gt;
-      &lt;li&gt;DHH: Not having to manually track your dependencies feels liberating. Like not having to track memory allocation by hand.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[learn] &lt;a href=&quot;https://simpleprogrammer.com/products/learn-anything/&quot;&gt;10 steps to learn anything quickly&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;ol&gt;
-          &lt;li&gt;get the big picture
-            &lt;ul&gt;
-              &lt;li&gt;high level topic you want to learn&lt;/li&gt;
-              &lt;li&gt;break high level topic up into smaller subtopics&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;ol&gt;
-          &lt;li&gt;determine the scope
-            &lt;ul&gt;
-              &lt;li&gt;what subtopic do you want to learn&lt;/li&gt;
-              &lt;li&gt;what do you plan on doing with the knowledge you will get from learning about the topic&lt;/li&gt;
-              &lt;li&gt;what time frame do you expect to learn&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;ol&gt;
-          &lt;li&gt;define success
-            &lt;ul&gt;
-              &lt;li&gt;what specific actions could I do when I got the knowledge&lt;/li&gt;
-              &lt;li&gt;which specific action are the most valuable for me&lt;/li&gt;
-              &lt;li&gt;make success criteria measurable&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;ol&gt;
-          &lt;li&gt;find resources
-            &lt;ul&gt;
-              &lt;li&gt;start with books, list the best 5 books on your topic and list them&lt;/li&gt;
-              &lt;li&gt;list all the other resources you can think of (blog, internet articles)&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;ol&gt;
-          &lt;li&gt;create a learning plan
-            &lt;ul&gt;
-              &lt;li&gt;list best 5 resource and list the chapters of them&lt;/li&gt;
-              &lt;li&gt;which repeated the most&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;ol&gt;
-          &lt;li&gt;filter resources
-            &lt;ul&gt;
-              &lt;li&gt;what criteria do you think is the most important for judging the resources you will use for learning&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;ol&gt;
-          &lt;li&gt;learn enough to get started
-            &lt;ul&gt;
-              &lt;li&gt;waht is the gereral idea of this module in your learning plan&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;ol&gt;
-          &lt;li&gt;play around
-            &lt;ul&gt;
-              &lt;li&gt;what can you do to ‘play around’ with the subject you are learning about&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;ol&gt;
-          &lt;li&gt;learn enough to do something useful
-            &lt;ul&gt;
-              &lt;li&gt;what are the most important questions you hope to find answers to during this step&lt;/li&gt;
-              &lt;li&gt;what questions are still unanswered after completing this step&lt;/li&gt;
-              &lt;li&gt;what do you think would be an effective way to teach what you have larned in this step&lt;/li&gt;
-              &lt;li&gt;what is the most important thing you have larned in this step&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;ol&gt;
-          &lt;li&gt;teach
-            &lt;ul&gt;
-              &lt;li&gt;what do you think would be the best way to present the material you have larned&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 25 Feb 2017 08:00:00 +0800</pubDate>
-        <link>/2017/02/25/1/</link>
-        <guid isPermaLink="true">/2017/02/25/1/</guid>
         
         <category>weekly</category>
         
