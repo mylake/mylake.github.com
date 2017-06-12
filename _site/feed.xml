@@ -5,14 +5,86 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 01 Jun 2017 22:25:48 +0800</pubDate>
-    <lastBuildDate>Thu, 01 Jun 2017 22:25:48 +0800</lastBuildDate>
+    <pubDate>Mon, 12 Jun 2017 08:56:21 +0800</pubDate>
+    <lastBuildDate>Mon, 12 Jun 2017 08:56:21 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
         <title>36</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 5/20 ~ 5/27”&lt;/p&gt;
+  &lt;p&gt;“strive 6/3 ~ 6/10”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/zdavatz/spreadsheet&quot;&gt;spreadsheet&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;read and write Spreadsheet Documents.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/weshatheleopard/rubyXL&quot;&gt;rubyXL&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;This gem supports operating on xlsx files&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[nginx] &lt;a href=&quot;https://my.oschina.net/xsh1208/blog/199674&quot;&gt;NGINX配置超时时间&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;keepalive_timeout&lt;/li&gt;
+      &lt;li&gt;proxy_send_timeout&lt;/li&gt;
+      &lt;li&gt;proxy_read_timeout&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[nginx] &lt;a href=&quot;https://stackoverflow.com/questions/22856136/why-underscores-are-forbidden-in-http-header-names&quot;&gt;Why underscores are forbidden in HTTP header names&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;If you do not explicitly set underscores_in_headers on;, nginx will silently drop HTTP headers with underscores (which are perfectly valid according to the HTTP standard). This is done in order to prevent ambiguities when mapping headers to CGI variables, as both dashes and underscores are mapped to underscores during that process.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;https://www.jamesbadger.ca/2012/12/18/generate-new-secret-token/&quot;&gt;Generate a new secret token for Rails Apps&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;SecureRandom.hex(64)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[postgres] &lt;a href=&quot;https://www.postgresql.org/docs/9.1/static/sql-vacuum.html&quot;&gt;sql-vacuum&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[sql] &lt;a href=&quot;https://www.periscopedata.com/blog/use-subqueries-to-count-distinct-50x-faster.html&quot;&gt;Use Subqueries to Count Distinct 50X Faster&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Reduce The Data Set&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 10 Jun 2017 08:00:00 +0800</pubDate>
+        <link>/2017/06/10/1/</link>
+        <guid isPermaLink="true">/2017/06/10/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>36</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 5/20 ~ 6/3”&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
@@ -39,6 +111,12 @@
   &lt;li&gt;
     &lt;p&gt;[code] &lt;a href=&quot;https://rafal.io/posts/codility-intersecting-discs.html&quot;&gt;Codility Intersecting Discs&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[cors] &lt;a href=&quot;http://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html&quot;&gt;浏览器同源政策及其规避方法&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[code] &lt;a href=&quot;https://www.zhihu.com/question/31034164?utm_content=buffer27dd2&amp;amp;utm_medium=social&amp;amp;utm_source=facebook.com&amp;amp;utm_campaign=buffer&quot;&gt;什么才算是真正的编程能力？&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
@@ -47,9 +125,9 @@
 
 &lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
 </description>
-        <pubDate>Sat, 27 May 2017 08:00:00 +0800</pubDate>
-        <link>/2017/05/27/1/</link>
-        <guid isPermaLink="true">/2017/05/27/1/</guid>
+        <pubDate>Sat, 03 Jun 2017 08:00:00 +0800</pubDate>
+        <link>/2017/06/03/1/</link>
+        <guid isPermaLink="true">/2017/06/03/1/</guid>
         
         <category>weekly</category>
         
@@ -820,98 +898,6 @@ end
         <pubDate>Sat, 18 Mar 2017 08:00:00 +0800</pubDate>
         <link>/2017/03/18/1/</link>
         <guid isPermaLink="true">/2017/03/18/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>27</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 3/04 ~ 3/11”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/michaelherold/benchmark-memory&quot;&gt;benchmark-memory&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;benchmark-memory is a tool that helps you to benchmark the memory usage of different pieces of code.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ssl] &lt;a href=&quot;https://read01.com/yj3B.html&quot;&gt;HTTPS(SSL/TLS) 原理之深入淺出&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;HTTPS 的基本運行過程：
-        &lt;ul&gt;
-          &lt;li&gt;利用對稱加密算法來加密網頁內容，那麼如何保證對稱加密算法的秘鑰的安全呢？&lt;/li&gt;
-          &lt;li&gt;使用非對稱加密算法來獲得對稱加密算法的秘鑰，從而保證了對稱加密算法的秘鑰的安全，也就保證了對稱加密算法的安全&lt;/li&gt;
-          &lt;li&gt;如何保證非對稱加密算法公鑰不被篡改？解決方法：將公鑰放在數字證書中。只要證書是可信的，公鑰就是可信的&lt;/li&gt;
-          &lt;li&gt;公鑰加密計算量太大，如何減少耗用的時間？解決方法：每一次對話（session），客戶端和伺服器端都生成一個”對話密鑰”（session key），用它來加密信息。由於”對話密鑰”是對稱加密算法，所以運算速度非常快，而伺服器公鑰只用於加密”對話密鑰”本身，這樣就減少了加密運算的消耗時間。&lt;/li&gt;
-          &lt;li&gt;SSL/TLS協議的基本過程是這樣的
-            &lt;ul&gt;
-              &lt;li&gt;客戶端向伺服器端索要並驗證非對稱加密算法的公鑰（handshake）&lt;/li&gt;
-              &lt;li&gt;雙方協商生成對稱加密算法的”對話密鑰”（handshake）&lt;/li&gt;
-              &lt;li&gt;雙方採用對稱加密算法和它的”對話密鑰”進行加密通信&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;handshake:
-            &lt;ul&gt;
-              &lt;li&gt;客戶端發出請求（ClientHello）&lt;/li&gt;
-              &lt;li&gt;伺服器回應（SeverHello）&lt;/li&gt;
-              &lt;li&gt;客戶端回應&lt;/li&gt;
-              &lt;li&gt;伺服器的最後回應&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;HTTPS 結合使用了 非對稱加密算法，對稱加密算法，hash算法，分別利用他們的優勢，避免他們的缺點。利用非對稱加密算法獲得對稱加密算法的秘鑰，保證他的安全性；然後實際的網頁內容的加密使用的是對稱加密算法，利用了對稱加密算法速度快的優勢，hash算法主要是防止篡改的發生，是一種校驗機制，最後數字證書，保證了伺服器在將非對稱加密算法的公鑰傳給瀏覽器時的安全性(不會被中間人篡改)，同時也標誌了伺服器的身份&lt;/li&gt;
-      &lt;li&gt;HTTPS的本質是什麼？HTTPS的本質就是在HTTP連接發起之前，先使用SSL/TLS協議，協調客戶端和服務端，在兩端各自生產一個對稱加密算法的秘鑰 然後使用普通的HTTP協議傳輸 經過對稱加密算法加密的網頁內容。因為對稱加密算法的秘鑰是安全的，所以對稱加密算法加密的網頁內容也是安全的&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[book] &lt;a href=&quot;https://www.tenlong.com.tw/products/9789862018088&quot;&gt;Implementation Patterns&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Values
-        &lt;ul&gt;
-          &lt;li&gt;Communication&lt;/li&gt;
-          &lt;li&gt;Simplicity&lt;/li&gt;
-          &lt;li&gt;Flexibility&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Principles
-        &lt;ul&gt;
-          &lt;li&gt;Local Consequences&lt;/li&gt;
-          &lt;li&gt;Minimize Repetition&lt;/li&gt;
-          &lt;li&gt;Logic and Data Together&lt;/li&gt;
-          &lt;li&gt;Symmetry&lt;/li&gt;
-          &lt;li&gt;Declarative Expression&lt;/li&gt;
-          &lt;li&gt;Rate of Change&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 11 Mar 2017 08:00:00 +0800</pubDate>
-        <link>/2017/03/11/1/</link>
-        <guid isPermaLink="true">/2017/03/11/1/</guid>
         
         <category>weekly</category>
         

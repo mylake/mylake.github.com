@@ -1,0 +1,43 @@
+---
+layout:     post
+title:      "36"
+subtitle:   "weekly learning"
+date:       2017-06-10 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 6/3 ~ 6/10”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/zdavatz/spreadsheet">spreadsheet</a></p>
+  * read and write Spreadsheet Documents.
+
+* <p>[gem] <a href="https://github.com/weshatheleopard/rubyXL">rubyXL</a></p>
+  * This gem supports operating on xlsx files
+
+## Read
+
+* <p>[nginx] <a href="https://my.oschina.net/xsh1208/blog/199674">NGINX配置超时时间</a></p>
+  * keepalive_timeout
+  * proxy_send_timeout
+  * proxy_read_timeout
+
+* <p>[nginx] <a href="https://stackoverflow.com/questions/22856136/why-underscores-are-forbidden-in-http-header-names">Why underscores are forbidden in HTTP header names</a></p>
+  * If you do not explicitly set underscores_in_headers on;, nginx will silently drop HTTP headers with underscores (which are perfectly valid according to the HTTP standard). This is done in order to prevent ambiguities when mapping headers to CGI variables, as both dashes and underscores are mapped to underscores during that process.
+
+* <p>[rails] <a href="https://www.jamesbadger.ca/2012/12/18/generate-new-secret-token/">Generate a new secret token for Rails Apps</a></p>
+  * SecureRandom.hex(64)
+
+* <p>[postgres] <a href="https://www.postgresql.org/docs/9.1/static/sql-vacuum.html">sql-vacuum</a></p>
+
+* <p>[sql] <a href="https://www.periscopedata.com/blog/use-subqueries-to-count-distinct-50x-faster.html">Use Subqueries to Count Distinct 50X Faster</a></p>
+  * Reduce The Data Set
+
+## Book
+
+## Video
+
+## Learn
