@@ -5,9 +5,82 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 12 Jun 2017 08:56:21 +0800</pubDate>
-    <lastBuildDate>Mon, 12 Jun 2017 08:56:21 +0800</lastBuildDate>
+    <pubDate>Sat, 01 Jul 2017 16:23:59 +0800</pubDate>
+    <lastBuildDate>Sat, 01 Jul 2017 16:23:59 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>36</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 6/10 ~ 6/17”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/weshatheleopard/rubyXL&quot;&gt;rubyXL&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;This gem supports operating on xlsx files&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[tool] &lt;a href=&quot;http://cms.35g.tw/coding/%E5%88%A9%E7%94%A8-iperf-%E6%B8%AC%E8%A9%A6%E7%B6%B2%E8%B7%AF%E6%95%88%E8%83%BD/&quot;&gt;利用 iperf 測試網路效能&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;http://blog.scoutapp.com/articles/2017/01/24/activerecord-includes-vs-joins-vs-preload-vs-eager_load-when-and-where&quot;&gt;Making sense of ActiveRecord joins, includes, preload, and eager_load&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[algorithm] &lt;a href=&quot;http://www.cricode.com/254.html&quot;&gt; 判断一个字符串中的字符是否唯一&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[algorithm] &lt;a href=&quot;http://www.cricode.com/258.html&quot;&gt; 字符串翻转&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[algorithm] &lt;a href=&quot;http://www.cricode.com/260.html&quot;&gt; 去除字符串中重复字符&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[algorithm] &lt;a href=&quot;http://www.cricode.com/284.html&quot;&gt; 利用已知函数判断字符串是否为另一字符串的子串&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[algorithm] &lt;a href=&quot;http://www.cricode.com/286.html&quot;&gt; 从链表中移除重复结点&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[algorithm] &lt;a href=&quot;http://www.cricode.com/288.html&quot;&gt; 实现一个算法从一个单链表中返回倒数第n个元素&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[algorithm] &lt;a href=&quot;http://www.cricode.com/291.html&quot;&gt; 给定链表中间某结点指针，删除链表中该结点&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[algorithm] &lt;a href=&quot;http://www.cricode.com/293.html&quot;&gt; 求由两个链表结点组成的数之和&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;http://blog.bigbinary.com/2012/01/08/alias-vs-alias-method.html&quot;&gt;alias vs alias_method&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[ruby] &lt;a href=&quot;https://rossta.net/blog/what-is-enumerator.html&quot;&gt;What the Heck is a Ruby Enumerator&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 17 Jun 2017 08:00:00 +0800</pubDate>
+        <link>/2017/06/17/1/</link>
+        <guid isPermaLink="true">/2017/06/17/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>36</title>
@@ -776,128 +849,6 @@ end
         <pubDate>Sat, 25 Mar 2017 08:00:00 +0800</pubDate>
         <link>/2017/03/25/1/</link>
         <guid isPermaLink="true">/2017/03/25/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>28</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 3/11 ~ 3/18”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;http://blog.honeybadger.io/common-rails-idioms-that-kill-database-performance/&quot;&gt;Common Rails Idioms that Kill Database Performance&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;As you start doing more complex queries, it’s a good idea to run them through explain. Do it early and often.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://www.slideshare.net/fxn/the-rails-boot-process&quot;&gt;rails boot process&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;First Steps
-        &lt;ul&gt;
-          &lt;li&gt;define load paths for dependencies (Bundle.setup)&lt;/li&gt;
-          &lt;li&gt;Load rails/all&lt;/li&gt;
-          &lt;li&gt;Load gem dependencies (Bundle.require)&lt;/li&gt;
-          &lt;li&gt;Define the application class&lt;/li&gt;
-          &lt;li&gt;Rails.application.initialize!&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Rails::Railtie
-        &lt;ul&gt;
-          &lt;li&gt;Hooks to execute code when the console, runner, etc..&lt;/li&gt;
-          &lt;li&gt;Define custom configuration points&lt;/li&gt;
-          &lt;li&gt;Declare code to be executed during boot&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Lazy loading
-        &lt;ul&gt;
-          &lt;li&gt;autoload, on_load&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
-module ActiveRecord
-class Railtie &amp;lt; Rails::Railtie
-  initializer 'active_record.logger' do
-    ActiveSupport.on_load(:active_record) do
-      self.logger ||= Rails.logger
-    end
-  end
-end
-end
-&lt;/code&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;http://andrewberls.com/blog/post/rails-from-request-to-response-part-1--introduction&quot;&gt;Rails from Request to Response: Part 1 - Introduction&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;http://andrewberls.com/blog/post/rails-from-request-to-response-part-2--routing&quot;&gt;Rails from Request to Response: Part 2 - Routing&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;rails/railties/lib/rails/engine.rb&lt;/li&gt;
-      &lt;li&gt;rails/actionpack/lib/action_dispatch/routing/route_set.rb&lt;/li&gt;
-      &lt;li&gt;rails/actionpack/lib/action_dispatch/journey/router.rb&lt;/li&gt;
-      &lt;li&gt;rails/actionpack/lib/action_dispatch/routing/mapper.rb&lt;/li&gt;
-      &lt;li&gt;rails/actionpack/lib/action_dispatch/routing/route_set.rb#dispatch
-        &lt;ul&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
-def dispatch(controller, action, env)
-controller.action(action).call(env)
-end
-&lt;/code&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;http://andrewberls.com/blog/post/rails-from-request-to-response-part-3--actioncontroller&quot;&gt;http://andrewberls.com/blog/post/rails-from-request-to-response-part-2--routing&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;controller hierarchy
-        &lt;ul&gt;
-          &lt;li&gt;YourController « ApplicationController &amp;lt; ActionController::Base &amp;lt; ActionController::Metal &amp;lt; AbstractController::Base&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;rails/actionpack/lib/action_controller/metal.rb
-        &lt;ul&gt;
-          &lt;li&gt;self.action&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;rails/actionpack/lib/action_controller/metal/rack_delegation.rb
-        &lt;ul&gt;
-          &lt;li&gt;dispatch&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;rails/actionpack/lib/action_controller/metal.rb
-        &lt;ul&gt;
-          &lt;li&gt;dispatch&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;rails/actionpack/lib/abstract_controller/base.rb
-        &lt;ul&gt;
-          &lt;li&gt;process&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 18 Mar 2017 08:00:00 +0800</pubDate>
-        <link>/2017/03/18/1/</link>
-        <guid isPermaLink="true">/2017/03/18/1/</guid>
         
         <category>weekly</category>
         
