@@ -1,0 +1,33 @@
+---
+layout:     post
+title:      "39"
+subtitle:   "weekly learning"
+date:       2017-07-08 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 7/01 ~ 7/08”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/aws/aws-sdk-ruby">aws-sdk</a></p>
+
+## Read
+
+* <p>[architect] <a href="http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones">Scalability for Dummies - Part 1: Clones</a></p>
+  * load balance
+  * multi server
+  * an external database or an external persistent cache
+
+* <p>[architect] <a href="http://blog.csdn.net/v_july_v/article/details/6279498">十道海量数据处理面试题与十个方法大总结</a></p>
+
+* <p>[data structure] <a href="https://puremonkey2010.blogspot.tw/2010/11/blog-post_25.html">排序 : 堆積排序法</a></p>
+
+* <p>[atchitect] <a href="http://blog.csdn.net/v_july_v/article/details/7382693"> 教你如何迅速秒杀掉：99%的海量数据处理面试题</a></p>
+## Book
+
+## Video
+
+## Learn

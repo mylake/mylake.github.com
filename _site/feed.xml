@@ -5,14 +5,64 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 01 Jul 2017 16:23:59 +0800</pubDate>
-    <lastBuildDate>Sat, 01 Jul 2017 16:23:59 +0800</lastBuildDate>
+    <pubDate>Sun, 09 Jul 2017 23:27:30 +0800</pubDate>
+    <lastBuildDate>Sun, 09 Jul 2017 23:27:30 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
-        <title>36</title>
+        <title>39</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 6/10 ~ 6/17”&lt;/p&gt;
+  &lt;p&gt;“strive 7/01 ~ 7/08”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/aws/aws-sdk-ruby&quot;&gt;aws-sdk&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[architect] &lt;a href=&quot;http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones&quot;&gt;Scalability for Dummies - Part 1: Clones&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;load balance&lt;/li&gt;
+      &lt;li&gt;multi server&lt;/li&gt;
+      &lt;li&gt;an external database or an external persistent cache&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[architect] &lt;a href=&quot;http://blog.csdn.net/v_july_v/article/details/6279498&quot;&gt;十道海量数据处理面试题与十个方法大总结&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[data structure] &lt;a href=&quot;https://puremonkey2010.blogspot.tw/2010/11/blog-post_25.html&quot;&gt;排序 : 堆積排序法&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[atchitect] &lt;a href=&quot;http://blog.csdn.net/v_july_v/article/details/7382693&quot;&gt; 教你如何迅速秒杀掉：99%的海量数据处理面试题&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;## Book&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 08 Jul 2017 08:00:00 +0800</pubDate>
+        <link>/2017/07/08/1/</link>
+        <guid isPermaLink="true">/2017/07/08/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>38</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 6/10 ~ 7/01”&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
@@ -73,9 +123,9 @@
 
 &lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
 </description>
-        <pubDate>Sat, 17 Jun 2017 08:00:00 +0800</pubDate>
-        <link>/2017/06/17/1/</link>
-        <guid isPermaLink="true">/2017/06/17/1/</guid>
+        <pubDate>Sat, 01 Jul 2017 08:00:00 +0800</pubDate>
+        <link>/2017/07/01/1/</link>
+        <guid isPermaLink="true">/2017/07/01/1/</guid>
         
         <category>weekly</category>
         
@@ -83,7 +133,7 @@
       </item>
     
       <item>
-        <title>36</title>
+        <title>37</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;“strive 6/3 ~ 6/10”&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -739,116 +789,6 @@ Complexity&lt;/a&gt;&lt;/p&gt;
         <pubDate>Sat, 01 Apr 2017 08:00:00 +0800</pubDate>
         <link>/2017/04/01/1/</link>
         <guid isPermaLink="true">/2017/04/01/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>29</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 3/18 ~ 3/25”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[tool] &lt;a href=&quot;http://blog.hsatac.net/2014/10/duplicate-production-requests-for-testing/&quot;&gt;Duplicate Production Requests for Testing&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/instructure/switchman&quot;&gt;switchman&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;ActiveRecord extension for sharding your database&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://blog.codeminer42.com/towards-minimal-idiomatic-and-performant-ruby-code-f3fc6aed3c94#.zgxpdtnvd&quot;&gt;Towards Minimal, Idiomatic, and Performant Ruby Code&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;block is faster than procs
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def each
-  return to_enum(__callee__) unless block_given?
-  @collection.each { |item| yield item }
-end
-&lt;/code&gt;&lt;/pre&gt;
-            &lt;/div&gt;
-            &lt;p&gt;faster than&lt;/p&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def each_block_to_proc(&amp;amp;block)
-  @collection.each(&amp;amp;block)
-end
-&lt;/code&gt;&lt;/pre&gt;
-            &lt;/div&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[aws] &lt;a href=&quot;https://rickhw.github.io/2017/03/02/AWS/Study-Notes-CloudWatch/&quot;&gt;CloudWatch&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;CloudWatch Alarms&lt;/li&gt;
-      &lt;li&gt;CloudWatch Events / Rules&lt;/li&gt;
-      &lt;li&gt;CloudWatch Logs&lt;/li&gt;
-      &lt;li&gt;CloudWatch Metric, Filter&lt;/li&gt;
-      &lt;li&gt;CloudWatch Dashboard&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://robots.thoughtbot.com/slicing-up-rails-application-js-for-faster-load-times&quot;&gt;Slicing up Rails Application.js for Faster Load Times&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;add page-specific JavaScript in Rails&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[basic knowledge] &lt;a href=&quot;https://github.com/alex/what-happens-when&quot;&gt;What happens when you type google.com into your browser's address box and press enter&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;the “g” key is pressed =&amp;gt; the browser receives the event and the entire auto-complete&lt;/li&gt;
-      &lt;li&gt;Parse URL, ex: protocol, resource&lt;/li&gt;
-      &lt;li&gt;Is it a URL or a search term?&lt;/li&gt;
-      &lt;li&gt;Convert non-ASCII Unicode characters in hostname&lt;/li&gt;
-      &lt;li&gt;Check HSTS list&lt;/li&gt;
-      &lt;li&gt;DNS lookup&lt;/li&gt;
-      &lt;li&gt;ARP process&lt;/li&gt;
-      &lt;li&gt;Opening of a socket&lt;/li&gt;
-      &lt;li&gt;TLS handshake&lt;/li&gt;
-      &lt;li&gt;HTTP protocol&lt;/li&gt;
-      &lt;li&gt;HTTP Server Request Handle&lt;/li&gt;
-      &lt;li&gt;Behind the scenes of the Browser
-        &lt;ul&gt;
-          &lt;li&gt;HTML parsing&lt;/li&gt;
-          &lt;li&gt;CSS interpretation&lt;/li&gt;
-          &lt;li&gt;Page Rendering&lt;/li&gt;
-          &lt;li&gt;GPU Rendering&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[udemy - react native] &lt;a href=&quot;https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/content&quot;&gt;The Complete React Native and Redux Course&lt;/a&gt;&lt;/p&gt;
-    &lt;p&gt;## Learn&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 25 Mar 2017 08:00:00 +0800</pubDate>
-        <link>/2017/03/25/1/</link>
-        <guid isPermaLink="true">/2017/03/25/1/</guid>
         
         <category>weekly</category>
         
