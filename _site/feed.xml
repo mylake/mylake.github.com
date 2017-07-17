@@ -5,9 +5,64 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Jul 2017 23:27:30 +0800</pubDate>
-    <lastBuildDate>Sun, 09 Jul 2017 23:27:30 +0800</lastBuildDate>
+    <pubDate>Mon, 17 Jul 2017 08:45:02 +0800</pubDate>
+    <lastBuildDate>Mon, 17 Jul 2017 08:45:02 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>40</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 7/08 ~ 7/15”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/voormedia/rails-erd&quot;&gt;Rails ERD&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;http://www.justinweiss.com/articles/how-rails-sessions-work/&quot;&gt;How Rails Sessions Work&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[rails] &lt;a href=&quot;http://tech.shaolin.tw/posts/2013/12/17/security-issue-of-rails-cookiestore-mechanism/&quot;&gt;Rails CookieStore 的安全議題&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[algorithm] &lt;a href=&quot;http://www.cnblogs.com/liuzhen1995/p/6395361.html&quot;&gt;字符串的全排列和组合算法1&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[algorithm] &lt;a href=&quot;http://blog.csdn.net/hackbuteer1/article/details/7462447&quot;&gt;字符串的全排列和组合算法2&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[architect] &lt;a href=&quot;http://highscalability.com/youtube-architecture&quot;&gt;YouTube Architecture&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[architect] &lt;a href=&quot;http://highscalability.com/scaling-twitter-making-twitter-10000-percent-faster&quot;&gt;Scaling Twitter: Making Twitter 10000 Percent Faster&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[js] &lt;a href=&quot;http://blog.techbridge.cc/2017/07/15/javascript-event-propagation/&quot;&gt;DOM 的事件傳遞機制：捕獲與冒泡&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 15 Jul 2017 08:00:00 +0800</pubDate>
+        <link>/2017/07/15/1/</link>
+        <guid isPermaLink="true">/2017/07/15/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>39</title>
@@ -685,110 +740,6 @@ Complexity&lt;/a&gt;&lt;/p&gt;
         <pubDate>Sat, 08 Apr 2017 08:00:00 +0800</pubDate>
         <link>/2017/04/08/1/</link>
         <guid isPermaLink="true">/2017/04/08/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>30</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 3/25 ~ 4/01”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[error handling] &lt;a href=&quot;https://rollbar.com/error-tracking/ruby/&quot;&gt;rollbar&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Ruby error tracking made easy&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[error handling] &lt;a href=&quot;http://docs.honeybadger.io/lib/ruby.html#add-context-data&quot;&gt;honeybadger&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[architect] &lt;a href=&quot;https://www.slideshare.net/kigster/enterprise-architectures-with-ruby-and-rails&quot;&gt;Enterprise Architectures with Ruby (and Rails)&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[pattern] &lt;a href=&quot;https://kknews.cc/zh-tw/other/942xe8.html&quot;&gt;DataMapper vs Active Record&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;應用程式的設計類型
-        &lt;ul&gt;
-          &lt;li&gt;如果你們的應用程式設計的時候不依賴與資料庫結構 =&amp;gt; DataMapper
-它可以很好的控制持久化相關的操作，而且可以把業務規則封裝在實體中。其實你會發現它體現領域驅動設計的模型&lt;/li&gt;
-          &lt;li&gt;當你根據資料庫的結構去進行應用程式設計的時候 =&amp;gt; Active Record&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;應用程式的規模
-        &lt;ul&gt;
-          &lt;li&gt;我們要從一個存在的業務邏輯中去創建一個新的應用程式，那麼我們可以採用Data Mapper模式的ORM
-通過Data Mapper模式我們可以通過領域模型去封裝業務規則，讓在應用程式中更清晰更直觀 =&amp;gt; DataMapper&lt;/li&gt;
-          &lt;li&gt;一個最小化可行產品(Minimum Viable Product, MVP)產品然後測試和收集用戶的反饋 =&amp;gt; Active Record&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[error handling] &lt;a href=&quot;http://www.mikeperham.com/2013/08/25/please-use-an-error-service/&quot;&gt;Please Use an Error Service!&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[error handling] &lt;a href=&quot;https://www.toptal.com/abap/clean-code-and-the-art-of-exception-handling&quot;&gt;Clean Code and The Art of Exception Handling&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Always create your own ApplicationError hierarchy&lt;/li&gt;
-      &lt;li&gt;Never rescue more exceptions than you need to =&amp;gt; handle most in parent controller&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[error handling] &lt;a href=&quot;http://www.monkeyandcrow.com/blog/reading_rails_handling_exceptions/&quot;&gt;Reading Rails - Handling Exceptions&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;ActiveSupport’s Rescuable module lets us define exception handlers. ActionController’s Rescue middleware catches exceptions, and then tries to handle them.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[error handling] &lt;a href=&quot;http://avdi.org/talks/exceptional-ruby-2011-02-04/&quot;&gt;exceptional-ruby&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails engine] &lt;a href=&quot;https://content.pivotal.io/blog/migrating-from-a-single-rails-app-to-a-suite-of-rails-engines&quot;&gt;Migrating from a single Rails app to a suite of Rails engines&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails engine] &lt;a href=&quot;https://content.pivotal.io/blog/unbuilt-rails-dependencies-how-to-design-for-loosely-coupled-highly-cohesive-components-within-a-rails-application&quot;&gt;Unbuilt Rails Dependencies: How to design for loosely-coupled, highly-cohesive components within a Rails application&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails engine] &lt;a href=&quot;https://content.pivotal.io/blog/rails-contained-a-container-for-web-application-development-and-deployment&quot;&gt;Rails Contained: A Container for Web Application Development and Deployment&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails engine] &lt;a href=&quot;https://github.com/JuanitoFatas/Guides/blob/master/guides/edge-translation/engines-zh_TW.md&quot;&gt;Rails Engine guide&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails engine] &lt;a href=&quot;https://ruby-china.org/topics/28538&quot;&gt;Rails Breaking Up a Monolithic Rails App Without MicroService&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;share business logic&lt;/li&gt;
-      &lt;li&gt;independent deployment&lt;/li&gt;
-      &lt;li&gt;no remote call&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails engine] &lt;a href=&quot;https://www.embbnux.com/2016/03/15/rails_system_refactor_with_rails_engine/&quot;&gt;重构-基于Rails:Engine的Rails网站系统拆分&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 01 Apr 2017 08:00:00 +0800</pubDate>
-        <link>/2017/04/01/1/</link>
-        <guid isPermaLink="true">/2017/04/01/1/</guid>
         
         <category>weekly</category>
         

@@ -1,0 +1,37 @@
+---
+layout:     post
+title:      "40"
+subtitle:   "weekly learning"
+date:       2017-07-15 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 7/08 ~ 7/15”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/voormedia/rails-erd">Rails ERD</a></p>
+
+## Read
+
+* <p>[rails] <a href="http://www.justinweiss.com/articles/how-rails-sessions-work/">How Rails Sessions Work</a></p>
+
+* <p>[rails] <a href="http://tech.shaolin.tw/posts/2013/12/17/security-issue-of-rails-cookiestore-mechanism/">Rails CookieStore 的安全議題</a></p>
+
+* <p>[algorithm] <a href="http://www.cnblogs.com/liuzhen1995/p/6395361.html">字符串的全排列和组合算法1</a></p>
+
+* <p>[algorithm] <a href="http://blog.csdn.net/hackbuteer1/article/details/7462447">字符串的全排列和组合算法2</a></p>
+
+* <p>[architect] <a href="http://highscalability.com/youtube-architecture">YouTube Architecture</a></p>
+
+* <p>[architect] <a href="http://highscalability.com/scaling-twitter-making-twitter-10000-percent-faster">Scaling Twitter: Making Twitter 10000 Percent Faster</a></p>
+
+* <p>[js] <a href="http://blog.techbridge.cc/2017/07/15/javascript-event-propagation/">DOM 的事件傳遞機制：捕獲與冒泡</a></p>
+
+## Book
+
+## Video
+
+## Learn
