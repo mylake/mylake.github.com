@@ -1,0 +1,29 @@
+---
+layout:     post
+title:      "41"
+subtitle:   "weekly learning"
+date:       2017-07-22 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 7/15 ~ 7/22”
+
+## Use
+
+## Read
+
+* <p>[js] <a href="http://blog.techbridge.cc/2016/04/04/react-react-native-es5-es6-cheat-sheet/">一看就懂的 React ES5、ES6+ 常見用法對照表</a></p>
+
+* <p>[js] <a href="http://taobaofed.org/blog/2016/08/18/react-redux-connect/">React 实践心得：react-redux 之 connect 方法详解</a></p>
+
+* <p>[code] <a href="http://www.yinwang.org/blog-cn/2017/07/06/master-pl">如何掌握所有的程序语言</a></p>
+
+* <p>[system] <a href="https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04">How To Add Swap on Ubuntu</a></p>
+
+## Book
+
+## Video
+
+## Learn

@@ -5,9 +5,49 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 17 Jul 2017 08:45:02 +0800</pubDate>
-    <lastBuildDate>Mon, 17 Jul 2017 08:45:02 +0800</lastBuildDate>
+    <pubDate>Mon, 24 Jul 2017 23:44:10 +0800</pubDate>
+    <lastBuildDate>Mon, 24 Jul 2017 23:44:10 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>41</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 7/15 ~ 7/22”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[js] &lt;a href=&quot;http://blog.techbridge.cc/2016/04/04/react-react-native-es5-es6-cheat-sheet/&quot;&gt;一看就懂的 React ES5、ES6+ 常見用法對照表&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[js] &lt;a href=&quot;http://taobaofed.org/blog/2016/08/18/react-redux-connect/&quot;&gt;React 实践心得：react-redux 之 connect 方法详解&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[code] &lt;a href=&quot;http://www.yinwang.org/blog-cn/2017/07/06/master-pl&quot;&gt;如何掌握所有的程序语言&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[system] &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04&quot;&gt;How To Add Swap on Ubuntu&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 22 Jul 2017 08:00:00 +0800</pubDate>
+        <link>/2017/07/22/1/</link>
+        <guid isPermaLink="true">/2017/07/22/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>40</title>
@@ -663,83 +703,6 @@ Complexity&lt;/a&gt;&lt;/p&gt;
         <pubDate>Sat, 15 Apr 2017 08:00:00 +0800</pubDate>
         <link>/2017/04/15/1/</link>
         <guid isPermaLink="true">/2017/04/15/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>31</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 4/01 ~ 4/08”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails engine] &lt;a href=&quot;https://www.toptal.com/ruby-on-rails/rails-engines-in-the-wild-real-world-examples-of-rails-engines-in-action&quot;&gt;A Guide to Rails Engines in the Wild: Real World Examples of Rails Engines in Action&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails engine] &lt;a href=&quot;https://medium.com/ruby-on-rails/patterns-for-successful-rails-engines-a7dae3db6921&quot;&gt;Patterns for Successful Rails Engines&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Base controller inheritance&lt;/li&gt;
-      &lt;li&gt;Extending classes (via class_eval)&lt;/li&gt;
-      &lt;li&gt;Extending classes (via acts_as_yourengine)&lt;/li&gt;
-      &lt;li&gt;Extending classes (via modules)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails engine] &lt;a href=&quot;https://github.com/taskrabbit/rails_engines_example&quot;&gt;Rails 4 Engines, TaskRabbit&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails engine] &lt;a href=&quot;https://speakerdeck.com/peakpg/creating-mountable-engines&quot;&gt;Creating Mountable Engines&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails engine] &lt;a href=&quot;http://halyph.com/blog/2015/04/04/rails-architecture-and-scalability-issues.html&quot;&gt;Rails Architecture and Scalability&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Splitting application into small pieces
-        &lt;ul&gt;
-          &lt;li&gt;Split into smaller applications
-            &lt;ul&gt;
-              &lt;li&gt;Contains web UI, logic and data
-                &lt;ul&gt;
-                  &lt;li&gt;Extract look and feel into gem to share across apps&lt;/li&gt;
-                &lt;/ul&gt;
-              &lt;/li&gt;
-              &lt;li&gt;May combine with other apps&lt;/li&gt;
-              &lt;li&gt;May rely on common libraries&lt;/li&gt;
-              &lt;li&gt;Typically run in their own Ruby VM&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Extract services and create APIs
-            &lt;ul&gt;
-              &lt;li&gt;Create client API wrapper gems for consumers&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Extract libraries (gems)
-            &lt;ul&gt;
-              &lt;li&gt;Create shared based client gem library&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 08 Apr 2017 08:00:00 +0800</pubDate>
-        <link>/2017/04/08/1/</link>
-        <guid isPermaLink="true">/2017/04/08/1/</guid>
         
         <category>weekly</category>
         
