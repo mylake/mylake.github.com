@@ -5,9 +5,70 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 24 Jul 2017 23:44:10 +0800</pubDate>
-    <lastBuildDate>Mon, 24 Jul 2017 23:44:10 +0800</lastBuildDate>
+    <pubDate>Tue, 01 Aug 2017 19:15:09 +0800</pubDate>
+    <lastBuildDate>Tue, 01 Aug 2017 19:15:09 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>42</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 7/22 ~ 7/29”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/google/protobuf/tree/master/ruby&quot;&gt;protobuf ruby&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[microservice] &lt;a href=&quot;https://medium.com/technology-learning/how-we-solved-authentication-and-authorization-in-our-microservice-architecture-994539d1b6e6&quot;&gt;How We Solved Authentication and Authorization in Our Microservice Architecture&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[microservice] &lt;a href=&quot;https://medium.com/technology-learning/event-sourcing-and-cqrs-a-look-at-kafka-e0c1b90d17d8&quot;&gt;Building Scalable Applications Using Event Sourcing and CQRS&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[microservice] &lt;a href=&quot;https://medium.com/technology-learning/microservices-migration-lessons-learned-f84166ec7eb0&quot;&gt;Microservices Migration: Lessons Learned&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[microservice] &lt;a href=&quot;https://medium.com/@briceicle/migrating-from-a-monolith-to-a-microservices-architecture-99cecf8af366&quot;&gt;Migrating from a Monolith to a Microservices Architecture&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[microservice] &lt;a href=&quot;https://medium.com/technology-learning/building-out-antifragile-microservice-andela-design-consideration-d6e03a185d6a&quot;&gt;Building Out an Antifragile Microservice Architecture&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Protobuf] &lt;a href=&quot;https://yami.io/protobuf/&quot;&gt;比起 JSON 更方便、更快速、更簡短的 Protobuf 格式&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[graph db] &lt;a href=&quot;https://medium.com/finc-engineering/graph-db-diving-into-janusgraph-part-2-f4b9cbd967ac&quot;&gt;Graph DB — diving into JanusGraph part 2&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[db] &lt;a href=&quot;https://schneems.com/2017/07/18/how-i-reduced-my-db-server-load-by-80/&quot;&gt;How I Reduced my DB Server Load by 80%&lt;/a&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Use databases to enforce data consistency when possible instead of application code.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 29 Jul 2017 08:00:00 +0800</pubDate>
+        <link>/2017/07/29/1/</link>
+        <guid isPermaLink="true">/2017/07/29/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>41</title>
@@ -629,80 +690,6 @@ Complexity&lt;/a&gt;&lt;/p&gt;
         <pubDate>Sat, 06 May 2017 08:00:00 +0800</pubDate>
         <link>/2017/05/06/1/</link>
         <guid isPermaLink="true">/2017/05/06/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>32</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 4/08 ~ 4/29”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[tool] &lt;a href=&quot;https://chrome.google.com/webstore/detail/boomerang-soap-rest-clien/eipdnjedkpcnlmmdfdkgfpljanehloah?hl=en&quot;&gt;Boomerang, SOAP &amp;amp; REST Client&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/inossidabile/wash_out&quot;&gt;WashOut&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;WashOut is a gem that greatly simplifies creation of SOAP service providers.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/glebm/rails_email_preview&quot;&gt;rails_email_preview&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[soap] &lt;a href=&quot;http://blog.arkency.com/2016/07/testing-soap-api-adapters/&quot;&gt;Implementing &amp;amp; Testing SOAP API clients in Ruby&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[soap] &lt;a href=&quot;http://blog.johnsonch.com/2013/04/18/rails-3-soap-and-testing-oh-my/&quot;&gt;rails SOAP and Testing&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ssl] &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04&quot;&gt;How To Secure Nginx with Let's Encrypt on Ubuntu 14.04&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[article] &lt;a href=&quot;http://avdi.org/talks/confident-code-rubymidwest-2011/confident-code.html&quot;&gt;confident-code&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[article] &lt;a href=&quot;https://www.slideshare.net/Brunty/bdd-telling-stories-through-code-for-technotts&quot;&gt;BDD: Telling stories through code&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[article] &lt;a href=&quot;https://www.rubysteps.com/articles/2014/telling-stories-with-code/&quot;&gt;Telling stories with code&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[article] &lt;a href=&quot;https://www.rubysteps.com/articles/2016/the-two-dhh-approved-programming-habits-that-will-make-you-a-good-programmer/&quot;&gt;The two DHH-approved programming habits that will make you a good programmer&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Read a lot of software, Write a lot of software&lt;/li&gt;
-      &lt;li&gt;You’ll gravitate to TDD because you’ve experienced the joy of working with tight feedback loops. You’ll refactor because you’ve identified patterns in your code and want to make them more obvious&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[react native] &lt;a href=&quot;https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/&quot;&gt;The Complete React Native and Redux Course&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 15 Apr 2017 08:00:00 +0800</pubDate>
-        <link>/2017/04/15/1/</link>
-        <guid isPermaLink="true">/2017/04/15/1/</guid>
         
         <category>weekly</category>
         

@@ -1,0 +1,40 @@
+---
+layout:     post
+title:      "42"
+subtitle:   "weekly learning"
+date:       2017-07-29 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 7/22 ~ 7/29”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/google/protobuf/tree/master/ruby">protobuf ruby</a></p>
+
+## Read
+
+* <p>[microservice] <a href="https://medium.com/technology-learning/how-we-solved-authentication-and-authorization-in-our-microservice-architecture-994539d1b6e6">How We Solved Authentication and Authorization in Our Microservice Architecture</a></p>
+
+* <p>[microservice] <a href="https://medium.com/technology-learning/event-sourcing-and-cqrs-a-look-at-kafka-e0c1b90d17d8">Building Scalable Applications Using Event Sourcing and CQRS</a></p>
+
+* <p>[microservice] <a href="https://medium.com/technology-learning/microservices-migration-lessons-learned-f84166ec7eb0">Microservices Migration: Lessons Learned</a></p>
+
+* <p>[microservice] <a href="https://medium.com/@briceicle/migrating-from-a-monolith-to-a-microservices-architecture-99cecf8af366">Migrating from a Monolith to a Microservices Architecture</a></p>
+
+* <p>[microservice] <a href="https://medium.com/technology-learning/building-out-antifragile-microservice-andela-design-consideration-d6e03a185d6a">Building Out an Antifragile Microservice Architecture</a></p>
+
+* <p>[Protobuf] <a href="https://yami.io/protobuf/">比起 JSON 更方便、更快速、更簡短的 Protobuf 格式</a></p>
+
+* <p>[graph db] <a href="https://medium.com/finc-engineering/graph-db-diving-into-janusgraph-part-2-f4b9cbd967ac">Graph DB — diving into JanusGraph part 2</a></p>
+
+* <p>[db] <a href="https://schneems.com/2017/07/18/how-i-reduced-my-db-server-load-by-80/">How I Reduced my DB Server Load by 80%</a></p>
+  * Use databases to enforce data consistency when possible instead of application code.
+
+## Book
+
+## Video
+
+## Learn
