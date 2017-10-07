@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>4 - mylake</title>
+    <title>Good Team, Good Work - mylake</title>
 
-    <link rel="canonical" href="/2016/08/27/1/">
+    <link rel="canonical" href="/2017/10/08/good-team-good-work/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -136,15 +136,15 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/#weekly" title="weekly">weekly</a>
+                        <a class="tag" href="/tags/#life" title="life">life</a>
                         
                     </div>
-                    <h1>4</h1>
+                    <h1>Good Team, Good Work</h1>
                     
                     
-                    <h2 class="subheading">weekly learning</h2>
+                    <h2 class="subheading">strive</h2>
                     
-                    <span class="meta">Posted by ilake on August 27, 2016</span>
+                    <span class="meta">Posted by ilake on October 8, 2017</span>
                 </div>
             </div>
         </div>
@@ -162,78 +162,166 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-				<blockquote>
-  <p>“strive 8/20 ~ 8/27”</p>
+				<h1 id="good-team-good-work">good team, good work</h1>
+
+<blockquote>
+  <p>之前和朋友聊天, 聊到一些開發團隊, 很容易會遇到的幾個問題</p>
+
+  <p>因此想在這邊分享一下看法以及過去經驗裡實際運用的解法</p>
 </blockquote>
 
-<h2 id="use">Use</h2>
+<p>有討論到的幾個問題分別是</p>
+
+<blockquote>
+  <ol>
+    <li>sprint 會議的問題</li>
+    <li>對於 bug 沒有危機意識</li>
+    <li>如何開始 devops</li>
+    <li>如何加快團隊步調</li>
+    <li>沒有 ownership</li>
+  </ol>
+</blockquote>
+
+<h3 id="sprint-">1. sprint 會議的問題</h3>
+<blockquote>
+  <p>沒有效率, 沒有檢討會議, 沒有後續追蹤</p>
+</blockquote>
+
+<p>目前 sprint meeting 沒有效率, 發生的情況是:
+&gt;
+&gt; * 沒有人負責且知道大家手上有哪些事情
+&gt; * 會議上所有人同時浪費很多時間在看 ticket, 想解法</p>
+
+<p>我覺得這邊有幾個需要改善的點</p>
+
+<ol>
+  <li>RD resource 不明, leader 需要掌握 RD resource</li>
+  <li>需要 leader 與 PM 的 Sprint Planning Meet</li>
+  <li>retrospective meeting 要持續 並且有後續追蹤 不然沒意義</li>
+</ol>
+
+<p>leader 需要能掌握大家目前手上的事情, 至少也必須在 Sprint Planning Meet 確認幾件事情</p>
+
+<blockquote>
+  <ul>
+    <li>分析票 確實知道票要做什麼</li>
+    <li>確認哪些票是要放在這個 sprint</li>
+    <li>sprint meeting 和大家變成只是分配工作</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>如此一來 leader 也可掌握每個人手頭上的工作, 臨時插單也會知道是誰來處理</p>
+
+  <p>之後的 spring meeting 大家再根據接到的任務 自己看需不需要切小票</p>
+
+  <ul>
+    <li>每日 stand up meeting 回報應該是最基本需要做到的事情</li>
+  </ul>
+</blockquote>
+
+<h3 id="bug-">2. 對於 bug 沒有危機意識</h3>
+<blockquote>
+  <p>不知道事情的嚴重性？business sense ?</p>
+</blockquote>
+
+<p>我覺得可以這樣改善</p>
+
+<ul>
+  <li>初期可以試著讓每個人 輪流 deploy production</li>
+</ul>
+
+<blockquote>
+  <p>當你要 deploy production 的時候, 你一定會比較謹慎</p>
+
+  <p>會注意到 deploy 完之後, 有沒有什麼 bug 出現, 會慢慢的培養對 bug 的敏感度</p>
+</blockquote>
+
+<h3 id="devops">3. 如何開始 devops</h3>
+
+<blockquote>
+  <p>扯一下現在很紅的 devops, 我是覺得要當一個好的 RD, 其實也要當過一陣子的 operation</p>
+
+  <p>因為假如你有維運的經驗 其實你會知道寫程式時 哪些地方要特別注意 哪些地方要特別加 log, 以利之後查詢</p>
+
+  <p>這其實也是一種自己的 feature 自己維運的概念 (但這又牽扯到未來的 micro-service 概念, micro-service 的一個很重要的點應該是 Boundaries and Responsibility )</p>
+</blockquote>
+
+<p>我覺得可以這樣開始：</p>
+
 <ul>
   <li>
-    <p>[gem] <a href="https://github.com/huacnlee/rails-settings-cached">rails-settings-cached</a></p>
+    <p>如果在一團混亂中, 最重要的是要先訂立基本的規範, 讓大家遵守, 而不能只是靠某些人的自動自發
+  &gt; 一開始先有資深同仁專責, 負責 operation 上的監控, 建立起基本維運所需注意事項流程, bug 回報處理機制</p>
+  </li>
+  <li>
+    <p>再輪班每週專人負責監控 處理 bug (<a href="https://www.honeybadger.io/">honeybadger</a>, 或其他 issue) (但前題是大家都需要看 <a href="https://www.honeybadger.io/">honeybadger</a>, 自己的 bug 要自己解)
+  &gt; 輪班負責後, 大家也會對於系統 bug 問題敏感度更高, 也會更加了解系統
+  每週輪班維運人員必須要整理需要監控的地方, 異常處理回復的工具, 並且加入 sprint 的需求中, 如此也可慢慢養成 devops 的觀念
+  &gt;
+  &gt; 輪班是因為要先有人負責, 防止大家都沒人去處理, 至少有人會去意識到問題的嚴重性</p>
   </li>
 </ul>
 
-<h2 id="read">Read</h2>
+<h3 id="section">4. 如何加快團隊步調</h3>
+<p>我的想法是</p>
+
+<ul>
+  <li>拉快 review 節奏 團隊的步調自然就會加快</li>
+</ul>
+
+<blockquote>
+  <p>而 review 的重點其實不是結果, 而是有進度</p>
+
+  <p>這樣做的好處是: 同事會知道無法每天都是同樣的進度</p>
+
+  <p>而且 leader 也會更明確的知道無法完成的難處, 並且給予協助</p>
+
+  <p>如此應該只要持續個一個月 必定能改變團隊整個的做事步調 方式</p>
+</blockquote>
+
+<h3 id="ownership">5. 沒有 ownership</h3>
+
+<blockquote>
+  <p>模糊地帶的問題, 沒人管</p>
+
+  <p>常常有計畫了 卻沒去執行</p>
+</blockquote>
+
+<p>我的想法是</p>
+
+<ul>
+  <li>如果有這種問題 leader 可能必須自己先以身作則, 當個有 ownership 以及 leadership 的人 先做團隊的榜樣</li>
+</ul>
+
+<blockquote>
+  <p>具備這種特質的人, 通常會自己去找方法, 資源來解決問題, 而且也通常會知道團隊到底有什麼問題 並且帶領團隊解決</p>
+</blockquote>
+
+<ul>
+  <li>我覺得團隊的文化, 是取決於 leader 是什麼風格, 因為文化的形成是一個上行下校, 不斷累積的過程, 因此 leader 的以身作則是相當重要的</li>
+</ul>
+
+<h3 id="section-1">結語</h3>
+
+<p>這只是和朋友聊天, 討論的一些感想</p>
 
 <ul>
   <li>
-    <p>[article] <a href="https://softnshare.wordpress.com/2016/07/19/mindsetofsuccessfulprogrammer/">成功程式設計師凌駕於他人的五個關鍵思維</a></p>
+    <p>一個好的環境是非常重要的 你可以學習到正確的態度與流程 尤其是對於新鮮人而言</p>
   </li>
   <li>
-    <p>[ruby] <a href="http://craftingruby.com/posts/2015/06/29/query-objects-through-scopes.html">Delegating to Query Objects through ActiveRecord scopes</a></p>
-  </li>
-  <li>[server]
-    <ol>
-      <li><a href="https://www.digitalocean.com/community/tutorials/a-comparison-of-rack-web-servers-for-ruby-web-applications">A Comparison of (Rack) Web Servers for Ruby Web Applications</a></li>
-      <li><a href="https://www.engineyard.com/articles/rails-server">Rails Server</a></li>
-    </ol>
-
-    <ul>
-      <li>passenger (community) -&gt; web server integration, multi-process single-threaded</li>
-      <li>unicorn -&gt; master/workers, single-process multi-threaded, cluster + load balancer + proxy</li>
-      <li>puma -&gt; concurrency, single-process multi-threaded, cluster + load balancer + proxy</li>
-      <li>
-        <p>thin -&gt; event machine, single-process multi-threaded, cluster + load balancer + proxy</p>
-      </li>
-      <li>preferred way: passenger 5.x，consider others when need special requirement
-        <ul>
-          <li>passenger 整合度高，設定方便。</li>
-          <li>unicorn 在 passenger 5.x 版本出現前，是部署主力。如果有人力可以照顧 server，是不錯用。</li>
-          <li>puma 現在是 rails 5 預設的開發用 application server。在 concurrency 能力上比較好。</li>
-          <li>thin 則是如果你有用 event machine 的設計，會建議用的項目。</li>
-          <li>unicorn, puma, thin 都必須用 cluster + proxy 的方式運作，才能應付高 request 的狀況。</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>[MongoDB]
-    <ol>
-      <li><a href="https://gorails.com/guides/setting-up-rails-4-with-mongodb-and-mongoid">Setting Up Rails 4 with MongoDB and Mongoid</a></li>
-      <li><a href="http://railscasts.com/episodes/194-mongodb-and-mongomapper?view=asciicast">MongoDB and MongoMapper</a></li>
-      <li><a href="http://railscasts.com/episodes/238-mongoid-revised?view=asciicast">Mongoid</a></li>
-      <li><a href="http://www.railstips.org/blog/archives/2009/12/18/why-i-think-mongo-is-to-databases-what-rails-was-to-frameworks/">Why I think Mongo is to Databases what Rails was to Frameworks</a></li>
-    </ol>
-  </li>
-  <li>
-    <p>[log] <a href="https://medium.com/@poga/%E8%90%AC%E4%BA%8B%E8%90%AC%E7%89%A9%E7%9A%86%E6%98%AF-log-%E7%B3%BB%E7%B5%B1%E6%9E%B6%E6%A7%8B%E4%B9%9F%E4%BE%86%E9%BB%9E%E7%A7%91%E6%99%AE-caf3029359f8#.9nwgz568v">萬事萬物皆是 LOG — 系統架構也來點科普</a></p>
-  </li>
-  <li>[js] what’s this?
-    <ul>
-      <li>this 取決於function被呼叫的方式</li>
-      <li>function執行時,這個scope的owner</li>
-      <li>當function是某個事件的method, this指的就是上層物件</li>
-      <li>透過call()/apply()可以指定this是誰,強制指定某個物件作為該function的this</li>
-    </ul>
+    <p>另外也覺得 人才非常重要, 但更重要的是, 誰來帶領這些人才</p>
   </li>
 </ul>
 
-<h2 id="book">Book</h2>
+<blockquote>
+  <p>如果有一個好的 leader 我相信上述的問題</p>
 
-<ul>
-  <li>
-    <p> <a href="http://shop.oreilly.com/product/0636920019664.do">Sinatra: Up and Running</a></p>
-  </li>
-</ul>
+  <p>即使發生 也會很快的解決 若不能及時解決</p>
+
+  <p>也會讓你感受到團隊是有往好的方向的發展</p>
+</blockquote>
 
 
                 <hr>
@@ -244,13 +332,9 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2016/08/20/1/" data-toggle="tooltip" data-placement="top" title="3">&larr; Previous Post</a>
+                        <a href="/2017/08/05/1/" data-toggle="tooltip" data-placement="top" title="43">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2016/09/03/1/" data-toggle="tooltip" data-placement="top" title="5">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 

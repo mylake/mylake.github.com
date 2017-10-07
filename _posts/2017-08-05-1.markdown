@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      "43"
+subtitle:   "weekly learning"
+date:       2017-08-05 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 7/29 ~ 8/05”
+
+## Use
+
+* <p>[gem] <a href="https://github.com/google/protobuf/tree/master/ruby">protobuf ruby</a></p>
+
+## Read
+
+## Book
+
+## Video
+
+## Learn
