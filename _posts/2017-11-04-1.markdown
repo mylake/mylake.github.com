@@ -1,0 +1,29 @@
+---
+layout:     post
+title:      "44"
+subtitle:   "weekly learning"
+date:       2017-11-04 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - weekly
+---
+> “strive 10/30 ~ 11/04”
+
+## Use
+
+## Read
+
+* <p>[api] <a href="https://blog.frost.tw/posts/2017/10/30/The-design-of-Stripe-s-Idempotency-Keys/">Stripe 的 Idempotency Key 設計機制</a></p>
+  >> Idempotency API
+
+* <p>[api] <a href="http://huangxuan.me/2015/07/09/js-module-7day/">JavaScript 模块化七日谈</a></p>
+  >> Idempotency API
+
+* <p>[kafka] <a href="https://m.2cto.com/kf/201705/636187.html">kafka詳解</a></p>
+
+## Book
+
+## Video
+
+## Learn

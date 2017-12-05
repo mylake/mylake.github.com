@@ -5,9 +5,110 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 24 Oct 2017 10:57:34 +0800</pubDate>
-    <lastBuildDate>Tue, 24 Oct 2017 10:57:34 +0800</lastBuildDate>
+    <pubDate>Tue, 05 Dec 2017 11:48:14 +0800</pubDate>
+    <lastBuildDate>Tue, 05 Dec 2017 11:48:14 +0800</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>ANPS</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“apns”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在使用APNS之前，有这么几点需要了解：&lt;/p&gt;
+
+&lt;p&gt;1：APNS是免费的。只要有开发者账号便可以申请APNS证书。&lt;/p&gt;
+
+&lt;p&gt;2：APNS又是不可靠的，苹果对信息推送的可靠性不做任何保证。&lt;/p&gt;
+
+&lt;p&gt;3：APNS对消息的大小是有限制的，总容量不能超过256字节。&lt;/p&gt;
+
+&lt;p&gt;清楚了以上三条，各位应该对APNS适用的应用情景有所了解了。&lt;/p&gt;
+
+&lt;p&gt;1 &amp;amp; 2：用户第一次安装应用并第一次启动时，会弹出对话框提示应用需要开通推送，是否允许，如果允许，应用会得到一个硬件token。&lt;/p&gt;
+
+&lt;p&gt;有三点需要注意：&lt;/p&gt;
+
+&lt;p&gt;第一，此token唯一与设备相关，同一设备上不同应用获取的token是一样的；&lt;/p&gt;
+
+&lt;p&gt;第二，当应用被卸载，然后重新安装时，确认对话框不会再出现，自动继承前一次安装的设置信息；&lt;/p&gt;
+
+&lt;p&gt;第三，推送设置可以在设置-通知中进行更改。可以选择开启消息框、声音以及badge number中的一种或多种。&lt;/p&gt;
+
+&lt;p&gt;3：应用将受到的token发送到服务端，也就是APNS消息的源头。&lt;/p&gt;
+
+&lt;p&gt;4：应用服务器通过token及证书向苹果的消息服务器发送消息。&lt;/p&gt;
+
+&lt;p&gt;5：苹果将接收到的消息发送到对应设备上的对应应用。&lt;/p&gt;
+
+&lt;p&gt;6：如果应用未处于Active状态（未启动或backgroud），默认设置下，屏幕顶部会弹出消息框，同时有声音提示，点击改消息框会进入应用，如不点击则应用图标上会有badge number出现。&lt;/p&gt;
+
+&lt;h2 id=&quot;ref&quot;&gt;ref&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/lifengzhong/article/details/7737028&quot;&gt;苹果信息推送服务（Apple Push Notification Service）使用总结&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://mednoter.com/device-token.html&quot;&gt;不同App获得的device token是否相同？&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 05 Dec 2017 08:00:00 +0800</pubDate>
+        <link>/2017/12/05/1-apns/</link>
+        <guid isPermaLink="true">/2017/12/05/1-apns/</guid>
+        
+        <category>tech</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>44</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“strive 10/30 ~ 11/04”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
+
+&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[api] &lt;a href=&quot;https://blog.frost.tw/posts/2017/10/30/The-design-of-Stripe-s-Idempotency-Keys/&quot;&gt;Stripe 的 Idempotency Key 設計機制&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;blockquote&gt;
+        &lt;p&gt;Idempotency API&lt;/p&gt;
+      &lt;/blockquote&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[api] &lt;a href=&quot;http://huangxuan.me/2015/07/09/js-module-7day/&quot;&gt;JavaScript 模块化七日谈&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;blockquote&gt;
+        &lt;p&gt;Idempotency API&lt;/p&gt;
+      &lt;/blockquote&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[kafka] &lt;a href=&quot;https://m.2cto.com/kf/201705/636187.html&quot;&gt;kafka詳解&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 04 Nov 2017 08:00:00 +0800</pubDate>
+        <link>/2017/11/04/1/</link>
+        <guid isPermaLink="true">/2017/11/04/1/</guid>
+        
+        <category>weekly</category>
+        
+        
+      </item>
     
       <item>
         <title>Good Team, Good Work</title>
@@ -557,150 +658,6 @@
         <pubDate>Sat, 10 Jun 2017 08:00:00 +0800</pubDate>
         <link>/2017/06/10/1/</link>
         <guid isPermaLink="true">/2017/06/10/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>36</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 5/20 ~ 6/3”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/apneadiving/Google-Maps-for-Rails&quot;&gt;Google Maps for Rails&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;https://blog.cognitohq.com/five-pry-features-every-ruby-developer-should-know/&quot;&gt;5 Pry Features Every Ruby Developer Should Know&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;ls&lt;/li&gt;
-      &lt;li&gt;ls -l&lt;/li&gt;
-      &lt;li&gt;find-method xpath Nokogiri&lt;/li&gt;
-      &lt;li&gt;stat Nokogiri::CSS.xpath_for&lt;/li&gt;
-      &lt;li&gt;show-source Nokogiri::CSS.xpath_for&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[code] &lt;a href=&quot;https://rafal.io/posts/codility-intersecting-discs.html&quot;&gt;Codility Intersecting Discs&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[cors] &lt;a href=&quot;http://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html&quot;&gt;浏览器同源政策及其规避方法&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[code] &lt;a href=&quot;https://www.zhihu.com/question/31034164?utm_content=buffer27dd2&amp;amp;utm_medium=social&amp;amp;utm_source=facebook.com&amp;amp;utm_campaign=buffer&quot;&gt;什么才算是真正的编程能力？&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 03 Jun 2017 08:00:00 +0800</pubDate>
-        <link>/2017/06/03/1/</link>
-        <guid isPermaLink="true">/2017/06/03/1/</guid>
-        
-        <category>weekly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>35</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“strive 5/13 ~ 5/20”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;use&quot;&gt;Use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/cyu/rack-cors&quot;&gt;rack-cors&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Rack::Cors provides support for Cross-Origin Resource Sharing (CORS) for Rack compatible web applications.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[gem] &lt;a href=&quot;https://github.com/alexreisner/geocoder&quot;&gt;Geocoder&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Geocoder is a complete geocoding solution for Ruby. With Rails, it adds geocoding (by street or IP address), reverse geocoding (finding street address based on given coordinates), and distance queries&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[database] &lt;a href=&quot;https://gist.github.com/esperlu/943776&quot;&gt;mysql2sqlite&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;This small shell script should help you to convert a mysqldump file into a Sqlite3 compatible file.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[react native] &lt;a href=&quot;https://github.com/andpor/react-native-sqlite-storage&quot;&gt;react-native-sqlite-storage&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[redis] &lt;a href=&quot;http://www.rediscookbook.org/multiple_databases.html&quot;&gt;Redis Working with Multiple Databases&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;you want to keep different kinds of data - belonging to different applications, for example - separate from each other, but store them all in the same Redis instance&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ruby] &lt;a href=&quot;https://robots.thoughtbot.com/ruby-2-keyword-arguments&quot;&gt;Ruby 2 Keyword Arguments&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;def obvious_total(subtotal:, tax:, discount:)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;http://hakunin.com/rails3-load-paths&quot;&gt;Tips on Rails 3 load paths &lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;http://stackoverflow.com/questions/19773266/confusing-about-autoload-paths-vs-eager-load-paths-in-rails-4&quot;&gt;confusing about autoload_paths vs eager_load_paths in rails 4&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;http://blog.arkency.com/2014/11/dont-forget-about-eager-load-when-extending-autoload/&quot;&gt;Don't forget about eager_load when extending autoload paths&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rails] &lt;a href=&quot;https://blog.yorkxin.org/2014/02/10/autoload-in-ruby-autoload-paths-in-rails-and-module-reopening&quot;&gt;關於 Ruby 的 autoload 與 Rails 的 autoload_paths 以及 reopen module / class&lt;/a&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Kernel#autoload 不應跟 Rails 的 autoload_paths 混淆，要視為兩個完全不同的功能&lt;/li&gt;
-      &lt;li&gt;誰第一次載入誰算數， Rails 只在找不到該 const 的時候才會去 autoload_paths 搜尋&lt;/li&gt;
-      &lt;li&gt;所以，如果某個 const (class / module) 已經在 runtime 裡面定義了，那麼要在 Rails 裡面 reopen 它，就必須確定它一定會執行，例如 initializers 裡面，或是手動 require 它。如果是放在某個 autoload paths 裡面，例如 app/models/ ，則 Rails 並不會執行之，因為同名的 const 已經在 Runtime 裡面了。&lt;/li&gt;
-      &lt;li&gt;如果該 class / module 已經在 Gem 裡面載入，則要在 Rails 裡面 reopen 它，就必須放在 autoload_paths 以外的地方，並且手動 require 之。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[cors] &lt;a href=&quot;http://www.ruanyifeng.com/blog/2016/04/cors.html&quot;&gt;跨域资源共享 CORS 详解&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[csrf] &lt;a href=&quot;http://blog.techbridge.cc/2017/02/25/csrf-introduction/&quot;&gt;讓我們來談談 CSRF&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[react native] &lt;a href=&quot;https://shift.infinite.red/beginner-s-guide-to-using-cocoapods-with-react-native-46cb4d372995&quot;&gt;Beginner’s Guide to Using CocoaPods with React Native&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;book&quot;&gt;Book&lt;/h2&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;h2 id=&quot;learn&quot;&gt;Learn&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 20 May 2017 08:00:00 +0800</pubDate>
-        <link>/2017/05/20/1/</link>
-        <guid isPermaLink="true">/2017/05/20/1/</guid>
         
         <category>weekly</category>
         
