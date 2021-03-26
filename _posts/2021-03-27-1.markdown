@@ -1,0 +1,10 @@
+---
+layout:     post
+title:      "01 | 架構設計的宏觀視角"
+subtitle:   "許式偉的架構課"
+date:       2021-03-27 00:00:00
+author:     "ilake"
+header-img: "img/post-bg-weekly.jpg"
+tags:
+    - architecture
+---
